@@ -408,7 +408,7 @@ export const QuestionCard: React.FC<G & {question: string; kicker?: string; y?: 
 
 /** Perfil de Instagram + botón Seguir con tap de cursor + corazones (CTA "Sígueme").
  * props: handle, name, bio, avatar (imagen), y, followers, logo */
-export const InstagramFollow: React.FC<G & {handle?: string; name?: string; bio?: string; avatar?: string; y?: number; followers?: string; posts?: string; following?: string; verified?: boolean}> = ({
+export const InstagramFollow: React.FC<G & {handle?: string; name?: string; bio?: string; avatar?: string; y?: number; followers?: string; posts?: string; following?: string; verified?: boolean; tagline?: string}> = ({
 	dur,
 	handle = 'carlos.buelvas',
 	name = 'Carlos Buelvas',
@@ -419,6 +419,7 @@ export const InstagramFollow: React.FC<G & {handle?: string; name?: string; bio?
 	posts,
 	following,
 	verified = false,
+	tagline = 'Te ayudo a escalar tu negocio acelerando tus ventas 🚀',
 }) => {
 	const frame = useCurrentFrame();
 	const {fps, width, height} = useVideoConfig();
@@ -461,7 +462,7 @@ export const InstagramFollow: React.FC<G & {handle?: string; name?: string; bio?
 					</div>
 				</div>
 				<div style={{marginTop: 18 * u, fontWeight: 700, fontSize: 32 * u}}>{bio}</div>
-				<div style={{fontSize: 28 * u, color: '#333'}}>Te ayudo a escalar tu negocio acelerando tus ventas 🚀</div>
+				<div style={{fontSize: 28 * u, color: '#333', whiteSpace: 'pre-line', lineHeight: 1.3}}>{tagline}</div>
 				<div style={{display: 'flex', gap: 14 * u, marginTop: 22 * u}}>
 					<div style={{flex: 1, textAlign: 'center', borderRadius: 18 * u, padding: `${18 * u}px 0`, fontWeight: 800, fontSize: 34 * u, background: pressed ? '#efefef' : '#0095f6', color: pressed ? '#111' : '#fff', transform: `scale(${press})`}}>{pressed ? 'Siguiendo ✓' : 'Seguir'}</div>
 					<div style={{flex: 1, textAlign: 'center', borderRadius: 18 * u, padding: `${18 * u}px 0`, fontWeight: 800, fontSize: 34 * u, background: '#efefef'}}>Mensaje</div>

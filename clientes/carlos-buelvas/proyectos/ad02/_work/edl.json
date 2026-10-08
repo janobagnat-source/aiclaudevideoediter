@@ -1,0 +1,679 @@
+{
+  "cuts": [
+    {
+      "sentence": 0,
+      "source": "cam1",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad02/_work/src/cam1_9x16.mp4",
+      "in": 4.48,
+      "out": 10.715,
+      "text": "¿Te ha pasado que publicas algo y piensas: “Está bien escrito, pero ese no soy yo”?",
+      "section": "HOOK",
+      "words": [
+        {
+          "text": "¿Te",
+          "start": 4.56,
+          "end": 4.88
+        },
+        {
+          "text": "ha",
+          "start": 4.88,
+          "end": 5.04
+        },
+        {
+          "text": "pasado",
+          "start": 5.04,
+          "end": 5.36
+        },
+        {
+          "text": "que",
+          "start": 5.36,
+          "end": 5.52
+        },
+        {
+          "text": "publicas",
+          "start": 5.52,
+          "end": 5.92
+        },
+        {
+          "text": "algo",
+          "start": 6.08,
+          "end": 6.32
+        },
+        {
+          "text": "y",
+          "start": 6.32,
+          "end": 6.56
+        },
+        {
+          "text": "piensas:",
+          "start": 6.56,
+          "end": 7.52
+        },
+        {
+          "text": "“Está",
+          "start": 7.52,
+          "end": 7.68
+        },
+        {
+          "text": "bien",
+          "start": 7.84,
+          "end": 8.08
+        },
+        {
+          "text": "escrito,",
+          "start": 8.08,
+          "end": 8.88
+        },
+        {
+          "text": "pero",
+          "start": 8.88,
+          "end": 9.2
+        },
+        {
+          "text": "ese",
+          "start": 9.2,
+          "end": 9.52
+        },
+        {
+          "text": "no",
+          "start": 9.68,
+          "end": 9.84
+        },
+        {
+          "text": "soy yo”?",
+          "start": 9.84,
+          "end": 10.715
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 1,
+      "source": "cam2",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad02/_work/src/cam2_9x16.mp4",
+      "in": 10.72,
+      "out": 17.675,
+      "text": "Con tanta inteligencia artificial, tanta plantilla y tantas fórmulas, podemos terminar escondiendo lo que nos hace diferentes.",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "Con",
+          "start": 10.72,
+          "end": 10.96
+        },
+        {
+          "text": "tanta",
+          "start": 10.96,
+          "end": 11.28
+        },
+        {
+          "text": "inteligencia",
+          "start": 11.28,
+          "end": 11.76
+        },
+        {
+          "text": "artificial,",
+          "start": 11.76,
+          "end": 12.32
+        },
+        {
+          "text": "tanta",
+          "start": 12.32,
+          "end": 12.64
+        },
+        {
+          "text": "plantilla",
+          "start": 12.64,
+          "end": 13.12
+        },
+        {
+          "text": "y",
+          "start": 13.12,
+          "end": 13.28
+        },
+        {
+          "text": "tantas",
+          "start": 13.28,
+          "end": 13.52
+        },
+        {
+          "text": "fórmulas,",
+          "start": 13.52,
+          "end": 14.0
+        },
+        {
+          "text": "podemos",
+          "start": 14.0,
+          "end": 14.4
+        },
+        {
+          "text": "terminar",
+          "start": 14.4,
+          "end": 14.96
+        },
+        {
+          "text": "escondiendo",
+          "start": 14.96,
+          "end": 15.76
+        },
+        {
+          "text": "lo",
+          "start": 15.76,
+          "end": 15.92
+        },
+        {
+          "text": "que",
+          "start": 15.92,
+          "end": 16.08
+        },
+        {
+          "text": "nos",
+          "start": 16.08,
+          "end": 16.32
+        },
+        {
+          "text": "hace",
+          "start": 16.32,
+          "end": 16.8
+        },
+        {
+          "text": "diferentes.",
+          "start": 16.8,
+          "end": 17.675
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 2,
+      "source": "cam1",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad02/_work/src/cam1_9x16.mp4",
+      "in": 17.7,
+      "out": 26.035,
+      "text": "La gente quiere reconocer a la persona con la que podría trabajar: cómo piensas, qué te importa y cómo entiendes sus problemas.",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "La",
+          "start": 17.7,
+          "end": 17.92
+        },
+        {
+          "text": "gente",
+          "start": 17.92,
+          "end": 18.4
+        },
+        {
+          "text": "quiere",
+          "start": 18.4,
+          "end": 18.8
+        },
+        {
+          "text": "reconocer",
+          "start": 18.8,
+          "end": 19.52
+        },
+        {
+          "text": "a",
+          "start": 19.52,
+          "end": 19.68
+        },
+        {
+          "text": "la",
+          "start": 19.68,
+          "end": 19.92
+        },
+        {
+          "text": "persona",
+          "start": 19.92,
+          "end": 20.24
+        },
+        {
+          "text": "con",
+          "start": 20.24,
+          "end": 20.48
+        },
+        {
+          "text": "la",
+          "start": 20.48,
+          "end": 20.64
+        },
+        {
+          "text": "que",
+          "start": 20.64,
+          "end": 20.88
+        },
+        {
+          "text": "podría",
+          "start": 20.88,
+          "end": 21.36
+        },
+        {
+          "text": "trabajar:",
+          "start": 21.36,
+          "end": 22.08
+        },
+        {
+          "text": "cómo",
+          "start": 22.08,
+          "end": 22.4
+        },
+        {
+          "text": "piensas,",
+          "start": 22.4,
+          "end": 22.96
+        },
+        {
+          "text": "qué",
+          "start": 22.96,
+          "end": 23.04
+        },
+        {
+          "text": "te",
+          "start": 23.2,
+          "end": 23.36
+        },
+        {
+          "text": "importa",
+          "start": 23.36,
+          "end": 23.84
+        },
+        {
+          "text": "y",
+          "start": 23.92,
+          "end": 24.16
+        },
+        {
+          "text": "cómo",
+          "start": 24.16,
+          "end": 24.56
+        },
+        {
+          "text": "entiendes",
+          "start": 24.56,
+          "end": 25.12
+        },
+        {
+          "text": "sus",
+          "start": 25.12,
+          "end": 25.44
+        },
+        {
+          "text": "problemas.",
+          "start": 25.44,
+          "end": 26.035
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 3,
+      "source": "cam2",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad02/_work/src/cam2_9x16.mp4",
+      "in": 37.905,
+      "out": 41.355,
+      "text": "Antes de publicar, recuerda una conversación real con un cliente.",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "Antes",
+          "start": 37.905,
+          "end": 38.08
+        },
+        {
+          "text": "de",
+          "start": 38.08,
+          "end": 38.24
+        },
+        {
+          "text": "publicar,",
+          "start": 38.24,
+          "end": 38.96
+        },
+        {
+          "text": "recuerda",
+          "start": 38.96,
+          "end": 39.44
+        },
+        {
+          "text": "una",
+          "start": 39.52,
+          "end": 39.68
+        },
+        {
+          "text": "conversación",
+          "start": 39.68,
+          "end": 40.16
+        },
+        {
+          "text": "real",
+          "start": 40.16,
+          "end": 40.48
+        },
+        {
+          "text": "con",
+          "start": 40.48,
+          "end": 40.64
+        },
+        {
+          "text": "un",
+          "start": 40.64,
+          "end": 40.8
+        },
+        {
+          "text": "cliente.",
+          "start": 40.8,
+          "end": 41.355
+        }
+      ],
+      "cues": [],
+      "intra": true
+    },
+    {
+      "sentence": 4,
+      "source": "cam1",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad02/_work/src/cam1_9x16.mp4",
+      "in": 41.385,
+      "out": 42.63,
+      "text": "¿Qué le preocupaba?",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "¿Qué",
+          "start": 41.385,
+          "end": 41.68
+        },
+        {
+          "text": "le",
+          "start": 41.68,
+          "end": 41.84
+        },
+        {
+          "text": "preocupaba?",
+          "start": 41.84,
+          "end": 42.48
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 5,
+      "source": "cam2",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad02/_work/src/cam2_9x16.mp4",
+      "in": 42.63,
+      "out": 43.755,
+      "text": "¿Qué le explicaste?",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "¿Qué",
+          "start": 42.64,
+          "end": 42.88
+        },
+        {
+          "text": "le",
+          "start": 42.88,
+          "end": 43.04
+        },
+        {
+          "text": "explicaste?",
+          "start": 43.04,
+          "end": 43.755
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 6,
+      "source": "cam1",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad02/_work/src/cam1_9x16.mp4",
+      "in": 43.775,
+      "out": 45.115,
+      "text": "¿Cómo lo ayudaste?",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "¿Cómo",
+          "start": 43.775,
+          "end": 44.08
+        },
+        {
+          "text": "lo",
+          "start": 44.08,
+          "end": 44.24
+        },
+        {
+          "text": "ayudaste?",
+          "start": 44.24,
+          "end": 45.04
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 7,
+      "source": "cam2",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad02/_work/src/cam2_9x16.mp4",
+      "in": 50.425,
+      "out": 52.7,
+      "text": "Cuenta eso con tus palabras.",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "Cuenta",
+          "start": 50.425,
+          "end": 51.04
+        },
+        {
+          "text": "eso",
+          "start": 51.04,
+          "end": 51.28
+        },
+        {
+          "text": "con",
+          "start": 51.44,
+          "end": 51.68
+        },
+        {
+          "text": "tus",
+          "start": 51.68,
+          "end": 51.92
+        },
+        {
+          "text": "palabras.",
+          "start": 51.92,
+          "end": 52.7
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 8,
+      "source": "cam1",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad02/_work/src/cam1_9x16.mp4",
+      "in": 52.75,
+      "out": 55.195,
+      "text": "Cuando muestras cómo resuelves una dificultad real,",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "Cuando",
+          "start": 52.75,
+          "end": 53.04
+        },
+        {
+          "text": "muestras",
+          "start": 53.04,
+          "end": 53.44
+        },
+        {
+          "text": "cómo",
+          "start": 53.44,
+          "end": 53.68
+        },
+        {
+          "text": "resuelves",
+          "start": 53.68,
+          "end": 54.16
+        },
+        {
+          "text": "una",
+          "start": 54.16,
+          "end": 54.32
+        },
+        {
+          "text": "dificultad",
+          "start": 54.32,
+          "end": 54.8
+        },
+        {
+          "text": "real,",
+          "start": 54.8,
+          "end": 55.195
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 8,
+      "source": "cam2",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad02/_work/src/cam2_9x16.mp4",
+      "in": 56.74,
+      "out": 60.065,
+      "text": "le das a alguien una razón concreta para confiar en ti.",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "le",
+          "start": 56.74,
+          "end": 56.89
+        },
+        {
+          "text": "das",
+          "start": 56.89,
+          "end": 57.05
+        },
+        {
+          "text": "a",
+          "start": 57.21,
+          "end": 57.37
+        },
+        {
+          "text": "alguien",
+          "start": 57.37,
+          "end": 57.77
+        },
+        {
+          "text": "una",
+          "start": 57.77,
+          "end": 58.01
+        },
+        {
+          "text": "razón",
+          "start": 58.01,
+          "end": 58.33
+        },
+        {
+          "text": "concreta",
+          "start": 58.33,
+          "end": 58.73
+        },
+        {
+          "text": "para",
+          "start": 58.81,
+          "end": 58.97
+        },
+        {
+          "text": "confiar",
+          "start": 58.97,
+          "end": 59.45
+        },
+        {
+          "text": "en",
+          "start": 59.45,
+          "end": 59.61
+        },
+        {
+          "text": "ti.",
+          "start": 59.61,
+          "end": 60.065
+        }
+      ],
+      "cues": [],
+      "intra": true
+    },
+    {
+      "sentence": 9,
+      "source": "cam1",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad02/_work/src/cam1_9x16.mp4",
+      "in": 60.09,
+      "out": 65.0,
+      "text": "Sígueme para ayudarte a escalar tu negocio acelerando tus ventas.",
+      "section": "CTA",
+      "words": [
+        {
+          "text": "Sígueme",
+          "start": 60.09,
+          "end": 60.65
+        },
+        {
+          "text": "para",
+          "start": 60.73,
+          "end": 60.89
+        },
+        {
+          "text": "ayudarte",
+          "start": 60.89,
+          "end": 61.45
+        },
+        {
+          "text": "a",
+          "start": 61.45,
+          "end": 61.61
+        },
+        {
+          "text": "escalar",
+          "start": 61.61,
+          "end": 62.01
+        },
+        {
+          "text": "tu",
+          "start": 62.01,
+          "end": 62.17
+        },
+        {
+          "text": "negocio",
+          "start": 62.17,
+          "end": 62.49
+        },
+        {
+          "text": "acelerando",
+          "start": 62.57,
+          "end": 63.29
+        },
+        {
+          "text": "tus",
+          "start": 63.29,
+          "end": 63.53
+        },
+        {
+          "text": "ventas.",
+          "start": 63.53,
+          "end": 64.73
+        }
+      ],
+      "cues": [],
+      "intra": false
+    }
+  ],
+  "duration": 41.64,
+  "raw_offset": 110.6
+}

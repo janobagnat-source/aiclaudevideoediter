@@ -88,6 +88,18 @@ def resolve_media(ref: str, proj: Path) -> Path:
     return p.resolve()
 
 
+def _integrated(path: Path, cache: Path) -> float:
+    from vecommon import run
+    c = read_json(cache, {}) or {}
+    k = "I:" + str(path)
+    if k not in c:
+        r = run(["ffmpeg", "-hide_banner", "-nostats", "-i", path, "-af", "ebur128", "-f", "null", "-"], capture=True, check=False)
+        tail = r.stderr[r.stderr.rfind("Summary:"):]
+        c[k] = next((float(l.split()[1]) for l in tail.splitlines() if l.strip().startswith("I:")), -70.0)
+        write_json(cache, c)
+    return c[k]
+
+
 class Timeline:
     def __init__(self, cuts: list[dict], tail: float = 0.0):
         self.cuts = cuts
@@ -225,11 +237,19 @@ def main(argv=None):
                     r"\.(png|jpe?g|webp|gif|svg|mp4|mov|webm|gltf|glb|hdr|json|wav|mp3|ogg)$", v, re.I):
                 props[k] = to_public(resolve_media(v, proj))
         graphics.append({**g, "props": props, "start": st, "duration": du})
+    # Mezcla: la voz se trabaja a -16 LUFS (ve voice). SFX normalizados por su pico momentáneo (vol 1.0 = -20 LUFS)
+    # y música por su loudness integrado (vol 1.0 = -16 LUFS, a la par de la voz) para que `volume` sea relativo y predecible.
+    from voice import sfx_gain
+    cache = LIBRARY / "loudness_cache.json"
+    mix = {"sfxTarget": -20.0, "sfxDuck": 0.5, **ov.get("mix", {})}
     sfx = []
     for s in ov.get("sfx", []):
         st = tl.at(s.get("at", 0)) + float(s.get("offset", 0))
-        sfx.append({"src": resolve_audio(s["src"], proj), "start": round(max(0, st), 3),
-                    "volume": float(s.get("volume", 0.7)), "trim": s.get("trim")})
+        pub = resolve_audio(s["src"], proj)
+        g = sfx_gain((ENGINE / "public" / pub).resolve(), mix["sfxTarget"], cache)
+        sfx.append({"src": pub, "start": round(max(0, st), 3),
+                    "volume": round(float(s.get("volume", 0.7)) * g, 4), "trim": s.get("trim"),
+                    "duck": float(s.get("duck", mix["sfxDuck"]))})
     music = []
     for m in ov.get("music", []):
         st = tl.at(m.get("at", 0))
@@ -247,8 +267,10 @@ def main(argv=None):
                 drop_t = beats["drops"][min(drop_idx, len(beats["drops"]) - 1)]["t"]
                 mi = max(0.0, drop_t - (tl.at(m["dropAt"]) - st))
         end = tl.at(m["until"]) if "until" in m else tl.duration
+        lufs = _integrated((ENGINE / "public" / src).resolve(), cache)
+        mg = 10 ** ((-16.0 - lufs) / 20) if lufs > -60 else 1.0
         music.append({"src": src, "start": round(st, 3), "in": round(mi, 3), "duration": round(end - st, 3),
-                      "volume": float(m.get("volume", 0.22)), "duck": float(m.get("duck", 0.4)),
+                      "volume": round(float(m.get("volume", 0.22)) * mg, 4), "duck": float(m.get("duck", 0.4)),
                       "fadeIn": float(m.get("fadeIn", 0.3)), "fadeOut": float(m.get("fadeOut", 1.2))})
     speech = []
     for c in cuts:

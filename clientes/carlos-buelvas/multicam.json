@@ -1,0 +1,3 @@
+{"transcript": "_tanda1/cam1.json", "audio_from": "cam1",
+ "cams": {"cam1": {"file": "crudos_tanda1/cam1_frontal.mp4", "role": "frontal"},
+          "cam2": {"file": "crudos_tanda1/cam2_lateral.mp4", "role": "lateral"}}}

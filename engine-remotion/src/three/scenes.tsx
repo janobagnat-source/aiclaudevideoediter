@@ -1,5 +1,6 @@
 // Elementos 3D (React Three Fiber). Reglas Remotion: toda animación derivada de useCurrentFrame(), nunca useFrame().
 import {Center, Environment, Lightformer, RoundedBox, useGLTF} from '@react-three/drei';
+import {useThree} from '@react-three/fiber';
 import {ThreeCanvas, useOffthreadVideoTexture} from '@remotion/three';
 import React, {Suspense, useEffect, useMemo, useState} from 'react';
 import {continueRender, delayRender, interpolate, random, spring, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
@@ -36,6 +37,32 @@ const Canvas3D: React.FC<{children: React.ReactNode; fov?: number; z?: number; b
 			<Suspense fallback={null}>{children}</Suspense>
 		</ThreeCanvas>
 	);
+};
+
+/** Retiene el render de Remotion hasta que el canvas WebGL dibujó la escena con los assets ya cargados. */
+const useReadyHandle = (label: string) => {
+	const [h] = useState(() => delayRender(label, {timeoutInMilliseconds: 60000}));
+	const done = React.useRef(false);
+	const release = React.useCallback(() => {
+		if (!done.current) {
+			done.current = true;
+			continueRender(h);
+		}
+	}, [h]);
+	return release;
+};
+const ReadyGate: React.FC<{onReady: () => void}> = ({onReady}) => {
+	const {advance, invalidate} = useThree();
+	useEffect(() => {
+		invalidate();
+		advance(performance.now());
+		const id = requestAnimationFrame(() => {
+			advance(performance.now());
+			requestAnimationFrame(onReady);
+		});
+		return () => cancelAnimationFrame(id);
+	}, [advance, invalidate, onReady]);
+	return null;
 };
 
 const useEntry = (dur: number) => {
@@ -80,12 +107,11 @@ export const Model3D: React.FC<GProps & {model: string; scale?: number; spin?: n
 };
 
 // ---------------------------------------------------------------- Logo SVG extruido
-const useSvgShapes = (svgUrl: string | null) => {
+const useSvgShapes = (svgUrl: string | null, release: () => void) => {
 	const [data, setData] = useState<{shapes: THREE.Shape[]; color: string}[] | null>(null);
-	const [handle] = useState(() => delayRender('Cargando SVG para Logo3D'));
 	useEffect(() => {
 		if (!svgUrl) {
-			continueRender(handle);
+			release();
 			return;
 		}
 		fetch(svgUrl)
@@ -94,16 +120,19 @@ const useSvgShapes = (svgUrl: string | null) => {
 				const parsed = new SVGLoader().parse(txt);
 				setData(parsed.paths.map((p) => ({shapes: SVGLoader.createShapes(p), color: (p.color as THREE.Color)?.getStyle?.() ?? '#ffffff'})));
 			})
-			.catch((e) => console.warn(e))
-			.finally(() => continueRender(handle));
-	}, [svgUrl, handle]);
+			.catch((e) => {
+				console.warn(e);
+				release();
+			});
+	}, [svgUrl, release]);
 	return data;
 };
 
 /** Logo de marca en 3D desde SVG. props: svg (ruta .svg), depth, metal (0-1), color ('brand'|'original'|hex), spin */
 export const Logo3D: React.FC<GProps & {svg: string; depth?: number; metal?: number; color?: string; spin?: number; scale?: number; bg?: string}> = ({dur, svg, depth = 40, metal = 0.6, color = 'original', spin = 0.004, scale = 1, bg}) => {
 	const {colors} = useBrand();
-	const paths = useSvgShapes(svg ? url(svg) : null);
+	const release = useReadyHandle('Logo 3D');
+	const paths = useSvgShapes(svg ? url(svg) : null, release);
 	const {frame, s, out} = useEntry(dur);
 	const geo = useMemo(() => {
 		if (!paths) return null;
@@ -127,6 +156,7 @@ export const Logo3D: React.FC<GProps & {svg: string; depth?: number; metal?: num
 	const c = bbox.getCenter(new THREE.Vector3());
 	return (
 		<Canvas3D bg={bg}>
+			<ReadyGate onReady={release} />
 			<StudioLights rim={colors.primary} rim2={colors.accent} intensity={1.2} />
 			<group scale={k * s * out} rotation={[(1 - s) * 0.8 + Math.sin(frame / 40) * 0.08, (1 - s) * Math.PI * 1.5 + Math.sin(frame * spin * 6) * 0.35, 0]}>
 				<group scale={[1, -1, 1]} position={[-c.x * 1, c.y * 1, -depth / 2]}>
@@ -142,16 +172,17 @@ export const Logo3D: React.FC<GProps & {svg: string; depth?: number; metal?: num
 };
 
 // ---------------------------------------------------------------- Texto 3D extruido
-const useFont3D = (fontUrl: string) => {
+const useFont3D = (fontUrl: string, release: () => void) => {
 	const [font, setFont] = useState<Font | null>(null);
-	const [h] = useState(() => delayRender('Cargando fuente 3D'));
 	useEffect(() => {
 		fetch(fontUrl)
 			.then((r) => r.json())
 			.then((j) => setFont(new FontLoader().parse(j)))
-			.catch((e) => console.warn('fuente 3D', e))
-			.finally(() => continueRender(h));
-	}, [fontUrl, h]);
+			.catch((e) => {
+				console.warn('fuente 3D', e);
+				release();
+			});
+	}, [fontUrl, release]);
 	return font;
 };
 
@@ -160,7 +191,8 @@ export const Text3DTitle: React.FC<GProps & {text: string; font?: string; color?
 	const {colors} = useBrand();
 	const {frame, s, out} = useEntry(dur);
 	const fontUrl = font.endsWith('.json') ? url(font) : staticFile(`fonts3d/${font}.typeface.json`);
-	const f = useFont3D(fontUrl);
+	const release = useReadyHandle('Texto 3D');
+	const f = useFont3D(fontUrl, release);
 	const lines = text.toUpperCase().split('\n');
 	const geos = useMemo(
 		() => (f ? lines.map((ln) => new TextGeometry(ln, {font: f, size, depth, curveSegments: 10, bevelEnabled: true, bevelThickness: 0.04, bevelSize: 0.025, bevelSegments: 4})) : []),
@@ -179,6 +211,7 @@ export const Text3DTitle: React.FC<GProps & {text: string; font?: string; color?
 	const fit = Math.min(1, (0.84 * visW) / maxW);
 	return (
 		<Canvas3D bg={bg} z={10}>
+			{geos.length > 0 && <ReadyGate onReady={release} />}
 			<StudioLights rim={colors.primary} rim2={colors.accent} intensity={1.1} />
 			<group position={[0, y, 0]} rotation={[(1 - s) * -1.2 + Math.sin(frame / 50) * 0.06, Math.sin(frame / 45) * 0.18, 0]} scale={s * out * fit}>
 				{geos.map((g, i) => (

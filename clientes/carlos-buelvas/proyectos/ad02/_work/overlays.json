@@ -1,0 +1,1484 @@
+{
+ "format": "9:16",
+ "fps": 30,
+ "tail": 1.9,
+ "background": "#01030c",
+ "logo": "clientes/carlos-buelvas/marca/logo_blanco.png",
+ "zoom": {
+  "auto": false
+ },
+ "cuts": {
+  "0": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.193
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.02
+    },
+    {
+     "t": 1.01,
+     "s": 1.02
+    },
+    {
+     "t": 1.18,
+     "s": 1.1,
+     "ease": "punch"
+    },
+    {
+     "t": 3.58,
+     "s": 1.1
+    },
+    {
+     "t": 4.1,
+     "s": 1.15,
+     "ease": "smooth"
+    },
+    {
+     "t": 6.235,
+     "s": 1.17,
+     "ease": "linear"
+    }
+   ]
+  },
+  "1": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.351
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.12
+    },
+    {
+     "t": 2.54,
+     "s": 1.12
+    },
+    {
+     "t": 3.06,
+     "s": 1.17,
+     "ease": "smooth"
+    },
+    {
+     "t": 5.02,
+     "s": 1.17
+    },
+    {
+     "t": 5.54,
+     "s": 1.22,
+     "ease": "smooth"
+    },
+    {
+     "t": 6.05,
+     "s": 1.22
+    },
+    {
+     "t": 6.22,
+     "s": 1.3,
+     "ease": "punch"
+    },
+    {
+     "t": 6.955,
+     "s": 1.32,
+     "ease": "linear"
+    }
+   ]
+  },
+  "2": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.193
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.06
+    },
+    {
+     "t": 2.19,
+     "s": 1.06
+    },
+    {
+     "t": 2.36,
+     "s": 1.14,
+     "ease": "punch"
+    },
+    {
+     "t": 4.68,
+     "s": 1.14
+    },
+    {
+     "t": 5.2,
+     "s": 1.19,
+     "ease": "smooth"
+    },
+    {
+     "t": 5.63,
+     "s": 1.19
+    },
+    {
+     "t": 5.8,
+     "s": 1.27,
+     "ease": "punch"
+    },
+    {
+     "t": 8.335,
+     "s": 1.29,
+     "ease": "linear"
+    }
+   ]
+  },
+  "3": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.351
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.02
+    },
+    {
+     "t": 2.225,
+     "s": 1.02
+    },
+    {
+     "t": 2.395,
+     "s": 1.1,
+     "ease": "punch"
+    },
+    {
+     "t": 3.45,
+     "s": 1.12,
+     "ease": "linear"
+    }
+   ]
+  },
+  "4": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.193
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.12
+    },
+    {
+     "t": 1.245,
+     "s": 1.14,
+     "ease": "linear"
+    }
+   ]
+  },
+  "5": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.351
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.06
+    },
+    {
+     "t": 1.125,
+     "s": 1.08,
+     "ease": "linear"
+    }
+   ]
+  },
+  "6": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.193
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.02
+    },
+    {
+     "t": 1.34,
+     "s": 1.04,
+     "ease": "linear"
+    }
+   ]
+  },
+  "7": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.351
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.12
+    },
+    {
+     "t": 1.465,
+     "s": 1.12
+    },
+    {
+     "t": 1.635,
+     "s": 1.2,
+     "ease": "punch"
+    },
+    {
+     "t": 2.275,
+     "s": 1.22,
+     "ease": "linear"
+    }
+   ]
+  },
+  "8": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.193
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.06
+    },
+    {
+     "t": 2.02,
+     "s": 1.06
+    },
+    {
+     "t": 2.19,
+     "s": 1.14,
+     "ease": "punch"
+    },
+    {
+     "t": 2.445,
+     "s": 1.16,
+     "ease": "linear"
+    }
+   ]
+  },
+  "9": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.351
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.02
+    },
+    {
+     "t": 2.2,
+     "s": 1.02
+    },
+    {
+     "t": 2.37,
+     "s": 1.1,
+     "ease": "punch"
+    },
+    {
+     "t": 3.325,
+     "s": 1.12,
+     "ease": "linear"
+    }
+   ]
+  },
+  "10": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.193
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.12
+    },
+    {
+     "t": 2.46,
+     "s": 1.12
+    },
+    {
+     "t": 2.98,
+     "s": 1.17,
+     "ease": "smooth"
+    },
+    {
+     "t": 4.91,
+     "s": 1.19,
+     "ease": "linear"
+    }
+   ],
+   "transition": {
+    "type": "flash",
+    "duration": 0.3
+   }
+  }
+ },
+ "captions": {
+  "enabled": true,
+  "style": "premium",
+  "position": 0.605,
+  "maxWords": 3,
+  "uppercase": true,
+  "emphasis": [
+   "publicas",
+   "escrito,",
+   "diferentes.",
+   "persona",
+   "piensas,",
+   "importa",
+   "problemas.",
+   "conversación",
+   "real",
+   "cliente.",
+   "palabras.",
+   "dificultad",
+   "confiar",
+   "sígueme",
+   "escalar",
+   "ventas."
+  ],
+  "hideDuring": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    28.66,
+    30.95
+   ],
+   [
+    999,
+    9999
+   ]
+  ]
+ },
+ "graphics": [
+  {
+   "component": "Flash",
+   "at": 0,
+   "layer": "top",
+   "props": {
+    "peak": 0.9,
+    "color": "#dbe7ff"
+   },
+   "duration": 0.28
+  },
+  {
+   "component": "PostCard",
+   "at": 0.05,
+   "layer": "over",
+   "props": {
+    "y": 0.8,
+    "avatar": "clientes/carlos-buelvas/marca/ig_perfil.jpg",
+    "text": "✨ 5 claves infalibles para potenciar tu negocio y alcanzar el éxito 🚀💯 #emprendimiento",
+    "cps": 30,
+    "stamp": "ESE NO SOY YO",
+    "stampAt": 150
+   },
+   "until": {
+    "cut": 1,
+    "offset": -0.05
+   }
+  },
+  {
+   "component": "IconBadge",
+   "at": {
+    "word": "piensas:"
+   },
+   "layer": "over",
+   "props": {
+    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/pencil-simple-line-bold.svg",
+    "x": 0.83,
+    "y": 0.45,
+    "leader": "left",
+    "size": 0.9,
+    "label": "BIEN ESCRITO"
+   },
+   "until": {
+    "word": "pero"
+   }
+  },
+  {
+   "component": "BrandScene",
+   "at": {
+    "cut": 1,
+    "offset": 0.02
+   },
+   "layer": "under",
+   "props": {
+    "variant": "pattern",
+    "word": "COPIA"
+   },
+   "until": {
+    "cut": 2,
+    "offset": -0.02
+   }
+  },
+  {
+   "component": "CloneGrid",
+   "at": {
+    "cut": 1,
+    "offset": 0.05
+   },
+   "layer": "over",
+   "props": {
+    "y": 0.27,
+    "rows": 3,
+    "w": 0.72,
+    "avatar": "clientes/carlos-buelvas/marca/ig_perfil.jpg",
+    "highlightAt": 170,
+    "label": "TÚ",
+    "tags": [
+     "IA",
+     "PLANTILLA",
+     "FÓRMULA"
+    ]
+   },
+   "until": {
+    "cut": 2,
+    "offset": -0.02
+   }
+  },
+  {
+   "component": "FocusBrackets",
+   "at": {
+    "word": "reconocer"
+   },
+   "layer": "over",
+   "props": {
+    "x": 0.5,
+    "y": 0.135,
+    "w": 0.46,
+    "h": 0.19,
+    "label": "LA PERSONA"
+   },
+   "until": {
+    "word": "cómo",
+    "n": 1,
+    "offset": -0.1
+   }
+  },
+  {
+   "component": "Checklist",
+   "at": {
+    "word": "cómo",
+    "n": 1,
+    "offset": -0.15
+   },
+   "layer": "over",
+   "props": {
+    "title": "",
+    "items": [
+     "CÓMO PIENSAS",
+     "QUÉ TE IMPORTA",
+     "CÓMO ENTIENDES SUS PROBLEMAS"
+    ],
+    "every": 29,
+    "position": 0.83,
+    "icon": "✓"
+   },
+   "until": {
+    "cut": 3,
+    "offset": -0.03
+   }
+  },
+  {
+   "component": "BrandScene",
+   "at": {
+    "word": "recuerda",
+    "offset": -0.1
+   },
+   "layer": "under",
+   "props": {
+    "variant": "glow"
+   },
+   "until": {
+    "cut": 4,
+    "offset": -0.02
+   }
+  },
+  {
+   "component": "ChatThread",
+   "at": {
+    "word": "recuerda",
+    "offset": -0.05
+   },
+   "layer": "over",
+   "props": {
+    "y": 0.29,
+    "title": "Cliente",
+    "messages": [
+     {
+      "text": "Carlos, trabajo un montón y no me queda nada 😩",
+      "at": 4
+     },
+     {
+      "text": "Te entiendo. ¿Qué es lo que más te preocupa?",
+      "me": true,
+      "at": 40
+     },
+     {
+      "text": "Que no sé cuánto cobrar 🤔",
+      "at": 72
+     }
+    ]
+   },
+   "until": {
+    "cut": 4,
+    "offset": -0.02
+   }
+  },
+  {
+   "component": "IconBadge",
+   "at": {
+    "cut": 4
+   },
+   "layer": "over",
+   "props": {
+    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/question-bold.svg",
+    "x": 0.83,
+    "y": 0.45,
+    "leader": "left",
+    "size": 0.9,
+    "label": "PREOCUPACIÓN"
+   },
+   "until": {
+    "cut": 5
+   }
+  },
+  {
+   "component": "IconBadge",
+   "at": {
+    "cut": 5
+   },
+   "layer": "over",
+   "props": {
+    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/chat-circle-text-bold.svg",
+    "x": 0.17,
+    "y": 0.45,
+    "leader": "right",
+    "size": 0.9,
+    "label": "EXPLICACIÓN"
+   },
+   "until": {
+    "cut": 6
+   }
+  },
+  {
+   "component": "IconBadge",
+   "at": {
+    "cut": 6
+   },
+   "layer": "over",
+   "props": {
+    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/hand-heart-bold.svg",
+    "x": 0.83,
+    "y": 0.45,
+    "leader": "left",
+    "size": 0.9,
+    "label": "AYUDA"
+   },
+   "until": {
+    "cut": 7
+   }
+  },
+  {
+   "component": "BlockTitle",
+   "at": {
+    "cut": 7
+   },
+   "layer": "over",
+   "props": {
+    "y": 0.8,
+    "width": 0.84,
+    "stagger": 10,
+    "enter": "rise",
+    "sparkle": 1,
+    "lines": [
+     {
+      "text": "CUENTA ESO",
+      "weight": 900
+     },
+     {
+      "text": "CON TUS PALABRAS",
+      "color": "gold"
+     }
+    ]
+   },
+   "until": {
+    "cut": 8,
+    "offset": -0.03
+   }
+  },
+  {
+   "component": "IconBadge",
+   "at": {
+    "cut": 7,
+    "offset": 0.1
+   },
+   "layer": "over",
+   "props": {
+    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/microphone-stage-bold.svg",
+    "x": 0.83,
+    "y": 0.42,
+    "leader": "left",
+    "size": 0.9
+   },
+   "until": {
+    "cut": 8,
+    "offset": -0.03
+   }
+  },
+  {
+   "component": "IconBadge",
+   "at": {
+    "word": "resuelves"
+   },
+   "layer": "over",
+   "props": {
+    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/puzzle-piece-bold.svg",
+    "x": 0.83,
+    "y": 0.45,
+    "leader": "left",
+    "size": 0.9,
+    "label": "DIFICULTAD REAL"
+   },
+   "until": {
+    "cut": 9,
+    "offset": -0.03
+   }
+  },
+  {
+   "component": "BrandScene",
+   "at": {
+    "word": "razón",
+    "offset": -0.1
+   },
+   "layer": "under",
+   "props": {
+    "variant": "tunnel"
+   },
+   "until": {
+    "cut": 10,
+    "offset": -0.02
+   }
+  },
+  {
+   "component": "Text3DTitle",
+   "at": {
+    "word": "razón",
+    "offset": -0.05
+   },
+   "layer": "over",
+   "props": {
+    "text": "CONFIAR\nEN TI",
+    "font": "Montserrat-Black",
+    "color": "#FFBB00",
+    "metal": 0.85,
+    "size": 0.9,
+    "y": 1.1,
+    "depth": 0.35
+   },
+   "until": {
+    "cut": 10,
+    "offset": -0.02
+   }
+  },
+  {
+   "component": "ShapeBurst",
+   "at": {
+    "word": "confiar"
+   },
+   "layer": "over",
+   "props": {
+    "x": 0.5,
+    "y": 0.27,
+    "radius": 1.4
+   },
+   "duration": 0.6
+  },
+  {
+   "component": "InstagramFollow",
+   "at": {
+    "cut": 10,
+    "offset": 0.55
+   },
+   "layer": "over",
+   "props": {
+    "y": 0.8,
+    "avatar": "clientes/carlos-buelvas/marca/ig_perfil.jpg",
+    "name": "Carlos Buelvas | Coach Mentor de Ventas",
+    "bio": "CEO Business Sales Academy · 🌎 Speaker",
+    "tagline": "🚀 Acelero tus Ventas sin estrategias de marketing complicadas",
+    "verified": true,
+    "followers": "85,1 mil",
+    "posts": "3.508",
+    "following": "3.615"
+   },
+   "until": {
+    "end": true,
+    "offset": -1.75
+   }
+  },
+  {
+   "component": "BrandScene",
+   "at": {
+    "end": true,
+    "offset": -1.85
+   },
+   "layer": "top",
+   "props": {
+    "variant": "tunnel"
+   },
+   "until": {
+    "end": true
+   }
+  },
+  {
+   "component": "Logo3D",
+   "at": {
+    "end": true,
+    "offset": -1.8
+   },
+   "layer": "top",
+   "props": {
+    "svg": "clientes/carlos-buelvas/marca/logo.svg",
+    "depth": 60,
+    "metal": 0.9,
+    "color": "#FFBB00",
+    "scale": 0.42
+   },
+   "until": {
+    "end": true
+   }
+  },
+  {
+   "component": "CTAPill",
+   "at": {
+    "end": true,
+    "offset": -1.3
+   },
+   "layer": "top",
+   "props": {
+    "text": "SÍGUEME",
+    "x": 0.5,
+    "y": 0.78,
+    "size": 1.1
+   },
+   "until": {
+    "end": true
+   }
+  }
+ ],
+ "sfx": [
+  {
+   "src": "synth:impact_cinematic",
+   "at": 0,
+   "volume": 0.6,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:subdrop_01",
+   "at": 0,
+   "volume": 0.5,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-1796",
+   "at": 0,
+   "volume": 0.4,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 0.2,
+   "volume": 0.18,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 0.31,
+   "volume": 0.18,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 0.42000000000000004,
+   "volume": 0.18,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 0.53,
+   "volume": 0.18,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 0.64,
+   "volume": 0.18,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 0.75,
+   "volume": 0.18,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 0.8600000000000001,
+   "volume": 0.18,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 0.97,
+   "volume": 0.18,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 1.08,
+   "volume": 0.18,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 1.19,
+   "volume": 0.18,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 1.3,
+   "volume": 0.18,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 1.41,
+   "volume": 0.18,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 1.52,
+   "volume": 0.18,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 1.63,
+   "volume": 0.18,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 1.74,
+   "volume": 0.18,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 1.8499999999999999,
+   "volume": 0.18,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 1.96,
+   "volume": 0.18,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 2.0700000000000003,
+   "volume": 0.18,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 2.18,
+   "volume": 0.18,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 2.29,
+   "volume": 0.18,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 2.4000000000000004,
+   "volume": 0.18,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 2.5100000000000002,
+   "volume": 0.18,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:impact_punch",
+   "at": {
+    "cut": 1,
+    "offset": -1.03
+   },
+   "volume": 0.7,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:glitch_02",
+   "at": {
+    "cut": 1,
+    "offset": -1.0
+   },
+   "volume": 0.35,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:pluck_002",
+   "at": {
+    "word": "piensas:"
+   },
+   "volume": 0.32,
+   "offset": 0.05
+  },
+  {
+   "src": "synth:whoosh_medium",
+   "at": {
+    "cut": 1,
+    "offset": 0.02
+   },
+   "volume": 0.55,
+   "offset": -0.15
+  },
+  {
+   "src": "lib:switch7",
+   "at": {
+    "cut": 1
+   },
+   "volume": 0.18,
+   "offset": 0.1
+  },
+  {
+   "src": "lib:switch7",
+   "at": {
+    "cut": 1
+   },
+   "volume": 0.18,
+   "offset": 0.15000000000000002
+  },
+  {
+   "src": "lib:switch7",
+   "at": {
+    "cut": 1
+   },
+   "volume": 0.18,
+   "offset": 0.2
+  },
+  {
+   "src": "lib:switch7",
+   "at": {
+    "cut": 1
+   },
+   "volume": 0.18,
+   "offset": 0.25
+  },
+  {
+   "src": "lib:switch7",
+   "at": {
+    "cut": 1
+   },
+   "volume": 0.18,
+   "offset": 0.30000000000000004
+  },
+  {
+   "src": "lib:switch7",
+   "at": {
+    "cut": 1
+   },
+   "volume": 0.18,
+   "offset": 0.35
+  },
+  {
+   "src": "lib:switch7",
+   "at": {
+    "cut": 1
+   },
+   "volume": 0.18,
+   "offset": 0.4
+  },
+  {
+   "src": "lib:switch7",
+   "at": {
+    "cut": 1
+   },
+   "volume": 0.18,
+   "offset": 0.45000000000000007
+  },
+  {
+   "src": "lib:switch7",
+   "at": {
+    "cut": 1
+   },
+   "volume": 0.18,
+   "offset": 0.5
+  },
+  {
+   "src": "lib:switch7",
+   "at": {
+    "cut": 1
+   },
+   "volume": 0.18,
+   "offset": 0.55
+  },
+  {
+   "src": "lib:switch7",
+   "at": {
+    "cut": 1
+   },
+   "volume": 0.18,
+   "offset": 0.6
+  },
+  {
+   "src": "lib:switch7",
+   "at": {
+    "cut": 1
+   },
+   "volume": 0.18,
+   "offset": 0.65
+  },
+  {
+   "src": "synth:riser_short",
+   "at": {
+    "word": "escondiendo"
+   },
+   "volume": 0.3,
+   "offset": -0.6
+  },
+  {
+   "src": "synth:impact_soft",
+   "at": {
+    "word": "diferentes."
+   },
+   "volume": 0.55,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:glass_002",
+   "at": {
+    "word": "diferentes."
+   },
+   "volume": 0.4,
+   "offset": 0.15
+  },
+  {
+   "src": "lib:maximize_006",
+   "at": {
+    "word": "reconocer"
+   },
+   "volume": 0.4,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-0307",
+   "at": {
+    "word": "persona"
+   },
+   "volume": 0.35,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:pop_01",
+   "at": {
+    "word": "cómo",
+    "n": 1
+   },
+   "volume": 0.4,
+   "offset": 0.15
+  },
+  {
+   "src": "synth:pop_01",
+   "at": {
+    "word": "qué",
+    "n": 1
+   },
+   "volume": 0.4,
+   "offset": 0.05
+  },
+  {
+   "src": "synth:pop_01",
+   "at": {
+    "word": "entiendes",
+    "n": 1
+   },
+   "volume": 0.4,
+   "offset": 0.05
+  },
+  {
+   "src": "synth:whoosh_medium",
+   "at": {
+    "word": "recuerda",
+    "offset": -0.1
+   },
+   "volume": 0.55,
+   "offset": -0.15
+  },
+  {
+   "src": "lib:bsb-1111",
+   "at": {
+    "word": "recuerda"
+   },
+   "volume": 0.25,
+   "offset": 0.1
+  },
+  {
+   "src": "lib:pluck_002",
+   "at": {
+    "word": "conversación"
+   },
+   "volume": 0.35,
+   "offset": 0.25
+  },
+  {
+   "src": "lib:pluck_001",
+   "at": {
+    "word": "cliente."
+   },
+   "volume": 0.35,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:pluck_002",
+   "at": {
+    "cut": 4
+   },
+   "volume": 0.32,
+   "offset": 0.05
+  },
+  {
+   "src": "lib:pluck_001",
+   "at": {
+    "cut": 5
+   },
+   "volume": 0.32,
+   "offset": 0.05
+  },
+  {
+   "src": "lib:pluck_002",
+   "at": {
+    "cut": 6
+   },
+   "volume": 0.32,
+   "offset": 0.05
+  },
+  {
+   "src": "lib:question_001",
+   "at": {
+    "cut": 4
+   },
+   "volume": 0.35,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:confirmation_001",
+   "at": {
+    "cut": 5
+   },
+   "volume": 0.35,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:confirmation_001",
+   "at": {
+    "cut": 6
+   },
+   "volume": 0.35,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:whoosh_fast",
+   "at": {
+    "cut": 7
+   },
+   "volume": 0.45,
+   "offset": -0.1
+  },
+  {
+   "src": "lib:glass_002",
+   "at": {
+    "word": "palabras."
+   },
+   "volume": 0.35,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:pluck_002",
+   "at": {
+    "cut": 7,
+    "offset": 0.1
+   },
+   "volume": 0.32,
+   "offset": 0.05
+  },
+  {
+   "src": "lib:pluck_001",
+   "at": {
+    "word": "resuelves"
+   },
+   "volume": 0.32,
+   "offset": 0.05
+  },
+  {
+   "src": "synth:whoosh_medium",
+   "at": {
+    "word": "razón",
+    "offset": -0.1
+   },
+   "volume": 0.55,
+   "offset": -0.15
+  },
+  {
+   "src": "synth:riser_short",
+   "at": {
+    "word": "razón"
+   },
+   "volume": 0.28,
+   "offset": -1.2
+  },
+  {
+   "src": "synth:impact_cinematic",
+   "at": {
+    "word": "razón"
+   },
+   "volume": 0.55,
+   "offset": -0.05
+  },
+  {
+   "src": "synth:subdrop_short",
+   "at": {
+    "word": "razón"
+   },
+   "volume": 0.45,
+   "offset": -0.05
+  },
+  {
+   "src": "synth:braam_01",
+   "at": {
+    "cut": 10
+   },
+   "volume": 0.5,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:impact_cinematic",
+   "at": {
+    "cut": 10
+   },
+   "volume": 0.5,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:whoosh_medium",
+   "at": {
+    "cut": 10,
+    "offset": 0.55
+   },
+   "volume": 0.5,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:click1",
+   "at": {
+    "cut": 10,
+    "offset": 0.55
+   },
+   "volume": 0.6,
+   "offset": 0.9
+  },
+  {
+   "src": "lib:confirmation_002",
+   "at": {
+    "cut": 10,
+    "offset": 0.55
+   },
+   "volume": 0.45,
+   "offset": 0.95
+  },
+  {
+   "src": "synth:pop_02",
+   "at": {
+    "cut": 10,
+    "offset": 0.55
+   },
+   "volume": 0.25,
+   "offset": 1.0
+  },
+  {
+   "src": "synth:pop_02",
+   "at": {
+    "cut": 10,
+    "offset": 0.55
+   },
+   "volume": 0.25,
+   "offset": 1.12
+  },
+  {
+   "src": "synth:pop_02",
+   "at": {
+    "cut": 10,
+    "offset": 0.55
+   },
+   "volume": 0.25,
+   "offset": 1.24
+  },
+  {
+   "src": "synth:pop_02",
+   "at": {
+    "cut": 10,
+    "offset": 0.55
+   },
+   "volume": 0.25,
+   "offset": 1.3599999999999999
+  },
+  {
+   "src": "synth:whoosh_heavy",
+   "at": {
+    "end": true,
+    "offset": -1.85
+   },
+   "volume": 0.55,
+   "offset": -0.1
+  },
+  {
+   "src": "synth:impact_cinematic",
+   "at": {
+    "end": true,
+    "offset": -1.75
+   },
+   "volume": 0.55,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:glass_002",
+   "at": {
+    "end": true,
+    "offset": -1.0
+   },
+   "volume": 0.4,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:swipe_02",
+   "at": {
+    "cut": 1
+   },
+   "volume": 0.16,
+   "offset": -0.06
+  },
+  {
+   "src": "synth:swipe_02",
+   "at": {
+    "cut": 2
+   },
+   "volume": 0.16,
+   "offset": -0.06
+  },
+  {
+   "src": "synth:swipe_02",
+   "at": {
+    "cut": 3
+   },
+   "volume": 0.16,
+   "offset": -0.06
+  },
+  {
+   "src": "synth:swipe_02",
+   "at": {
+    "cut": 4
+   },
+   "volume": 0.16,
+   "offset": -0.06
+  },
+  {
+   "src": "synth:swipe_02",
+   "at": {
+    "cut": 5
+   },
+   "volume": 0.16,
+   "offset": -0.06
+  },
+  {
+   "src": "synth:swipe_02",
+   "at": {
+    "cut": 6
+   },
+   "volume": 0.16,
+   "offset": -0.06
+  },
+  {
+   "src": "synth:swipe_02",
+   "at": {
+    "cut": 7
+   },
+   "volume": 0.16,
+   "offset": -0.06
+  },
+  {
+   "src": "synth:swipe_02",
+   "at": {
+    "cut": 8
+   },
+   "volume": 0.16,
+   "offset": -0.06
+  },
+  {
+   "src": "synth:swipe_02",
+   "at": {
+    "cut": 9
+   },
+   "volume": 0.16,
+   "offset": -0.06
+  },
+  {
+   "src": "synth:swipe_02",
+   "at": {
+    "cut": 10
+   },
+   "volume": 0.16,
+   "offset": -0.06
+  }
+ ],
+ "music": [
+  {
+   "src": "library/music/_dl/epic2/music/epic-cc-by/ov-5f49e44a-f2b.mp3",
+   "at": 0,
+   "volume": 0.3,
+   "duck": 0.32,
+   "fadeIn": 0.15,
+   "fadeOut": 1.4,
+   "dropAt": {
+    "cut": 10
+   },
+   "drop": 4
+  }
+ ],
+ "mix": {
+  "sfxTarget": -20.0,
+  "sfxDuck": 0.5
+ },
+ "fx": {
+  "grade": "cinematic",
+  "grain": 0.035,
+  "vignette": 0.28,
+  "lightLeakHue": 185
+ }
+}

@@ -38,6 +38,12 @@ if (opts.still !== undefined) {
 	process.exit(0);
 }
 
+if (opts.audio !== undefined) {
+	await renderMedia({composition, serveUrl, codec: 'wav', outputLocation: outPath, inputProps: {edit}, chromiumOptions, concurrency: 3, timeoutInMilliseconds: 180000});
+	console.log(outPath);
+	process.exit(0);
+}
+
 let lastPct = -10;
 await renderMedia({
 	composition,

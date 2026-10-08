@@ -47,7 +47,7 @@ G += [
  g("Coins3D", {"word": "dinero?", "offset": -0.3}, until={"cut": 1, "offset": -0.02}, layer="over", mode="rain", count=24, avoid=[0.26, 0.74], size=0.95),
  g("Flash", {"word": "dinero?"}, 0.18, layer="top", peak=0.45, color="#FFBB00"),
 ]
-S += [sfx("synth:impact_cinematic", 0, 0.85), sfx("synth:subdrop_01", 0, 0.7), sfx("lib:bsb-1796", 0, 0.45),
+S += [sfx("synth:impact_cinematic", 0, 0.6), sfx("synth:subdrop_01", 0, 0.5), sfx("lib:bsb-1796", 0, 0.45),
       sfx("synth:swipe_01", {"word": "vender"}, 0.45, -0.05), sfx("lib:confirmation_001", {"word": "vender"}, 0.35, 0.1),
       sfx("synth:riser_short", 1.15, 0.32), sfx("synth:whoosh_fast", {"word": "al"}, 0.5, -0.1),
       sfx("lib:pluck_002", {"word": "sigues"}, 0.3), sfx("lib:pluck_001", {"word": "por"}, 0.3),
@@ -145,7 +145,7 @@ S += [sfx("synth:reverse_swell", {"cut": 12}, 0.45, -1.5), sfx("lib:pluck_001", 
       sfx("lib:glass_002", {"word": "bienestar."}, 0.4, 0.2), sfx("synth:riser_short", {"word": "convertirse"}, 0.28, -0.6)]
 
 # ---------------- CTA
-G += [g("InstagramFollow", {"word": "para", "n": 2, "offset": 0.1}, until={"end": True, "offset": -1.75}, layer="over", y=0.80, avatar=A + "avatar.jpg")]
+G += [g("InstagramFollow", {"word": "para", "n": 2, "offset": 0.1}, until={"end": True, "offset": -1.75}, layer="over", y=0.80, avatar=M + "ig_perfil.jpg", name="Carlos Buelvas | Coach Mentor de Ventas", bio="CEO Business Sales Academy · 🌎 Speaker", tagline="🚀 Acelero tus Ventas sin estrategias de marketing complicadas", verified=True, followers="85,1 mil", posts="3.508", following="3.615")]
 S += [sfx("synth:braam_01", {"cut": 13}, 0.55), sfx("synth:impact_cinematic", {"cut": 13}, 0.55), sfx("synth:whoosh_medium", {"word": "para", "n": 2}, 0.5),
       sfx("lib:click1", {"word": "para", "n": 2}, 0.6, 1.0), sfx("lib:confirmation_002", {"word": "para", "n": 2}, 0.45, 1.05)]
 for k in range(4):
@@ -173,8 +173,9 @@ ov = {
               "emphasis": ["dinero?", "agenda", "llena,", "creciendo”.", "pagar", "muchísimo", "poco", "tiempo", "extra,", "regalas", "descuentos", "costo.", "ganancia", "justifica", "bienestar.", "sígueme", "escalar", "ventas."],
               "hideDuring": [[0, 3.84], [30.55, 33.9], [37.4, 99]]},
  "graphics": G, "sfx": S,
- "music": [{"src": "library/music/_dl/epic/music/epic-cinematic/ov-1a767512-5d6.mp3", "at": 0, "volume": 0.3, "duck": 0.42,
+ "music": [{"src": "library/music/_dl/epic/music/epic-cinematic/ov-1a767512-5d6.mp3", "at": 0, "volume": 0.3, "duck": 0.32,
             "dropAt": {"cut": 13}, "drop": 1, "fadeIn": 0.15, "fadeOut": 1.4}],
+ "mix": {"sfxTarget": -20.0, "sfxDuck": 0.5},
  "fx": {"grade": "cinematic", "grain": 0.035, "vignette": 0.28, "lightLeakHue": 185},
 }
 (W / "overlays.json").write_text(json.dumps(ov, ensure_ascii=False, indent=1))

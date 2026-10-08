@@ -40,7 +40,7 @@ export const AudioLayer: React.FC<{sfx: Sfx[]; music: Music[]; speech: [number, 
 			})}
 			{sfx.map((s, i) => (
 				<Sequence key={`s${i}`} name={`sfx ${s.src.split('/').pop()}`} from={Math.round(s.start * fps)} layout="none">
-					<Audio src={staticFile(s.src)} volume={s.volume} trimBefore={s.trim ? Math.round(s.trim[0] * fps) : undefined} durationInFrames={s.trim ? Math.round((s.trim[1] - s.trim[0]) * fps) : undefined} />
+					<Audio src={staticFile(s.src)} volume={(f) => s.volume * (1 - (1 - (s.duck ?? 1)) * voiceEnvelope(s.start + f / fps, speech, 0.05, 0.25))} trimBefore={s.trim ? Math.round(s.trim[0] * fps) : undefined} durationInFrames={s.trim ? Math.round((s.trim[1] - s.trim[0]) * fps) : undefined} />
 				</Sequence>
 			))}
 		</>

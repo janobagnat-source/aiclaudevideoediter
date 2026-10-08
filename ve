@@ -21,6 +21,8 @@ case "$cmd" in
   sfx-synth)  exec "$PY" "$T/sfx_synth.py" "$@" ;;
   build)      exec "$PY" "$T/build.py" "$@" ;;
   cutout)     exec "$PY" "$T/cutout.py" "$@" ;;
+  voice)      exec "$PY" "$T/voice.py" "$@" ;;
+  multicam)   exec "$PY" "$T/multicam.py" "$@" ;;
   font)       exec "$PY" "$T/fonts.py" "$@" ;;
   render)     exec "$PY" "$T/render.py" "$@" ;;
   prep)       # todo-en-uno hasta el EDL: ve prep cliente/proyecto

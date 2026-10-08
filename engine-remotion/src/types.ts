@@ -69,7 +69,7 @@ export type Graphic = {
 	name?: string;
 };
 
-export type Sfx = {src: string; start: number; volume: number; trim?: [number, number] | null};
+export type Sfx = {src: string; start: number; volume: number; trim?: [number, number] | null; duck?: number};
 
 export type Music = {
 	src: string;

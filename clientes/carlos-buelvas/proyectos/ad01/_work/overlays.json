@@ -955,7 +955,14 @@
    "layer": "over",
    "props": {
     "y": 0.8,
-    "avatar": "_work/assets/avatar.jpg"
+    "avatar": "clientes/carlos-buelvas/marca/ig_perfil.jpg",
+    "name": "Carlos Buelvas | Coach Mentor de Ventas",
+    "bio": "CEO Business Sales Academy · 🌎 Speaker",
+    "tagline": "🚀 Acelero tus Ventas sin estrategias de marketing complicadas",
+    "verified": true,
+    "followers": "85,1 mil",
+    "posts": "3.508",
+    "following": "3.615"
    },
    "until": {
     "end": true,
@@ -1016,13 +1023,13 @@
   {
    "src": "synth:impact_cinematic",
    "at": 0,
-   "volume": 0.85,
+   "volume": 0.6,
    "offset": 0.0
   },
   {
    "src": "synth:subdrop_01",
    "at": 0,
-   "volume": 0.7,
+   "volume": 0.5,
    "offset": 0.0
   },
   {
@@ -1838,7 +1845,7 @@
    "src": "library/music/_dl/epic/music/epic-cinematic/ov-1a767512-5d6.mp3",
    "at": 0,
    "volume": 0.3,
-   "duck": 0.42,
+   "duck": 0.32,
    "dropAt": {
     "cut": 13
    },
@@ -1847,6 +1854,10 @@
    "fadeOut": 1.4
   }
  ],
+ "mix": {
+  "sfxTarget": -20.0,
+  "sfxDuck": 0.5
+ },
  "fx": {
   "grade": "cinematic",
   "grain": 0.035,
