@@ -1,0 +1,1497 @@
+{
+ "format": "9:16",
+ "fps": 30,
+ "tail": 1.9,
+ "background": "#01030c",
+ "logo": "clientes/carlos-buelvas/marca/logo_blanco.png",
+ "zoom": {
+  "auto": false
+ },
+ "cuts": {
+  "0": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.193
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.02
+    },
+    {
+     "t": 0.785,
+     "s": 1.02
+    },
+    {
+     "t": 0.955,
+     "s": 1.1,
+     "ease": "punch"
+    },
+    {
+     "t": 3.185,
+     "s": 1.1
+    },
+    {
+     "t": 3.355,
+     "s": 1.18,
+     "ease": "punch"
+    },
+    {
+     "t": 3.835,
+     "s": 1.2,
+     "ease": "linear"
+    }
+   ]
+  },
+  "1": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.193
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.12
+    },
+    {
+     "t": 0.59,
+     "s": 1.12
+    },
+    {
+     "t": 0.76,
+     "s": 1.2,
+     "ease": "punch"
+    },
+    {
+     "t": 2.27,
+     "s": 1.2
+    },
+    {
+     "t": 2.44,
+     "s": 1.28,
+     "ease": "punch"
+    },
+    {
+     "t": 3.108,
+     "s": 1.3,
+     "ease": "linear"
+    }
+   ]
+  },
+  "2": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.35
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.06
+    },
+    {
+     "t": 2.772,
+     "s": 1.06
+    },
+    {
+     "t": 3.292,
+     "s": 1.11,
+     "ease": "smooth"
+    },
+    {
+     "t": 5.492,
+     "s": 1.11
+    },
+    {
+     "t": 6.012,
+     "s": 1.16,
+     "ease": "smooth"
+    },
+    {
+     "t": 6.542,
+     "s": 1.18,
+     "ease": "linear"
+    }
+   ]
+  },
+  "3": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.193
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.02
+    },
+    {
+     "t": 1.165,
+     "s": 1.02
+    },
+    {
+     "t": 1.335,
+     "s": 1.1,
+     "ease": "punch"
+    },
+    {
+     "t": 1.81,
+     "s": 1.12,
+     "ease": "linear"
+    }
+   ]
+  },
+  "4": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.35
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.12
+    },
+    {
+     "t": 1.535,
+     "s": 1.12
+    },
+    {
+     "t": 1.705,
+     "s": 1.2,
+     "ease": "punch"
+    },
+    {
+     "t": 4.185,
+     "s": 1.2
+    },
+    {
+     "t": 4.705,
+     "s": 1.1,
+     "ease": "smooth"
+    },
+    {
+     "t": 4.495,
+     "s": 1.1
+    },
+    {
+     "t": 4.665,
+     "s": 1.18,
+     "ease": "punch"
+    },
+    {
+     "t": 5.4,
+     "s": 1.2,
+     "ease": "linear"
+    }
+   ]
+  },
+  "5": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.193
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.06
+    },
+    {
+     "t": 2.445,
+     "s": 1.06
+    },
+    {
+     "t": 2.965,
+     "s": 1.11,
+     "ease": "smooth"
+    },
+    {
+     "t": 3.395,
+     "s": 1.11
+    },
+    {
+     "t": 3.565,
+     "s": 1.19,
+     "ease": "punch"
+    },
+    {
+     "t": 4.205,
+     "s": 1.21,
+     "ease": "linear"
+    }
+   ]
+  },
+  "6": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.35
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.02
+    },
+    {
+     "t": 2.415,
+     "s": 1.02
+    },
+    {
+     "t": 2.585,
+     "s": 1.1,
+     "ease": "punch"
+    },
+    {
+     "t": 5.19,
+     "s": 1.12,
+     "ease": "linear"
+    }
+   ]
+  },
+  "7": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.193
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.12
+    },
+    {
+     "t": 1.46,
+     "s": 1.12
+    },
+    {
+     "t": 1.63,
+     "s": 1.2,
+     "ease": "punch"
+    },
+    {
+     "t": 2.845,
+     "s": 1.22,
+     "ease": "linear"
+    }
+   ]
+  },
+  "8": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.35
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.06
+    },
+    {
+     "t": 0.35,
+     "s": 1.06
+    },
+    {
+     "t": 0.52,
+     "s": 1.14,
+     "ease": "punch"
+    },
+    {
+     "t": 2.84,
+     "s": 1.14
+    },
+    {
+     "t": 3.36,
+     "s": 1.19,
+     "ease": "smooth"
+    },
+    {
+     "t": 2.99,
+     "s": 1.19
+    },
+    {
+     "t": 3.16,
+     "s": 1.27,
+     "ease": "punch"
+    },
+    {
+     "t": 5.085,
+     "s": 1.29,
+     "ease": "linear"
+    }
+   ],
+   "transition": {
+    "type": "flash",
+    "duration": 0.25
+   }
+  },
+  "9": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.193
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.02
+    },
+    {
+     "t": 2.445,
+     "s": 1.02
+    },
+    {
+     "t": 2.965,
+     "s": 1.07,
+     "ease": "smooth"
+    },
+    {
+     "t": 4.905,
+     "s": 1.09,
+     "ease": "linear"
+    }
+   ],
+   "transition": {
+    "type": "flash",
+    "duration": 0.3
+   }
+  }
+ },
+ "captions": {
+  "enabled": true,
+  "style": "premium",
+  "position": 0.605,
+  "maxWords": 3,
+  "uppercase": true,
+  "emphasis": [
+   "país",
+   "cero.",
+   "experiencia",
+   "aeropuerto.",
+   "mercado,",
+   "contactos",
+   "tiempo.",
+   "tres",
+   "problemas",
+   "demostrarlo:",
+   "muestra",
+   "proceso.",
+   "necesidad",
+   "cliente",
+   "borra",
+   "sabes.",
+   "visible:",
+   "evidencia",
+   "sígueme",
+   "escalar"
+  ],
+  "hideDuring": [
+   [
+    32.94,
+    34.4
+   ],
+   [
+    999,
+    9999
+   ]
+  ]
+ },
+ "graphics": [
+  {
+   "component": "Flash",
+   "at": 0,
+   "layer": "top",
+   "props": {
+    "peak": 0.9,
+    "color": "#dbe7ff"
+   },
+   "duration": 0.28
+  },
+  {
+   "component": "BrandScene",
+   "at": 0,
+   "layer": "under",
+   "props": {
+    "variant": "glow",
+    "word": "NUEVO PAÍS"
+   },
+   "until": {
+    "word": "sentir",
+    "offset": -0.05
+   }
+  },
+  {
+   "component": "FlightPath",
+   "at": 0.05,
+   "layer": "over",
+   "props": {
+    "y": 0.3,
+    "from": "TU PAÍS",
+    "to": "NUEVO PAÍS"
+   },
+   "until": {
+    "word": "sentir",
+    "offset": -0.05
+   }
+  },
+  {
+   "component": "BlockTitle",
+   "at": {
+    "word": "empezaste",
+    "offset": -0.05
+   },
+   "layer": "over",
+   "props": {
+    "y": 0.81,
+    "width": 0.62,
+    "stagger": 6,
+    "enter": "slam",
+    "lines": [
+     {
+      "text": "EMPEZAR",
+      "weight": 900
+     },
+     {
+      "text": "DE CERO",
+      "color": "gold"
+     }
+    ]
+   },
+   "until": {
+    "cut": 1,
+    "offset": -0.03
+   }
+  },
+  {
+   "component": "IconBadge",
+   "at": {
+    "word": "experiencia"
+   },
+   "layer": "over",
+   "props": {
+    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/suitcase-rolling-bold.svg",
+    "x": 0.83,
+    "y": 0.44,
+    "leader": "left",
+    "size": 0.9,
+    "label": "TU EXPERIENCIA"
+   },
+   "until": {
+    "cut": 2,
+    "offset": -0.03
+   }
+  },
+  {
+   "component": "IconBadge",
+   "at": {
+    "word": "quedó"
+   },
+   "layer": "over",
+   "props": {
+    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/airplane-takeoff-bold.svg",
+    "x": 0.17,
+    "y": 0.44,
+    "leader": "right",
+    "size": 0.9,
+    "label": "AEROPUERTO"
+   },
+   "until": {
+    "cut": 2,
+    "offset": -0.03
+   }
+  },
+  {
+   "component": "BlockTitle",
+   "at": {
+    "word": "aeropuerto.",
+    "offset": -0.1
+   },
+   "layer": "over",
+   "props": {
+    "y": 0.81,
+    "width": 0.6,
+    "stagger": 8,
+    "enter": "rise",
+    "sparkle": 1,
+    "lines": [
+     {
+      "text": "VIAJA",
+      "weight": 900
+     },
+     {
+      "text": "CONTIGO",
+      "color": "gold"
+     }
+    ]
+   },
+   "until": {
+    "cut": 2,
+    "offset": -0.03
+   }
+  },
+  {
+   "component": "Checklist",
+   "at": {
+    "word": "otro",
+    "offset": -0.2
+   },
+   "layer": "over",
+   "props": {
+    "title": "TAL VEZ NECESITAS",
+    "items": [
+     "CONOCER OTRO MERCADO",
+     "CONSTRUIR CONTACTOS",
+     "NUEVAS FORMAS DE TRABAJAR"
+    ],
+    "every": 45,
+    "position": 0.84,
+    "icon": "✓"
+   },
+   "until": {
+    "cut": 3,
+    "offset": -0.03
+   }
+  },
+  {
+   "component": "IconBadge",
+   "at": {
+    "word": "mercado,"
+   },
+   "layer": "over",
+   "props": {
+    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/globe-hemisphere-west-bold.svg",
+    "x": 0.83,
+    "y": 0.42,
+    "leader": "left",
+    "size": 0.9
+   },
+   "until": {
+    "cut": 3,
+    "offset": -0.03
+   }
+  },
+  {
+   "component": "IconBadge",
+   "at": {
+    "cut": 3,
+    "offset": 0.05
+   },
+   "layer": "over",
+   "props": {
+    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/hourglass-medium-bold.svg",
+    "x": 0.83,
+    "y": 0.44,
+    "leader": "left",
+    "size": 0.9,
+    "label": "REQUIERE TIEMPO"
+   },
+   "until": {
+    "cut": 4,
+    "offset": -0.03
+   }
+  },
+  {
+   "component": "BrandScene",
+   "at": {
+    "word": "escribe",
+    "offset": -0.1
+   },
+   "layer": "under",
+   "props": {
+    "variant": "glow",
+    "word": "ESCRIBE"
+   },
+   "until": {
+    "cut": 5,
+    "offset": -0.02
+   }
+  },
+  {
+   "component": "NotepadList",
+   "at": {
+    "word": "escribe",
+    "offset": -0.05
+   },
+   "layer": "over",
+   "props": {
+    "y": 0.3,
+    "title": "3 PROBLEMAS QUE RESUELVO",
+    "items": [
+     "Problema #1",
+     "Problema #2",
+     "Problema #3"
+    ],
+    "every": 14
+   },
+   "until": {
+    "cut": 5,
+    "offset": -0.02
+   }
+  },
+  {
+   "component": "Checklist",
+   "at": {
+    "word": "trabajo",
+    "offset": -0.25
+   },
+   "layer": "over",
+   "props": {
+    "title": "CÓMO DEMOSTRARLO",
+    "items": [
+     "UN TRABAJO ANTERIOR",
+     "UNA MUESTRA",
+     "TU PROCESO"
+    ],
+    "every": 38,
+    "position": 0.84,
+    "icon": "✓"
+   },
+   "until": {
+    "cut": 6,
+    "offset": -0.03
+   }
+  },
+  {
+   "component": "IconBadge",
+   "at": {
+    "word": "trabajo"
+   },
+   "layer": "over",
+   "props": {
+    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/briefcase-bold.svg",
+    "x": 0.83,
+    "y": 0.42,
+    "leader": "left",
+    "size": 0.9
+   },
+   "until": {
+    "cut": 6,
+    "offset": -0.03
+   }
+  },
+  {
+   "component": "BrandScene",
+   "at": {
+    "word": "adapta",
+    "offset": -0.1
+   },
+   "layer": "under",
+   "props": {
+    "variant": "glow"
+   },
+   "until": {
+    "cut": 7,
+    "offset": -0.02
+   }
+  },
+  {
+   "component": "PostCard",
+   "at": {
+    "word": "adapta",
+    "offset": -0.05
+   },
+   "layer": "over",
+   "props": {
+    "y": 0.3,
+    "avatar": "clientes/carlos-buelvas/marca/ig_perfil.jpg",
+    "cps": 34,
+    "text": "🎯 ¿Tienes un negocio y no sabes cómo vender en este nuevo mercado? Esto es para ti 👇",
+    "stamp": "MENSAJE ADAPTADO",
+    "stampAt": 96
+   },
+   "until": {
+    "cut": 7,
+    "offset": -0.02
+   }
+  },
+  {
+   "component": "IconBadge",
+   "at": {
+    "word": "lugar"
+   },
+   "layer": "over",
+   "props": {
+    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/map-pin-bold.svg",
+    "x": 0.83,
+    "y": 0.44,
+    "leader": "left",
+    "size": 0.9,
+    "label": "LUGAR NUEVO"
+   },
+   "until": {
+    "cut": 8,
+    "offset": -0.03
+   }
+  },
+  {
+   "component": "BlockTitle",
+   "at": {
+    "word": "borra",
+    "offset": -0.1
+   },
+   "layer": "over",
+   "props": {
+    "y": 0.81,
+    "width": 0.72,
+    "stagger": 6,
+    "enter": "slam",
+    "lines": [
+     {
+      "text": "NO BORRA",
+      "weight": 900
+     },
+     {
+      "text": "LO QUE SABES",
+      "color": "gold"
+     }
+    ]
+   },
+   "until": {
+    "cut": 8,
+    "offset": -0.03
+   }
+  },
+  {
+   "component": "BrandScene",
+   "at": {
+    "cut": 8,
+    "offset": 0.0
+   },
+   "layer": "under",
+   "props": {
+    "variant": "tunnel"
+   },
+   "until": {
+    "word": "problema",
+    "offset": -0.05
+   }
+  },
+  {
+   "component": "Text3DTitle",
+   "at": {
+    "cut": 8,
+    "offset": 0.02
+   },
+   "layer": "over",
+   "props": {
+    "text": "HAZLO\nVISIBLE",
+    "font": "Montserrat-Black",
+    "color": "#FFBB00",
+    "metal": 0.85,
+    "size": 0.9,
+    "y": 1.1,
+    "depth": 0.35
+   },
+   "until": {
+    "word": "problema",
+    "offset": -0.05
+   }
+  },
+  {
+   "component": "IconBadge",
+   "at": {
+    "word": "problema"
+   },
+   "layer": "over",
+   "props": {
+    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/magnifying-glass-bold.svg",
+    "x": 0.17,
+    "y": 0.44,
+    "leader": "right",
+    "size": 0.9,
+    "label": "UN PROBLEMA"
+   },
+   "until": {
+    "cut": 9,
+    "offset": -0.03
+   }
+  },
+  {
+   "component": "IconBadge",
+   "at": {
+    "word": "evidencia"
+   },
+   "layer": "over",
+   "props": {
+    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/seal-check-bold.svg",
+    "x": 0.83,
+    "y": 0.44,
+    "leader": "left",
+    "size": 0.9,
+    "label": "EVIDENCIA"
+   },
+   "until": {
+    "cut": 9,
+    "offset": -0.03
+   }
+  },
+  {
+   "component": "ShapeBurst",
+   "at": {
+    "word": "evidencia"
+   },
+   "layer": "over",
+   "props": {
+    "x": 0.83,
+    "y": 0.44,
+    "radius": 0.8
+   },
+   "duration": 0.6
+  },
+  {
+   "component": "InstagramFollow",
+   "at": {
+    "cut": 9,
+    "offset": 0.55
+   },
+   "layer": "over",
+   "props": {
+    "y": 0.8,
+    "avatar": "clientes/carlos-buelvas/marca/ig_perfil.jpg",
+    "name": "Carlos Buelvas | Coach Mentor de Ventas",
+    "bio": "CEO Business Sales Academy · 🌎 Speaker",
+    "tagline": "🚀 Acelero tus Ventas sin estrategias de marketing complicadas",
+    "verified": true,
+    "followers": "85,1 mil",
+    "posts": "3.508",
+    "following": "3.615"
+   },
+   "until": {
+    "end": true,
+    "offset": -1.75
+   }
+  },
+  {
+   "component": "BrandScene",
+   "at": {
+    "end": true,
+    "offset": -1.85
+   },
+   "layer": "top",
+   "props": {
+    "variant": "tunnel"
+   },
+   "until": {
+    "end": true
+   }
+  },
+  {
+   "component": "Logo3D",
+   "at": {
+    "end": true,
+    "offset": -1.8
+   },
+   "layer": "top",
+   "props": {
+    "svg": "clientes/carlos-buelvas/marca/logo.svg",
+    "depth": 60,
+    "metal": 0.9,
+    "color": "#FFBB00",
+    "scale": 0.42
+   },
+   "until": {
+    "end": true
+   }
+  },
+  {
+   "component": "CTAPill",
+   "at": {
+    "end": true,
+    "offset": -1.3
+   },
+   "layer": "top",
+   "props": {
+    "text": "SÍGUEME",
+    "x": 0.5,
+    "y": 0.78,
+    "size": 1.1
+   },
+   "until": {
+    "end": true
+   }
+  }
+ ],
+ "sfx": [
+  {
+   "src": "synth:impact_cinematic",
+   "at": 0,
+   "volume": 0.6,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:subdrop_01",
+   "at": 0,
+   "volume": 0.5,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-1796",
+   "at": 0,
+   "volume": 0.4,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:whoosh_heavy",
+   "at": 0.25,
+   "volume": 0.4,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-1111",
+   "at": 0.6,
+   "volume": 0.2,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:whoosh_medium",
+   "at": {
+    "word": "sentir",
+    "offset": -0.05
+   },
+   "volume": 0.45,
+   "offset": -0.1
+  },
+  {
+   "src": "synth:impact_punch",
+   "at": {
+    "word": "cero."
+   },
+   "volume": 0.55,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:subdrop_short",
+   "at": {
+    "word": "cero."
+   },
+   "volume": 0.4,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:pluck_001",
+   "at": {
+    "word": "experiencia"
+   },
+   "volume": 0.32,
+   "offset": 0.05
+  },
+  {
+   "src": "lib:pluck_002",
+   "at": {
+    "word": "quedó"
+   },
+   "volume": 0.32,
+   "offset": 0.05
+  },
+  {
+   "src": "lib:glass_002",
+   "at": {
+    "word": "aeropuerto."
+   },
+   "volume": 0.35,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:pop_01",
+   "at": {
+    "word": "mercado,"
+   },
+   "volume": 0.4,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:pop_01",
+   "at": {
+    "word": "contactos"
+   },
+   "volume": 0.4,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:pop_01",
+   "at": {
+    "word": "aprender"
+   },
+   "volume": 0.4,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:pluck_001",
+   "at": {
+    "word": "mercado,"
+   },
+   "volume": 0.32,
+   "offset": 0.05
+  },
+  {
+   "src": "lib:pluck_002",
+   "at": {
+    "cut": 3,
+    "offset": 0.05
+   },
+   "volume": 0.32,
+   "offset": 0.05
+  },
+  {
+   "src": "lib:bsb-0307",
+   "at": {
+    "word": "tiempo."
+   },
+   "volume": 0.3,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:whoosh_medium",
+   "at": {
+    "word": "escribe",
+    "offset": -0.1
+   },
+   "volume": 0.55,
+   "offset": -0.15
+  },
+  {
+   "src": "lib:pluck_001",
+   "at": {
+    "word": "tres"
+   },
+   "volume": 0.3,
+   "offset": 0.1
+  },
+  {
+   "src": "lib:pluck_002",
+   "at": {
+    "word": "tres"
+   },
+   "volume": 0.3,
+   "offset": 0.57
+  },
+  {
+   "src": "lib:pluck_001",
+   "at": {
+    "word": "tres"
+   },
+   "volume": 0.3,
+   "offset": 1.04
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "word": "demostrarlo:"
+   },
+   "volume": 0.2,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:pop_01",
+   "at": {
+    "word": "trabajo"
+   },
+   "volume": 0.38,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:pop_01",
+   "at": {
+    "word": "muestra"
+   },
+   "volume": 0.38,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:confirmation_001",
+   "at": {
+    "word": "explicación"
+   },
+   "volume": 0.38,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:pluck_002",
+   "at": {
+    "word": "trabajo"
+   },
+   "volume": 0.32,
+   "offset": 0.05
+  },
+  {
+   "src": "synth:whoosh_medium",
+   "at": {
+    "word": "adapta",
+    "offset": -0.1
+   },
+   "volume": 0.55,
+   "offset": -0.15
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "word": "adapta"
+   },
+   "volume": 0.15,
+   "offset": 0.1
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "word": "adapta"
+   },
+   "volume": 0.15,
+   "offset": 0.2
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "word": "adapta"
+   },
+   "volume": 0.15,
+   "offset": 0.30000000000000004
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "word": "adapta"
+   },
+   "volume": 0.15,
+   "offset": 0.4
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "word": "adapta"
+   },
+   "volume": 0.15,
+   "offset": 0.5
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "word": "adapta"
+   },
+   "volume": 0.15,
+   "offset": 0.6
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "word": "adapta"
+   },
+   "volume": 0.15,
+   "offset": 0.7000000000000001
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "word": "adapta"
+   },
+   "volume": 0.15,
+   "offset": 0.8
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "word": "adapta"
+   },
+   "volume": 0.15,
+   "offset": 0.9
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "word": "adapta"
+   },
+   "volume": 0.15,
+   "offset": 1.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "word": "adapta"
+   },
+   "volume": 0.15,
+   "offset": 1.1
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "word": "adapta"
+   },
+   "volume": 0.15,
+   "offset": 1.2000000000000002
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "word": "adapta"
+   },
+   "volume": 0.15,
+   "offset": 1.3000000000000003
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "word": "adapta"
+   },
+   "volume": 0.15,
+   "offset": 1.4000000000000001
+  },
+  {
+   "src": "synth:impact_soft",
+   "at": {
+    "word": "hoy."
+   },
+   "volume": 0.5,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:pluck_001",
+   "at": {
+    "word": "lugar"
+   },
+   "volume": 0.32,
+   "offset": 0.05
+  },
+  {
+   "src": "synth:impact_punch",
+   "at": {
+    "word": "borra"
+   },
+   "volume": 0.45,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:whoosh_medium",
+   "at": {
+    "cut": 8,
+    "offset": 0.0
+   },
+   "volume": 0.55,
+   "offset": -0.15
+  },
+  {
+   "src": "synth:impact_cinematic",
+   "at": {
+    "cut": 8
+   },
+   "volume": 0.5,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:subdrop_short",
+   "at": {
+    "cut": 8
+   },
+   "volume": 0.4,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:pluck_002",
+   "at": {
+    "word": "problema"
+   },
+   "volume": 0.32,
+   "offset": 0.05
+  },
+  {
+   "src": "lib:pluck_001",
+   "at": {
+    "word": "evidencia"
+   },
+   "volume": 0.32,
+   "offset": 0.05
+  },
+  {
+   "src": "lib:glass_002",
+   "at": {
+    "word": "evidencia"
+   },
+   "volume": 0.35,
+   "offset": 0.1
+  },
+  {
+   "src": "synth:braam_01",
+   "at": {
+    "cut": 9
+   },
+   "volume": 0.5,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:impact_cinematic",
+   "at": {
+    "cut": 9
+   },
+   "volume": 0.5,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:whoosh_medium",
+   "at": {
+    "cut": 9,
+    "offset": 0.55
+   },
+   "volume": 0.5,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:click1",
+   "at": {
+    "cut": 9,
+    "offset": 0.55
+   },
+   "volume": 0.6,
+   "offset": 0.9
+  },
+  {
+   "src": "lib:confirmation_002",
+   "at": {
+    "cut": 9,
+    "offset": 0.55
+   },
+   "volume": 0.45,
+   "offset": 0.95
+  },
+  {
+   "src": "synth:pop_02",
+   "at": {
+    "cut": 9,
+    "offset": 0.55
+   },
+   "volume": 0.25,
+   "offset": 1.0
+  },
+  {
+   "src": "synth:pop_02",
+   "at": {
+    "cut": 9,
+    "offset": 0.55
+   },
+   "volume": 0.25,
+   "offset": 1.12
+  },
+  {
+   "src": "synth:pop_02",
+   "at": {
+    "cut": 9,
+    "offset": 0.55
+   },
+   "volume": 0.25,
+   "offset": 1.24
+  },
+  {
+   "src": "synth:pop_02",
+   "at": {
+    "cut": 9,
+    "offset": 0.55
+   },
+   "volume": 0.25,
+   "offset": 1.3599999999999999
+  },
+  {
+   "src": "synth:whoosh_heavy",
+   "at": {
+    "end": true,
+    "offset": -1.85
+   },
+   "volume": 0.55,
+   "offset": -0.1
+  },
+  {
+   "src": "synth:impact_cinematic",
+   "at": {
+    "end": true,
+    "offset": -1.75
+   },
+   "volume": 0.55,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:glass_002",
+   "at": {
+    "end": true,
+    "offset": -1.0
+   },
+   "volume": 0.4,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:swipe_02",
+   "at": {
+    "cut": 2
+   },
+   "volume": 0.16,
+   "offset": -0.06
+  },
+  {
+   "src": "synth:swipe_02",
+   "at": {
+    "cut": 3
+   },
+   "volume": 0.16,
+   "offset": -0.06
+  },
+  {
+   "src": "synth:swipe_02",
+   "at": {
+    "cut": 4
+   },
+   "volume": 0.16,
+   "offset": -0.06
+  },
+  {
+   "src": "synth:swipe_02",
+   "at": {
+    "cut": 5
+   },
+   "volume": 0.16,
+   "offset": -0.06
+  },
+  {
+   "src": "synth:swipe_02",
+   "at": {
+    "cut": 6
+   },
+   "volume": 0.16,
+   "offset": -0.06
+  },
+  {
+   "src": "synth:swipe_02",
+   "at": {
+    "cut": 7
+   },
+   "volume": 0.16,
+   "offset": -0.06
+  },
+  {
+   "src": "synth:swipe_02",
+   "at": {
+    "cut": 8
+   },
+   "volume": 0.16,
+   "offset": -0.06
+  },
+  {
+   "src": "synth:swipe_02",
+   "at": {
+    "cut": 9
+   },
+   "volume": 0.16,
+   "offset": -0.06
+  }
+ ],
+ "music": [
+  {
+   "src": "library/music/_dl/epic2/music/epic-cc-by/ov-8d613a13-4cc.mp3",
+   "at": 0,
+   "volume": 0.3,
+   "duck": 0.32,
+   "fadeIn": 0.15,
+   "fadeOut": 1.4,
+   "dropAt": {
+    "cut": 9
+   },
+   "drop": 4
+  }
+ ],
+ "mix": {
+  "sfxTarget": -20.0,
+  "sfxDuck": 0.5
+ },
+ "fx": {
+  "grade": "cinematic",
+  "grain": 0.035,
+  "vignette": 0.28,
+  "lightLeakHue": 185
+ }
+}

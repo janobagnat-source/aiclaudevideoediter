@@ -1,0 +1,676 @@
+{
+  "cuts": [
+    {
+      "sentence": 0,
+      "source": "cam1",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad05/_work/src/cam1_9x16.mp4",
+      "in": 2.065,
+      "out": 5.9,
+      "text": "Cambiar de país puede hacerte sentir que empezaste de cero.",
+      "section": "HOOK",
+      "words": [
+        {
+          "text": "Cambiar",
+          "start": 2.08,
+          "end": 2.72
+        },
+        {
+          "text": "de",
+          "start": 2.72,
+          "end": 2.88
+        },
+        {
+          "text": "país",
+          "start": 2.88,
+          "end": 3.04
+        },
+        {
+          "text": "puede",
+          "start": 3.28,
+          "end": 3.52
+        },
+        {
+          "text": "hacerte",
+          "start": 3.52,
+          "end": 3.92
+        },
+        {
+          "text": "sentir",
+          "start": 3.92,
+          "end": 4.24
+        },
+        {
+          "text": "que",
+          "start": 4.24,
+          "end": 4.4
+        },
+        {
+          "text": "empezaste",
+          "start": 4.4,
+          "end": 4.96
+        },
+        {
+          "text": "de",
+          "start": 4.96,
+          "end": 5.28
+        },
+        {
+          "text": "cero.",
+          "start": 5.28,
+          "end": 5.9
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 1,
+      "source": "cam1",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad05/_work/src/cam1_9x16.mp4",
+      "in": 5.94,
+      "out": 9.048,
+      "text": "Pero tu experiencia no se quedó en el aeropuerto.",
+      "section": "HOOK",
+      "words": [
+        {
+          "text": "Pero",
+          "start": 5.94,
+          "end": 6.08
+        },
+        {
+          "text": "tu",
+          "start": 6.32,
+          "end": 6.56
+        },
+        {
+          "text": "experiencia",
+          "start": 6.56,
+          "end": 7.12
+        },
+        {
+          "text": "no",
+          "start": 7.28,
+          "end": 7.52
+        },
+        {
+          "text": "se",
+          "start": 7.52,
+          "end": 7.68
+        },
+        {
+          "text": "quedó",
+          "start": 7.68,
+          "end": 8.0
+        },
+        {
+          "text": "en",
+          "start": 8.0,
+          "end": 8.08
+        },
+        {
+          "text": "el",
+          "start": 8.08,
+          "end": 8.24
+        },
+        {
+          "text": "aeropuerto.",
+          "start": 8.24,
+          "end": 8.88
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 2,
+      "source": "cam2",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad05/_work/src/cam2_9x16.mp4",
+      "in": 9.048,
+      "out": 15.59,
+      "text": "Tal vez necesitas conocer otro mercado, construir contactos o aprender nuevas formas de trabajar.",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "Tal",
+          "start": 9.12,
+          "end": 9.36
+        },
+        {
+          "text": "vez",
+          "start": 9.36,
+          "end": 9.52
+        },
+        {
+          "text": "necesitas",
+          "start": 9.68,
+          "end": 10.16
+        },
+        {
+          "text": "conocer",
+          "start": 10.32,
+          "end": 10.88
+        },
+        {
+          "text": "otro",
+          "start": 10.88,
+          "end": 11.2
+        },
+        {
+          "text": "mercado,",
+          "start": 11.2,
+          "end": 11.84
+        },
+        {
+          "text": "construir",
+          "start": 11.84,
+          "end": 12.4
+        },
+        {
+          "text": "contactos",
+          "start": 12.4,
+          "end": 13.04
+        },
+        {
+          "text": "o",
+          "start": 13.04,
+          "end": 13.28
+        },
+        {
+          "text": "aprender",
+          "start": 13.28,
+          "end": 13.84
+        },
+        {
+          "text": "nuevas",
+          "start": 13.84,
+          "end": 14.16
+        },
+        {
+          "text": "formas",
+          "start": 14.16,
+          "end": 14.56
+        },
+        {
+          "text": "de",
+          "start": 14.56,
+          "end": 14.72
+        },
+        {
+          "text": "trabajar.",
+          "start": 14.72,
+          "end": 15.59
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 3,
+      "source": "cam1",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad05/_work/src/cam1_9x16.mp4",
+      "in": 37.605,
+      "out": 39.415,
+      "text": "Eso requiere tiempo.",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "Eso",
+          "start": 37.605,
+          "end": 38.16
+        },
+        {
+          "text": "requiere",
+          "start": 38.16,
+          "end": 38.8
+        },
+        {
+          "text": "tiempo.",
+          "start": 38.8,
+          "end": 39.2
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 4,
+      "source": "cam2",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad05/_work/src/cam2_9x16.mp4",
+      "in": 39.475,
+      "out": 44.875,
+      "text": "Mientras tanto, escribe tres problemas que sabes resolver y cómo puedes demostrarlo:",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "Mientras",
+          "start": 39.475,
+          "end": 40.0
+        },
+        {
+          "text": "tanto,",
+          "start": 40.0,
+          "end": 40.4
+        },
+        {
+          "text": "escribe",
+          "start": 40.4,
+          "end": 41.04
+        },
+        {
+          "text": "tres",
+          "start": 41.04,
+          "end": 41.36
+        },
+        {
+          "text": "problemas",
+          "start": 41.36,
+          "end": 41.84
+        },
+        {
+          "text": "que",
+          "start": 41.84,
+          "end": 42.16
+        },
+        {
+          "text": "sabes",
+          "start": 42.16,
+          "end": 42.56
+        },
+        {
+          "text": "resolver",
+          "start": 42.56,
+          "end": 43.12
+        },
+        {
+          "text": "y",
+          "start": 43.2,
+          "end": 43.36
+        },
+        {
+          "text": "cómo",
+          "start": 43.44,
+          "end": 43.68
+        },
+        {
+          "text": "puedes",
+          "start": 43.68,
+          "end": 44.0
+        },
+        {
+          "text": "demostrarlo:",
+          "start": 44.0,
+          "end": 44.875
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 4,
+      "source": "cam1",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad05/_work/src/cam1_9x16.mp4",
+      "in": 54.735,
+      "out": 58.94,
+      "text": "con un trabajo anterior, una muestra o una explicación de tu proceso.",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "con",
+          "start": 54.735,
+          "end": 54.88
+        },
+        {
+          "text": "un",
+          "start": 54.88,
+          "end": 55.04
+        },
+        {
+          "text": "trabajo",
+          "start": 55.04,
+          "end": 55.36
+        },
+        {
+          "text": "anterior,",
+          "start": 55.36,
+          "end": 56.0
+        },
+        {
+          "text": "una",
+          "start": 56.0,
+          "end": 56.16
+        },
+        {
+          "text": "muestra",
+          "start": 56.32,
+          "end": 56.72
+        },
+        {
+          "text": "o",
+          "start": 56.8,
+          "end": 56.96
+        },
+        {
+          "text": "una",
+          "start": 56.96,
+          "end": 57.2
+        },
+        {
+          "text": "explicación",
+          "start": 57.2,
+          "end": 57.76
+        },
+        {
+          "text": "de",
+          "start": 57.76,
+          "end": 58.0
+        },
+        {
+          "text": "tu",
+          "start": 58.0,
+          "end": 58.16
+        },
+        {
+          "text": "proceso.",
+          "start": 58.16,
+          "end": 58.94
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 5,
+      "source": "cam2",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad05/_work/src/cam2_9x16.mp4",
+      "in": 58.995,
+      "out": 64.185,
+      "text": "Después adapta ese mensaje a la necesidad del cliente que quieres tener hoy.",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "Después",
+          "start": 58.995,
+          "end": 59.36
+        },
+        {
+          "text": "adapta",
+          "start": 59.6,
+          "end": 60.4
+        },
+        {
+          "text": "ese",
+          "start": 60.4,
+          "end": 60.64
+        },
+        {
+          "text": "mensaje",
+          "start": 60.64,
+          "end": 61.12
+        },
+        {
+          "text": "a",
+          "start": 61.12,
+          "end": 61.28
+        },
+        {
+          "text": "la",
+          "start": 61.28,
+          "end": 61.44
+        },
+        {
+          "text": "necesidad",
+          "start": 61.44,
+          "end": 61.84
+        },
+        {
+          "text": "del",
+          "start": 61.84,
+          "end": 62.16
+        },
+        {
+          "text": "cliente",
+          "start": 62.16,
+          "end": 62.64
+        },
+        {
+          "text": "que",
+          "start": 62.64,
+          "end": 62.88
+        },
+        {
+          "text": "quieres",
+          "start": 62.88,
+          "end": 63.28
+        },
+        {
+          "text": "tener",
+          "start": 63.28,
+          "end": 63.6
+        },
+        {
+          "text": "hoy.",
+          "start": 63.6,
+          "end": 64.0
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 6,
+      "source": "cam1",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad05/_work/src/cam1_9x16.mp4",
+      "in": 84.26,
+      "out": 87.105,
+      "text": "Llegar a un lugar nuevo no borra lo que sabes.",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "Llegar",
+          "start": 84.26,
+          "end": 84.55
+        },
+        {
+          "text": "a",
+          "start": 84.55,
+          "end": 84.71
+        },
+        {
+          "text": "un",
+          "start": 84.71,
+          "end": 84.79
+        },
+        {
+          "text": "lugar",
+          "start": 84.79,
+          "end": 85.03
+        },
+        {
+          "text": "nuevo",
+          "start": 85.03,
+          "end": 85.51
+        },
+        {
+          "text": "no",
+          "start": 85.51,
+          "end": 85.75
+        },
+        {
+          "text": "borra",
+          "start": 85.75,
+          "end": 86.23
+        },
+        {
+          "text": "lo",
+          "start": 86.23,
+          "end": 86.31
+        },
+        {
+          "text": "que",
+          "start": 86.31,
+          "end": 86.47
+        },
+        {
+          "text": "sabes.",
+          "start": 86.47,
+          "end": 87.105
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 7,
+      "source": "cam2",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad05/_work/src/cam2_9x16.mp4",
+      "in": 87.13,
+      "out": 92.215,
+      "text": "Hazlo visible: muestra un problema que puedas resolver y la evidencia que respalda tu trabajo.",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "Hazlo",
+          "start": 87.13,
+          "end": 87.51
+        },
+        {
+          "text": "visible:",
+          "start": 87.51,
+          "end": 88.07
+        },
+        {
+          "text": "muestra",
+          "start": 88.07,
+          "end": 88.55
+        },
+        {
+          "text": "un",
+          "start": 88.55,
+          "end": 88.63
+        },
+        {
+          "text": "problema",
+          "start": 88.63,
+          "end": 88.95
+        },
+        {
+          "text": "que",
+          "start": 88.95,
+          "end": 89.11
+        },
+        {
+          "text": "puedas",
+          "start": 89.11,
+          "end": 89.35
+        },
+        {
+          "text": "resolver",
+          "start": 89.35,
+          "end": 89.83
+        },
+        {
+          "text": "y",
+          "start": 89.83,
+          "end": 89.99
+        },
+        {
+          "text": "la",
+          "start": 89.99,
+          "end": 90.15
+        },
+        {
+          "text": "evidencia",
+          "start": 90.15,
+          "end": 90.47
+        },
+        {
+          "text": "que",
+          "start": 90.63,
+          "end": 90.79
+        },
+        {
+          "text": "respalda",
+          "start": 90.79,
+          "end": 91.27
+        },
+        {
+          "text": "tu",
+          "start": 91.43,
+          "end": 91.59
+        },
+        {
+          "text": "trabajo.",
+          "start": 91.59,
+          "end": 92.215
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 8,
+      "source": "cam1",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad05/_work/src/cam1_9x16.mp4",
+      "in": 92.245,
+      "out": 97.15,
+      "text": "Sígueme para ayudarte a escalar tu negocio acelerando tus ventas.",
+      "section": "CTA",
+      "words": [
+        {
+          "text": "Sígueme",
+          "start": 92.245,
+          "end": 92.79
+        },
+        {
+          "text": "para",
+          "start": 92.87,
+          "end": 93.11
+        },
+        {
+          "text": "ayudarte",
+          "start": 93.11,
+          "end": 93.51
+        },
+        {
+          "text": "a",
+          "start": 93.59,
+          "end": 93.75
+        },
+        {
+          "text": "escalar",
+          "start": 93.75,
+          "end": 94.15
+        },
+        {
+          "text": "tu",
+          "start": 94.15,
+          "end": 94.31
+        },
+        {
+          "text": "negocio",
+          "start": 94.31,
+          "end": 94.55
+        },
+        {
+          "text": "acelerando",
+          "start": 94.71,
+          "end": 95.43
+        },
+        {
+          "text": "tus",
+          "start": 95.43,
+          "end": 95.67
+        },
+        {
+          "text": "ventas.",
+          "start": 95.67,
+          "end": 96.71
+        }
+      ],
+      "cues": [],
+      "intra": false
+    }
+  ],
+  "duration": 42.925,
+  "raw_offset": 380.8
+}

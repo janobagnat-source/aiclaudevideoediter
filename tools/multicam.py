@@ -143,20 +143,63 @@ def main(argv=None):
     # ---- alinear frases del guion y cortar fuera de guion
     report = ["# Multicam — reporte", ""]
     pieces = []
-    for s in g["sentences"]:
-        takes = find_takes(s["text"], words, 62)
+    def choose(text, after, min_score=62):
+        """Última toma buena de `text` que empieza después de `after` (orden cronológico del guion)."""
+        takes = find_takes(text, words, min_score)
+        later = [x for x in takes if x["start"] >= after - 0.3]
+        takes = later or takes
         if not takes:
+            return None
+        best = max(x["score"] for x in takes)
+        return [x for x in takes if x["score"] >= best - 6][-1]
+
+    def clauses(text, seps):
+        parts = [x.strip() for x in re.split(rf"(?<=[{seps}])\s+", text) if x.strip()]
+        out = []
+        for x in parts:  # cláusulas de al menos 3 palabras
+            if out and (len(x.split()) < 3 or len(out[-1].split()) < 3):
+                out[-1] += " " + x
+            else:
+                out.append(x)
+        return out
+
+    units, after = [], 0.0
+    for s in g["sentences"]:
+        t = choose(s["text"], after)
+        plan = [(s["text"], t)] if t else []
+        if not t or t["score"] < 98:
+            # retomas partidas: armar la frase por cláusulas desde las mejores tomas (en orden)
+            for seps in (":;.?!", ":;.?!,"):
+                cl = clauses(s["text"], seps)
+                if len(cl) < 2:
+                    continue
+                alt, aft = [], after
+                for c in cl:
+                    tc = choose(c, aft, 80)
+                    if not tc:
+                        break
+                    alt.append((c, tc))
+                    aft = tc["end"]
+                if len(alt) == len(cl) and sum(x[1]["score"] for x in alt) / len(alt) > (t["score"] + 1.5 if t else 0):
+                    plan = alt
+                    report.append(f"   [{s['i']}] armada por cláusulas: " + " | ".join(f"{x[1]['start']:.2f}" for x in alt))
+                    break
+        if not plan:
             report.append(f"⚠️ [{s['i']}] NO ENCONTRADA: {s['text']}")
             continue
-        best = max(t["score"] for t in takes)
-        t = [x for x in takes if x["score"] >= best - 6][-1]
+        after = plan[-1][1]["end"]
+        for text_u, tu in plan:
+            units.append((s, text_u, tu))
+
+    for s, text_u, t in units:
         ws = words[t["w0"]:t["w1"]]
-        stoks = s["text"].split()
+        stoks = text_u.split()
         sm = difflib.SequenceMatcher(a=[x["n"] for x in ws], b=[norm(x) for x in stoks], autojunk=False)
         keep = []
         for tag, i1, i2, j1, j2 in sm.get_opcodes():
             if tag == "replace" and i2 - i1 == j2 - j1 and any(
                     fuzz.ratio(ws[i1 + k]["n"], norm(stoks[j1 + k])) < 60 and max(len(ws[i1 + k]["n"]), len(norm(stoks[j1 + k]))) > 3
+                    and not (ws[i1 + k]["n"] in norm(stoks[j1 + k]) or norm(stoks[j1 + k]) in ws[i1 + k]["n"])
                     for k in range(i2 - i1)):  # «el»↔«al», «lo»↔«la»: variación dicha, se conserva el audio
                 # palabras distintas (no es variación ortográfica): lo dicho sobra y lo del guion falta
                 report.append(f"   [{s['i']}] eliminado fuera de guion: «{' '.join(x['text'] for x in ws[i1:i2])}»")
@@ -200,7 +243,7 @@ def main(argv=None):
                 cur = [] if wd is None else [(wd, txt)]
             else:
                 cur.append((wd, txt))
-        report.append(f"[{s['i']}] {t['start']:.2f}-{t['end']:.2f} score={t['score']} «{s['text']}»")
+        report.append(f"[{s['i']}] {t['start']:.2f}-{t['end']:.2f} score={t['score']} «{text_u}»")
 
     # ---- límites refinados + recorte de silencios internos (por energía)
     def speech_thr(t):
