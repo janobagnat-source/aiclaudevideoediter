@@ -138,7 +138,16 @@ def main(argv=None):
             raw = json.loads((Path(td) / "transcript.json").read_text())
         ww = [{"text": x["text"], "start": round(x["start"] + OFF, 3), "end": round(x["end"] + OFF, 3), "prob": 1.0} for x in raw]
         write_json(seg_tr, {"words": ww, "engine": "parakeet"})
-    words = [dict(x, n=norm(x["text"]), source="raw", src=None) for x in read_json(seg_tr)["words"] if norm(x["text"])]
+    def nnorm(t):  # el ASR escribe números en dígitos («10») y el guion en letras («diez»)
+        n = norm(t)
+        if n.isdigit():
+            try:
+                from num2words import num2words
+                return norm(num2words(int(n), lang="es"))
+            except Exception:
+                return n
+        return n
+    words = [dict(x, n=nnorm(x["text"]), source="raw", src=None) for x in read_json(seg_tr)["words"] if norm(x["text"])]
 
     # ---- alinear frases del guion y cortar fuera de guion
     report = ["# Multicam — reporte", ""]

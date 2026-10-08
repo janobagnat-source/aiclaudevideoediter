@@ -1,0 +1,670 @@
+{
+  "cuts": [
+    {
+      "sentence": 0,
+      "source": "cam1",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad08/_work/src/cam1_9x16.mp4",
+      "in": 3.665,
+      "out": 10.705,
+      "text": "Si necesitas diez minutos para explicar lo que vendes, tu cliente puede perderse antes de entender tu valor.",
+      "section": "HOOK",
+      "words": [
+        {
+          "text": "Si",
+          "start": 3.76,
+          "end": 4.08
+        },
+        {
+          "text": "necesitas",
+          "start": 4.08,
+          "end": 4.48
+        },
+        {
+          "text": "diez",
+          "start": 4.64,
+          "end": 4.88
+        },
+        {
+          "text": "minutos",
+          "start": 4.88,
+          "end": 5.12
+        },
+        {
+          "text": "para",
+          "start": 5.12,
+          "end": 5.36
+        },
+        {
+          "text": "explicar",
+          "start": 5.36,
+          "end": 5.76
+        },
+        {
+          "text": "lo",
+          "start": 5.76,
+          "end": 5.84
+        },
+        {
+          "text": "que",
+          "start": 5.84,
+          "end": 6.0
+        },
+        {
+          "text": "vendes,",
+          "start": 6.0,
+          "end": 6.56
+        },
+        {
+          "text": "tu",
+          "start": 6.56,
+          "end": 6.72
+        },
+        {
+          "text": "cliente",
+          "start": 6.72,
+          "end": 7.12
+        },
+        {
+          "text": "puede",
+          "start": 7.12,
+          "end": 7.36
+        },
+        {
+          "text": "perderse",
+          "start": 7.6,
+          "end": 8.56
+        },
+        {
+          "text": "antes",
+          "start": 8.56,
+          "end": 8.88
+        },
+        {
+          "text": "de",
+          "start": 9.12,
+          "end": 9.28
+        },
+        {
+          "text": "entender",
+          "start": 9.28,
+          "end": 9.76
+        },
+        {
+          "text": "tu",
+          "start": 9.76,
+          "end": 10.0
+        },
+        {
+          "text": "valor.",
+          "start": 10.0,
+          "end": 10.705
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 1,
+      "source": "cam2",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad08/_work/src/cam2_9x16.mp4",
+      "in": 18.89,
+      "out": 23.19,
+      "text": "Y eso frustra, porque tú sabes cuánto puedes ayudar.",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "Y",
+          "start": 18.96,
+          "end": 19.28
+        },
+        {
+          "text": "eso",
+          "start": 19.28,
+          "end": 19.6
+        },
+        {
+          "text": "frustra,",
+          "start": 19.68,
+          "end": 20.64
+        },
+        {
+          "text": "porque tú",
+          "start": 20.64,
+          "end": 20.96
+        },
+        {
+          "text": "sabes",
+          "start": 20.96,
+          "end": 21.52
+        },
+        {
+          "text": "cuánto",
+          "start": 21.52,
+          "end": 22.0
+        },
+        {
+          "text": "puedes",
+          "start": 22.0,
+          "end": 22.4
+        },
+        {
+          "text": "ayudar.",
+          "start": 22.4,
+          "end": 23.19
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 2,
+      "source": "cam1",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad08/_work/src/cam1_9x16.mp4",
+      "in": 23.235,
+      "out": 31.67,
+      "text": "A veces queremos demostrar todo lo que sabemos y terminamos hablando de métodos, herramientas y detalles que la otra persona todavía no necesita.",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "A",
+          "start": 23.235,
+          "end": 23.36
+        },
+        {
+          "text": "veces",
+          "start": 23.36,
+          "end": 23.68
+        },
+        {
+          "text": "queremos",
+          "start": 23.84,
+          "end": 24.32
+        },
+        {
+          "text": "demostrar",
+          "start": 24.32,
+          "end": 24.96
+        },
+        {
+          "text": "todo",
+          "start": 24.96,
+          "end": 25.2
+        },
+        {
+          "text": "lo",
+          "start": 25.2,
+          "end": 25.28
+        },
+        {
+          "text": "que",
+          "start": 25.28,
+          "end": 25.44
+        },
+        {
+          "text": "sabemos",
+          "start": 25.44,
+          "end": 25.92
+        },
+        {
+          "text": "y",
+          "start": 25.92,
+          "end": 26.16
+        },
+        {
+          "text": "terminamos",
+          "start": 26.16,
+          "end": 26.64
+        },
+        {
+          "text": "hablando",
+          "start": 26.64,
+          "end": 27.04
+        },
+        {
+          "text": "de",
+          "start": 27.04,
+          "end": 27.2
+        },
+        {
+          "text": "métodos,",
+          "start": 27.2,
+          "end": 27.76
+        },
+        {
+          "text": "herramientas",
+          "start": 27.76,
+          "end": 28.48
+        },
+        {
+          "text": "y",
+          "start": 28.48,
+          "end": 28.72
+        },
+        {
+          "text": "detalles",
+          "start": 28.72,
+          "end": 29.2
+        },
+        {
+          "text": "que",
+          "start": 29.2,
+          "end": 29.36
+        },
+        {
+          "text": "la",
+          "start": 29.36,
+          "end": 29.52
+        },
+        {
+          "text": "otra",
+          "start": 29.52,
+          "end": 29.76
+        },
+        {
+          "text": "persona",
+          "start": 29.76,
+          "end": 30.08
+        },
+        {
+          "text": "todavía",
+          "start": 30.08,
+          "end": 30.56
+        },
+        {
+          "text": "no",
+          "start": 30.56,
+          "end": 30.8
+        },
+        {
+          "text": "necesita.",
+          "start": 30.8,
+          "end": 31.67
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 3,
+      "source": "cam2",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad08/_work/src/cam2_9x16.mp4",
+      "in": 31.685,
+      "out": 33.105,
+      "text": "Empieza por su realidad:",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "Empieza",
+          "start": 31.685,
+          "end": 32.32
+        },
+        {
+          "text": "por",
+          "start": 32.32,
+          "end": 32.48
+        },
+        {
+          "text": "su",
+          "start": 32.48,
+          "end": 32.64
+        },
+        {
+          "text": "realidad:",
+          "start": 32.64,
+          "end": 33.105
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 3,
+      "source": "cam1",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad08/_work/src/cam1_9x16.mp4",
+      "in": 33.43,
+      "out": 37.265,
+      "text": "qué le está costando, cómo le afecta y en qué puedes ayudar.",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "qué",
+          "start": 33.43,
+          "end": 33.6
+        },
+        {
+          "text": "le",
+          "start": 33.6,
+          "end": 33.76
+        },
+        {
+          "text": "está",
+          "start": 33.76,
+          "end": 33.92
+        },
+        {
+          "text": "costando,",
+          "start": 33.92,
+          "end": 34.64
+        },
+        {
+          "text": "cómo",
+          "start": 34.64,
+          "end": 34.96
+        },
+        {
+          "text": "le",
+          "start": 34.96,
+          "end": 35.12
+        },
+        {
+          "text": "afecta",
+          "start": 35.12,
+          "end": 35.68
+        },
+        {
+          "text": "y",
+          "start": 35.68,
+          "end": 35.84
+        },
+        {
+          "text": "en",
+          "start": 35.84,
+          "end": 35.92
+        },
+        {
+          "text": "qué",
+          "start": 36.08,
+          "end": 36.32
+        },
+        {
+          "text": "puedes",
+          "start": 36.32,
+          "end": 36.64
+        },
+        {
+          "text": "ayudar.",
+          "start": 36.64,
+          "end": 37.265
+        }
+      ],
+      "cues": [],
+      "intra": true
+    },
+    {
+      "sentence": 4,
+      "source": "cam2",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad08/_work/src/cam2_9x16.mp4",
+      "in": 37.295,
+      "out": 44.545,
+      "text": "Haz una prueba: explícale tu servicio a alguien que no conoce tu profesión y pídele que te diga qué entendió.",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "Haz",
+          "start": 37.295,
+          "end": 37.6
+        },
+        {
+          "text": "una",
+          "start": 37.6,
+          "end": 37.84
+        },
+        {
+          "text": "prueba:",
+          "start": 37.84,
+          "end": 38.4
+        },
+        {
+          "text": "explícale",
+          "start": 38.4,
+          "end": 39.2
+        },
+        {
+          "text": "tu",
+          "start": 39.2,
+          "end": 39.36
+        },
+        {
+          "text": "servicio",
+          "start": 39.36,
+          "end": 39.76
+        },
+        {
+          "text": "a",
+          "start": 39.76,
+          "end": 39.92
+        },
+        {
+          "text": "alguien",
+          "start": 39.92,
+          "end": 40.32
+        },
+        {
+          "text": "que",
+          "start": 40.32,
+          "end": 40.48
+        },
+        {
+          "text": "no",
+          "start": 40.48,
+          "end": 40.64
+        },
+        {
+          "text": "conoce",
+          "start": 40.64,
+          "end": 41.12
+        },
+        {
+          "text": "tu",
+          "start": 41.12,
+          "end": 41.28
+        },
+        {
+          "text": "profesión",
+          "start": 41.28,
+          "end": 41.76
+        },
+        {
+          "text": "y",
+          "start": 41.92,
+          "end": 42.08
+        },
+        {
+          "text": "pídele",
+          "start": 42.08,
+          "end": 42.8
+        },
+        {
+          "text": "que",
+          "start": 42.8,
+          "end": 43.04
+        },
+        {
+          "text": "te",
+          "start": 43.04,
+          "end": 43.2
+        },
+        {
+          "text": "diga",
+          "start": 43.2,
+          "end": 43.52
+        },
+        {
+          "text": "qué",
+          "start": 43.52,
+          "end": 43.68
+        },
+        {
+          "text": "entendió.",
+          "start": 43.84,
+          "end": 44.545
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 5,
+      "source": "cam1",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad08/_work/src/cam1_9x16.mp4",
+      "in": 44.56,
+      "out": 50.545,
+      "text": "Si no puede explicar cómo lo ayudas, tienes un mensaje que aclarar antes de buscar más clientes.",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "Si",
+          "start": 44.56,
+          "end": 44.72
+        },
+        {
+          "text": "no",
+          "start": 44.72,
+          "end": 44.88
+        },
+        {
+          "text": "puede",
+          "start": 44.88,
+          "end": 44.96
+        },
+        {
+          "text": "explicar",
+          "start": 45.12,
+          "end": 45.44
+        },
+        {
+          "text": "cómo",
+          "start": 45.44,
+          "end": 45.68
+        },
+        {
+          "text": "lo",
+          "start": 45.68,
+          "end": 45.76
+        },
+        {
+          "text": "ayudas,",
+          "start": 45.76,
+          "end": 46.4
+        },
+        {
+          "text": "tienes",
+          "start": 46.4,
+          "end": 46.72
+        },
+        {
+          "text": "un",
+          "start": 46.72,
+          "end": 46.8
+        },
+        {
+          "text": "mensaje",
+          "start": 46.8,
+          "end": 47.2
+        },
+        {
+          "text": "que",
+          "start": 47.2,
+          "end": 47.36
+        },
+        {
+          "text": "aclarar",
+          "start": 47.36,
+          "end": 47.92
+        },
+        {
+          "text": "antes",
+          "start": 47.92,
+          "end": 48.24
+        },
+        {
+          "text": "de",
+          "start": 48.24,
+          "end": 48.4
+        },
+        {
+          "text": "buscar",
+          "start": 48.4,
+          "end": 48.96
+        },
+        {
+          "text": "más",
+          "start": 48.96,
+          "end": 49.28
+        },
+        {
+          "text": "clientes.",
+          "start": 49.28,
+          "end": 50.545
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 6,
+      "source": "cam1",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad08/_work/src/cam1_9x16.mp4",
+      "in": 50.565,
+      "out": 55.805,
+      "text": "Sígueme para ayudarte a escalar tu negocio acelerando tus ventas.",
+      "section": "CTA",
+      "words": [
+        {
+          "text": "Sígueme",
+          "start": 50.565,
+          "end": 51.2
+        },
+        {
+          "text": "para",
+          "start": 51.28,
+          "end": 51.44
+        },
+        {
+          "text": "ayudarte",
+          "start": 51.44,
+          "end": 51.92
+        },
+        {
+          "text": "a",
+          "start": 52.0,
+          "end": 52.08
+        },
+        {
+          "text": "escalar",
+          "start": 52.08,
+          "end": 52.48
+        },
+        {
+          "text": "tu",
+          "start": 52.48,
+          "end": 52.64
+        },
+        {
+          "text": "negocio",
+          "start": 52.64,
+          "end": 52.88
+        },
+        {
+          "text": "acelerando",
+          "start": 53.04,
+          "end": 53.84
+        },
+        {
+          "text": "tus",
+          "start": 53.84,
+          "end": 54.16
+        },
+        {
+          "text": "ventas.",
+          "start": 54.16,
+          "end": 55.44
+        }
+      ],
+      "cues": [],
+      "intra": false
+    }
+  ],
+  "duration": 43.505,
+  "raw_offset": 605.0
+}
