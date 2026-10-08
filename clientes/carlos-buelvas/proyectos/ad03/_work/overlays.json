@@ -1,0 +1,1589 @@
+{
+ "format": "9:16",
+ "fps": 30,
+ "tail": 1.9,
+ "background": "#01030c",
+ "logo": "clientes/carlos-buelvas/marca/logo_blanco.png",
+ "zoom": {
+  "auto": false
+ },
+ "cuts": {
+  "0": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.192
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.02
+    },
+    {
+     "t": 2.75,
+     "s": 1.02
+    },
+    {
+     "t": 3.27,
+     "s": 1.07,
+     "ease": "smooth"
+    },
+    {
+     "t": 3.94,
+     "s": 1.07
+    },
+    {
+     "t": 4.11,
+     "s": 1.15,
+     "ease": "punch"
+    },
+    {
+     "t": 5.085,
+     "s": 1.17,
+     "ease": "linear"
+    }
+   ]
+  },
+  "1": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.346
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.12
+    },
+    {
+     "t": 2.02,
+     "s": 1.12
+    },
+    {
+     "t": 2.19,
+     "s": 1.2,
+     "ease": "punch"
+    },
+    {
+     "t": 3.48,
+     "s": 1.22,
+     "ease": "linear"
+    }
+   ]
+  },
+  "2": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.192
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.06
+    },
+    {
+     "t": 1.375,
+     "s": 1.06
+    },
+    {
+     "t": 1.545,
+     "s": 1.14,
+     "ease": "punch"
+    },
+    {
+     "t": 3.855,
+     "s": 1.14
+    },
+    {
+     "t": 4.025,
+     "s": 1.22,
+     "ease": "punch"
+    },
+    {
+     "t": 4.515,
+     "s": 1.24,
+     "ease": "linear"
+    }
+   ]
+  },
+  "3": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.346
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.02
+    },
+    {
+     "t": 0.77,
+     "s": 1.04,
+     "ease": "linear"
+    }
+   ]
+  },
+  "4": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.346
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.12
+    },
+    {
+     "t": 0.875,
+     "s": 1.12
+    },
+    {
+     "t": 1.045,
+     "s": 1.2,
+     "ease": "punch"
+    },
+    {
+     "t": 2.475,
+     "s": 1.2
+    },
+    {
+     "t": 2.645,
+     "s": 1.28,
+     "ease": "punch"
+    },
+    {
+     "t": 3.135,
+     "s": 1.3,
+     "ease": "linear"
+    }
+   ]
+  },
+  "5": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.192
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.06
+    },
+    {
+     "t": 0.44,
+     "s": 1.06
+    },
+    {
+     "t": 0.61,
+     "s": 1.14,
+     "ease": "punch"
+    },
+    {
+     "t": 3.09,
+     "s": 1.14
+    },
+    {
+     "t": 3.61,
+     "s": 1.19,
+     "ease": "smooth"
+    },
+    {
+     "t": 5.265,
+     "s": 1.21,
+     "ease": "linear"
+    }
+   ]
+  },
+  "6": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.346
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.02
+    },
+    {
+     "t": 0.58,
+     "s": 1.02
+    },
+    {
+     "t": 0.75,
+     "s": 1.1,
+     "ease": "punch"
+    },
+    {
+     "t": 1.98,
+     "s": 1.12,
+     "ease": "linear"
+    }
+   ]
+  },
+  "7": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.192
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.12
+    },
+    {
+     "t": 1.775,
+     "s": 1.12
+    },
+    {
+     "t": 1.945,
+     "s": 1.2,
+     "ease": "punch"
+    },
+    {
+     "t": 3.615,
+     "s": 1.2
+    },
+    {
+     "t": 3.785,
+     "s": 1.28,
+     "ease": "punch"
+    },
+    {
+     "t": 4.6,
+     "s": 1.3,
+     "ease": "linear"
+    }
+   ]
+  },
+  "8": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.346
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.06
+    },
+    {
+     "t": 1.975,
+     "s": 1.06
+    },
+    {
+     "t": 2.145,
+     "s": 1.14,
+     "ease": "punch"
+    },
+    {
+     "t": 4.545,
+     "s": 1.14
+    },
+    {
+     "t": 5.065,
+     "s": 1.19,
+     "ease": "smooth"
+    },
+    {
+     "t": 4.935,
+     "s": 1.19
+    },
+    {
+     "t": 5.105,
+     "s": 1.27,
+     "ease": "punch"
+    },
+    {
+     "t": 5.65,
+     "s": 1.29,
+     "ease": "linear"
+    }
+   ]
+  },
+  "9": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.192
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.02
+    },
+    {
+     "t": 1.885,
+     "s": 1.02
+    },
+    {
+     "t": 2.055,
+     "s": 1.1,
+     "ease": "punch"
+    },
+    {
+     "t": 3.085,
+     "s": 1.1
+    },
+    {
+     "t": 3.255,
+     "s": 1.18,
+     "ease": "punch"
+    },
+    {
+     "t": 4.665,
+     "s": 1.2,
+     "ease": "linear"
+    }
+   ],
+   "transition": {
+    "type": "flash",
+    "duration": 0.3
+   }
+  }
+ },
+ "captions": {
+  "enabled": true,
+  "style": "premium",
+  "position": 0.605,
+  "maxWords": 3,
+  "uppercase": true,
+  "emphasis": [
+   "duele",
+   "crecen",
+   "publicas,",
+   "ventas",
+   "ellos",
+   "seguidores;",
+   "negocio.",
+   "comunidad",
+   "vender.",
+   "compararte,",
+   "confiar",
+   "duda",
+   "contratarte.",
+   "conversación",
+   "comercial",
+   "aplauso.",
+   "sígueme",
+   "escalar"
+  ],
+  "hideDuring": [
+   [
+    32.15,
+    34.46
+   ],
+   [
+    999,
+    9999
+   ]
+  ]
+ },
+ "graphics": [
+  {
+   "component": "Flash",
+   "at": 0,
+   "layer": "top",
+   "props": {
+    "peak": 0.9,
+    "color": "#dbe7ff"
+   },
+   "duration": 0.28
+  },
+  {
+   "component": "CounterRace",
+   "at": 0.05,
+   "layer": "over",
+   "props": {
+    "y": 0.82,
+    "a": {
+     "label": "SEGUIDORES DE ELLOS",
+     "from": 1200,
+     "to": 248000
+    },
+    "b": {
+     "label": "TUS VENTAS",
+     "from": 0,
+     "to": 0,
+     "prefix": "$"
+    }
+   },
+   "until": {
+    "word": "publicas,",
+    "offset": -0.05
+   }
+  },
+  {
+   "component": "IconBadge",
+   "at": {
+    "word": "publicas,"
+   },
+   "layer": "over",
+   "props": {
+    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/upload-simple-bold.svg",
+    "x": 0.17,
+    "y": 0.44,
+    "leader": "right",
+    "size": 0.9,
+    "label": "PUBLICAS"
+   },
+   "until": {
+    "word": "ventas"
+   }
+  },
+  {
+   "component": "IconBadge",
+   "at": {
+    "word": "esfuerzas"
+   },
+   "layer": "over",
+   "props": {
+    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/barbell-bold.svg",
+    "x": 0.83,
+    "y": 0.44,
+    "leader": "left",
+    "size": 0.9,
+    "label": "TE ESFUERZAS"
+   },
+   "until": {
+    "word": "ventas"
+   }
+  },
+  {
+   "component": "BlockTitle",
+   "at": {
+    "word": "ventas"
+   },
+   "layer": "over",
+   "props": {
+    "y": 0.82,
+    "width": 0.8,
+    "stagger": 6,
+    "enter": "slam",
+    "lines": [
+     {
+      "text": "LAS VENTAS",
+      "weight": 900
+     },
+     {
+      "text": "NO LLEGAN",
+      "color": "gold"
+     }
+    ]
+   },
+   "until": {
+    "cut": 1,
+    "offset": -0.03
+   }
+  },
+  {
+   "component": "QuestionCard",
+   "at": {
+    "cut": 1,
+    "offset": 0.05
+   },
+   "layer": "over",
+   "props": {
+    "y": 0.82,
+    "kicker": "Y TE PREGUNTAS",
+    "question": "¿Qué tienen ellos que yo no tengo?"
+   },
+   "until": {
+    "cut": 2,
+    "offset": -0.03
+   }
+  },
+  {
+   "component": "BrandScene",
+   "at": {
+    "word": "ves"
+   },
+   "layer": "under",
+   "props": {
+    "variant": "pattern",
+    "word": "SEGUIDORES"
+   },
+   "until": {
+    "word": "sabes",
+    "offset": -0.32
+   }
+  },
+  {
+   "component": "EmojiBurst",
+   "at": {
+    "word": "ves"
+   },
+   "layer": "over",
+   "props": {
+    "emoji": "❤️",
+    "count": 18,
+    "x": 0.5,
+    "y": 0.3,
+    "spread": 1.2
+   },
+   "until": {
+    "word": "sabes",
+    "offset": -0.32
+   }
+  },
+  {
+   "component": "IconBadge",
+   "at": {
+    "word": "sabes"
+   },
+   "layer": "over",
+   "props": {
+    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/eye-slash-bold.svg",
+    "x": 0.83,
+    "y": 0.44,
+    "leader": "left",
+    "size": 0.9,
+    "label": "LO QUE NO VES"
+   },
+   "until": {
+    "cut": 3,
+    "offset": -0.03
+   }
+  },
+  {
+   "component": "IconBadge",
+   "at": {
+    "word": "negocio."
+   },
+   "layer": "over",
+   "props": {
+    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/storefront-bold.svg",
+    "x": 0.17,
+    "y": 0.44,
+    "leader": "right",
+    "size": 0.9,
+    "label": "SU NEGOCIO"
+   },
+   "until": {
+    "cut": 3,
+    "offset": -0.03
+   }
+  },
+  {
+   "component": "BrandScene",
+   "at": {
+    "word": "comunidad",
+    "offset": -0.1
+   },
+   "layer": "under",
+   "props": {
+    "variant": "glow"
+   },
+   "until": {
+    "cut": 5,
+    "offset": -0.02
+   }
+  },
+  {
+   "component": "LeakyFunnel",
+   "at": {
+    "word": "comunidad",
+    "offset": -0.05
+   },
+   "layer": "over",
+   "props": {
+    "y": 0.3,
+    "top": "COMUNIDAD GRANDE",
+    "bottom": "VENTAS: 0",
+    "leaks": [
+     "SIN CLARIDAD",
+     "SIN CONFIANZA"
+    ]
+   },
+   "until": {
+    "cut": 5,
+    "offset": -0.02
+   }
+  },
+  {
+   "component": "BlockTitle",
+   "at": {
+    "cut": 5,
+    "offset": 0.05
+   },
+   "layer": "over",
+   "props": {
+    "y": 0.82,
+    "width": 0.8,
+    "stagger": 8,
+    "enter": "rise",
+    "sparkle": 1,
+    "lines": [
+     {
+      "text": "ANTES DE",
+      "weight": 900
+     },
+     {
+      "text": "COMPARARTE",
+      "color": "gold"
+     }
+    ]
+   },
+   "until": {
+    "word": "ayuda",
+    "offset": -0.25
+   }
+  },
+  {
+   "component": "IconBadge",
+   "at": {
+    "word": "revisa"
+   },
+   "layer": "over",
+   "props": {
+    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/magnifying-glass-bold.svg",
+    "x": 0.83,
+    "y": 0.44,
+    "leader": "left",
+    "size": 0.9,
+    "label": "REVISA"
+   },
+   "until": {
+    "word": "ayuda",
+    "offset": -0.25
+   }
+  },
+  {
+   "component": "Checklist",
+   "at": {
+    "word": "ayuda",
+    "offset": -0.2
+   },
+   "layer": "over",
+   "props": {
+    "title": "¿TU CONTENIDO AYUDA A ENTENDER…",
+    "items": [
+     "QUÉ HACES",
+     "POR QUÉ CONFIAR EN TI"
+    ],
+    "every": 64,
+    "position": 0.84,
+    "icon": "✓"
+   },
+   "until": {
+    "cut": 7,
+    "offset": -0.03
+   }
+  },
+  {
+   "component": "IconBadge",
+   "at": {
+    "word": "video,"
+   },
+   "layer": "over",
+   "props": {
+    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/video-camera-bold.svg",
+    "x": 0.83,
+    "y": 0.44,
+    "leader": "left",
+    "size": 0.9,
+    "label": "PRÓXIMO VIDEO"
+   },
+   "until": {
+    "word": "responde",
+    "offset": -0.05
+   }
+  },
+  {
+   "component": "BrandScene",
+   "at": {
+    "word": "responde",
+    "offset": -0.1
+   },
+   "layer": "under",
+   "props": {
+    "variant": "glow"
+   },
+   "until": {
+    "cut": 8,
+    "offset": -0.02
+   }
+  },
+  {
+   "component": "PostCard",
+   "at": {
+    "word": "responde",
+    "offset": -0.05
+   },
+   "layer": "over",
+   "props": {
+    "y": 0.3,
+    "avatar": "clientes/carlos-buelvas/marca/ig_perfil.jpg",
+    "cps": 34,
+    "text": "❓ «¿Cuánto tarda en verse el resultado?» Te lo explico antes de que me contrates 👇",
+    "stamp": "DUDA RESUELTA",
+    "stampAt": 88
+   },
+   "until": {
+    "cut": 8,
+    "offset": -0.02
+   }
+  },
+  {
+   "component": "BrandScene",
+   "at": {
+    "word": "abrir",
+    "offset": -0.1
+   },
+   "layer": "under",
+   "props": {
+    "variant": "glow"
+   },
+   "until": {
+    "word": "mucho",
+    "offset": -0.05
+   }
+  },
+  {
+   "component": "ChatThread",
+   "at": {
+    "word": "abrir",
+    "offset": -0.05
+   },
+   "layer": "over",
+   "props": {
+    "y": 0.29,
+    "title": "Nuevo cliente",
+    "messages": [
+     {
+      "text": "Vi tu video y me quedó clarísimo 🙌",
+      "at": 2
+     },
+     {
+      "text": "¿Cómo puedo trabajar contigo?",
+      "at": 26
+     }
+    ]
+   },
+   "until": {
+    "word": "mucho",
+    "offset": -0.05
+   }
+  },
+  {
+   "component": "BrandScene",
+   "at": {
+    "word": "mucho",
+    "offset": -0.05
+   },
+   "layer": "under",
+   "props": {
+    "variant": "tunnel"
+   },
+   "until": {
+    "cut": 9,
+    "offset": -0.02
+   }
+  },
+  {
+   "component": "Text3DTitle",
+   "at": {
+    "word": "mucho"
+   },
+   "layer": "over",
+   "props": {
+    "text": "MÁS QUE\nUN APLAUSO",
+    "font": "Montserrat-Black",
+    "color": "#FFBB00",
+    "metal": 0.85,
+    "size": 0.9,
+    "y": 1.1,
+    "depth": 0.35
+   },
+   "until": {
+    "cut": 9,
+    "offset": -0.02
+   }
+  },
+  {
+   "component": "EmojiBurst",
+   "at": {
+    "word": "aplauso.",
+    "offset": -0.1
+   },
+   "layer": "over",
+   "props": {
+    "emoji": "👏",
+    "count": 12,
+    "x": 0.5,
+    "y": 0.62,
+    "spread": 1.4
+   },
+   "until": {
+    "cut": 9,
+    "offset": -0.02
+   }
+  },
+  {
+   "component": "InstagramFollow",
+   "at": {
+    "cut": 9,
+    "offset": 0.55
+   },
+   "layer": "over",
+   "props": {
+    "y": 0.8,
+    "avatar": "clientes/carlos-buelvas/marca/ig_perfil.jpg",
+    "name": "Carlos Buelvas | Coach Mentor de Ventas",
+    "bio": "CEO Business Sales Academy · 🌎 Speaker",
+    "tagline": "🚀 Acelero tus Ventas sin estrategias de marketing complicadas",
+    "verified": true,
+    "followers": "85,1 mil",
+    "posts": "3.508",
+    "following": "3.615"
+   },
+   "until": {
+    "end": true,
+    "offset": -1.75
+   }
+  },
+  {
+   "component": "BrandScene",
+   "at": {
+    "end": true,
+    "offset": -1.85
+   },
+   "layer": "top",
+   "props": {
+    "variant": "tunnel"
+   },
+   "until": {
+    "end": true
+   }
+  },
+  {
+   "component": "Logo3D",
+   "at": {
+    "end": true,
+    "offset": -1.8
+   },
+   "layer": "top",
+   "props": {
+    "svg": "clientes/carlos-buelvas/marca/logo.svg",
+    "depth": 60,
+    "metal": 0.9,
+    "color": "#FFBB00",
+    "scale": 0.42
+   },
+   "until": {
+    "end": true
+   }
+  },
+  {
+   "component": "CTAPill",
+   "at": {
+    "end": true,
+    "offset": -1.3
+   },
+   "layer": "top",
+   "props": {
+    "text": "SÍGUEME",
+    "x": 0.5,
+    "y": 0.78,
+    "size": 1.1
+   },
+   "until": {
+    "end": true
+   }
+  }
+ ],
+ "sfx": [
+  {
+   "src": "synth:impact_cinematic",
+   "at": 0,
+   "volume": 0.6,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:subdrop_01",
+   "at": 0,
+   "volume": 0.5,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-1796",
+   "at": 0,
+   "volume": 0.4,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 0.15,
+   "volume": 0.16,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 0.27,
+   "volume": 0.16,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 0.39,
+   "volume": 0.16,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 0.51,
+   "volume": 0.16,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 0.63,
+   "volume": 0.16,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 0.75,
+   "volume": 0.16,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 0.87,
+   "volume": 0.16,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 0.99,
+   "volume": 0.16,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 1.1099999999999999,
+   "volume": 0.16,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 1.23,
+   "volume": 0.16,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 1.3499999999999999,
+   "volume": 0.16,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 1.4699999999999998,
+   "volume": 0.16,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 1.5899999999999999,
+   "volume": 0.16,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 1.71,
+   "volume": 0.16,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 1.8299999999999998,
+   "volume": 0.16,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": 1.9499999999999997,
+   "volume": 0.16,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:riser_short",
+   "at": {
+    "word": "publicas,"
+   },
+   "volume": 0.25,
+   "offset": -1.0
+  },
+  {
+   "src": "lib:pluck_001",
+   "at": {
+    "word": "publicas,"
+   },
+   "volume": 0.32,
+   "offset": 0.05
+  },
+  {
+   "src": "lib:pluck_002",
+   "at": {
+    "word": "esfuerzas"
+   },
+   "volume": 0.32,
+   "offset": 0.05
+  },
+  {
+   "src": "synth:impact_punch",
+   "at": {
+    "word": "ventas"
+   },
+   "volume": 0.55,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:glitch_02",
+   "at": {
+    "word": "llegan."
+   },
+   "volume": 0.3,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:question_001",
+   "at": {
+    "cut": 1,
+    "offset": 0.05
+   },
+   "volume": 0.4,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:whoosh_fast",
+   "at": {
+    "cut": 1
+   },
+   "volume": 0.4,
+   "offset": -0.1
+  },
+  {
+   "src": "synth:whoosh_medium",
+   "at": {
+    "word": "ves"
+   },
+   "volume": 0.55,
+   "offset": -0.15
+  },
+  {
+   "src": "synth:pop_02",
+   "at": {
+    "word": "ves"
+   },
+   "volume": 0.22,
+   "offset": 0.1
+  },
+  {
+   "src": "synth:pop_02",
+   "at": {
+    "word": "ves"
+   },
+   "volume": 0.22,
+   "offset": 0.23
+  },
+  {
+   "src": "synth:pop_02",
+   "at": {
+    "word": "ves"
+   },
+   "volume": 0.22,
+   "offset": 0.36
+  },
+  {
+   "src": "synth:pop_02",
+   "at": {
+    "word": "ves"
+   },
+   "volume": 0.22,
+   "offset": 0.49
+  },
+  {
+   "src": "synth:pop_02",
+   "at": {
+    "word": "ves"
+   },
+   "volume": 0.22,
+   "offset": 0.62
+  },
+  {
+   "src": "synth:pop_02",
+   "at": {
+    "word": "ves"
+   },
+   "volume": 0.22,
+   "offset": 0.75
+  },
+  {
+   "src": "lib:pluck_002",
+   "at": {
+    "word": "sabes"
+   },
+   "volume": 0.32,
+   "offset": 0.05
+  },
+  {
+   "src": "lib:pluck_001",
+   "at": {
+    "word": "negocio."
+   },
+   "volume": 0.32,
+   "offset": 0.05
+  },
+  {
+   "src": "synth:whoosh_medium",
+   "at": {
+    "word": "comunidad",
+    "offset": -0.1
+   },
+   "volume": 0.55,
+   "offset": -0.15
+  },
+  {
+   "src": "lib:bsb-1111",
+   "at": {
+    "word": "comunidad"
+   },
+   "volume": 0.22,
+   "offset": 0.2
+  },
+  {
+   "src": "synth:subdrop_short",
+   "at": {
+    "word": "vender."
+   },
+   "volume": 0.45,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:glass_002",
+   "at": {
+    "word": "vender."
+   },
+   "volume": 0.3,
+   "offset": 0.15
+  },
+  {
+   "src": "lib:pluck_002",
+   "at": {
+    "word": "revisa"
+   },
+   "volume": 0.32,
+   "offset": 0.05
+  },
+  {
+   "src": "lib:maximize_006",
+   "at": {
+    "word": "revisa"
+   },
+   "volume": 0.35,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:pop_01",
+   "at": {
+    "word": "ayuda",
+    "offset": -0.2
+   },
+   "volume": 0.4,
+   "offset": 0.2
+  },
+  {
+   "src": "lib:confirmation_001",
+   "at": {
+    "word": "confiar"
+   },
+   "volume": 0.35,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:pluck_002",
+   "at": {
+    "word": "video,"
+   },
+   "volume": 0.32,
+   "offset": 0.05
+  },
+  {
+   "src": "synth:whoosh_medium",
+   "at": {
+    "word": "responde",
+    "offset": -0.1
+   },
+   "volume": 0.55,
+   "offset": -0.15
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "word": "responde"
+   },
+   "volume": 0.15,
+   "offset": 0.1
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "word": "responde"
+   },
+   "volume": 0.15,
+   "offset": 0.2
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "word": "responde"
+   },
+   "volume": 0.15,
+   "offset": 0.30000000000000004
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "word": "responde"
+   },
+   "volume": 0.15,
+   "offset": 0.4
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "word": "responde"
+   },
+   "volume": 0.15,
+   "offset": 0.5
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "word": "responde"
+   },
+   "volume": 0.15,
+   "offset": 0.6
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "word": "responde"
+   },
+   "volume": 0.15,
+   "offset": 0.7000000000000001
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "word": "responde"
+   },
+   "volume": 0.15,
+   "offset": 0.8
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "word": "responde"
+   },
+   "volume": 0.15,
+   "offset": 0.9
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "word": "responde"
+   },
+   "volume": 0.15,
+   "offset": 1.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "word": "responde"
+   },
+   "volume": 0.15,
+   "offset": 1.1
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "word": "responde"
+   },
+   "volume": 0.15,
+   "offset": 1.2000000000000002
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "word": "responde"
+   },
+   "volume": 0.15,
+   "offset": 1.3000000000000003
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "word": "responde"
+   },
+   "volume": 0.15,
+   "offset": 1.4000000000000001
+  },
+  {
+   "src": "synth:impact_soft",
+   "at": {
+    "word": "contratarte."
+   },
+   "volume": 0.5,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:whoosh_medium",
+   "at": {
+    "word": "abrir",
+    "offset": -0.1
+   },
+   "volume": 0.55,
+   "offset": -0.15
+  },
+  {
+   "src": "lib:pluck_002",
+   "at": {
+    "word": "abrir"
+   },
+   "volume": 0.35,
+   "offset": 0.1
+  },
+  {
+   "src": "lib:pluck_001",
+   "at": {
+    "word": "conversación"
+   },
+   "volume": 0.35,
+   "offset": 0.3
+  },
+  {
+   "src": "synth:whoosh_medium",
+   "at": {
+    "word": "mucho",
+    "offset": -0.05
+   },
+   "volume": 0.55,
+   "offset": -0.15
+  },
+  {
+   "src": "synth:riser_short",
+   "at": {
+    "word": "mucho"
+   },
+   "volume": 0.28,
+   "offset": -1.0
+  },
+  {
+   "src": "synth:impact_cinematic",
+   "at": {
+    "word": "mucho"
+   },
+   "volume": 0.5,
+   "offset": -0.05
+  },
+  {
+   "src": "lib:bsb-0307",
+   "at": {
+    "word": "aplauso."
+   },
+   "volume": 0.3,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:braam_01",
+   "at": {
+    "cut": 9
+   },
+   "volume": 0.5,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:impact_cinematic",
+   "at": {
+    "cut": 9
+   },
+   "volume": 0.5,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:whoosh_medium",
+   "at": {
+    "cut": 9,
+    "offset": 0.55
+   },
+   "volume": 0.5,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:click1",
+   "at": {
+    "cut": 9,
+    "offset": 0.55
+   },
+   "volume": 0.6,
+   "offset": 0.9
+  },
+  {
+   "src": "lib:confirmation_002",
+   "at": {
+    "cut": 9,
+    "offset": 0.55
+   },
+   "volume": 0.45,
+   "offset": 0.95
+  },
+  {
+   "src": "synth:pop_02",
+   "at": {
+    "cut": 9,
+    "offset": 0.55
+   },
+   "volume": 0.25,
+   "offset": 1.0
+  },
+  {
+   "src": "synth:pop_02",
+   "at": {
+    "cut": 9,
+    "offset": 0.55
+   },
+   "volume": 0.25,
+   "offset": 1.12
+  },
+  {
+   "src": "synth:pop_02",
+   "at": {
+    "cut": 9,
+    "offset": 0.55
+   },
+   "volume": 0.25,
+   "offset": 1.24
+  },
+  {
+   "src": "synth:pop_02",
+   "at": {
+    "cut": 9,
+    "offset": 0.55
+   },
+   "volume": 0.25,
+   "offset": 1.3599999999999999
+  },
+  {
+   "src": "synth:whoosh_heavy",
+   "at": {
+    "end": true,
+    "offset": -1.85
+   },
+   "volume": 0.55,
+   "offset": -0.1
+  },
+  {
+   "src": "synth:impact_cinematic",
+   "at": {
+    "end": true,
+    "offset": -1.75
+   },
+   "volume": 0.55,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:glass_002",
+   "at": {
+    "end": true,
+    "offset": -1.0
+   },
+   "volume": 0.4,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:swipe_02",
+   "at": {
+    "cut": 1
+   },
+   "volume": 0.16,
+   "offset": -0.06
+  },
+  {
+   "src": "synth:swipe_02",
+   "at": {
+    "cut": 2
+   },
+   "volume": 0.16,
+   "offset": -0.06
+  },
+  {
+   "src": "synth:swipe_02",
+   "at": {
+    "cut": 3
+   },
+   "volume": 0.16,
+   "offset": -0.06
+  },
+  {
+   "src": "synth:swipe_02",
+   "at": {
+    "cut": 5
+   },
+   "volume": 0.16,
+   "offset": -0.06
+  },
+  {
+   "src": "synth:swipe_02",
+   "at": {
+    "cut": 6
+   },
+   "volume": 0.16,
+   "offset": -0.06
+  },
+  {
+   "src": "synth:swipe_02",
+   "at": {
+    "cut": 7
+   },
+   "volume": 0.16,
+   "offset": -0.06
+  },
+  {
+   "src": "synth:swipe_02",
+   "at": {
+    "cut": 8
+   },
+   "volume": 0.16,
+   "offset": -0.06
+  },
+  {
+   "src": "synth:swipe_02",
+   "at": {
+    "cut": 9
+   },
+   "volume": 0.16,
+   "offset": -0.06
+  }
+ ],
+ "music": [
+  {
+   "src": "library/music/_dl/epic2/music/epic-cc-by/ov-1aab6084-889.mp3",
+   "at": 0,
+   "volume": 0.3,
+   "duck": 0.32,
+   "fadeIn": 0.15,
+   "fadeOut": 1.4,
+   "dropAt": {
+    "cut": 9
+   },
+   "drop": 1
+  }
+ ],
+ "mix": {
+  "sfxTarget": -20.0,
+  "sfxDuck": 0.5
+ },
+ "fx": {
+  "grade": "cinematic",
+  "grain": 0.035,
+  "vignette": 0.28,
+  "lightLeakHue": 185
+ }
+}

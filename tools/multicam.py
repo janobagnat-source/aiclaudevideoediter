@@ -174,9 +174,12 @@ def main(argv=None):
                 if i2 - i1 == 1:
                     keep.append((ws[i1], " ".join(stoks[j1:j2])))
                 else:
-                    report.append(f"   [{s['i']}] reemplazo «{' '.join(x['text'] for x in ws[i1:i2])}» → «{' '.join(stoks[j1:j2])}» (se conserva lo dicho)")
-                    for k in range(i2 - i1):
-                        keep.append((ws[i1 + k], ws[i1 + k]["text"]))
+                    # el subtítulo solo lleva texto del guion: se reparte el texto del guion entre las palabras dichas
+                    report.append(f"   [{s['i']}] reemplazo «{' '.join(x['text'] for x in ws[i1:i2])}» → «{' '.join(stoks[j1:j2])}» (subtítulo = guion)")
+                    n_said, n_scr = i2 - i1, j2 - j1
+                    for k in range(n_said):
+                        a0, a1 = -(-k * n_scr // n_said), -(-(k + 1) * n_scr // n_said)
+                        keep.append((ws[i1 + k], " ".join(stoks[j1 + a0:j1 + a1])))
             elif tag == "delete":
                 report.append(f"   [{s['i']}] eliminado fuera de guion: «{' '.join(x['text'] for x in ws[i1:i2])}»")
                 keep.append((None, None))  # marca de corte
@@ -227,11 +230,17 @@ def main(argv=None):
                     start = t - a.keep_gap
                 run_ = None
         segs_.append((start, b_out))
+        segs_ = [x for x in segs_ if x[1] - x[0] >= 0.12] or [(a_in, b_out)]
+        # cada palabra va al tramo más cercano (los tiempos del ASR pueden caer en un silencio recortado: nunca se pierde texto)
+        assign = {}
+        for wd, tx in p["ws"]:
+            m = (wd["start"] + wd["end"]) / 2
+            si = min(range(len(segs_)), key=lambda q: 0 if segs_[q][0] <= m <= segs_[q][1] else min(abs(m - segs_[q][0]), abs(m - segs_[q][1])))
+            assign.setdefault(si, []).append((wd, tx))
         for si, (x0, x1) in enumerate(segs_):
-            ws_in = [(wd, tx) for wd, tx in p["ws"] if x0 - 0.1 <= (wd["start"] + wd["end"]) / 2 <= x1 + 0.1]
-            if x1 - x0 < 0.12 or not ws_in:
+            if si not in assign:
                 continue
-            cuts.append({"piece": {**p, "ws": ws_in}, "in": x0, "out": x1, "intra": si > 0})
+            cuts.append({"piece": {**p, "ws": assign[si]}, "in": x0, "out": x1, "intra": si > 0})
     for k in range(1, len(cuts)):
         if cuts[k]["in"] < cuts[k - 1]["out"]:
             mid = (cuts[k]["in"] + cuts[k - 1]["out"]) / 2
@@ -252,7 +261,14 @@ def main(argv=None):
             cam = "cam1" if key else ("cam2" if cam == "cam1" else "cam1")
         elif dur >= 1.3 and (out and out[-1]["out"] - out[-1]["in"] >= 1.3):
             cam = "cam2" if cam == "cam1" else "cam1"
-        ws = [{"text": txt, "start": round(max(wd["start"], c["in"]) - OFF, 3), "end": round(min(wd["end"], c["out"]) - OFF, 3)} for wd, txt in p["ws"]]
+        ws = []
+        for wd, txt in p["ws"]:
+            e = {"text": txt, "start": round(max(wd["start"], c["in"]) - OFF, 3), "end": round(min(wd["end"], c["out"]) - OFF, 3)}
+            if not txt.strip():
+                if ws:
+                    ws[-1]["end"] = e["end"]  # palabra dicha sin texto propio de guion: extiende la anterior
+                continue
+            ws.append(e)
         out.append({"sentence": s_i, "source": cam, "src": str((src / f"{cam}_9x16.mp4").resolve()),
                     "in": round(c["in"] - OFF, 3), "out": round(c["out"] - OFF, 3),
                     "text": " ".join(x["text"] for x in ws), "section": p.get("section"), "words": ws, "cues": [], "intra": c.get("intra", False)})

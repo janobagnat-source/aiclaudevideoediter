@@ -1,0 +1,671 @@
+{
+  "cuts": [
+    {
+      "sentence": 0,
+      "source": "cam1",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad03/_work/src/cam1_9x16.mp4",
+      "in": 17.21,
+      "out": 22.295,
+      "text": "Duele ver cómo otros crecen en redes mientras tú publicas, te esfuerzas y las ventas no llegan.",
+      "section": "HOOK",
+      "words": [
+        {
+          "text": "Duele",
+          "start": 17.34,
+          "end": 17.82
+        },
+        {
+          "text": "ver",
+          "start": 17.82,
+          "end": 17.98
+        },
+        {
+          "text": "cómo",
+          "start": 17.98,
+          "end": 18.14
+        },
+        {
+          "text": "otros",
+          "start": 18.14,
+          "end": 18.38
+        },
+        {
+          "text": "crecen",
+          "start": 18.38,
+          "end": 18.7
+        },
+        {
+          "text": "en",
+          "start": 18.7,
+          "end": 18.78
+        },
+        {
+          "text": "redes",
+          "start": 18.78,
+          "end": 19.1
+        },
+        {
+          "text": "mientras",
+          "start": 19.1,
+          "end": 19.34
+        },
+        {
+          "text": "tú",
+          "start": 19.34,
+          "end": 19.5
+        },
+        {
+          "text": "publicas,",
+          "start": 19.5,
+          "end": 19.98
+        },
+        {
+          "text": "te",
+          "start": 19.98,
+          "end": 20.14
+        },
+        {
+          "text": "esfuerzas",
+          "start": 20.14,
+          "end": 20.78
+        },
+        {
+          "text": "y",
+          "start": 20.78,
+          "end": 20.94
+        },
+        {
+          "text": "las",
+          "start": 20.94,
+          "end": 21.18
+        },
+        {
+          "text": "ventas",
+          "start": 21.18,
+          "end": 21.58
+        },
+        {
+          "text": "no",
+          "start": 21.58,
+          "end": 21.74
+        },
+        {
+          "text": "llegan.",
+          "start": 21.74,
+          "end": 22.295
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 1,
+      "source": "cam2",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad03/_work/src/cam2_9x16.mp4",
+      "in": 22.33,
+      "out": 25.81,
+      "text": "Y empiezas a pensar: “¿Qué tienen ellos que yo no tengo?”.",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "Y",
+          "start": 22.33,
+          "end": 22.46
+        },
+        {
+          "text": "empiezas",
+          "start": 22.46,
+          "end": 22.94
+        },
+        {
+          "text": "a",
+          "start": 22.94,
+          "end": 23.02
+        },
+        {
+          "text": "pensar:",
+          "start": 23.02,
+          "end": 23.58
+        },
+        {
+          "text": "“¿Qué",
+          "start": 23.58,
+          "end": 23.98
+        },
+        {
+          "text": "tienen",
+          "start": 23.98,
+          "end": 24.38
+        },
+        {
+          "text": "ellos",
+          "start": 24.38,
+          "end": 24.86
+        },
+        {
+          "text": "que yo",
+          "start": 24.94,
+          "end": 25.18
+        },
+        {
+          "text": "no",
+          "start": 25.18,
+          "end": 25.42
+        },
+        {
+          "text": "tengo?”.",
+          "start": 25.42,
+          "end": 25.81
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 2,
+      "source": "cam1",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad03/_work/src/cam1_9x16.mp4",
+      "in": 42.495,
+      "out": 47.01,
+      "text": "Pero desde afuera ves sus seguidores; no sabes qué está pasando dentro de su negocio.",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "Pero",
+          "start": 42.495,
+          "end": 42.54
+        },
+        {
+          "text": "desde",
+          "start": 42.54,
+          "end": 42.86
+        },
+        {
+          "text": "afuera",
+          "start": 42.86,
+          "end": 43.18
+        },
+        {
+          "text": "ves",
+          "start": 43.34,
+          "end": 43.58
+        },
+        {
+          "text": "sus",
+          "start": 43.74,
+          "end": 43.9
+        },
+        {
+          "text": "seguidores;",
+          "start": 43.9,
+          "end": 44.54
+        },
+        {
+          "text": "no",
+          "start": 44.54,
+          "end": 44.78
+        },
+        {
+          "text": "sabes",
+          "start": 44.78,
+          "end": 45.1
+        },
+        {
+          "text": "qué",
+          "start": 45.1,
+          "end": 45.26
+        },
+        {
+          "text": "está",
+          "start": 45.26,
+          "end": 45.42
+        },
+        {
+          "text": "pasando",
+          "start": 45.5,
+          "end": 45.82
+        },
+        {
+          "text": "dentro",
+          "start": 45.82,
+          "end": 46.06
+        },
+        {
+          "text": "de",
+          "start": 46.06,
+          "end": 46.22
+        },
+        {
+          "text": "su",
+          "start": 46.22,
+          "end": 46.38
+        },
+        {
+          "text": "negocio.",
+          "start": 46.38,
+          "end": 47.01
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 3,
+      "source": "cam2",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad03/_work/src/cam2_9x16.mp4",
+      "in": 48.965,
+      "out": 49.735,
+      "text": "Incluso",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "Incluso",
+          "start": 48.965,
+          "end": 49.58
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 3,
+      "source": "cam2",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad03/_work/src/cam2_9x16.mp4",
+      "in": 49.955,
+      "out": 53.09,
+      "text": "puedes tener una comunidad grande y seguir sin vender.",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "puedes",
+          "start": 49.955,
+          "end": 50.06
+        },
+        {
+          "text": "tener",
+          "start": 50.3,
+          "end": 50.62
+        },
+        {
+          "text": "una",
+          "start": 50.62,
+          "end": 50.86
+        },
+        {
+          "text": "comunidad",
+          "start": 50.86,
+          "end": 51.42
+        },
+        {
+          "text": "grande",
+          "start": 51.42,
+          "end": 51.74
+        },
+        {
+          "text": "y",
+          "start": 51.74,
+          "end": 51.9
+        },
+        {
+          "text": "seguir",
+          "start": 51.9,
+          "end": 52.3
+        },
+        {
+          "text": "sin",
+          "start": 52.3,
+          "end": 52.46
+        },
+        {
+          "text": "vender.",
+          "start": 52.46,
+          "end": 53.09
+        }
+      ],
+      "cues": [],
+      "intra": true
+    },
+    {
+      "sentence": 4,
+      "source": "cam1",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad03/_work/src/cam1_9x16.mp4",
+      "in": 53.11,
+      "out": 58.375,
+      "text": "Antes de compararte, revisa algo: ¿tu contenido ayuda a entender qué haces",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "Antes",
+          "start": 53.11,
+          "end": 53.42
+        },
+        {
+          "text": "de",
+          "start": 53.42,
+          "end": 53.58
+        },
+        {
+          "text": "compararte,",
+          "start": 53.58,
+          "end": 54.54
+        },
+        {
+          "text": "revisa",
+          "start": 54.54,
+          "end": 55.34
+        },
+        {
+          "text": "algo:",
+          "start": 55.34,
+          "end": 55.74
+        },
+        {
+          "text": "¿tu",
+          "start": 55.98,
+          "end": 56.22
+        },
+        {
+          "text": "contenido",
+          "start": 56.22,
+          "end": 56.7
+        },
+        {
+          "text": "ayuda",
+          "start": 56.86,
+          "end": 57.34
+        },
+        {
+          "text": "a",
+          "start": 57.34,
+          "end": 57.42
+        },
+        {
+          "text": "entender",
+          "start": 57.42,
+          "end": 57.82
+        },
+        {
+          "text": "qué",
+          "start": 57.82,
+          "end": 58.06
+        },
+        {
+          "text": "haces",
+          "start": 58.06,
+          "end": 58.375
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 4,
+      "source": "cam2",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad03/_work/src/cam2_9x16.mp4",
+      "in": 58.81,
+      "out": 60.79,
+      "text": "y por qué confiar en ti?",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "y",
+          "start": 58.81,
+          "end": 59.02
+        },
+        {
+          "text": "por",
+          "start": 59.02,
+          "end": 59.18
+        },
+        {
+          "text": "qué",
+          "start": 59.18,
+          "end": 59.42
+        },
+        {
+          "text": "confiar",
+          "start": 59.42,
+          "end": 59.9
+        },
+        {
+          "text": "en",
+          "start": 59.9,
+          "end": 60.06
+        },
+        {
+          "text": "ti?",
+          "start": 60.06,
+          "end": 60.62
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 5,
+      "source": "cam1",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad03/_work/src/cam1_9x16.mp4",
+      "in": 64.865,
+      "out": 69.465,
+      "text": "En tu próximo video, responde una duda que tus clientes tengan antes de contratarte.",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "En",
+          "start": 64.865,
+          "end": 64.99
+        },
+        {
+          "text": "tu",
+          "start": 64.99,
+          "end": 65.23
+        },
+        {
+          "text": "próximo",
+          "start": 65.23,
+          "end": 65.55
+        },
+        {
+          "text": "video,",
+          "start": 65.55,
+          "end": 65.71
+        },
+        {
+          "text": "responde",
+          "start": 65.95,
+          "end": 66.43
+        },
+        {
+          "text": "una",
+          "start": 66.51,
+          "end": 66.67
+        },
+        {
+          "text": "duda",
+          "start": 66.67,
+          "end": 66.91
+        },
+        {
+          "text": "que",
+          "start": 66.91,
+          "end": 67.07
+        },
+        {
+          "text": "tus",
+          "start": 67.07,
+          "end": 67.23
+        },
+        {
+          "text": "clientes",
+          "start": 67.23,
+          "end": 67.71
+        },
+        {
+          "text": "tengan",
+          "start": 67.71,
+          "end": 68.11
+        },
+        {
+          "text": "antes",
+          "start": 68.11,
+          "end": 68.35
+        },
+        {
+          "text": "de",
+          "start": 68.35,
+          "end": 68.51
+        },
+        {
+          "text": "contratarte.",
+          "start": 68.51,
+          "end": 69.23
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 6,
+      "source": "cam2",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad03/_work/src/cam2_9x16.mp4",
+      "in": 69.465,
+      "out": 75.115,
+      "text": "Ese contenido puede abrir una conversación comercial mucho más valiosa que un aplauso.",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "Ese",
+          "start": 69.47,
+          "end": 69.79
+        },
+        {
+          "text": "contenido",
+          "start": 69.79,
+          "end": 70.35
+        },
+        {
+          "text": "puede",
+          "start": 70.35,
+          "end": 70.59
+        },
+        {
+          "text": "abrir",
+          "start": 70.75,
+          "end": 71.15
+        },
+        {
+          "text": "una",
+          "start": 71.31,
+          "end": 71.47
+        },
+        {
+          "text": "conversación",
+          "start": 71.47,
+          "end": 72.03
+        },
+        {
+          "text": "comercial",
+          "start": 72.03,
+          "end": 72.67
+        },
+        {
+          "text": "mucho",
+          "start": 72.83,
+          "end": 73.15
+        },
+        {
+          "text": "más",
+          "start": 73.15,
+          "end": 73.39
+        },
+        {
+          "text": "valiosa",
+          "start": 73.39,
+          "end": 74.03
+        },
+        {
+          "text": "que",
+          "start": 74.03,
+          "end": 74.19
+        },
+        {
+          "text": "un",
+          "start": 74.19,
+          "end": 74.43
+        },
+        {
+          "text": "aplauso.",
+          "start": 74.43,
+          "end": 74.99
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 7,
+      "source": "cam1",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad03/_work/src/cam1_9x16.mp4",
+      "in": 79.235,
+      "out": 83.9,
+      "text": "Sígueme para ayudarte a escalar tu negocio acelerando tus ventas.",
+      "section": "CTA",
+      "words": [
+        {
+          "text": "Sígueme",
+          "start": 79.235,
+          "end": 79.71
+        },
+        {
+          "text": "para",
+          "start": 79.87,
+          "end": 80.03
+        },
+        {
+          "text": "ayudarte",
+          "start": 80.03,
+          "end": 80.43
+        },
+        {
+          "text": "a",
+          "start": 80.43,
+          "end": 80.59
+        },
+        {
+          "text": "escalar",
+          "start": 80.59,
+          "end": 80.99
+        },
+        {
+          "text": "tu",
+          "start": 80.99,
+          "end": 81.15
+        },
+        {
+          "text": "negocio",
+          "start": 81.15,
+          "end": 81.31
+        },
+        {
+          "text": "acelerando",
+          "start": 81.47,
+          "end": 82.11
+        },
+        {
+          "text": "tus",
+          "start": 82.11,
+          "end": 82.35
+        },
+        {
+          "text": "ventas.",
+          "start": 82.35,
+          "end": 83.55
+        }
+      ],
+      "cues": [],
+      "intra": false
+    }
+  ],
+  "duration": 39.145,
+  "raw_offset": 173.6
+}
