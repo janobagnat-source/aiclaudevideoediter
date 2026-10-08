@@ -156,7 +156,8 @@ def main(argv=None):
         keep = []
         for tag, i1, i2, j1, j2 in sm.get_opcodes():
             if tag == "replace" and i2 - i1 == j2 - j1 and any(
-                    fuzz.ratio(ws[i1 + k]["n"], norm(stoks[j1 + k])) < 60 for k in range(i2 - i1)):
+                    fuzz.ratio(ws[i1 + k]["n"], norm(stoks[j1 + k])) < 60 and max(len(ws[i1 + k]["n"]), len(norm(stoks[j1 + k]))) > 3
+                    for k in range(i2 - i1)):  # «el»↔«al», «lo»↔«la»: variación dicha, se conserva el audio
                 # palabras distintas (no es variación ortográfica): lo dicho sobra y lo del guion falta
                 report.append(f"   [{s['i']}] eliminado fuera de guion: «{' '.join(x['text'] for x in ws[i1:i2])}»")
                 keep.append((None, None))

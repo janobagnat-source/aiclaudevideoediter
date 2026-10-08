@@ -1,0 +1,38 @@
+Assets de terceros usados (licencias libres)
+
+- icon: ph:briefcase-bold — Phosphor Icons [iconify] https://phosphoricons.com (MIT)
+- icon: ph:question-bold — Phosphor Icons [iconify] https://phosphoricons.com (MIT)
+- icon: ph:trend-up-bold — Phosphor Icons [iconify] https://phosphoricons.com (MIT)
+- icon: ph:hourglass-high-bold — Phosphor Icons [iconify] https://phosphoricons.com (MIT)
+- icon: ph:tag-bold — Phosphor Icons [iconify] https://phosphoricons.com (MIT)
+- icon: ph:coins-bold — Phosphor Icons [iconify] https://phosphoricons.com (MIT)
+- icon: ph:user-plus-bold — Phosphor Icons [iconify] https://phosphoricons.com (MIT)
+- icon: ph:rocket-launch-bold — Phosphor Icons [iconify] https://phosphoricons.com (MIT)
+- icon: ph:scales-bold — Phosphor Icons [iconify] https://phosphoricons.com (MIT)
+- icon: ph:users-three-bold — Phosphor Icons [iconify] https://phosphoricons.com (MIT)
+- icon: ph:clock-countdown-bold — Phosphor Icons [iconify] https://phosphoricons.com (MIT)
+- sfx: impactPunch_medium_000 — Kenney.nl [cc0] https://kenney.nl/assets/impact-sounds
+- sfx: confirmation_001 — Kenney.nl [cc0] https://kenney.nl/assets/interface-sounds
+- sfx: confirmation_002 — Kenney.nl [cc0] https://kenney.nl/assets/interface-sounds
+- sfx: glass_002 — Kenney.nl [cc0] https://kenney.nl/assets/interface-sounds
+- sfx: pluck_001 — Kenney.nl [cc0] https://kenney.nl/assets/interface-sounds
+- sfx: pluck_002 — Kenney.nl [cc0] https://kenney.nl/assets/interface-sounds
+- sfx: question_001 — Kenney.nl [cc0] https://kenney.nl/assets/interface-sounds
+- sfx: tick_001 — Kenney.nl [cc0] https://kenney.nl/assets/interface-sounds
+- sfx: tick_002 — Kenney.nl [cc0] https://kenney.nl/assets/interface-sounds
+- sfx: phaserUp3 — Kenney.nl [cc0] https://kenney.nl/assets/digital-audio
+- sfx: card-slide-1 — Kenney.nl [cc0] https://kenney.nl/assets/casino-audio
+- sfx: card-slide-3 — Kenney.nl [cc0] https://kenney.nl/assets/casino-audio
+- sfx: card-slide-5 — Kenney.nl [cc0] https://kenney.nl/assets/casino-audio
+- sfx: chips-collide-2 — Kenney.nl [cc0] https://kenney.nl/assets/casino-audio
+- sfx: chips-stack-3 — Kenney.nl [cc0] https://kenney.nl/assets/casino-audio
+- sfx: click1 — Kenney.nl [cc0] https://kenney.nl/assets/ui-audio
+- sfx: switch7 — Kenney.nl [cc0] https://kenney.nl/assets/ui-audio
+- music: Apocalypse — Hyperreal [by] https://www.jamendo.com/track/1076987
+- sfx: Beep of a Cash Register — Joseph Sardin (BigSoundBank) [cc0] https://bigsoundbank.com/beep-of-a-cash-register-s1417.html
+- sfx: Coin in cup — Joseph Sardin (BigSoundBank) [cc0] https://bigsoundbank.com/coin-in-cup-1-s0339.html
+- sfx: Whoosh — Joseph Sardin (BigSoundBank) [cc0] https://bigsoundbank.com/whoosh-4-s1796.html
+- sfx: Whoosh — Joseph Sardin (BigSoundBank) [cc0] https://bigsoundbank.com/whoosh-3-s1795.html
+
+REQUIEREN ATRIBUCIÓN (poner en descripción del anuncio/video):
+  "Apocalypse" by Hyperreal is licensed under CC BY 3.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/3.0/.
