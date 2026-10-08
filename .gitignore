@@ -30,3 +30,13 @@ clientes/**/_work/*
 
 # Proyecto demo sintético (solo para pruebas del pipeline)
 clientes/demo/
+
+# Material pesado del cliente (queda en Drive; se re-descarga con ./ve fetch)
+clientes/*/crudos_*/
+clientes/*/_tanda*/
+clientes/*/marca/pdf/
+clientes/*/marca/pages/
+clientes/*/marca/img/
+clientes/*/proyectos/*/referencias/*.mp4
+!clientes/**/_work/make_overlays.py
+!clientes/**/_work/edl.json

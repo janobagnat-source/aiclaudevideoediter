@@ -26,7 +26,7 @@ export const Edit: React.FC<{edit: EditT}> = ({edit}) => {
 				<Vignette amount={edit.fx.vignette} />
 				<FilmGrain amount={edit.fx.grain} />
 				<Letterbox ratio={edit.fx.letterbox} />
-				<LightLeaks cuts={edit.cuts} />
+				<LightLeaks cuts={edit.cuts} hue={edit.fx.lightLeakHue ?? 0} />
 				<TransitionOverlays cuts={edit.cuts} color={edit.brand.colors.primary} />
 				<AudioLayer sfx={edit.sfx} music={edit.music} speech={edit.speech} />
 			</AbsoluteFill>

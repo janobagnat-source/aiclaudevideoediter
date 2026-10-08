@@ -307,3 +307,67 @@ export const Phone3D: React.FC<GProps & {screen: string; x?: number; scale?: num
 		</Canvas3D>
 	);
 };
+
+// ---------------------------------------------------------------- Monedas doradas 3D
+/** Monedas de oro 3D. mode: 'rain' (caen de arriba), 'fountain' (saltan desde abajo y caen), 'drain' (caen y se van).
+ * props: count, mode, xMin/xMax (0-1, zona horizontal permitida — evitar la cara), yMin (0-1 límite superior de aparición), size */
+export const Coins3D: React.FC<GProps & {count?: number; mode?: 'rain' | 'fountain' | 'drain'; xMin?: number; xMax?: number; avoid?: [number, number]; yTop?: number; size?: number}> = ({dur, count = 26, mode = 'rain', xMin = 0, xMax = 1, avoid, yTop = 0, size = 1}) => {
+	const frame = useCurrentFrame();
+	const {fps, width, height} = useVideoConfig();
+	const aspect = width / height;
+	const z = 10;
+	const visH = 2 * Math.tan((35 / 2) * (Math.PI / 180)) * z;
+	const visW = visH * aspect;
+	const coins = useMemo(
+		() =>
+			Array.from({length: count}, (_, i) => {
+				let xr = xMin + random(`cx${i}`) * (xMax - xMin);
+				if (avoid && xr > avoid[0] && xr < avoid[1]) xr = random(`cs${i}`) > 0.5 ? avoid[0] - random(`ca${i}`) * 0.15 : avoid[1] + random(`cb${i}`) * 0.15;
+				return {x: (xr - 0.5) * visW, delay: random(`cd${i}`) * (mode === 'fountain' ? 10 : 22), vx: (random(`vx${i}`) - 0.5) * 2, vy: 9 + random(`vy${i}`) * 6, spin: 4 + random(`sp${i}`) * 8, ax: random(`ax${i}`) * Math.PI, s: (0.32 + random(`ss${i}`) * 0.22) * size, zz: -random(`zz${i}`) * 4};
+			}),
+		[count, xMin, xMax, avoid, visW, mode, size],
+	);
+	const out = interpolate(frame, [dur - 8, dur], [1, 0], clamp);
+	return (
+		<Canvas3D z={z}>
+			<ambientLight intensity={0.5} />
+			<directionalLight position={[3, 5, 6]} intensity={3} />
+			<pointLight position={[-4, 2, 4]} intensity={40} color="#ffd36b" />
+			<Environment resolution={128} frames={1}>
+				<Lightformer form="rect" intensity={4} position={[0, 5, -3]} scale={[10, 2, 1]} />
+				<Lightformer form="rect" intensity={2} color="#3474FF" position={[-5, 0, 2]} rotation-y={Math.PI / 2} scale={[6, 2, 1]} />
+				<Lightformer form="ring" intensity={2} position={[0, 0, 6]} scale={4} />
+			</Environment>
+			{coins.map((c, i) => {
+				const t = Math.max(0, (frame - c.delay) / fps);
+				if (frame < c.delay) return null;
+				let y: number;
+				let x = c.x;
+				if (mode === 'fountain') {
+					y = -visH / 2 - 1 + c.vy * t - 0.5 * 18 * t * t;
+					x = c.x + c.vx * t;
+				} else {
+					const top = visH / 2 - yTop * visH + 1.2;
+					y = top - 0.5 * 14 * t * t - 1.5 * t;
+					if (mode === 'drain') x = c.x * (1 - t * 0.3);
+				}
+				return (
+					<group key={i} position={[x, y, c.zz]} rotation={[c.ax + t * c.spin, t * c.spin * 0.7, t * 1.3]} scale={c.s * out}>
+						<mesh rotation={[Math.PI / 2, 0, 0]}>
+							<cylinderGeometry args={[1, 1, 0.16, 48]} />
+							<meshPhysicalMaterial color="#ffc42e" metalness={0.85} roughness={0.28} clearcoat={1} emissive="#6b4700" emissiveIntensity={0.35} envMapIntensity={1.6} />
+						</mesh>
+						<mesh position={[0, 0, 0.085]}>
+							<torusGeometry args={[0.78, 0.05, 12, 48]} />
+							<meshPhysicalMaterial color="#fff0b0" metalness={1} roughness={0.15} />
+						</mesh>
+						<mesh position={[0, 0, -0.085]}>
+							<torusGeometry args={[0.78, 0.05, 12, 48]} />
+							<meshPhysicalMaterial color="#fff0b0" metalness={1} roughness={0.15} />
+						</mesh>
+					</group>
+				);
+			})}
+		</Canvas3D>
+	);
+};

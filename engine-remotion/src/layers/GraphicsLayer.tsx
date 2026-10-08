@@ -3,7 +3,8 @@ import React from 'react';
 import {AbsoluteFill, Sequence, staticFile, useVideoConfig} from 'remotion';
 import {BarChart, Checklist, Countdown, HookTitle, KineticText, LowerThird, OfferBadge, ProgressBar, SplitCompare, StatCounter, Testimonial} from '../graphics/text';
 import {ArrowCallout, BrandBackground, CircleHighlight, CTAEndCard, Flash, FloatingCard, IconPop, LogoSting, Notification, ShapeBurst} from '../graphics/visual';
-import {Logo3D, Model3D, Particles3D, Phone3D, Shapes3D, Text3DTitle} from '../three/scenes';
+import {Coins3D, Logo3D, Model3D, Particles3D, Phone3D, Shapes3D, Text3DTitle} from '../three/scenes';
+import {AgendaFill, BlockTitle, BrandScene, CostTags, CTAPill, GrowthLine, IconBadge, InstagramFollow, ProfitGap, QuestionCard, TimeIsMoney} from '../graphics/premium';
 import type {Graphic} from '../types';
 
 /** Video con alfa (p.ej. overlay renderizado con HyperFrames en WebM/ProRes 4444) o elemento de stock. props: src, blend, opacity, fit */
@@ -46,6 +47,18 @@ export const REGISTRY: Record<string, React.FC<any>> = {
 	Particles3D,
 	Shapes3D,
 	Phone3D,
+	Coins3D,
+	IconBadge,
+	BlockTitle,
+	BrandScene,
+	ProfitGap,
+	AgendaFill,
+	TimeIsMoney,
+	CostTags,
+	QuestionCard,
+	InstagramFollow,
+	CTAPill,
+	GrowthLine,
 };
 
 export const GraphicsLayer: React.FC<{items: Graphic[]; layer: 'under' | 'over' | 'top'}> = ({items, layer}) => {

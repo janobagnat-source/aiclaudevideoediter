@@ -32,7 +32,7 @@ def master(src: Path, dst: Path, lufs: float, tp: float = -1.0) -> dict:
     m = json.loads(txt[txt.rindex("{"): txt.rindex("}") + 1])
     af = (f"loudnorm=I={lufs}:TP={tp}:LRA=11:measured_I={m['input_i']}:measured_TP={m['input_tp']}:"
           f"measured_LRA={m['input_lra']}:measured_thresh={m['input_thresh']}:offset={m['target_offset']}:linear=true,"
-          f"aresample=48000")
+          f"aresample=192000,alimiter=limit=0.83:level=false:attack=1:release=60,aresample=48000")
     run(["ffmpeg", "-v", "error", "-y", "-i", src, "-c:v", "copy", "-af", af, "-c:a", "aac", "-b:a", "320k",
          "-movflags", "+faststart", dst])
     return m

@@ -1,0 +1,9 @@
+{
+  "cliente": "carlos-buelvas",
+  "colors": {"primary": "#3474FF", "secondary": "#FFBB00", "accent": "#0034B7", "dark": "#020617", "light": "#FFFFFF",
+             "blueDeep": "#0034B7", "blue": "#3474FF", "gold": "#FFBB00", "purple": "#5E318E", "green": "#00E051"},
+  "fonts": {"heading": "Montserrat", "body": "Montserrat", "files": []},
+  "logo": "clientes/carlos-buelvas/marca/logo_blanco.png",
+  "logos": ["clientes/carlos-buelvas/marca/logo_blanco.png", "clientes/carlos-buelvas/marca/logo_dorado.png", "clientes/carlos-buelvas/marca/logo.svg"],
+  "style_notes": "ver brand.md"
+}

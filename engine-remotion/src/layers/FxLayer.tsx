@@ -45,7 +45,7 @@ const LeakInner: React.FC<{seed: number; hue: number}> = ({seed, hue}) => {
 		<Solid
 			width={width}
 			height={height}
-			style={{mixBlendMode: 'screen'}}
+			style={{mixBlendMode: 'screen', opacity: 0.75}}
 			effects={[lightLeak({seed, hueShift: hue, progress: interpolate(frame, [0, durationInFrames - 1], [0, 1], clamp)})]}
 		/>
 	);

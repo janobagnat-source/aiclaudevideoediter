@@ -221,9 +221,9 @@ def main(argv=None):
         st, du = span(g, 2.0)
         props = dict(g.get("props", {}))
         for k, v in list(props.items()):  # assets dentro de props (logos, modelos 3D, imágenes)
-            if isinstance(v, str) and (k.endswith("src") or k.endswith("Src") or k in ("logo", "model", "image", "hdri")):
-                if not v.startswith("http"):
-                    props[k] = to_public(resolve_media(v, proj))
+            if isinstance(v, str) and not v.startswith("http") and re.search(
+                    r"\.(png|jpe?g|webp|gif|svg|mp4|mov|webm|gltf|glb|hdr|json|wav|mp3|ogg)$", v, re.I):
+                props[k] = to_public(resolve_media(v, proj))
         graphics.append({**g, "props": props, "start": st, "duration": du})
     sfx = []
     for s in ov.get("sfx", []):

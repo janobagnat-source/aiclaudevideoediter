@@ -79,10 +79,12 @@ const ClipInner: React.FC<{cut: Cut; next: Cut | undefined; grade: string}> = ({
 		.join(' ');
 	const ox = cut.focus.x * 100;
 	const oy = cut.focus.y * 100;
-	const effects = [
-		zoomBlur({amount: tr.zb ?? 0, center: [cut.focus.x, cut.focus.y], samples: 16, disabled: !tr.zb}),
-		chromaticAberration({amount: tr.ca ?? 0, angle: 0, disabled: !tr.ca}),
-	];
+	// Solo se crean efectos WebGL si este corte los necesita (cada uno abre un contexto WebGL y Chrome tiene límite)
+	const GL_TR = ['zoom-in', 'zoom-out', 'glitch', 'rgb-split'];
+	const needsFx = GL_TR.includes(tin?.type ?? '') || GL_TR.includes(tout?.type ?? '');
+	const effects = needsFx
+		? [zoomBlur({amount: tr.zb ?? 0, center: [cut.focus.x, cut.focus.y], samples: 16, disabled: !tr.zb}), chromaticAberration({amount: tr.ca ?? 0, angle: 0, disabled: !tr.ca})]
+		: [];
 	return (
 		<AbsoluteFill style={{overflow: 'hidden'}}>
 			<AbsoluteFill

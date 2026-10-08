@@ -1,0 +1,1856 @@
+{
+ "format": "9:16",
+ "fps": 30,
+ "tail": 1.9,
+ "background": "#01030c",
+ "logo": "clientes/carlos-buelvas/marca/logo_blanco.png",
+ "zoom": {
+  "auto": false
+ },
+ "cuts": {
+  "0": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.14
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.34
+    },
+    {
+     "t": 0.5,
+     "s": 1.12,
+     "ease": "smooth"
+    },
+    {
+     "t": 3.3,
+     "s": 1.15
+    },
+    {
+     "t": 3.52,
+     "s": 1.25,
+     "ease": "punch"
+    },
+    {
+     "t": 3.84,
+     "s": 1.27
+    }
+   ]
+  },
+  "1": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.27
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.04
+    },
+    {
+     "t": 3.9,
+     "s": 1.12,
+     "ease": "linear"
+    }
+   ]
+  },
+  "2": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.14
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.06
+    },
+    {
+     "t": 2.4,
+     "s": 1.12,
+     "ease": "smooth"
+    },
+    {
+     "t": 2.55,
+     "s": 1.2,
+     "ease": "punch"
+    },
+    {
+     "t": 3.17,
+     "s": 1.21
+    }
+   ]
+  },
+  "3": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.14
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.0
+    },
+    {
+     "t": 2.3,
+     "s": 1.05,
+     "ease": "linear"
+    }
+   ]
+  },
+  "4": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.27
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.1
+    },
+    {
+     "t": 2.0,
+     "s": 1.18,
+     "ease": "smooth"
+    }
+   ],
+   "fx": {
+    "shake": 3
+   }
+  },
+  "5": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.14
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.16
+    },
+    {
+     "t": 0.6,
+     "s": 1.22,
+     "ease": "punch"
+    }
+   ]
+  },
+  "6": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.14
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.04
+    },
+    {
+     "t": 2.6,
+     "s": 1.1,
+     "ease": "linear"
+    }
+   ]
+  },
+  "7": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.27
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.14
+    },
+    {
+     "t": 1.36,
+     "s": 1.2,
+     "ease": "smooth"
+    }
+   ]
+  },
+  "8": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.14
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.08
+    }
+   ]
+  },
+  "9": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.27
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.1
+    }
+   ]
+  },
+  "10": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.27
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.0
+    },
+    {
+     "t": 1.6,
+     "s": 1.05,
+     "ease": "smooth"
+    },
+    {
+     "t": 1.84,
+     "s": 1.13,
+     "ease": "punch"
+    },
+    {
+     "t": 2.58,
+     "s": 1.14
+    }
+   ]
+  },
+  "11": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.14
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.1
+    },
+    {
+     "t": 1.2,
+     "s": 1.15,
+     "ease": "smooth"
+    },
+    {
+     "t": 2.7,
+     "s": 1.16
+    },
+    {
+     "t": 2.85,
+     "s": 1.24,
+     "ease": "punch"
+    },
+    {
+     "t": 3.74,
+     "s": 1.26
+    }
+   ]
+  },
+  "12": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.27
+   },
+   "transition": {
+    "type": "light-leak"
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.0
+    },
+    {
+     "t": 2.91,
+     "s": 1.13,
+     "ease": "smooth"
+    }
+   ]
+  },
+  "13": {
+   "focus": {
+    "x": 0.5,
+    "y": 0.14
+   },
+   "transition": {
+    "type": "flash",
+    "duration": 0.3
+   },
+   "zoom": [
+    {
+     "t": 0,
+     "s": 1.22
+    },
+    {
+     "t": 0.35,
+     "s": 1.08,
+     "ease": "smooth"
+    },
+    {
+     "t": 3.56,
+     "s": 1.13,
+     "ease": "linear"
+    }
+   ]
+  }
+ },
+ "captions": {
+  "enabled": true,
+  "style": "premium",
+  "position": 0.605,
+  "maxWords": 3,
+  "uppercase": true,
+  "emphasis": [
+   "dinero?",
+   "agenda",
+   "llena,",
+   "creciendo”.",
+   "pagar",
+   "muchísimo",
+   "poco",
+   "tiempo",
+   "extra,",
+   "regalas",
+   "descuentos",
+   "costo.",
+   "ganancia",
+   "justifica",
+   "bienestar.",
+   "sígueme",
+   "escalar",
+   "ventas."
+  ],
+  "hideDuring": [
+   [
+    0,
+    3.84
+   ],
+   [
+    30.55,
+    33.9
+   ],
+   [
+    37.4,
+    99
+   ]
+  ]
+ },
+ "graphics": [
+  {
+   "component": "Flash",
+   "at": 0,
+   "layer": "top",
+   "props": {
+    "peak": 0.9,
+    "color": "#dbe7ff"
+   },
+   "duration": 0.28
+  },
+  {
+   "component": "BlockTitle",
+   "at": 0.02,
+   "layer": "over",
+   "props": {
+    "y": 0.71,
+    "width": 0.84,
+    "stagger": 13,
+    "enter": "slam",
+    "lines": [
+     {
+      "text": "¿DE QUÉ SIRVE"
+     },
+     {
+      "text": "VENDER MÁS",
+      "color": "gold"
+     }
+    ]
+   },
+   "until": {
+    "word": "al"
+   }
+  },
+  {
+   "component": "IconBadge",
+   "at": {
+    "word": "vender"
+   },
+   "layer": "over",
+   "props": {
+    "icon": "_work/assets/icons/trend-up-bold.svg",
+    "x": 0.83,
+    "y": 0.43,
+    "leader": "left",
+    "leaderLen": 120,
+    "size": 0.95
+   },
+   "duration": 1.7
+  },
+  {
+   "component": "BlockTitle",
+   "at": {
+    "word": "al"
+   },
+   "layer": "over",
+   "props": {
+    "y": 0.72,
+    "width": 0.86,
+    "stagger": 9,
+    "enter": "rise",
+    "lines": [
+     {
+      "text": "AL FINAL DEL MES",
+      "color": "outline",
+      "weight": 800
+     },
+     {
+      "text": "SI SIGUES PREOCUPADO",
+      "weight": 900
+     },
+     {
+      "text": "POR EL DINERO?",
+      "color": "gold"
+     }
+    ]
+   },
+   "until": {
+    "cut": 1,
+    "offset": -0.02
+   }
+  },
+  {
+   "component": "Coins3D",
+   "at": {
+    "word": "dinero?",
+    "offset": -0.3
+   },
+   "layer": "over",
+   "props": {
+    "mode": "rain",
+    "count": 24,
+    "avoid": [
+     0.26,
+     0.74
+    ],
+    "size": 0.95
+   },
+   "until": {
+    "cut": 1,
+    "offset": -0.02
+   }
+  },
+  {
+   "component": "Flash",
+   "at": {
+    "word": "dinero?"
+   },
+   "layer": "top",
+   "props": {
+    "peak": 0.45,
+    "color": "#FFBB00"
+   },
+   "duration": 0.18
+  },
+  {
+   "component": "BrandScene",
+   "at": {
+    "word": "agenda",
+    "offset": -0.25
+   },
+   "layer": "under",
+   "props": {
+    "variant": "glow"
+   },
+   "until": {
+    "word": "todo",
+    "offset": -0.1
+   }
+  },
+  {
+   "component": "AgendaFill",
+   "at": {
+    "word": "agenda",
+    "offset": -0.2
+   },
+   "layer": "over",
+   "props": {
+    "title": "AGENDA LLENA",
+    "y": 0.29,
+    "rows": 6
+   },
+   "until": {
+    "word": "todo",
+    "offset": -0.1
+   }
+  },
+  {
+   "component": "IconBadge",
+   "at": {
+    "word": "atendemos"
+   },
+   "layer": "over",
+   "props": {
+    "icon": "_work/assets/icons/users-three-bold.svg",
+    "x": 0.5,
+    "y": 0.8,
+    "leader": "none",
+    "label": "CLIENTES TODO EL DÍA",
+    "size": 0.9
+   },
+   "until": {
+    "word": "todo",
+    "offset": -0.1
+   }
+  },
+  {
+   "component": "IconBadge",
+   "at": {
+    "word": "todo"
+   },
+   "layer": "over",
+   "props": {
+    "icon": "_work/assets/icons/hourglass-high-bold.svg",
+    "x": 0.83,
+    "y": 0.47,
+    "leader": "left",
+    "size": 0.85
+   },
+   "until": {
+    "cut": 2
+   }
+  },
+  {
+   "component": "IconBadge",
+   "at": {
+    "word": "“Ahora"
+   },
+   "layer": "over",
+   "props": {
+    "icon": "_work/assets/icons/rocket-launch-bold.svg",
+    "x": 0.83,
+    "y": 0.44,
+    "leader": "left",
+    "size": 0.95,
+    "label": "CRECIENDO"
+   },
+   "until": {
+    "cut": 3,
+    "offset": -0.05
+   }
+  },
+  {
+   "component": "GrowthLine",
+   "at": {
+    "word": "negocio"
+   },
+   "layer": "over",
+   "props": {
+    "y": 0.83,
+    "h": 0.13
+   },
+   "until": {
+    "cut": 3,
+    "offset": -0.05
+   }
+  },
+  {
+   "component": "BrandScene",
+   "at": {
+    "word": "el",
+    "n": 4,
+    "offset": -0.1
+   },
+   "layer": "under",
+   "props": {
+    "variant": "tunnel"
+   },
+   "until": {
+    "cut": 4,
+    "offset": -0.02
+   }
+  },
+  {
+   "component": "BlockTitle",
+   "at": {
+    "word": "momento",
+    "offset": -0.15
+   },
+   "layer": "over",
+   "props": {
+    "y": 0.27,
+    "width": 0.84,
+    "stagger": 7,
+    "enter": "rise",
+    "lines": [
+     {
+      "text": "LLEGA EL MOMENTO",
+      "weight": 800
+     },
+     {
+      "text": "DE PAGAR",
+      "color": "outline"
+     },
+     {
+      "text": "TODO",
+      "color": "gold"
+     }
+    ]
+   },
+   "until": {
+    "cut": 4,
+    "offset": -0.02
+   }
+  },
+  {
+   "component": "Coins3D",
+   "at": {
+    "word": "pagar"
+   },
+   "layer": "over",
+   "props": {
+    "mode": "drain",
+    "count": 18,
+    "yTop": 0.66,
+    "size": 0.85
+   },
+   "until": {
+    "cut": 4,
+    "offset": -0.02
+   }
+  },
+  {
+   "component": "IconBadge",
+   "at": {
+    "word": "trabajamos"
+   },
+   "layer": "over",
+   "props": {
+    "icon": "_work/assets/icons/briefcase-bold.svg",
+    "x": 0.83,
+    "y": 0.46,
+    "leader": "left",
+    "size": 0.9,
+    "label": "MUCHÍSIMO"
+   },
+   "until": {
+    "cut": 5,
+    "offset": -0.05
+   }
+  },
+  {
+   "component": "BrandScene",
+   "at": {
+    "word": "lo",
+    "n": 1,
+    "offset": -0.12
+   },
+   "layer": "under",
+   "props": {
+    "variant": "glow"
+   },
+   "until": {
+    "cut": 6,
+    "offset": -0.02
+   }
+  },
+  {
+   "component": "ProfitGap",
+   "at": {
+    "word": "lo",
+    "n": 1,
+    "offset": -0.1
+   },
+   "layer": "over",
+   "props": {
+    "y": 0.27,
+    "h": 0.34,
+    "salesLabel": "VENDES",
+    "keepLabel": "TE QUEDA",
+    "sales": 12000,
+    "keep": 850
+   },
+   "until": {
+    "cut": 6,
+    "offset": -0.02
+   }
+  },
+  {
+   "component": "IconBadge",
+   "at": {
+    "word": "servicio,"
+   },
+   "layer": "over",
+   "props": {
+    "icon": "_work/assets/icons/tag-bold.svg",
+    "x": 0.83,
+    "y": 0.44,
+    "leader": "left",
+    "size": 0.9,
+    "label": "SERVICIO"
+   },
+   "until": {
+    "word": "tu",
+    "offset": -0.1
+   }
+  },
+  {
+   "component": "BrandScene",
+   "at": {
+    "word": "tu",
+    "offset": -0.08
+   },
+   "layer": "under",
+   "props": {
+    "variant": "pattern",
+    "word": "TIEMPO"
+   },
+   "until": {
+    "cut": 7,
+    "offset": -0.02
+   }
+  },
+  {
+   "component": "TimeIsMoney",
+   "at": {
+    "word": "tu",
+    "offset": -0.05
+   },
+   "layer": "over",
+   "props": {
+    "x": 0.5,
+    "y": 0.26,
+    "size": 0.95,
+    "label": "TU TIEMPO TAMBIÉN CUENTA"
+   },
+   "until": {
+    "cut": 7,
+    "offset": -0.02
+   }
+  },
+  {
+   "component": "IconBadge",
+   "at": {
+    "word": "Las"
+   },
+   "layer": "over",
+   "props": {
+    "icon": "_work/assets/icons/clock-countdown-bold.svg",
+    "x": 0.83,
+    "y": 0.46,
+    "leader": "left",
+    "size": 0.9,
+    "label": "HORAS EXTRA"
+   },
+   "until": {
+    "cut": 8,
+    "offset": -0.02
+   }
+  },
+  {
+   "component": "BrandScene",
+   "at": {
+    "cut": 8,
+    "offset": -0.02
+   },
+   "layer": "under",
+   "props": {
+    "variant": "glow"
+   },
+   "until": {
+    "cut": 10,
+    "offset": -0.02
+   }
+  },
+  {
+   "component": "CostTags",
+   "at": {
+    "cut": 8,
+    "offset": -0.02
+   },
+   "layer": "over",
+   "props": {
+    "y": 0.28,
+    "items": [
+     "HORAS EXTRA",
+     "CAMBIOS QUE REGALAS",
+     "DESCUENTOS"
+    ],
+    "delays": [
+     0,
+     12,
+     48
+    ],
+    "tag": "COSTO"
+   },
+   "until": {
+    "cut": 10,
+    "offset": -0.02
+   }
+  },
+  {
+   "component": "Flash",
+   "at": {
+    "word": "costo."
+   },
+   "layer": "top",
+   "props": {
+    "peak": 0.35,
+    "color": "#FFBB00"
+   },
+   "duration": 0.2
+  },
+  {
+   "component": "IconBadge",
+   "at": {
+    "word": "otro"
+   },
+   "layer": "over",
+   "props": {
+    "icon": "_work/assets/icons/user-plus-bold.svg",
+    "x": 0.83,
+    "y": 0.46,
+    "leader": "left",
+    "size": 0.9,
+    "label": "OTRO CLIENTE"
+   },
+   "until": {
+    "word": "pregúntate:",
+    "offset": -0.05
+   }
+  },
+  {
+   "component": "IconBadge",
+   "at": {
+    "word": "pregúntate:"
+   },
+   "layer": "over",
+   "props": {
+    "icon": "_work/assets/icons/question-bold.svg",
+    "x": 0.83,
+    "y": 0.46,
+    "leader": "left",
+    "size": 0.95
+   },
+   "until": {
+    "cut": 11,
+    "offset": -0.02
+   }
+  },
+  {
+   "component": "IconBadge",
+   "at": {
+    "word": "trabajo"
+   },
+   "layer": "over",
+   "props": {
+    "icon": "_work/assets/icons/scales-bold.svg",
+    "x": 0.83,
+    "y": 0.44,
+    "leader": "left",
+    "size": 0.9
+   },
+   "until": {
+    "word": "ganancia",
+    "offset": -0.15
+   }
+  },
+  {
+   "component": "BrandScene",
+   "at": {
+    "word": "ganancia",
+    "offset": -0.12
+   },
+   "layer": "under",
+   "props": {
+    "variant": "tunnel"
+   },
+   "until": {
+    "word": "lo",
+    "n": 2,
+    "offset": -0.05
+   }
+  },
+  {
+   "component": "Text3DTitle",
+   "at": {
+    "word": "ganancia",
+    "offset": -0.1
+   },
+   "layer": "over",
+   "props": {
+    "text": "GANANCIA",
+    "font": "Montserrat-Black",
+    "color": "#FFBB00",
+    "metal": 0.85,
+    "size": 1.0,
+    "y": 1.55,
+    "depth": 0.4
+   },
+   "until": {
+    "word": "lo",
+    "n": 2,
+    "offset": -0.05
+   }
+  },
+  {
+   "component": "IconBadge",
+   "at": {
+    "word": "voy"
+   },
+   "layer": "over",
+   "props": {
+    "icon": "_work/assets/icons/coins-bold.svg",
+    "x": 0.83,
+    "y": 0.44,
+    "leader": "left",
+    "size": 0.9
+   },
+   "until": {
+    "cut": 12,
+    "offset": -0.05
+   }
+  },
+  {
+   "component": "BlockTitle",
+   "at": {
+    "word": "tu",
+    "n": 2,
+    "offset": -0.03
+   },
+   "layer": "over",
+   "props": {
+    "y": 0.78,
+    "width": 0.84,
+    "stagger": 16,
+    "enter": "rise",
+    "sparkle": 2,
+    "lines": [
+     {
+      "text": "TU ESFUERZO",
+      "weight": 900
+     },
+     {
+      "text": "MERECE CONVERTIRSE",
+      "weight": 700
+     },
+     {
+      "text": "EN BIENESTAR",
+      "color": "gold"
+     }
+    ]
+   },
+   "until": {
+    "cut": 13,
+    "offset": -0.03
+   }
+  },
+  {
+   "component": "InstagramFollow",
+   "at": {
+    "word": "para",
+    "n": 2,
+    "offset": 0.1
+   },
+   "layer": "over",
+   "props": {
+    "y": 0.8,
+    "avatar": "_work/assets/avatar.jpg"
+   },
+   "until": {
+    "end": true,
+    "offset": -1.75
+   }
+  },
+  {
+   "component": "BrandScene",
+   "at": {
+    "end": true,
+    "offset": -1.85
+   },
+   "layer": "top",
+   "props": {
+    "variant": "tunnel"
+   },
+   "until": {
+    "end": true
+   }
+  },
+  {
+   "component": "Logo3D",
+   "at": {
+    "end": true,
+    "offset": -1.8
+   },
+   "layer": "top",
+   "props": {
+    "svg": "clientes/carlos-buelvas/marca/logo.svg",
+    "depth": 60,
+    "metal": 0.9,
+    "color": "#FFBB00",
+    "scale": 0.42
+   },
+   "until": {
+    "end": true
+   }
+  },
+  {
+   "component": "CTAPill",
+   "at": {
+    "end": true,
+    "offset": -1.3
+   },
+   "layer": "top",
+   "props": {
+    "text": "SÍGUEME",
+    "x": 0.5,
+    "y": 0.78,
+    "size": 1.1
+   },
+   "until": {
+    "end": true
+   }
+  }
+ ],
+ "sfx": [
+  {
+   "src": "synth:impact_cinematic",
+   "at": 0,
+   "volume": 0.85,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:subdrop_01",
+   "at": 0,
+   "volume": 0.7,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-1796",
+   "at": 0,
+   "volume": 0.45,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:swipe_01",
+   "at": {
+    "word": "vender"
+   },
+   "volume": 0.45,
+   "offset": -0.05
+  },
+  {
+   "src": "lib:confirmation_001",
+   "at": {
+    "word": "vender"
+   },
+   "volume": 0.35,
+   "offset": 0.1
+  },
+  {
+   "src": "synth:riser_short",
+   "at": 1.15,
+   "volume": 0.32,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:whoosh_fast",
+   "at": {
+    "word": "al"
+   },
+   "volume": 0.5,
+   "offset": -0.1
+  },
+  {
+   "src": "lib:pluck_002",
+   "at": {
+    "word": "sigues"
+   },
+   "volume": 0.3,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:pluck_001",
+   "at": {
+    "word": "por"
+   },
+   "volume": 0.3,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:impact_punch",
+   "at": {
+    "word": "dinero?"
+   },
+   "volume": 0.8,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-1417",
+   "at": {
+    "word": "dinero?"
+   },
+   "volume": 0.4,
+   "offset": 0.05
+  },
+  {
+   "src": "lib:chips-collide-2",
+   "at": {
+    "word": "dinero?"
+   },
+   "volume": 0.55,
+   "offset": 0.2
+  },
+  {
+   "src": "lib:chips-stack-3",
+   "at": {
+    "word": "dinero?"
+   },
+   "volume": 0.45,
+   "offset": 0.55
+  },
+  {
+   "src": "synth:whoosh_medium",
+   "at": {
+    "word": "agenda",
+    "offset": -0.25
+   },
+   "volume": 0.55,
+   "offset": -0.12
+  },
+  {
+   "src": "lib:switch7",
+   "at": {
+    "word": "agenda"
+   },
+   "volume": 0.35,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:tick_001",
+   "at": {
+    "word": "agenda"
+   },
+   "volume": 0.28,
+   "offset": 0.2
+  },
+  {
+   "src": "lib:tick_002",
+   "at": {
+    "word": "agenda"
+   },
+   "volume": 0.28,
+   "offset": 0.29000000000000004
+  },
+  {
+   "src": "lib:tick_001",
+   "at": {
+    "word": "agenda"
+   },
+   "volume": 0.28,
+   "offset": 0.38
+  },
+  {
+   "src": "lib:tick_002",
+   "at": {
+    "word": "agenda"
+   },
+   "volume": 0.28,
+   "offset": 0.47000000000000003
+  },
+  {
+   "src": "lib:tick_001",
+   "at": {
+    "word": "agenda"
+   },
+   "volume": 0.28,
+   "offset": 0.56
+  },
+  {
+   "src": "lib:tick_002",
+   "at": {
+    "word": "agenda"
+   },
+   "volume": 0.28,
+   "offset": 0.6499999999999999
+  },
+  {
+   "src": "lib:tick_001",
+   "at": {
+    "word": "agenda"
+   },
+   "volume": 0.28,
+   "offset": 0.74
+  },
+  {
+   "src": "lib:tick_002",
+   "at": {
+    "word": "agenda"
+   },
+   "volume": 0.28,
+   "offset": 0.8300000000000001
+  },
+  {
+   "src": "lib:tick_001",
+   "at": {
+    "word": "agenda"
+   },
+   "volume": 0.28,
+   "offset": 0.9199999999999999
+  },
+  {
+   "src": "lib:tick_002",
+   "at": {
+    "word": "agenda"
+   },
+   "volume": 0.28,
+   "offset": 1.01
+  },
+  {
+   "src": "lib:tick_001",
+   "at": {
+    "word": "agenda"
+   },
+   "volume": 0.28,
+   "offset": 1.0999999999999999
+  },
+  {
+   "src": "lib:tick_002",
+   "at": {
+    "word": "agenda"
+   },
+   "volume": 0.28,
+   "offset": 1.19
+  },
+  {
+   "src": "synth:pop_01",
+   "at": {
+    "word": "atendemos"
+   },
+   "volume": 0.45,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:swipe_02",
+   "at": {
+    "word": "todo",
+    "offset": -0.1
+   },
+   "volume": 0.4,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:pluck_001",
+   "at": {
+    "word": "todo"
+   },
+   "volume": 0.3,
+   "offset": 0.05
+  },
+  {
+   "src": "lib:confirmation_002",
+   "at": {
+    "word": "“Ahora"
+   },
+   "volume": 0.35,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:phaserUp3",
+   "at": {
+    "word": "negocio"
+   },
+   "volume": 0.3,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:ding_success",
+   "at": {
+    "word": "creciendo”."
+   },
+   "volume": 0.3,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:whoosh_heavy",
+   "at": {
+    "word": "el",
+    "n": 4,
+    "offset": -0.1
+   },
+   "volume": 0.55,
+   "offset": -0.15
+  },
+  {
+   "src": "synth:braam_02",
+   "at": {
+    "word": "momento"
+   },
+   "volume": 0.45,
+   "offset": -0.1
+  },
+  {
+   "src": "lib:chips-stack-3",
+   "at": {
+    "word": "pagar"
+   },
+   "volume": 0.5,
+   "offset": 0.05
+  },
+  {
+   "src": "lib:bsb-0339",
+   "at": {
+    "word": "todo",
+    "n": 2
+   },
+   "volume": 0.45,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:swipe_01",
+   "at": {
+    "cut": 4
+   },
+   "volume": 0.35,
+   "offset": -0.05
+  },
+  {
+   "src": "lib:pluck_002",
+   "at": {
+    "word": "trabajamos"
+   },
+   "volume": 0.32,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:heartbeat_01",
+   "at": {
+    "word": "muchísimo"
+   },
+   "volume": 0.35,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:whoosh_medium",
+   "at": {
+    "word": "lo",
+    "n": 1
+   },
+   "volume": 0.5,
+   "offset": -0.2
+  },
+  {
+   "src": "lib:phaserUp3",
+   "at": {
+    "word": "lo",
+    "n": 1
+   },
+   "volume": 0.3,
+   "offset": 0.05
+  },
+  {
+   "src": "synth:tape_stop",
+   "at": {
+    "word": "poco"
+   },
+   "volume": 0.35,
+   "offset": 0.15
+  },
+  {
+   "src": "synth:impact_soft",
+   "at": {
+    "word": "quedó."
+   },
+   "volume": 0.55,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:pluck_001",
+   "at": {
+    "word": "servicio,"
+   },
+   "volume": 0.32,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:whoosh_medium",
+   "at": {
+    "word": "tu"
+   },
+   "volume": 0.5,
+   "offset": -0.18
+  },
+  {
+   "src": "synth:cash_01",
+   "at": {
+    "word": "también"
+   },
+   "volume": 0.4,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:tick_002",
+   "at": {
+    "word": "tu"
+   },
+   "volume": 0.3,
+   "offset": 0.05
+  },
+  {
+   "src": "lib:tick_002",
+   "at": {
+    "word": "tu"
+   },
+   "volume": 0.3,
+   "offset": 0.19
+  },
+  {
+   "src": "lib:tick_002",
+   "at": {
+    "word": "tu"
+   },
+   "volume": 0.3,
+   "offset": 0.33
+  },
+  {
+   "src": "lib:tick_002",
+   "at": {
+    "word": "tu"
+   },
+   "volume": 0.3,
+   "offset": 0.47000000000000003
+  },
+  {
+   "src": "lib:tick_002",
+   "at": {
+    "word": "tu"
+   },
+   "volume": 0.3,
+   "offset": 0.6100000000000001
+  },
+  {
+   "src": "lib:tick_002",
+   "at": {
+    "word": "tu"
+   },
+   "volume": 0.3,
+   "offset": 0.7500000000000001
+  },
+  {
+   "src": "lib:tick_002",
+   "at": {
+    "word": "tu"
+   },
+   "volume": 0.3,
+   "offset": 0.8900000000000001
+  },
+  {
+   "src": "lib:tick_002",
+   "at": {
+    "word": "tu"
+   },
+   "volume": 0.3,
+   "offset": 1.03
+  },
+  {
+   "src": "lib:tick_002",
+   "at": {
+    "word": "tu"
+   },
+   "volume": 0.3,
+   "offset": 1.1700000000000002
+  },
+  {
+   "src": "lib:tick_002",
+   "at": {
+    "word": "tu"
+   },
+   "volume": 0.3,
+   "offset": 1.3100000000000003
+  },
+  {
+   "src": "synth:swipe_02",
+   "at": {
+    "cut": 7
+   },
+   "volume": 0.3,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:confirmation_001",
+   "at": {
+    "word": "horas"
+   },
+   "volume": 0.35,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:whoosh_medium",
+   "at": {
+    "cut": 8
+   },
+   "volume": 0.5,
+   "offset": -0.2
+  },
+  {
+   "src": "lib:card-slide-1",
+   "at": {
+    "cut": 8
+   },
+   "volume": 0.5,
+   "offset": 0.05
+  },
+  {
+   "src": "lib:card-slide-3",
+   "at": {
+    "word": "cambios"
+   },
+   "volume": 0.5,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:card-slide-5",
+   "at": {
+    "word": "descuentos"
+   },
+   "volume": 0.5,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:impactPunch_medium_000",
+   "at": {
+    "word": "descuentos"
+   },
+   "volume": 0.35,
+   "offset": 0.25
+  },
+  {
+   "src": "synth:impact_soft",
+   "at": {
+    "word": "costo."
+   },
+   "volume": 0.6,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-1417",
+   "at": {
+    "word": "costo."
+   },
+   "volume": 0.35,
+   "offset": 0.05
+  },
+  {
+   "src": "lib:bsb-1795",
+   "at": {
+    "cut": 10
+   },
+   "volume": 0.4,
+   "offset": -0.15
+  },
+  {
+   "src": "lib:pluck_002",
+   "at": {
+    "word": "otro"
+   },
+   "volume": 0.32,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:question_001",
+   "at": {
+    "word": "pregúntate:"
+   },
+   "volume": 0.4,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:swipe_01",
+   "at": {
+    "cut": 11
+   },
+   "volume": 0.3,
+   "offset": -0.05
+  },
+  {
+   "src": "lib:pluck_001",
+   "at": {
+    "word": "trabajo"
+   },
+   "volume": 0.3,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:riser_short",
+   "at": {
+    "word": "trabajo"
+   },
+   "volume": 0.28,
+   "offset": -0.3
+  },
+  {
+   "src": "synth:impact_cinematic",
+   "at": {
+    "word": "ganancia"
+   },
+   "volume": 0.7,
+   "offset": -0.08
+  },
+  {
+   "src": "synth:subdrop_short",
+   "at": {
+    "word": "ganancia"
+   },
+   "volume": 0.55,
+   "offset": -0.08
+  },
+  {
+   "src": "lib:glass_002",
+   "at": {
+    "word": "ganancia"
+   },
+   "volume": 0.35,
+   "offset": 0.4
+  },
+  {
+   "src": "synth:whoosh_fast",
+   "at": {
+    "word": "lo",
+    "n": 2
+   },
+   "volume": 0.45,
+   "offset": -0.12
+  },
+  {
+   "src": "lib:pluck_002",
+   "at": {
+    "word": "voy"
+   },
+   "volume": 0.3,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:reverse_swell",
+   "at": {
+    "cut": 12
+   },
+   "volume": 0.45,
+   "offset": -1.5
+  },
+  {
+   "src": "lib:pluck_001",
+   "at": {
+    "word": "esfuerzo"
+   },
+   "volume": 0.3,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:pluck_002",
+   "at": {
+    "word": "merece"
+   },
+   "volume": 0.3,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:glass_002",
+   "at": {
+    "word": "bienestar."
+   },
+   "volume": 0.4,
+   "offset": 0.2
+  },
+  {
+   "src": "synth:riser_short",
+   "at": {
+    "word": "convertirse"
+   },
+   "volume": 0.28,
+   "offset": -0.6
+  },
+  {
+   "src": "synth:braam_01",
+   "at": {
+    "cut": 13
+   },
+   "volume": 0.55,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:impact_cinematic",
+   "at": {
+    "cut": 13
+   },
+   "volume": 0.55,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:whoosh_medium",
+   "at": {
+    "word": "para",
+    "n": 2
+   },
+   "volume": 0.5,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:click1",
+   "at": {
+    "word": "para",
+    "n": 2
+   },
+   "volume": 0.6,
+   "offset": 1.0
+  },
+  {
+   "src": "lib:confirmation_002",
+   "at": {
+    "word": "para",
+    "n": 2
+   },
+   "volume": 0.45,
+   "offset": 1.05
+  },
+  {
+   "src": "synth:pop_02",
+   "at": {
+    "word": "para",
+    "n": 2
+   },
+   "volume": 0.25,
+   "offset": 1.1
+  },
+  {
+   "src": "synth:pop_02",
+   "at": {
+    "word": "para",
+    "n": 2
+   },
+   "volume": 0.25,
+   "offset": 1.2200000000000002
+  },
+  {
+   "src": "synth:pop_02",
+   "at": {
+    "word": "para",
+    "n": 2
+   },
+   "volume": 0.25,
+   "offset": 1.34
+  },
+  {
+   "src": "synth:pop_02",
+   "at": {
+    "word": "para",
+    "n": 2
+   },
+   "volume": 0.25,
+   "offset": 1.46
+  },
+  {
+   "src": "synth:whoosh_heavy",
+   "at": {
+    "end": true,
+    "offset": -1.85
+   },
+   "volume": 0.55,
+   "offset": -0.1
+  },
+  {
+   "src": "synth:impact_cinematic",
+   "at": {
+    "end": true,
+    "offset": -1.75
+   },
+   "volume": 0.6,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:glass_002",
+   "at": {
+    "end": true,
+    "offset": -1.0
+   },
+   "volume": 0.4,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:confirmation_002",
+   "at": {
+    "end": true,
+    "offset": -1.3
+   },
+   "volume": 0.35,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:swipe_02",
+   "at": {
+    "cut": 1
+   },
+   "volume": 0.18,
+   "offset": -0.06
+  },
+  {
+   "src": "synth:swipe_02",
+   "at": {
+    "cut": 2
+   },
+   "volume": 0.18,
+   "offset": -0.06
+  },
+  {
+   "src": "synth:swipe_02",
+   "at": {
+    "cut": 5
+   },
+   "volume": 0.18,
+   "offset": -0.06
+  },
+  {
+   "src": "synth:swipe_02",
+   "at": {
+    "cut": 9
+   },
+   "volume": 0.18,
+   "offset": -0.06
+  },
+  {
+   "src": "synth:swipe_02",
+   "at": {
+    "cut": 10
+   },
+   "volume": 0.18,
+   "offset": -0.06
+  },
+  {
+   "src": "synth:swipe_02",
+   "at": {
+    "cut": 13
+   },
+   "volume": 0.18,
+   "offset": -0.06
+  }
+ ],
+ "music": [
+  {
+   "src": "library/music/_dl/epic/music/epic-cinematic/ov-1a767512-5d6.mp3",
+   "at": 0,
+   "volume": 0.3,
+   "duck": 0.42,
+   "dropAt": {
+    "cut": 13
+   },
+   "drop": 1,
+   "fadeIn": 0.15,
+   "fadeOut": 1.4
+  }
+ ],
+ "fx": {
+  "grade": "cinematic",
+  "grain": 0.035,
+  "vignette": 0.28,
+  "lightLeakHue": 185
+ }
+}

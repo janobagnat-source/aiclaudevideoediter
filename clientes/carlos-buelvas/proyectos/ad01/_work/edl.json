@@ -1,0 +1,699 @@
+{
+ "cuts": [
+  {
+   "sentence": 0,
+   "source": "cam1",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad01/_work/src/cam1_9x16.mp4",
+   "in": 1.84,
+   "out": 5.68,
+   "text": "¿De qué sirve vender más al final del mes si sigues preocupado por el dinero?",
+   "words": [
+    {
+     "text": "¿De",
+     "start": 1.9,
+     "end": 2.04
+    },
+    {
+     "text": "qué",
+     "start": 2.04,
+     "end": 2.12
+    },
+    {
+     "text": "sirve",
+     "start": 2.12,
+     "end": 2.34
+    },
+    {
+     "text": "vender",
+     "start": 2.34,
+     "end": 2.6
+    },
+    {
+     "text": "más",
+     "start": 2.6,
+     "end": 2.88
+    },
+    {
+     "text": "al",
+     "start": 2.88,
+     "end": 3.06
+    },
+    {
+     "text": "final",
+     "start": 3.06,
+     "end": 3.34
+    },
+    {
+     "text": "del",
+     "start": 3.34,
+     "end": 3.58
+    },
+    {
+     "text": "mes",
+     "start": 3.58,
+     "end": 3.8
+    },
+    {
+     "text": "si",
+     "start": 3.8,
+     "end": 4.02
+    },
+    {
+     "text": "sigues",
+     "start": 4.02,
+     "end": 4.22
+    },
+    {
+     "text": "preocupado",
+     "start": 4.22,
+     "end": 4.96
+    },
+    {
+     "text": "por",
+     "start": 4.96,
+     "end": 5.16
+    },
+    {
+     "text": "el",
+     "start": 5.16,
+     "end": 5.28
+    },
+    {
+     "text": "dinero?",
+     "start": 5.28,
+     "end": 5.58
+    }
+   ],
+   "cues": []
+  },
+  {
+   "sentence": 1,
+   "source": "cam2",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad01/_work/src/cam2_9x16.mp4",
+   "in": 5.68,
+   "out": 9.595,
+   "text": "A veces tenemos la agenda llena, atendemos clientes todo el día",
+   "words": [
+    {
+     "text": "A",
+     "start": 5.68,
+     "end": 6.0
+    },
+    {
+     "text": "veces",
+     "start": 6.2,
+     "end": 6.48
+    },
+    {
+     "text": "tenemos",
+     "start": 6.48,
+     "end": 7.06
+    },
+    {
+     "text": "la",
+     "start": 7.06,
+     "end": 7.32
+    },
+    {
+     "text": "agenda",
+     "start": 7.32,
+     "end": 7.66
+    },
+    {
+     "text": "llena,",
+     "start": 7.66,
+     "end": 8.06
+    },
+    {
+     "text": "atendemos",
+     "start": 8.26,
+     "end": 8.58
+    },
+    {
+     "text": "clientes",
+     "start": 8.58,
+     "end": 9.0
+    },
+    {
+     "text": "todo",
+     "start": 9.0,
+     "end": 9.16
+    },
+    {
+     "text": "el",
+     "start": 9.16,
+     "end": 9.34
+    },
+    {
+     "text": "día",
+     "start": 9.34,
+     "end": 9.52
+    }
+   ],
+   "cues": []
+  },
+  {
+   "sentence": 2,
+   "source": "cam1",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad01/_work/src/cam1_9x16.mp4",
+   "in": 9.595,
+   "out": 12.76,
+   "text": "y pensamos: “Ahora sí, el negocio está creciendo”.",
+   "words": [
+    {
+     "text": "y",
+     "start": 9.595,
+     "end": 9.7
+    },
+    {
+     "text": "pensamos:",
+     "start": 9.7,
+     "end": 10.2
+    },
+    {
+     "text": "“Ahora",
+     "start": 10.36,
+     "end": 10.74
+    },
+    {
+     "text": "sí,",
+     "start": 10.74,
+     "end": 11.14
+    },
+    {
+     "text": "el",
+     "start": 11.14,
+     "end": 11.42
+    },
+    {
+     "text": "negocio",
+     "start": 11.42,
+     "end": 11.86
+    },
+    {
+     "text": "está",
+     "start": 11.86,
+     "end": 12.12
+    },
+    {
+     "text": "creciendo”.",
+     "start": 12.12,
+     "end": 12.64
+    }
+   ],
+   "cues": []
+  },
+  {
+   "sentence": 3,
+   "source": "cam1",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad01/_work/src/cam1_9x16.mp4",
+   "in": 12.9,
+   "out": 15.21,
+   "text": "Pero llega el momento de pagar todo",
+   "words": [
+    {
+     "text": "Pero",
+     "start": 12.9,
+     "end": 13.16
+    },
+    {
+     "text": "llega",
+     "start": 13.16,
+     "end": 13.34
+    },
+    {
+     "text": "el",
+     "start": 13.34,
+     "end": 13.48
+    },
+    {
+     "text": "momento",
+     "start": 13.48,
+     "end": 13.92
+    },
+    {
+     "text": "de",
+     "start": 13.92,
+     "end": 14.34
+    },
+    {
+     "text": "pagar",
+     "start": 14.34,
+     "end": 14.62
+    },
+    {
+     "text": "todo",
+     "start": 14.62,
+     "end": 15.1
+    }
+   ],
+   "cues": []
+  },
+  {
+   "sentence": 4,
+   "source": "cam2",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad01/_work/src/cam2_9x16.mp4",
+   "in": 15.21,
+   "out": 17.24,
+   "text": "y sentimos que trabajamos muchísimo",
+   "words": [
+    {
+     "text": "y",
+     "start": 15.21,
+     "end": 15.4
+    },
+    {
+     "text": "sentimos",
+     "start": 15.4,
+     "end": 15.88
+    },
+    {
+     "text": "que",
+     "start": 15.88,
+     "end": 16.06
+    },
+    {
+     "text": "trabajamos",
+     "start": 16.06,
+     "end": 16.72
+    },
+    {
+     "text": "muchísimo",
+     "start": 16.72,
+     "end": 17.24
+    }
+   ],
+   "cues": []
+  },
+  {
+   "sentence": 5,
+   "source": "cam1",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad01/_work/src/cam1_9x16.mp4",
+   "in": 17.24,
+   "out": 19.33,
+   "text": "para lo poco que nos quedó.",
+   "words": [
+    {
+     "text": "para",
+     "start": 17.28,
+     "end": 17.92
+    },
+    {
+     "text": "lo",
+     "start": 17.97,
+     "end": 18.19
+    },
+    {
+     "text": "poco",
+     "start": 18.19,
+     "end": 18.61
+    },
+    {
+     "text": "que",
+     "start": 18.61,
+     "end": 18.77
+    },
+    {
+     "text": "nos",
+     "start": 18.77,
+     "end": 18.93
+    },
+    {
+     "text": "quedó.",
+     "start": 18.93,
+     "end": 19.23
+    }
+   ],
+   "cues": []
+  },
+  {
+   "sentence": 6,
+   "source": "cam1",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad01/_work/src/cam1_9x16.mp4",
+   "in": 19.74,
+   "out": 22.34,
+   "text": "Si vendes un servicio, tu tiempo también cuenta.",
+   "words": [
+    {
+     "text": "Si",
+     "start": 19.74,
+     "end": 19.89
+    },
+    {
+     "text": "vendes",
+     "start": 19.89,
+     "end": 20.11
+    },
+    {
+     "text": "un",
+     "start": 20.11,
+     "end": 20.21
+    },
+    {
+     "text": "servicio,",
+     "start": 20.21,
+     "end": 20.61
+    },
+    {
+     "text": "tu",
+     "start": 20.93,
+     "end": 21.07
+    },
+    {
+     "text": "tiempo",
+     "start": 21.07,
+     "end": 21.43
+    },
+    {
+     "text": "también",
+     "start": 21.43,
+     "end": 21.79
+    },
+    {
+     "text": "cuenta.",
+     "start": 21.79,
+     "end": 22.23
+    }
+   ],
+   "cues": []
+  },
+  {
+   "sentence": 7,
+   "source": "cam2",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad01/_work/src/cam2_9x16.mp4",
+   "in": 22.34,
+   "out": 23.7,
+   "text": "Las horas extra,",
+   "words": [
+    {
+     "text": "Las",
+     "start": 22.37,
+     "end": 22.55
+    },
+    {
+     "text": "horas",
+     "start": 22.55,
+     "end": 22.85
+    },
+    {
+     "text": "extra,",
+     "start": 22.85,
+     "end": 23.41
+    }
+   ],
+   "cues": []
+  },
+  {
+   "sentence": 8,
+   "source": "cam1",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad01/_work/src/cam1_9x16.mp4",
+   "in": 24.22,
+   "out": 26.4,
+   "text": "los cambios que regalas y los descuentos",
+   "words": [
+    {
+     "text": "los",
+     "start": 24.29,
+     "end": 24.53
+    },
+    {
+     "text": "cambios",
+     "start": 24.53,
+     "end": 24.85
+    },
+    {
+     "text": "que",
+     "start": 24.85,
+     "end": 24.95
+    },
+    {
+     "text": "regalas",
+     "start": 24.95,
+     "end": 25.47
+    },
+    {
+     "text": "y",
+     "start": 25.47,
+     "end": 25.75
+    },
+    {
+     "text": "los",
+     "start": 25.75,
+     "end": 25.87
+    },
+    {
+     "text": "descuentos",
+     "start": 25.87,
+     "end": 26.35
+    }
+   ],
+   "cues": []
+  },
+  {
+   "sentence": 9,
+   "source": "cam2",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad01/_work/src/cam2_9x16.mp4",
+   "in": 26.68,
+   "out": 27.86,
+   "text": "tienen un costo.",
+   "words": [
+    {
+     "text": "tienen",
+     "start": 26.68,
+     "end": 27.03
+    },
+    {
+     "text": "un",
+     "start": 27.03,
+     "end": 27.37
+    },
+    {
+     "text": "costo.",
+     "start": 27.37,
+     "end": 27.67
+    }
+   ],
+   "cues": []
+  },
+  {
+   "sentence": 10,
+   "source": "cam2",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad01/_work/src/cam2_9x16.mp4",
+   "in": 28.58,
+   "out": 31.16,
+   "text": "Antes de aceptar otro cliente, pregúntate:",
+   "words": [
+    {
+     "text": "Antes",
+     "start": 28.58,
+     "end": 28.82
+    },
+    {
+     "text": "de",
+     "start": 28.82,
+     "end": 28.94
+    },
+    {
+     "text": "aceptar",
+     "start": 28.94,
+     "end": 29.36
+    },
+    {
+     "text": "otro",
+     "start": 29.36,
+     "end": 29.64
+    },
+    {
+     "text": "cliente,",
+     "start": 29.64,
+     "end": 30.14
+    },
+    {
+     "text": "pregúntate:",
+     "start": 30.42,
+     "end": 31.06
+    }
+   ],
+   "cues": []
+  },
+  {
+   "sentence": 11,
+   "source": "cam1",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad01/_work/src/cam1_9x16.mp4",
+   "in": 31.16,
+   "out": 34.9,
+   "text": "“¿Este trabajo me deja una ganancia que justifica lo que voy a dedicarle?”. Tu",
+   "words": [
+    {
+     "text": "“¿Este",
+     "start": 31.26,
+     "end": 31.6
+    },
+    {
+     "text": "trabajo",
+     "start": 31.6,
+     "end": 31.94
+    },
+    {
+     "text": "me",
+     "start": 31.94,
+     "end": 32.12
+    },
+    {
+     "text": "deja",
+     "start": 32.12,
+     "end": 32.32
+    },
+    {
+     "text": "una",
+     "start": 32.32,
+     "end": 32.52
+    },
+    {
+     "text": "ganancia",
+     "start": 32.52,
+     "end": 32.9
+    },
+    {
+     "text": "que",
+     "start": 32.9,
+     "end": 33.04
+    },
+    {
+     "text": "justifica",
+     "start": 33.04,
+     "end": 33.5
+    },
+    {
+     "text": "lo",
+     "start": 33.5,
+     "end": 33.64
+    },
+    {
+     "text": "que",
+     "start": 33.64,
+     "end": 33.74
+    },
+    {
+     "text": "voy",
+     "start": 33.74,
+     "end": 33.88
+    },
+    {
+     "text": "a",
+     "start": 33.88,
+     "end": 33.96
+    },
+    {
+     "text": "dedicarle?”.",
+     "start": 33.96,
+     "end": 34.5
+    },
+    {
+     "text": "Tu",
+     "start": 34.5,
+     "end": 34.86
+    }
+   ],
+   "cues": []
+  },
+  {
+   "sentence": 12,
+   "source": "cam2",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad01/_work/src/cam2_9x16.mp4",
+   "in": 35.26,
+   "out": 38.17,
+   "text": "esfuerzo merece convertirse en bienestar.",
+   "words": [
+    {
+     "text": "esfuerzo",
+     "start": 35.33,
+     "end": 35.87
+    },
+    {
+     "text": "merece",
+     "start": 35.92,
+     "end": 36.7
+    },
+    {
+     "text": "convertirse",
+     "start": 36.7,
+     "end": 37.36
+    },
+    {
+     "text": "en",
+     "start": 37.36,
+     "end": 37.64
+    },
+    {
+     "text": "bienestar.",
+     "start": 37.64,
+     "end": 38.1
+    }
+   ],
+   "cues": []
+  },
+  {
+   "sentence": 13,
+   "source": "cam1",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad01/_work/src/cam1_9x16.mp4",
+   "in": 38.59,
+   "out": 42.15,
+   "text": "Sígueme para ayudarte a escalar tu negocio acelerando tus ventas.",
+   "words": [
+    {
+     "text": "Sígueme",
+     "start": 38.59,
+     "end": 39.0
+    },
+    {
+     "text": "para",
+     "start": 39.0,
+     "end": 39.44
+    },
+    {
+     "text": "ayudarte",
+     "start": 39.44,
+     "end": 39.82
+    },
+    {
+     "text": "a",
+     "start": 39.82,
+     "end": 39.88
+    },
+    {
+     "text": "escalar",
+     "start": 39.88,
+     "end": 40.1
+    },
+    {
+     "text": "tu",
+     "start": 40.1,
+     "end": 40.24
+    },
+    {
+     "text": "negocio",
+     "start": 40.24,
+     "end": 40.64
+    },
+    {
+     "text": "acelerando",
+     "start": 40.64,
+     "end": 41.46
+    },
+    {
+     "text": "tus",
+     "start": 41.46,
+     "end": 41.62
+    },
+    {
+     "text": "ventas.",
+     "start": 41.62,
+     "end": 42.04
+    }
+   ],
+   "cues": []
+  }
+ ],
+ "duration": 37.459999999999994
+}

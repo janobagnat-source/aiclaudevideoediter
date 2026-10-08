@@ -99,7 +99,7 @@ export type Edit = {
 	speech: [number, number][];
 	captions: {
 		enabled: boolean;
-		style: 'bold-pop' | 'karaoke' | 'minimal' | 'boxed' | 'neon' | 'serif-elegant';
+		style: 'bold-pop' | 'karaoke' | 'minimal' | 'boxed' | 'neon' | 'serif-elegant' | 'premium';
 		emphasis: string[];
 		position: number;
 		maxWords: number;
@@ -107,6 +107,6 @@ export type Edit = {
 		hideDuring: [number, number][];
 		words: Word[];
 	};
-	fx: {grain: number; vignette: number; grade: string; chromatic: number; letterbox?: number; lightLeaks?: boolean};
+	fx: {grain: number; vignette: number; grade: string; chromatic: number; letterbox?: number; lightLeaks?: boolean; lightLeakHue?: number};
 	background: string;
 };
