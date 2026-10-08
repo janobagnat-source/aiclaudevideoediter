@@ -1,0 +1,1 @@
+Acá aparecen los videos finales renderizados + subtítulos .srt + miniatura + créditos.

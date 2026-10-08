@@ -1,0 +1,1 @@
+B-roll específico de este proyecto (videos/fotos). El b-roll general del cliente va en clientes/<cliente>/broll/.

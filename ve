@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+# CLI del editor:  ./ve <comando> [args]   (ver ./ve help)
+set -euo pipefail
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+[ -d "$ROOT/.venv" ] || bash "$ROOT/scripts/setup.sh"
+PY="$ROOT/.venv/bin/python"
+T="$ROOT/tools"
+cmd="${1:-help}"; shift || true
+case "$cmd" in
+  setup)      exec bash "$ROOT/scripts/setup.sh" "$@" ;;
+  new)        exec bash "$ROOT/scripts/new_project.sh" "$@" ;;
+  fetch)      exec "$PY" "$T/fetch.py" "$@" ;;
+  analyze)    exec "$PY" "$T/analyze.py" "$@" ;;
+  guion)      exec "$PY" "$T/guion.py" "$@" ;;
+  transcribe) exec "$PY" "$T/transcribe.py" "$@" ;;
+  align)      exec "$PY" "$T/align.py" "$@" ;;
+  brand)      exec "$PY" "$T/brand.py" "$@" ;;
+  beats)      exec "$PY" "$T/beats.py" "$@" ;;
+  stock)      exec "$PY" "$T/stock.py" "$@" ;;
+  library)    exec "$PY" "$T/library.py" "$@" ;;
+  sfx-synth)  exec "$PY" "$T/sfx_synth.py" "$@" ;;
+  build)      exec "$PY" "$T/build.py" "$@" ;;
+  cutout)     exec "$PY" "$T/cutout.py" "$@" ;;
+  font)       exec "$PY" "$T/fonts.py" "$@" ;;
+  render)     exec "$PY" "$T/render.py" "$@" ;;
+  prep)       # todo-en-uno hasta el EDL: ve prep cliente/proyecto
+              "$PY" "$T/analyze.py" "$@"; "$PY" "$T/guion.py" "$1" || true
+              "$PY" "$T/transcribe.py" "$1"; "$PY" "$T/align.py" "$1" ;;
+  studio)     cd "$ROOT/engine-remotion" && exec npx remotion studio --props="${1:?ruta a edit.json}" --no-open ;;
+  hf)         export HYPERFRAMES_PYTHON="$ROOT/.venv/bin/python"; exec npx --yes hyperframes@"$(cat "$ROOT/engine-hyperframes.version")" "$@" ;;
+  help|*)     sed -n '1,200p' "$ROOT/docs/CLI.md" ;;
+esac

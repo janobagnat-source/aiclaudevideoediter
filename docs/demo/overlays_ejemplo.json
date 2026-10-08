@@ -1,0 +1,258 @@
+{
+  "format": "9:16",
+  "fps": 30,
+  "zoom": {
+    "auto": true,
+    "intensity": 1.0
+  },
+  "captions": {
+    "style": "bold-pop",
+    "emphasis": [
+      "noventa",
+      "tres",
+      "gratis",
+      "automatizá"
+    ],
+    "position": 0.72,
+    "maxWords": 3,
+    "hideDuring": [
+      [
+        0,
+        3.9
+      ]
+    ]
+  },
+  "cuts": {
+    "1": {
+      "transition": "whip"
+    },
+    "2": {
+      "transition": "zoom-in"
+    },
+    "3": {
+      "transition": "glitch"
+    },
+    "4": {
+      "transition": "flash"
+    },
+    "5": {
+      "transition": "light-leak"
+    }
+  },
+  "graphics": [
+    {
+      "component": "HookTitle",
+      "at": 0,
+      "until": {
+        "sentence": 0,
+        "end": true
+      },
+      "layer": "over",
+      "props": {
+        "lines": [
+          "El 90% de los",
+          "negocios pierde",
+          "clientes por esto"
+        ],
+        "highlight": [
+          "90%"
+        ],
+        "variant": "slam",
+        "position": 0.38,
+        "stagger": 7
+      }
+    },
+    {
+      "component": "Flash",
+      "at": 0,
+      "duration": 0.25,
+      "layer": "top",
+      "props": {
+        "peak": 0.8
+      }
+    },
+    {
+      "component": "StatCounter",
+      "at": {
+        "word": "tres"
+      },
+      "props": {
+        "value": 3,
+        "suffix": " pasos",
+        "ring": true,
+        "position": 0.3,
+        "countFrames": 12
+      },
+      "until": {
+        "sentence": 2,
+        "offset": -0.1
+      }
+    },
+    {
+      "component": "Checklist",
+      "at": {
+        "sentence": 2
+      },
+      "until": {
+        "sentence": 4,
+        "end": true
+      },
+      "props": {
+        "items": [
+          "Respondé rápido",
+          "Hacé seguimiento",
+          "Automatizá todo"
+        ],
+        "every": 45,
+        "position": 0.33
+      }
+    },
+    {
+      "component": "ShapeBurst",
+      "at": {
+        "word": "automatizá",
+        "offset": -0.05
+      },
+      "duration": 0.5,
+      "props": {
+        "x": 0.5,
+        "y": 0.35
+      }
+    },
+    {
+      "component": "CTAEndCard",
+      "at": {
+        "sentence": 5
+      },
+      "until": {
+        "end": true
+      },
+      "layer": "top",
+      "props": {
+        "headline": "Reservá tu llamada gratis",
+        "button": "Agendar ahora",
+        "sub": "Cupos limitados",
+        "bg": "mesh"
+      }
+    },
+    {
+      "component": "ProgressBar",
+      "at": 0,
+      "until": {
+        "end": true
+      },
+      "layer": "top",
+      "props": {}
+    }
+  ],
+  "broll": [
+    {
+      "src": "clientes/demo/broll/oficina_trabajo.mp4",
+      "at": {
+        "sentence": 2
+      },
+      "duration": 1.4,
+      "mode": "full",
+      "transition": "whip",
+      "kenburns": "in"
+    }
+  ],
+  "sfx": [
+    {
+      "src": "synth:impact_cinematic",
+      "at": 0,
+      "volume": 0.9
+    },
+    {
+      "src": "synth:subdrop_01",
+      "at": 0,
+      "volume": 0.7
+    },
+    {
+      "src": "synth:whoosh_fast",
+      "at": {
+        "cut": 1
+      },
+      "offset": -0.15,
+      "volume": 0.6
+    },
+    {
+      "src": "synth:riser_short",
+      "at": {
+        "cut": 2
+      },
+      "offset": -1.4,
+      "volume": 0.35
+    },
+    {
+      "src": "synth:whoosh_medium",
+      "at": {
+        "sentence": 2
+      },
+      "offset": -0.2,
+      "volume": 0.6
+    },
+    {
+      "src": "synth:glitch_02",
+      "at": {
+        "cut": 3
+      },
+      "offset": -0.05,
+      "volume": 0.5
+    },
+    {
+      "src": "synth:pop_01",
+      "at": {
+        "word": "seguimiento"
+      },
+      "volume": 0.6
+    },
+    {
+      "src": "synth:impact_punch",
+      "at": {
+        "word": "automatizá"
+      },
+      "volume": 0.7
+    },
+    {
+      "src": "synth:reverse_swell",
+      "at": {
+        "sentence": 5
+      },
+      "offset": -1.5,
+      "volume": 0.5
+    },
+    {
+      "src": "synth:braam_01",
+      "at": {
+        "sentence": 5
+      },
+      "volume": 0.6
+    },
+    {
+      "src": "synth:ding_success",
+      "at": {
+        "word": "gratis"
+      },
+      "volume": 0.45
+    }
+  ],
+  "music": [
+    {
+      "src": "_work/assets/music/epic-cinematic-trailer/ov-1a767512-5d6.mp3",
+      "at": 0,
+      "volume": 0.28,
+      "duck": 0.45,
+      "dropAt": {
+        "sentence": 5
+      },
+      "fadeOut": 1.0
+    }
+  ],
+  "fx": {
+    "grain": 0.04,
+    "vignette": 0.25,
+    "grade": "punchy"
+  },
+  "tail": 1.2
+}

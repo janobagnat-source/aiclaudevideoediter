@@ -1,0 +1,32 @@
+# Dependencias / entornos
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.setup.log
+engine-remotion/out/
+engine-remotion/build/
+engine-remotion/public/clientes
+engine-remotion/public/library
+
+# Librería descargable (se reconstruye con ./ve setup)
+library/sfx/_dl/
+library/sfx/kenney/
+library/sfx/synth/
+library/sfx/*/
+!library/sfx/.gitkeep
+library/music/
+library/fonts/
+library/index.json
+library/credits.json
+
+# Trabajo intermedio de cada proyecto (pesado). Se versiona solo lo que documenta decisiones.
+clientes/**/_work/*
+!clientes/**/_work/overlays*.json
+!clientes/**/_work/PLAN.md
+!clientes/**/_work/EDL.md
+!clientes/**/_work/edl_overrides.json
+!clientes/**/_work/BROLL_CATALOG.md
+
+# Proyecto demo sintético (solo para pruebas del pipeline)
+clientes/demo/

@@ -1,0 +1,1 @@
+Biblioteca de b-roll del cliente (se reutiliza en todos sus proyectos). Organizá en subcarpetas por tema si podés.
