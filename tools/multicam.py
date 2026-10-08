@@ -312,6 +312,8 @@ def main(argv=None):
             cam = "cam1"
         elif new_sentence:
             cam = "cam1" if key else ("cam2" if cam == "cam1" else "cam1")
+        elif c["in"] - cuts[k - 1]["out"] > 1.0 and not key:
+            cam = "cam2" if cam == "cam1" else "cam1"  # otra toma dentro de la frase: cambiar de cámara disimula el salto
         elif dur >= 1.3 and (out and out[-1]["out"] - out[-1]["in"] >= 1.3):
             cam = "cam2" if cam == "cam1" else "cam1"
         ws = []
