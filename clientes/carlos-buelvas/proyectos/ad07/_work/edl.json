@@ -1,0 +1,697 @@
+{
+  "cuts": [
+    {
+      "sentence": 0,
+      "source": "cam1",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad07/_work/src/cam1_9x16.mp4",
+      "in": 19.16,
+      "out": 22.955,
+      "text": "¿Te da miedo dar seguimiento a un cliente porque sientes que vas a molestarlo?",
+      "section": "HOOK",
+      "words": [
+        {
+          "text": "¿Te",
+          "start": 19.16,
+          "end": 19.2
+        },
+        {
+          "text": "da",
+          "start": 19.36,
+          "end": 19.52
+        },
+        {
+          "text": "miedo",
+          "start": 19.52,
+          "end": 19.68
+        },
+        {
+          "text": "dar",
+          "start": 19.76,
+          "end": 19.92
+        },
+        {
+          "text": "seguimiento",
+          "start": 19.92,
+          "end": 20.4
+        },
+        {
+          "text": "a",
+          "start": 20.4,
+          "end": 20.56
+        },
+        {
+          "text": "un",
+          "start": 20.56,
+          "end": 20.64
+        },
+        {
+          "text": "cliente",
+          "start": 20.64,
+          "end": 21.04
+        },
+        {
+          "text": "porque",
+          "start": 21.04,
+          "end": 21.28
+        },
+        {
+          "text": "sientes",
+          "start": 21.28,
+          "end": 21.6
+        },
+        {
+          "text": "que",
+          "start": 21.68,
+          "end": 21.84
+        },
+        {
+          "text": "vas",
+          "start": 21.84,
+          "end": 22.0
+        },
+        {
+          "text": "a",
+          "start": 22.0,
+          "end": 22.08
+        },
+        {
+          "text": "molestarlo?",
+          "start": 22.16,
+          "end": 22.955
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 1,
+      "source": "cam2",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad07/_work/src/cam2_9x16.mp4",
+      "in": 22.985,
+      "out": 25.235,
+      "text": "Tienes el mensaje escrito, pero no lo envías.",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "Tienes",
+          "start": 22.985,
+          "end": 23.36
+        },
+        {
+          "text": "el",
+          "start": 23.36,
+          "end": 23.44
+        },
+        {
+          "text": "mensaje",
+          "start": 23.44,
+          "end": 23.84
+        },
+        {
+          "text": "escrito,",
+          "start": 23.84,
+          "end": 24.24
+        },
+        {
+          "text": "pero",
+          "start": 24.24,
+          "end": 24.48
+        },
+        {
+          "text": "no",
+          "start": 24.48,
+          "end": 24.56
+        },
+        {
+          "text": "lo",
+          "start": 24.56,
+          "end": 24.72
+        },
+        {
+          "text": "envías.",
+          "start": 24.72,
+          "end": 25.2
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 2,
+      "source": "cam1",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad07/_work/src/cam1_9x16.mp4",
+      "in": 25.235,
+      "out": 27.51,
+      "text": "Piensas: “¿Y si parezco desesperado?",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "Piensas:",
+          "start": 25.28,
+          "end": 25.92
+        },
+        {
+          "text": "“¿Y",
+          "start": 25.92,
+          "end": 26.0
+        },
+        {
+          "text": "si",
+          "start": 26.08,
+          "end": 26.32
+        },
+        {
+          "text": "parezco",
+          "start": 26.32,
+          "end": 26.64
+        },
+        {
+          "text": "desesperado?",
+          "start": 26.8,
+          "end": 27.51
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 3,
+      "source": "cam2",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad07/_work/src/cam2_9x16.mp4",
+      "in": 27.535,
+      "out": 28.79,
+      "text": "¿Y si me dice que no?”.",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "¿Y",
+          "start": 27.535,
+          "end": 27.68
+        },
+        {
+          "text": "si",
+          "start": 27.68,
+          "end": 27.84
+        },
+        {
+          "text": "me",
+          "start": 27.84,
+          "end": 28.0
+        },
+        {
+          "text": "dice",
+          "start": 28.0,
+          "end": 28.32
+        },
+        {
+          "text": "que",
+          "start": 28.32,
+          "end": 28.4
+        },
+        {
+          "text": "no?”.",
+          "start": 28.4,
+          "end": 28.79
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 4,
+      "source": "cam1",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad07/_work/src/cam1_9x16.mp4",
+      "in": 28.83,
+      "out": 32.79,
+      "text": "Por evitar una respuesta incómoda, dejamos una conversación pendiente.",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "Por",
+          "start": 28.83,
+          "end": 29.04
+        },
+        {
+          "text": "evitar",
+          "start": 29.04,
+          "end": 29.44
+        },
+        {
+          "text": "una",
+          "start": 29.44,
+          "end": 29.6
+        },
+        {
+          "text": "respuesta",
+          "start": 29.6,
+          "end": 30.0
+        },
+        {
+          "text": "incómoda,",
+          "start": 30.0,
+          "end": 30.64
+        },
+        {
+          "text": "dejamos",
+          "start": 30.64,
+          "end": 31.2
+        },
+        {
+          "text": "una",
+          "start": 31.2,
+          "end": 31.36
+        },
+        {
+          "text": "conversación",
+          "start": 31.36,
+          "end": 31.92
+        },
+        {
+          "text": "pendiente.",
+          "start": 31.92,
+          "end": 32.79
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 5,
+      "source": "cam2",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad07/_work/src/cam2_9x16.mp4",
+      "in": 49.125,
+      "out": 55.585,
+      "text": "Para sentirte más seguro, empieza desde la primera llamada: acuerden cuándo volverán a hablar y qué revisarán.",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "Para",
+          "start": 49.125,
+          "end": 49.36
+        },
+        {
+          "text": "sentirte",
+          "start": 49.36,
+          "end": 49.92
+        },
+        {
+          "text": "más",
+          "start": 49.92,
+          "end": 50.08
+        },
+        {
+          "text": "seguro,",
+          "start": 50.08,
+          "end": 50.72
+        },
+        {
+          "text": "empieza",
+          "start": 50.72,
+          "end": 51.28
+        },
+        {
+          "text": "desde",
+          "start": 51.28,
+          "end": 51.52
+        },
+        {
+          "text": "la",
+          "start": 51.52,
+          "end": 51.6
+        },
+        {
+          "text": "primera",
+          "start": 51.6,
+          "end": 51.92
+        },
+        {
+          "text": "llamada:",
+          "start": 51.92,
+          "end": 52.4
+        },
+        {
+          "text": "acuerden",
+          "start": 52.4,
+          "end": 53.04
+        },
+        {
+          "text": "cuándo",
+          "start": 53.04,
+          "end": 53.28
+        },
+        {
+          "text": "volverán",
+          "start": 53.28,
+          "end": 53.76
+        },
+        {
+          "text": "a",
+          "start": 53.76,
+          "end": 53.84
+        },
+        {
+          "text": "hablar",
+          "start": 53.84,
+          "end": 54.16
+        },
+        {
+          "text": "y",
+          "start": 54.16,
+          "end": 54.32
+        },
+        {
+          "text": "qué",
+          "start": 54.32,
+          "end": 54.56
+        },
+        {
+          "text": "revisarán.",
+          "start": 54.56,
+          "end": 55.585
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 6,
+      "source": "cam1",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad07/_work/src/cam1_9x16.mp4",
+      "in": 55.61,
+      "out": 58.465,
+      "text": "Después retoma algo que le importaba:",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "Después",
+          "start": 55.61,
+          "end": 56.16
+        },
+        {
+          "text": "retoma",
+          "start": 56.32,
+          "end": 56.88
+        },
+        {
+          "text": "algo",
+          "start": 57.12,
+          "end": 57.44
+        },
+        {
+          "text": "que",
+          "start": 57.44,
+          "end": 57.6
+        },
+        {
+          "text": "le",
+          "start": 57.6,
+          "end": 57.76
+        },
+        {
+          "text": "importaba:",
+          "start": 57.76,
+          "end": 58.465
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 6,
+      "source": "cam2",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad07/_work/src/cam2_9x16.mp4",
+      "in": 58.675,
+      "out": 61.105,
+      "text": "“Me comentaste que tenías esta duda.",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "“Me",
+          "start": 58.675,
+          "end": 58.88
+        },
+        {
+          "text": "comentaste",
+          "start": 58.88,
+          "end": 59.6
+        },
+        {
+          "text": "que",
+          "start": 59.6,
+          "end": 59.84
+        },
+        {
+          "text": "tenías",
+          "start": 59.84,
+          "end": 60.32
+        },
+        {
+          "text": "esta",
+          "start": 60.32,
+          "end": 60.56
+        },
+        {
+          "text": "duda.",
+          "start": 60.56,
+          "end": 61.04
+        }
+      ],
+      "cues": [],
+      "intra": true
+    },
+    {
+      "sentence": 7,
+      "source": "cam1",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad07/_work/src/cam1_9x16.mp4",
+      "in": 61.145,
+      "out": 64.095,
+      "text": "¿Te ayudaría que la revisemos juntos?”.",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "¿Te",
+          "start": 61.145,
+          "end": 61.2
+        },
+        {
+          "text": "ayudaría",
+          "start": 61.36,
+          "end": 62.08
+        },
+        {
+          "text": "que",
+          "start": 62.08,
+          "end": 62.16
+        },
+        {
+          "text": "la",
+          "start": 62.4,
+          "end": 62.56
+        },
+        {
+          "text": "revisemos",
+          "start": 62.56,
+          "end": 63.2
+        },
+        {
+          "text": "juntos?”.",
+          "start": 63.2,
+          "end": 63.92
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 8,
+      "source": "cam2",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad07/_work/src/cam2_9x16.mp4",
+      "in": 64.925,
+      "out": 68.365,
+      "text": "Así sabes por qué escribes y le das una razón para responder,",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "Así",
+          "start": 64.925,
+          "end": 65.03
+        },
+        {
+          "text": "sabes",
+          "start": 65.19,
+          "end": 65.51
+        },
+        {
+          "text": "por",
+          "start": 65.51,
+          "end": 65.59
+        },
+        {
+          "text": "qué",
+          "start": 65.59,
+          "end": 65.75
+        },
+        {
+          "text": "escribes",
+          "start": 65.75,
+          "end": 66.23
+        },
+        {
+          "text": "y",
+          "start": 66.31,
+          "end": 66.47
+        },
+        {
+          "text": "le",
+          "start": 66.47,
+          "end": 66.63
+        },
+        {
+          "text": "das",
+          "start": 66.63,
+          "end": 66.87
+        },
+        {
+          "text": "una",
+          "start": 66.87,
+          "end": 67.11
+        },
+        {
+          "text": "razón",
+          "start": 67.11,
+          "end": 67.43
+        },
+        {
+          "text": "para",
+          "start": 67.43,
+          "end": 67.67
+        },
+        {
+          "text": "responder,",
+          "start": 67.67,
+          "end": 68.365
+        }
+      ],
+      "cues": [],
+      "intra": false
+    },
+    {
+      "sentence": 8,
+      "source": "cam1",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad07/_work/src/cam1_9x16.mp4",
+      "in": 68.56,
+      "out": 72.415,
+      "text": "respetando también su derecho a decir que no.",
+      "section": "DESARROLLO",
+      "words": [
+        {
+          "text": "respetando",
+          "start": 68.56,
+          "end": 69.27
+        },
+        {
+          "text": "también",
+          "start": 69.27,
+          "end": 69.59
+        },
+        {
+          "text": "su",
+          "start": 69.75,
+          "end": 69.99
+        },
+        {
+          "text": "derecho",
+          "start": 69.99,
+          "end": 70.47
+        },
+        {
+          "text": "a",
+          "start": 70.47,
+          "end": 70.63
+        },
+        {
+          "text": "decir",
+          "start": 70.63,
+          "end": 70.95
+        },
+        {
+          "text": "que",
+          "start": 71.03,
+          "end": 71.27
+        },
+        {
+          "text": "no.",
+          "start": 71.27,
+          "end": 71.91
+        }
+      ],
+      "cues": [],
+      "intra": true
+    },
+    {
+      "sentence": 9,
+      "source": "cam1",
+      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad07/_work/src/cam1_9x16.mp4",
+      "in": 74.785,
+      "out": 79.615,
+      "text": "Sígueme para ayudarte a escalar tu negocio acelerando tus ventas.",
+      "section": "CTA",
+      "words": [
+        {
+          "text": "Sígueme",
+          "start": 74.79,
+          "end": 75.35
+        },
+        {
+          "text": "para",
+          "start": 75.35,
+          "end": 75.51
+        },
+        {
+          "text": "ayudarte",
+          "start": 75.51,
+          "end": 76.07
+        },
+        {
+          "text": "a",
+          "start": 76.07,
+          "end": 76.23
+        },
+        {
+          "text": "escalar",
+          "start": 76.23,
+          "end": 76.63
+        },
+        {
+          "text": "tu",
+          "start": 76.63,
+          "end": 76.79
+        },
+        {
+          "text": "negocio",
+          "start": 76.79,
+          "end": 77.27
+        },
+        {
+          "text": "acelerando",
+          "start": 77.27,
+          "end": 77.99
+        },
+        {
+          "text": "tus",
+          "start": 77.99,
+          "end": 78.15
+        },
+        {
+          "text": "ventas.",
+          "start": 78.15,
+          "end": 79.27
+        }
+      ],
+      "cues": [],
+      "intra": false
+    }
+  ],
+  "duration": 40.355,
+  "raw_offset": 527.0
+}
