@@ -76,6 +76,7 @@ class Studio:
         sc.view_settings.look = "AgX - Punchy"
         sc.render.image_settings.file_format = "PNG"
         sc.render.film_transparent = False
+        sc.render.use_overwrite = False      # si se reinicia, retoma desde el último frame hecho
         sc.render.use_motion_blur = True
         sc.render.motion_blur_shutter = 0.35
         self.frames = frames
