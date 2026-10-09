@@ -42,7 +42,23 @@ class Studio:
         self.sc = sc
         sc.render.engine = "CYCLES"
         sc.cycles.device = "CPU"
-        sc.cycles.samples = samples or (10 if PREVIEW else 16)
+        # BLENDER_GPU=1 → usa la placa de video si existe (OPTIX/CUDA en NVIDIA, HIP en AMD, METAL en Mac)
+        if os.environ.get("BLENDER_GPU"):
+            prefs = bpy.context.preferences.addons["cycles"].preferences
+            for backend in ("OPTIX", "CUDA", "HIP", "METAL", "ONEAPI"):
+                try:
+                    prefs.compute_device_type = backend
+                    prefs.get_devices()
+                    gpus = [d for d in prefs.devices if d.type != "CPU"]
+                    if gpus:
+                        for d in prefs.devices:
+                            d.use = d.type != "CPU"
+                        sc.cycles.device = "GPU"
+                        print("GPU:", backend, [d.name for d in gpus])
+                        break
+                except Exception:
+                    continue
+        sc.cycles.samples = samples or (10 if PREVIEW else (64 if os.environ.get("BLENDER_GPU") else 16))
         sc.cycles.adaptive_threshold = 0.04
         sc.cycles.use_denoising = True
         sc.cycles.denoiser = "OPENIMAGEDENOISE"
@@ -52,7 +68,7 @@ class Studio:
         sc.cycles.transmission_bounces = 6
         sc.cycles.use_adaptive_sampling = True
         sc.render.resolution_x, sc.render.resolution_y = res
-        sc.render.resolution_percentage = 40 if PREVIEW else min(62, int(os.environ.get("RES", 62)))   # se reescala a 1080x1920 con lanczos al codificar
+        sc.render.resolution_percentage = 40 if PREVIEW else (100 if os.environ.get("BLENDER_GPU") else min(62, int(os.environ.get("RES", 62))))   # se reescala a 1080x1920 con lanczos al codificar
         sc.render.use_persistent_data = True
         sc.render.fps = fps
         sc.frame_start, sc.frame_end = 1, frames
