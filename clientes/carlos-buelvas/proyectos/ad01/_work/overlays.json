@@ -1708,7 +1708,7 @@
   {
    "src": "synth:swipe_02",
    "at": {
-    "cut": 1
+    "cut": 2
    },
    "volume": 0.16,
    "offset": -0.06
@@ -1716,7 +1716,7 @@
   {
    "src": "synth:swipe_02",
    "at": {
-    "cut": 2
+    "cut": 3
    },
    "volume": 0.16,
    "offset": -0.06
@@ -1740,6 +1740,14 @@
   {
    "src": "synth:swipe_02",
    "at": {
+    "cut": 6
+   },
+   "volume": 0.16,
+   "offset": -0.06
+  },
+  {
+   "src": "synth:swipe_02",
+   "at": {
     "cut": 7
    },
    "volume": 0.16,
@@ -1748,15 +1756,7 @@
   {
    "src": "synth:swipe_02",
    "at": {
-    "cut": 8
-   },
-   "volume": 0.16,
-   "offset": -0.06
-  },
-  {
-   "src": "synth:swipe_02",
-   "at": {
-    "cut": 9
+    "cut": 10
    },
    "volume": 0.16,
    "offset": -0.06
@@ -1765,22 +1765,6 @@
    "src": "synth:swipe_02",
    "at": {
     "cut": 11
-   },
-   "volume": 0.16,
-   "offset": -0.06
-  },
-  {
-   "src": "synth:swipe_02",
-   "at": {
-    "cut": 12
-   },
-   "volume": 0.16,
-   "offset": -0.06
-  },
-  {
-   "src": "synth:swipe_02",
-   "at": {
-    "cut": 13
    },
    "volume": 0.16,
    "offset": -0.06
