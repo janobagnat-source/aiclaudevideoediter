@@ -1,0 +1,18 @@
+Assets de terceros usados (licencias libres)
+
+- sfx: confirmation_001 — Kenney.nl [cc0] https://kenney.nl/assets/interface-sounds
+- sfx: confirmation_002 — Kenney.nl [cc0] https://kenney.nl/assets/interface-sounds
+- sfx: glass_002 — Kenney.nl [cc0] https://kenney.nl/assets/interface-sounds
+- sfx: maximize_006 — Kenney.nl [cc0] https://kenney.nl/assets/interface-sounds
+- sfx: pluck_001 — Kenney.nl [cc0] https://kenney.nl/assets/interface-sounds
+- sfx: pluck_002 — Kenney.nl [cc0] https://kenney.nl/assets/interface-sounds
+- sfx: question_001 — Kenney.nl [cc0] https://kenney.nl/assets/interface-sounds
+- sfx: click1 — Kenney.nl [cc0] https://kenney.nl/assets/ui-audio
+- sfx: switch7 — Kenney.nl [cc0] https://kenney.nl/assets/ui-audio
+- sfx: Typewriter, Key — Joseph Sardin (BigSoundBank) [cc0] https://bigsoundbank.com/typewriter-key-s2842.html
+- sfx: Triggering camera — Joseph Sardin (BigSoundBank) [cc0] https://bigsoundbank.com/triggering-camera-s0307.html
+- sfx: Whoosh — Joseph Sardin (BigSoundBank) [cc0] https://bigsoundbank.com/whoosh-4-s1796.html
+- music: Dramatic Ending — Soft and Furious [by] https://www.jamendo.com/track/1535216
+
+REQUIEREN ATRIBUCIÓN (poner en descripción del anuncio/video):
+  "Dramatic Ending" by Soft and Furious is licensed under CC BY 3.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/3.0/.
