@@ -1,0 +1,15 @@
+Assets de terceros usados (licencias libres)
+
+- sfx: confirmation_002 — Kenney.nl [cc0] https://kenney.nl/assets/interface-sounds
+- sfx: glass_002 — Kenney.nl [cc0] https://kenney.nl/assets/interface-sounds
+- sfx: pluck_001 — Kenney.nl [cc0] https://kenney.nl/assets/interface-sounds
+- sfx: pluck_002 — Kenney.nl [cc0] https://kenney.nl/assets/interface-sounds
+- sfx: question_001 — Kenney.nl [cc0] https://kenney.nl/assets/interface-sounds
+- sfx: click1 — Kenney.nl [cc0] https://kenney.nl/assets/ui-audio
+- music: Dawning of Darkness — Hyperreal [by] https://www.jamendo.com/track/1076982
+- sfx: Typewriter, Key — Joseph Sardin (BigSoundBank) [cc0] https://bigsoundbank.com/typewriter-key-s2842.html
+- sfx: Message — Joseph Sardin (BigSoundBank) [cc0] https://bigsoundbank.com/message-1-s1111.html
+- sfx: Whoosh — Joseph Sardin (BigSoundBank) [cc0] https://bigsoundbank.com/whoosh-4-s1796.html
+
+REQUIEREN ATRIBUCIÓN (poner en descripción del anuncio/video):
+  "Dawning of Darkness" by Hyperreal is licensed under CC BY 3.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/3.0/.
