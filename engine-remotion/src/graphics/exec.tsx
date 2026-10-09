@@ -238,7 +238,7 @@ export const Receipt: React.FC<G & {title?: string; items: {label: string; value
 			{/* ranura de la impresora */}
 			<div style={{position: 'absolute', left: (width - W * 1.12) / 2, top: slotY - 26 * u, width: W * 1.12, height: 34 * u, borderRadius: 17 * u, background: 'linear-gradient(180deg,#0b1438,#02061a)', boxShadow: `0 0 0 ${2 * u}px rgba(255,255,255,.1), 0 ${12 * u}px ${30 * u}px rgba(0,0,0,.6)`, zIndex: 3}} />
 			<div style={{position: 'absolute', left: (width - W) / 2, top: slotY, width: W, height: printed, overflow: 'hidden', zIndex: 2}}>
-				<div style={{position: 'absolute', left: 0, right: 0, bottom: 0, height: fullH, background: '#f4f1ea', padding: `${30 * u}px ${36 * u}px`, boxSizing: 'border-box', boxShadow: `0 ${30 * u}px ${60 * u}px rgba(0,0,0,.45)`, WebkitMaskImage: `linear-gradient(transparent, black ${30 * u}px)`}}>
+				<div style={{position: 'absolute', left: 0, right: 0, top: 0, height: fullH, background: '#f4f1ea', padding: `${30 * u}px ${36 * u}px`, boxSizing: 'border-box', boxShadow: `0 ${30 * u}px ${60 * u}px rgba(0,0,0,.45)`, }}>
 					<div style={{fontFamily: fonts.heading, fontWeight: 800, fontSize: 28 * u, letterSpacing: 5 * u, color: ink, textAlign: 'center', paddingBottom: 18 * u, borderBottom: `${3 * u}px dashed ${hexA(ink, 0.35)}`}}>{title}</div>
 					{items.map((it, i) => (
 						<div key={i} style={{display: 'flex', alignItems: 'baseline', height: lineH, gap: 10 * u, opacity: f >= it.at ? 1 : 0}}>
@@ -308,7 +308,7 @@ export const DecisionPrompt: React.FC<G & {title?: string; body?: string; app?: 
 
 // ---------------------------------------------------------------------------------------------
 /** Tipografía gigante DETRÁS del sujeto (usar en cuts[n].behind con cutout). Relleno u outline, deriva lenta. */
-export const BehindTitle: React.FC<G & {lines: {text: string; outline?: boolean; color?: string; size?: number; tracking?: number}[]; y?: number; drift?: number; kicker?: string}> = ({dur, lines, y = 0.36, drift = 0.06, kicker}) => {
+export const BehindTitle: React.FC<G & {lines: {text: string; outline?: boolean; color?: string; size?: number; tracking?: number; gradient?: boolean}[]; y?: number; drift?: number; kicker?: string; kickerY?: number}> = ({dur, lines, y = 0.36, drift = 0.06, kicker, kickerY}) => {
 	const {f, o} = useIO(dur, 14, 10);
 	const {width, height} = useVideoConfig();
 	const {fonts} = useBrand();
@@ -317,7 +317,7 @@ export const BehindTitle: React.FC<G & {lines: {text: string; outline?: boolean;
 	return (
 		<AbsoluteFill style={{pointerEvents: 'none', opacity: o}}>
 			<div style={{position: 'absolute', left: 0, right: 0, top: y * height, transform: `translateY(-50%) scale(${1 + drift * p})`, display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-				{kicker && <div style={{fontFamily: fonts.heading, fontWeight: 700, fontSize: 34 * u, letterSpacing: 14 * u, color: GOLD, marginBottom: 10 * u, opacity: interpolate(f, [6, 18], [0, 1], clamp)}}>{kicker}</div>}
+				{kicker && kickerY == null && <div style={{fontFamily: fonts.heading, fontWeight: 700, fontSize: 34 * u, letterSpacing: 14 * u, color: GOLD, marginBottom: 10 * u, opacity: interpolate(f, [6, 18], [0, 1], clamp)}}>{kicker}</div>}
 				{lines.map((l, i) => {
 					const fit = fitText({text: l.text, withinWidth: width * 0.94, fontFamily: fonts.heading, fontWeight: 900, letterSpacing: `${(l.tracking ?? 0) * u}px`}).fontSize;
 					const size = Math.min((l.size ?? 400) * u, fit);
@@ -330,7 +330,9 @@ export const BehindTitle: React.FC<G & {lines: {text: string; outline?: boolean;
 									fontWeight: 900,
 									fontSize: size,
 									letterSpacing: (l.tracking ?? 0) * u,
-									color: l.outline ? 'transparent' : l.color ?? '#fff',
+									color: l.outline ? 'transparent' : l.gradient ? 'transparent' : l.color ?? '#fff',
+									backgroundImage: l.gradient ? `linear-gradient(180deg, ${l.color ?? GOLD} 0%, ${hexA(l.color ?? GOLD, 0.85)} 55%, ${hexA(l.color ?? GOLD, 0.15)} 100%)` : undefined,
+									WebkitBackgroundClip: l.gradient ? 'text' : undefined,
 									WebkitTextStroke: l.outline ? `${3 * u}px ${l.color ?? GOLD}` : undefined,
 									transform: `translateY(${(1 - r) * 100}%)`,
 									textShadow: l.outline ? undefined : `0 0 ${60 * u}px ${hexA(l.color ?? '#3474FF', 0.35)}`,
@@ -342,6 +344,9 @@ export const BehindTitle: React.FC<G & {lines: {text: string; outline?: boolean;
 					);
 				})}
 			</div>
+			{kicker && kickerY != null && (
+				<div style={{position: 'absolute', left: 0, right: 0, top: kickerY * height, textAlign: 'center', fontFamily: fonts.heading, fontWeight: 800, fontSize: 36 * u, letterSpacing: 16 * u, color: GOLD, opacity: interpolate(f, [6, 18], [0, 1], clamp), textShadow: `0 ${4 * u}px ${20 * u}px rgba(0,0,0,.6)`}}>{kicker}</div>
+			)}
 		</AbsoluteFill>
 	);
 };
@@ -402,7 +407,7 @@ export const LogoReveal: React.FC<G & {logo: string; tagline?: string; cta?: str
 			</div>
 			{/* filos dorados */}
 			{[-1, 1].map((s) => (
-				<div key={s} style={{position: 'absolute', top: cy + LH / 2 + 46 * u, left: '50%', width: width * 0.3 * lines, height: 2 * u, transform: `translateX(${s < 0 ? -100 : 0}%) translateX(${s * 30 * u}px)`, background: `linear-gradient(${s < 0 ? 270 : 90}deg, ${GOLD}, transparent)`}} />
+				<div key={s} style={{position: 'absolute', top: cy + LH / 2 + 46 * u, left: '50%', width: width * 0.15 * lines, height: 2 * u, transform: `translateX(${s < 0 ? -100 : 0}%) translateX(${s * width * 0.31}px)`, background: `linear-gradient(${s < 0 ? 270 : 90}deg, ${GOLD}, transparent)`}} />
 			))}
 			<div style={{position: 'absolute', top: cy + LH / 2 + 30 * u, left: 0, right: 0, textAlign: 'center', fontFamily: fonts.heading, fontWeight: 700, fontSize: 26 * u, letterSpacing: 10 * u, color: 'rgba(255,255,255,.8)', opacity: lines}}>{tagline}</div>
 			<div style={{position: 'absolute', top: height * 0.7, left: '50%', transform: `translate(-50%,-50%) scale(${ctaS})`, background: GOLD, color: '#020617', borderRadius: 999, padding: `${22 * u}px ${70 * u}px`, fontFamily: fonts.heading, fontWeight: 900, fontStyle: 'italic', fontSize: 52 * u, letterSpacing: 2 * u, boxShadow: `0 0 ${50 * u}px ${hexA(GOLD, 0.5)}`}}>

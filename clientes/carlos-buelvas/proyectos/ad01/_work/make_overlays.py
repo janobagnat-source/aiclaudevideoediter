@@ -24,7 +24,8 @@ ad.sfx("synth:impact_cinematic", {"word": "al"}, 0.55)
 ad.sfx("synth:subdrop_01", {"word": "al"}, 0.45)
 ad.cut_set(0, cutout="_work/cutouts/cut0.webm",
            behind=[{"component": "BehindTitle", "start": 1.0, "duration": 2.84,
-                    "props": {"kicker": "FIN DE MES", "lines": [{"text": "30", "outline": True, "color": "#FFBB00", "size": 820}], "y": 0.27, "drift": 0.08}}])
+                    "props": {"kicker": "FIN DE MES", "kickerY": 0.035, "lines": [{"text": "30", "gradient": True, "color": "#FFBB00", "size": 900}], "y": 0.3, "drift": 0.06}}],
+           zoom=[{"t": 0, "s": 1.0}, {"t": 3.84, "s": 1.05, "ease": "linear"}])
 ad.sfx("synth:heartbeat_01", {"word": "preocupado"}, 0.4, -0.1)
 
 # ── AGENDA LLENA: split, Carlos arriba y la semana que se llena sola abajo ─────────────────────
@@ -95,9 +96,10 @@ for i in range(6):
 ad.sfx("synth:impact_soft", {"word": "justifica"}, 0.45)
 
 # ── “TU ESFUERZO MERECE CONVERTIRSE EN BIENESTAR” → BIENESTAR gigante detrás de Carlos ─────────
-ad.cut_set(12, cutout="_work/cutouts/cut12.webm", fx={"grade": "warm"},
-           behind=[{"component": "BehindTitle", "start": 0.25, "duration": 2.66,
-                    "props": {"kicker": "TU ESFUERZO MERECE", "lines": [{"text": "BIENESTAR", "color": "#FFFFFF", "size": 300}], "y": 0.3, "drift": 0.07}}])
+ad.cut_set(12, fx={"grade": "warm"})
+ad.split({"cut": 12}, {"cut": 13}, bottom=0.5, caption=0.535)
+ad.g("KickerTitle", {"cut": 12, "offset": 0.2}, until={"cut": 13, "offset": -0.05}, kicker="TU ESFUERZO MERECE", align="center", y=0.76,
+     lines=[{"text": "BIENESTAR", "color": "#FFBB00", "size": 150}], stagger=4)
 ad.g("LightSweep", {"cut": 12, "offset": -0.1}, 0.5, layer="top", color="#ffd98a")
 ad.sfx("synth:reverse_swell", {"cut": 12}, 0.35, -0.6)
 ad.sfx("lib:glass_002", {"word": "bienestar."}, 0.35)
