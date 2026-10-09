@@ -90,6 +90,7 @@ ad.sfx("lib:bsb-1742", {"cut": 10, "offset": 0.1 + 52 / 30}, 0.55)
 ad.broll(BL + "scale/scale.mp4", {"word": "trabajo", "offset": -0.1}, {"cut": 12}, speed=0.59, transition="zoom-in")
 ad.g("KickerTitle", {"word": "trabajo", "offset": -0.05}, until={"cut": 12, "offset": -0.03}, kicker="PREGÚNTATE", y=0.12, align="center",
      lines=[{"text": "¿ME DEJA UNA", "size": 78}, {"text": "GANANCIA QUE LO JUSTIFIQUE?", "color": "#FFBB00", "size": 60}])
+ad.cap_pos.append({"at": {"word": "trabajo", "offset": -0.1}, "until": {"cut": 12}, "pos": 0.87})
 ad.sfx("synth:whoosh_medium", {"word": "trabajo", "offset": -0.1}, 0.45, -0.1)
 for i in range(6):
     ad.sfx("lib:bsb-0339", {"word": "trabajo", "offset": -0.1 + (10 + i * 6) / 30 / 0.59}, 0.28)

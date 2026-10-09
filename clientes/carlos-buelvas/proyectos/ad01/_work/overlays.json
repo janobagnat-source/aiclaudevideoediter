@@ -317,45 +317,26 @@
    "zoom": [
     {
      "t": 0,
-     "s": 1.0
+     "s": 1.02
+    },
+    {
+     "t": 2.35,
+     "s": 1.02
+    },
+    {
+     "t": 2.52,
+     "s": 1.1,
+     "ease": "punch"
     },
     {
      "t": 2.91,
-     "s": 1.04,
+     "s": 1.12,
      "ease": "linear"
     }
    ],
-   "cutout": "_work/cutouts/cut12.webm",
    "fx": {
     "grade": "warm"
-   },
-   "behind": [
-    {
-     "component": "BehindTitle",
-     "start": 0.25,
-     "duration": 2.66,
-     "props": {
-      "kicker": "TU ESFUERZO MERECE",
-      "kickerY": 0.035,
-      "lines": [
-       {
-        "text": "BIEN",
-        "gradient": true,
-        "color": "#FFFFFF",
-        "size": 520
-       },
-       {
-        "text": "ESTAR",
-        "gradient": true,
-        "color": "#FFBB00",
-        "size": 520
-       }
-      ],
-      "y": 0.27,
-      "drift": 0.05
-     }
-    }
-   ]
+   }
   },
   "13": {
    "focus": {
@@ -440,6 +421,25 @@
     },
     "until": {
      "cut": 10
+    },
+    "pos": 0.535
+   },
+   {
+    "at": {
+     "word": "trabajo",
+     "offset": -0.1
+    },
+    "until": {
+     "cut": 12
+    },
+    "pos": 0.87
+   },
+   {
+    "at": {
+     "cut": 12
+    },
+    "until": {
+     "cut": 13
     },
     "pos": 0.535
    }
@@ -592,7 +592,7 @@
    "layer": "over",
    "props": {
     "kicker": "SI VENDES UN SERVICIO",
-    "y": 0.13,
+    "y": 0.085,
     "lines": [
      {
       "text": "TU TIEMPO",
@@ -695,6 +695,31 @@
    "until": {
     "cut": 12,
     "offset": -0.03
+   }
+  },
+  {
+   "component": "KickerTitle",
+   "at": {
+    "cut": 12,
+    "offset": 0.2
+   },
+   "layer": "over",
+   "props": {
+    "kicker": "TU ESFUERZO MERECE",
+    "align": "center",
+    "y": 0.76,
+    "lines": [
+     {
+      "text": "BIENESTAR",
+      "color": "#FFBB00",
+      "size": 150
+     }
+    ],
+    "stagger": 4
+   },
+   "until": {
+    "cut": 13,
+    "offset": -0.05
    }
   },
   {
@@ -1542,6 +1567,14 @@
    "offset": 0.0
   },
   {
+   "src": "lib:card-slide-2",
+   "at": {
+    "cut": 12
+   },
+   "volume": 0.45,
+   "offset": -0.05
+  },
+  {
    "src": "synth:reverse_swell",
    "at": {
     "cut": 12
@@ -1776,8 +1809,8 @@
    },
    "mode": "full",
    "transition": "cut",
-   "speed": 1.55,
-   "in": 0.0,
+   "speed": 1.45,
+   "in": 0.2,
    "kenburns": "none"
   },
   {
@@ -1843,6 +1876,16 @@
    },
    "until": {
     "cut": 10
+   },
+   "mode": "split",
+   "bottom": 0.5
+  },
+  {
+   "at": {
+    "cut": 12
+   },
+   "until": {
+    "cut": 13
    },
    "mode": "split",
    "bottom": 0.5

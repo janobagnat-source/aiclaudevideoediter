@@ -13,7 +13,7 @@ const BrollItem: React.FC<{b: Broll; grade: string}> = ({b, grade}) => {
 	const dur = Math.max(1, Math.round(b.duration * fps));
 	const p = frame / dur;
 	const kb = b.kenburns ?? 'in';
-	const kbScale = kb === 'in' ? 1.06 + p * 0.12 : kb === 'out' ? 1.18 - p * 0.12 : 1.12;
+	const kbScale = kb === 'in' ? 1.06 + p * 0.12 : kb === 'out' ? 1.18 - p * 0.12 : kb === 'none' ? 1.0 : 1.12;
 	const kbX = kb === 'left' ? (0.5 - p) * width * 0.06 : kb === 'right' ? (p - 0.5) * width * 0.06 : 0;
 	const kbY = kb === 'up' ? (0.5 - p) * height * 0.05 : 0;
 	const tr = b.transition ?? 'whip';
