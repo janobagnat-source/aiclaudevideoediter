@@ -10,7 +10,7 @@ ad.auto_zooms(punch_words=["dinero?", "agenda", "creciendo”.", "pagar", "much�
 
 # ── HOOK ───────────────────────────────────────────────────────────────────────────────────────
 # 0.0–1.0  Blender: barras de ventas de oro que se disparan + contador “+38 %”
-ad.broll(BL + "bars/bars.mp4", 0, {"word": "al"}, speed=1.55, transition="cut")
+ad.broll(BL + "bars/bars.mp4", 0, {"word": "al"}, speed=1.45, transition="cut", inn=0.2)
 ad.g("KickerTitle", 0, until={"word": "al", "offset": -0.02}, kicker="VENTAS DEL MES", align="center", y=0.16,
      value={"from": 0, "to": 38, "prefix": "+", "suffix": "%", "at": 2, "dur": 22, "size": 210, "color": "#FFBB00"})
 ad.sfx("synth:whoosh_heavy", 0, 0.45)
