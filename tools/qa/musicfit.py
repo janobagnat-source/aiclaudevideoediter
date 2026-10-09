@@ -29,6 +29,9 @@ def fit(path, L, T):
 if __name__ == '__main__':
     L, T = float(sys.argv[1]), float(sys.argv[2])
     files = sys.argv[3:] or glob.glob('library/music/_dl/epic*/**/*.mp3', recursive=True)
+    # solo CC BY / CC0 (nada de SA/ND/NC)
+    lic = {x['local'].split('/')[-1]: x.get('license', '') for x in json.load(open('library/credits.json')) if isinstance(x, dict) and x.get('local')}
+    files = [f for f in files if lic.get(f.split('/')[-1], '') in ('by', 'cc0', 'pdm')]
     rows = []
     for f in files:
         try:

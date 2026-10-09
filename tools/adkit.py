@@ -143,6 +143,9 @@ class Ad:
 
     def music(self, file, drop=None, inn=None, volume=0.3, duck=0.32, at_cut=None):
         path = next(iter(glob.glob(str(ROOT / "library/music/_dl") + "/**/" + file, recursive=True)))
+        lic = {x.get("local", "").split("/")[-1]: x.get("license", "") for x in json.loads((ROOT / "library/credits.json").read_text()) if isinstance(x, dict)}
+        if lic.get(file, "") not in ("by", "cc0", "pdm"):
+            raise SystemExit(f"música {file}: licencia «{lic.get(file)}» no permitida (solo CC BY / CC0)")
         m = {"src": str(Path(path).relative_to(ROOT)), "at": 0, "volume": volume, "duck": duck, "fadeIn": 0.15, "fadeOut": 1.4}
         if inn is not None:
             m["in"] = inn
