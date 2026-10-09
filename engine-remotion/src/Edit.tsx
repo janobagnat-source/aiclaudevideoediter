@@ -8,6 +8,7 @@ import {FilmGrain, Letterbox, LightLeaks, Vignette} from './layers/FxLayer';
 import {GraphicsLayer} from './layers/GraphicsLayer';
 import {MainTrack, TransitionOverlays} from './layers/MainTrack';
 import type {Edit as EditT} from './types';
+import {LayoutBackdrop, LayoutFrame} from './layers/Layout';
 
 /**
  * Composición maestra. Orden de capas (abajo → arriba):
@@ -17,7 +18,10 @@ export const Edit: React.FC<{edit: EditT}> = ({edit}) => {
 	return (
 		<BrandProvider brand={edit.brand}>
 			<AbsoluteFill style={{background: edit.background}}>
-				<MainTrack cuts={edit.cuts} grade={edit.fx.grade} />
+				<LayoutBackdrop layouts={edit.layouts ?? []} />
+				<LayoutFrame layouts={edit.layouts ?? []}>
+					<MainTrack cuts={edit.cuts} grade={edit.fx.grade} />
+				</LayoutFrame>
 				<GraphicsLayer items={edit.graphics} layer="under" />
 				<BrollLayer items={edit.broll} grade={edit.fx.grade} />
 				<GraphicsLayer items={edit.graphics} layer="over" />

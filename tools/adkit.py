@@ -34,6 +34,9 @@ class Ad:
         self.S: list[dict] = []
         self.cut_over: dict = {}
         self.music_cfg: list = []
+        self.B: list[dict] = []          # b-roll (p.ej. clips de Blender)
+        self.layouts: list[dict] = []    # reacomodos del track principal (split)
+        self.cap_pos: list[dict] = []    # posición de subtítulos por tramos
         self.n = len(self.edl["cuts"])
 
     # ---------------- helpers
@@ -57,6 +60,19 @@ class Ad:
             d["duration"] = dur
         self.G.append(d)
         return d
+
+    def broll(self, src, at, until, mode="full", transition="cut", speed=1.0, inn=0.0, kenburns="none", **kw):
+        self.B.append({"src": src, "at": at, "until": until, "mode": mode, "transition": transition, "speed": speed,
+                       "in": inn, "kenburns": kenburns, **kw})
+
+    def split(self, at, until, bottom=0.5, caption=0.535, **kw):
+        """Carlos arriba en una ventana flotante, panel de marca abajo para gráficos; los subtítulos suben al borde."""
+        self.layouts.append({"at": at, "until": until, "mode": "split", "bottom": bottom, **kw})
+        self.cap_pos.append({"at": at, "until": until, "pos": caption})
+        self.sfx("lib:card-slide-2", at, 0.45, -0.05)
+
+    def cut_set(self, cut, **kw):
+        self.cut_over.setdefault(str(cut), {}).update(kw)
 
     def sfx(self, src, at, vol=0.5, off=0.0, **kw):
         self.S.append({"src": src, "at": at, "volume": vol, "offset": off, **kw})
@@ -136,6 +152,14 @@ class Ad:
         self.sfx("synth:impact_cinematic", {"end": True, "offset": -1.75}, 0.55)
         self.sfx("lib:glass_002", {"end": True, "offset": -1.0}, 0.4)
 
+    def end_flat(self, logo=M + "logo_dorado.png", tagline="COACH · MENTOR DE VENTAS"):
+        """Cierre plano (sin 3D): logo dorado con revelado por máscara y barrido de brillo + CTA."""
+        self.g("LogoReveal", {"end": True, "offset": -1.85}, until={"end": True}, layer="top", logo=logo, tagline=tagline)
+        self.sfx("synth:whoosh_reverse", {"end": True, "offset": -1.85}, 0.45, -0.2)
+        self.sfx("synth:impact_soft", {"end": True, "offset": -1.7}, 0.5)
+        self.sfx("lib:glass_002", {"end": True, "offset": -1.15}, 0.35)
+        self.sfx("synth:pop_02", {"end": True, "offset": -1.3}, 0.3)
+
     def cam_swipes(self, vol=0.16):
         for i in range(1, self.n):
             if self.edl["cuts"][i]["source"] != self.edl["cuts"][i - 1]["source"]:
@@ -158,8 +182,9 @@ class Ad:
         ov = {"format": "9:16", "fps": 30, "tail": tail, "background": "#01030c", "logo": M + "logo_blanco.png",
               "zoom": {"auto": False}, "cuts": self.cut_over,
               "captions": {"enabled": True, "style": "premium", "position": 0.605, "maxWords": 3, "uppercase": True,
-                           "emphasis": list(emphasis), "hideDuring": [list(h) for h in hide] + [[999, 9999]]},
-              "graphics": self.G, "sfx": self.S, "music": self.music_cfg,
+                           "emphasis": list(emphasis), "hideDuring": [list(h) for h in hide] + [[999, 9999]],
+                           "positionDuring": self.cap_pos},
+              "graphics": self.G, "sfx": self.S, "music": self.music_cfg, "broll": self.B, "layouts": self.layouts,
               "mix": {"sfxTarget": -20.0, "sfxDuck": 0.5},
               "fx": {"grade": "cinematic", "grain": 0.035, "vignette": 0.28, "lightLeakHue": 185}}
         (self.w / "overlays.json").write_text(json.dumps(ov, ensure_ascii=False, indent=1))

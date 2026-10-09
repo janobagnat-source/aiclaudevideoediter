@@ -97,6 +97,7 @@ export type Edit = {
 	sfx: Sfx[];
 	music: Music[];
 	speech: [number, number][];
+	layouts?: Layout[];
 	captions: {
 		enabled: boolean;
 		style: 'bold-pop' | 'karaoke' | 'minimal' | 'boxed' | 'neon' | 'serif-elegant' | 'premium';
@@ -105,8 +106,12 @@ export type Edit = {
 		maxWords: number;
 		uppercase: boolean;
 		hideDuring: [number, number][];
+		positionDuring?: [number, number, number][];
 		words: Word[];
 	};
 	fx: {grain: number; vignette: number; grade: string; chromatic: number; letterbox?: number; lightLeaks?: boolean; lightLeakHue?: number};
 	background: string;
 };
+
+/** Reacomodo del track principal. split: Carlos en una ventana superior (top..bottom, fracción de alto), gráficos abajo */
+export type Layout = {start: number; duration: number; mode: 'split' | 'card'; bottom?: number; top?: number; radius?: number; border?: string; scale?: number; ease?: number};

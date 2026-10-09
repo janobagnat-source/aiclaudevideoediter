@@ -45,6 +45,12 @@ export const Captions: React.FC<{cfg: Edit['captions']}> = ({cfg}) => {
 	const emph = useMemo(() => new Set(cfg.emphasis.map(normW)), [cfg.emphasis]);
 	const t = frame / fps;
 	if (cfg.hideDuring.some(([a, b]) => t >= a && t < b)) return null;
+	// posición por tramos (p.ej. layout split): transición suave de 0.3 s
+	let pos = cfg.position;
+	for (const [a, b, p] of cfg.positionDuring ?? []) {
+		const k = Math.min(1, Math.max(0, Math.min((t - a) / 0.3 + 1, (b - t) / 0.3)));
+		if (k > 0) pos = cfg.position + (p - cfg.position) * (k * k * (3 - 2 * k));
+	}
 	const ch = chunks.find((c) => t >= c.start - 0.02 && t < c.end);
 	if (!ch) return null;
 	const local = frame - Math.round(ch.start * fps);
@@ -61,7 +67,7 @@ export const Captions: React.FC<{cfg: Edit['captions']}> = ({cfg}) => {
 		const size = Math.min(base * 1.02, fit);
 		return (
 			<AbsoluteFill style={{pointerEvents: 'none'}}>
-				<div style={{position: 'absolute', top: `${cfg.position * 100}%`, left: 0, right: 0, transform: 'translateY(-50%)', display: 'flex', justifyContent: 'center', flexWrap: 'nowrap', columnGap: size * 0.3}}>
+				<div style={{position: 'absolute', top: `${pos * 100}%`, left: 0, right: 0, transform: 'translateY(-50%)', display: 'flex', justifyContent: 'center', flexWrap: 'nowrap', columnGap: size * 0.3}}>
 					{ch.words.map((w, i) => {
 						const said = t >= w.start - 0.06;
 						const cf = frame - Math.round((ch.start - 0.04) * fps) - i * 1.5;
@@ -87,7 +93,7 @@ export const Captions: React.FC<{cfg: Edit['captions']}> = ({cfg}) => {
 			<div
 				style={{
 					position: 'absolute',
-					top: `${cfg.position * 100}%`,
+					top: `${pos * 100}%`,
 					transform: `translateY(-50%) translateY(${(1 - enter) * 26}px) scale(${0.86 + 0.14 * enter})`,
 					width: '88%',
 					display: 'flex',

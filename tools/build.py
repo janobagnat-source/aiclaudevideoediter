@@ -237,6 +237,16 @@ def main(argv=None):
                     r"\.(png|jpe?g|webp|gif|svg|mp4|mov|webm|gltf|glb|hdr|json|wav|mp3|ogg)$", v, re.I):
                 props[k] = to_public(resolve_media(v, proj))
         graphics.append({**g, "props": props, "start": st, "duration": du})
+    # Layouts: el track principal se reacomoda (p.ej. "split": Carlos arriba en una ventana, gráficos abajo)
+    layouts = []
+    for L in ov.get("layouts", []):
+        st, du = span(L, 2.0)
+        layouts.append({**{k: v for k, v in L.items() if k not in ("at", "until")}, "start": st, "duration": du})
+    # Captions: posición distinta durante tramos (p.ej. en split los subtítulos suben al borde de la ventana)
+    cap_pos = []
+    for P in ov.get("captions", {}).get("positionDuring", []):
+        st, du = span(P, 1.0)
+        cap_pos.append([st, round(st + du, 3), float(P["pos"])])
     # Mezcla: la voz se trabaja a -16 LUFS (ve voice). SFX normalizados por su pico momentáneo (vol 1.0 = -20 LUFS)
     # y música por su loudness integrado (vol 1.0 = -16 LUFS, a la par de la voz) para que `volume` sea relativo y predecible.
     from voice import sfx_gain
@@ -287,11 +297,11 @@ def main(argv=None):
         "durationInFrames": max(1, round(tl.duration * fps)),
         "brand": {"colors": colors, "fonts": {"heading": fonts["heading"], "body": fonts["body"]},
                   "fontFiles": font_files, "logo": to_public(resolve_media(logo, proj)) if logo else None},
-        "cuts": cuts, "broll": broll, "graphics": graphics, "sfx": sfx, "music": music, "speech": speech,
+        "cuts": cuts, "broll": broll, "graphics": graphics, "sfx": sfx, "music": music, "speech": speech, "layouts": layouts,
         "captions": {"enabled": cap.get("enabled", True), "style": cap.get("style", "bold-pop"),
                      "emphasis": sorted(emphasis), "position": cap.get("position", 0.70),
                      "maxWords": cap.get("maxWords", 3), "uppercase": cap.get("uppercase", True),
-                     "hideDuring": cap.get("hideDuring", []), "words": tl.words},
+                     "hideDuring": cap.get("hideDuring", []), "positionDuring": cap_pos, "words": tl.words},
         "fx": {"grain": 0.045, "vignette": 0.22, "grade": "punchy", "chromatic": 0, **ov.get("fx", {})},
         "background": ov.get("background", colors["dark"]),
     }
