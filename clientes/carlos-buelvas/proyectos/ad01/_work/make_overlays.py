@@ -63,7 +63,7 @@ ad.sfx("synth:impact_soft", {"word": "poco"}, 0.45)
 
 # ── “TU TIEMPO TAMBIÉN CUENTA”: Blender, reloj de arena de oro ──────────────────────────────────
 ad.broll(BL + "hourglass/hourglass.mp4", {"word": "servicio,", "offset": -0.05}, {"cut": 7}, speed=0.76, transition="whip-up")
-ad.g("KickerTitle", {"word": "servicio,", "offset": 0.0}, until={"cut": 7, "offset": -0.03}, kicker="SI VENDES UN SERVICIO", y=0.13,
+ad.g("KickerTitle", {"word": "servicio,", "offset": 0.0}, until={"cut": 7, "offset": -0.03}, kicker="SI VENDES UN SERVICIO", y=0.085,
      lines=[{"text": "TU TIEMPO", "size": 104}, {"text": "TAMBIÉN CUENTA", "color": "#FFBB00", "size": 84}])
 ad.sfx("synth:whoosh_fast", {"word": "servicio,", "offset": -0.05}, 0.45, -0.08)
 for k in range(8):
