@@ -1138,7 +1138,7 @@
  ],
  "broll": [
   {
-   "src": "clientes/carlos-buelvas/proyectos/ad03/_work/blender/ad03_iceberg/iceberg.mp4",
+   "src": "clientes/carlos-buelvas/proyectos/ad03/_work/blender/ad03_iceberg/iceberg_slow40.mp4",
    "at": {
     "word": "desde",
     "offset": -0.08
@@ -1148,12 +1148,12 @@
    },
    "mode": "full",
    "transition": "whip-up",
-   "speed": 0.4,
+   "speed": 1.0,
    "in": 0.0,
    "kenburns": "none"
   },
   {
-   "src": "clientes/carlos-buelvas/proyectos/ad03/_work/blender/ad03_funnel/funnel.mp4",
+   "src": "clientes/carlos-buelvas/proyectos/ad03/_work/blender/ad03_funnel/funnel_slow58.mp4",
    "at": {
     "cut": 4
    },
@@ -1162,7 +1162,7 @@
    },
    "mode": "full",
    "transition": "zoom-in",
-   "speed": 0.58,
+   "speed": 1.0,
    "in": 0.0,
    "kenburns": "none"
   }
