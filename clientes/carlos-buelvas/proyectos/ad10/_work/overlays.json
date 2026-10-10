@@ -116,7 +116,7 @@
   "3": {
    "focus": {
     "x": 0.5,
-    "y": 0.36
+    "y": 0.197
    },
    "zoom": [
     {
@@ -177,7 +177,7 @@
   "5": {
    "focus": {
     "x": 0.5,
-    "y": 0.36
+    "y": 0.197
    },
    "zoom": [
     {
@@ -264,7 +264,7 @@
   "8": {
    "focus": {
     "x": 0.5,
-    "y": 0.197
+    "y": 0.36
    },
    "zoom": [
     {
@@ -421,13 +421,47 @@
   ],
   "hideDuring": [
    [
-    6.9,
-    8.15
-   ],
-   [
     999,
     9999
    ]
+  ],
+  "positionDuring": [
+   {
+    "at": 0,
+    "until": {
+     "cut": 1
+    },
+    "pos": 0.535
+   },
+   {
+    "at": {
+     "cut": 3
+    },
+    "until": {
+     "cut": 7
+    },
+    "pos": 0.535
+   },
+   {
+    "at": {
+     "word": "últimas",
+     "offset": -0.2
+    },
+    "until": {
+     "cut": 8
+    },
+    "pos": 0.88
+   },
+   {
+    "at": {
+     "cut": 9
+    },
+    "until": {
+     "word": "aumentar",
+     "offset": -0.1
+    },
+    "pos": 0.88
+   }
   ]
  },
  "graphics": [
@@ -436,408 +470,148 @@
    "at": 0,
    "layer": "top",
    "props": {
-    "peak": 0.9,
+    "peak": 0.8,
     "color": "#dbe7ff"
    },
-   "duration": 0.28
+   "duration": 0.25
   },
   {
-   "component": "CounterRace",
+   "component": "AdsDashboard",
    "at": 0.05,
    "layer": "over",
    "props": {
-    "y": 0.82,
-    "a": {
-     "label": "GASTO EN PUBLICIDAD",
-     "from": 200,
-     "to": 4800,
-     "prefix": "$"
-    },
-    "b": {
-     "label": "VENTAS",
-     "from": 0,
-     "to": 0,
-     "prefix": "$"
-    }
+    "y": 0.57,
+    "boostAt": 100
    },
    "until": {
     "cut": 1,
-    "offset": -0.03
+    "offset": -0.05
    }
   },
   {
-   "component": "IconBadge",
-   "at": {
-    "word": "publicidad,",
-    "offset": -0.3
-   },
-   "layer": "over",
-   "props": {
-    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/megaphone-bold.svg",
-    "x": 0.83,
-    "y": 0.44,
-    "leader": "left",
-    "size": 0.9,
-    "label": "MÁS PUBLICIDAD"
-   },
-   "until": {
-    "cut": 1,
-    "offset": -0.03
-   }
-  },
-  {
-   "component": "BrandScene",
-   "at": {
-    "word": "esa",
-    "offset": -0.06
-   },
-   "layer": "under",
-   "props": {
-    "variant": "tunnel"
-   },
-   "until": {
-    "cut": 2,
-    "offset": -0.02
-   }
-  },
-  {
-   "component": "Text3DTitle",
-   "at": {
-    "word": "esa",
-    "offset": -0.04
-   },
-   "layer": "over",
-   "props": {
-    "text": "URGENCIA",
-    "font": "Montserrat-Black",
-    "color": "#FFBB00",
-    "metal": 0.85,
-    "size": 0.9,
-    "y": 1.5,
-    "depth": 0.35
-   },
-   "until": {
-    "cut": 2,
-    "offset": -0.02
-   }
-  },
-  {
-   "component": "BrandScene",
+   "component": "BillsStack",
    "at": {
     "word": "cuentas",
-    "offset": -0.1
-   },
-   "layer": "under",
-   "props": {
-    "variant": "glow",
-    "word": "CUENTAS"
-   },
-   "until": {
-    "word": "queremos",
-    "offset": -0.05
-   }
-  },
-  {
-   "component": "CostTags",
-   "at": {
-    "word": "cuentas",
-    "offset": -0.05
-   },
-   "layer": "over",
-   "props": {
-    "y": 0.32,
-    "tag": "-$",
-    "items": [
-     "ALQUILER",
-     "PROVEEDORES",
-     "SUELDOS"
-    ],
-    "delays": [
-     3,
-     13,
-     23
-    ]
-   },
-   "until": {
-    "word": "queremos",
-    "offset": -0.05
-   }
-  },
-  {
-   "component": "IconBadge",
-   "at": {
-    "word": "solución"
-   },
-   "layer": "over",
-   "props": {
-    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/lightning-bold.svg",
-    "x": 0.83,
-    "y": 0.44,
-    "leader": "left",
-    "size": 0.9,
-    "label": "SOLUCIÓN RÁPIDA"
-   },
-   "until": {
-    "cut": 3,
-    "offset": -0.03
-   }
-  },
-  {
-   "component": "IconBadge",
-   "at": {
-    "word": "invertir"
-   },
-   "layer": "over",
-   "props": {
-    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/hand-palm-bold.svg",
-    "x": 0.17,
-    "y": 0.44,
-    "leader": "right",
-    "size": 0.9,
-    "label": "ANTES DE INVERTIR"
-   },
-   "until": {
-    "cut": 4,
-    "offset": -0.03
-   }
-  },
-  {
-   "component": "IconBadge",
-   "at": {
-    "word": "personas"
-   },
-   "layer": "over",
-   "props": {
-    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/users-three-bold.svg",
-    "x": 0.83,
-    "y": 0.44,
-    "leader": "left",
-    "size": 0.9,
-    "label": "YA SE ACERCARON"
-   },
-   "until": {
-    "cut": 4,
-    "offset": -0.03
-   }
-  },
-  {
-   "component": "Checklist",
-   "at": {
-    "cut": 4,
     "offset": -0.2
    },
    "layer": "over",
    "props": {
-    "title": "PREGÚNTATE",
-    "items": [
-     "¿LES RESPONDISTE?",
-     "¿ENTENDIERON TU PROPUESTA?",
-     "¿QUÉ DUDA QUEDÓ SIN RESOLVER?"
-    ],
-    "every": 43,
-    "position": 0.84,
-    "icon": "?"
+    "y": 0.7,
+    "quickAt": 75
+   },
+   "until": {
+    "cut": 3,
+    "offset": -0.05
+   }
+  },
+  {
+   "component": "LeadsList",
+   "at": {
+    "cut": 3
+   },
+   "layer": "over",
+   "props": {
+    "y": 0.575,
+    "audit": [
+     127,
+     170,
+     215
+    ]
    },
    "until": {
     "cut": 7,
+    "offset": -0.05
+   }
+  },
+  {
+   "component": "KickerTitle",
+   "at": {
+    "word": "últimas",
+    "offset": -0.15
+   },
+   "layer": "over",
+   "props": {
+    "kicker": "REVISA TUS ÚLTIMAS",
+    "align": "center",
+    "y": 0.09,
+    "lines": [
+     {
+      "text": "10 CONVERSACIONES",
+      "color": "#FFBB00",
+      "size": 88
+     }
+    ]
+   },
+   "until": {
+    "cut": 8,
     "offset": -0.03
    }
   },
   {
-   "component": "BrandScene",
+   "component": "BacklogBadges",
    "at": {
-    "word": "últimas",
-    "offset": -0.1
-   },
-   "layer": "under",
-   "props": {
-    "variant": "glow",
-    "word": "10 CHATS"
-   },
-   "until": {
-    "cut": 8,
-    "offset": -0.02
-   }
-  },
-  {
-   "component": "ChatThread",
-   "at": {
-    "word": "últimas",
-    "offset": -0.05
+    "word": "consultas",
+    "offset": -0.2
    },
    "layer": "over",
    "props": {
-    "y": 0.27,
-    "title": "Conversación 7 de 10",
-    "messages": [
+    "y": 0.72,
+    "hereAt": 87,
+    "items": [
      {
-      "text": "Hola, ¿cuánto cuesta? 👀",
+      "text": "Consultas sin responder",
+      "n": 7,
       "at": 4
      },
      {
-      "text": "Te paso la info 👇",
-      "me": true,
-      "at": 26
-     },
-     {
-      "text": "¿Y cuándo podríamos empezar?",
-      "at": 52
+      "text": "Propuestas sin seguimiento",
+      "n": 4,
+      "at": 49
      }
     ]
    },
    "until": {
-    "cut": 8,
-    "offset": -0.02
-   }
-  },
-  {
-   "component": "IconBadge",
-   "at": {
-    "word": "detuvieron.",
-    "offset": -0.1
-   },
-   "layer": "over",
-   "props": {
-    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/hand-palm-bold.svg",
-    "x": 0.5,
-    "y": 0.47,
-    "leader": "none",
-    "size": 0.85,
-    "label": "AQUÍ SE DETUVO"
-   },
-   "until": {
-    "cut": 8,
-    "offset": -0.02
-   }
-  },
-  {
-   "component": "IconBadge",
-   "at": {
-    "word": "consultas"
-   },
-   "layer": "over",
-   "props": {
-    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/chat-circle-dots-bold.svg",
-    "x": 0.17,
-    "y": 0.44,
-    "leader": "right",
-    "size": 0.9,
-    "label": "SIN RESPONDER"
-   },
-   "until": {
     "cut": 9,
-    "offset": -0.03
+    "offset": -0.05
    }
   },
   {
-   "component": "IconBadge",
+   "component": "KickerTitle",
    "at": {
-    "word": "propuestas"
-   },
-   "layer": "over",
-   "props": {
-    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/file-text-bold.svg",
-    "x": 0.83,
-    "y": 0.44,
-    "leader": "left",
-    "size": 0.9,
-    "label": "SIN SEGUIMIENTO"
-   },
-   "until": {
     "cut": 9,
-    "offset": -0.03
-   }
-  },
-  {
-   "component": "BlockTitle",
-   "at": {
-    "word": "empieza",
-    "offset": -0.1
+    "offset": 0.05
    },
    "layer": "over",
    "props": {
-    "y": 0.81,
-    "width": 0.6,
-    "stagger": 6,
-    "enter": "slam",
+    "kicker": "MÁS GENTE AL",
+    "align": "center",
+    "y": 0.09,
     "lines": [
      {
-      "text": "EMPIEZA",
-      "weight": 900
-     },
-     {
-      "text": "POR AHÍ",
-      "color": "gold"
+      "text": "MISMO PROCESO",
+      "color": "#FFBB00",
+      "size": 104
      }
     ]
    },
    "until": {
-    "cut": 9,
-    "offset": -0.03
+    "word": "aumentar",
+    "offset": -0.12
    }
   },
   {
-   "component": "BrandScene",
+   "component": "TwinLines",
    "at": {
-    "cut": 9,
-    "offset": 0.0
-   },
-   "layer": "under",
-   "props": {
-    "variant": "glow",
-    "word": "PROCESO"
-   },
-   "until": {
     "word": "aumentar",
     "offset": -0.05
-   }
-  },
-  {
-   "component": "LeakyFunnel",
-   "at": {
-    "cut": 9,
-    "offset": 0.03
    },
    "layer": "over",
    "props": {
-    "y": 0.3,
-    "top": "MÁS PERSONAS",
-    "bottom": "VENTAS",
-    "leaks": [
-     "SIN RESPUESTA",
-     "SIN SEGUIMIENTO"
-    ]
-   },
-   "until": {
-    "word": "aumentar",
-    "offset": -0.05
-   }
-  },
-  {
-   "component": "CounterRace",
-   "at": {
-    "word": "aumentar",
-    "offset": -0.03
-   },
-   "layer": "over",
-   "props": {
-    "y": 0.82,
-    "a": {
-     "label": "TU GASTO",
-     "from": 4800,
-     "to": 9600,
-     "prefix": "$"
-    },
-    "b": {
-     "label": "TUS VENTAS",
-     "from": 0,
-     "to": 0,
-     "prefix": "$"
-    }
+    "y": 0.72
    },
    "until": {
     "cut": 10,
-    "offset": -0.03
+    "offset": -0.05
    }
   },
   {
@@ -864,49 +638,15 @@
    }
   },
   {
-   "component": "BrandScene",
+   "component": "LogoReveal",
    "at": {
     "end": true,
     "offset": -1.85
    },
    "layer": "top",
    "props": {
-    "variant": "tunnel"
-   },
-   "until": {
-    "end": true
-   }
-  },
-  {
-   "component": "Logo3D",
-   "at": {
-    "end": true,
-    "offset": -1.8
-   },
-   "layer": "top",
-   "props": {
-    "svg": "clientes/carlos-buelvas/marca/logo.svg",
-    "depth": 60,
-    "metal": 0.9,
-    "color": "#FFBB00",
-    "scale": 0.42
-   },
-   "until": {
-    "end": true
-   }
-  },
-  {
-   "component": "CTAPill",
-   "at": {
-    "end": true,
-    "offset": -1.3
-   },
-   "layer": "top",
-   "props": {
-    "text": "SÍGUEME",
-    "x": 0.5,
-    "y": 0.78,
-    "size": 1.1
+    "logo": "clientes/carlos-buelvas/marca/logo_dorado.png",
+    "tagline": "COACH · MENTOR DE VENTAS"
    },
    "until": {
     "end": true
@@ -917,352 +657,343 @@
   {
    "src": "synth:impact_cinematic",
    "at": 0,
-   "volume": 0.6,
+   "volume": 0.5,
    "offset": 0.0
   },
   {
    "src": "synth:subdrop_01",
    "at": 0,
-   "volume": 0.5,
+   "volume": 0.4,
    "offset": 0.0
   },
   {
-   "src": "lib:bsb-1796",
+   "src": "lib:card-slide-2",
    "at": 0,
-   "volume": 0.4,
-   "offset": 0.0
+   "volume": 0.45,
+   "offset": -0.05
   },
   {
-   "src": "lib:bsb-2842",
-   "at": 0.15,
-   "volume": 0.15,
-   "offset": 0.0
-  },
-  {
-   "src": "lib:bsb-2842",
-   "at": 0.35,
-   "volume": 0.15,
-   "offset": 0.0
-  },
-  {
-   "src": "lib:bsb-2842",
-   "at": 0.55,
-   "volume": 0.15,
-   "offset": 0.0
-  },
-  {
-   "src": "lib:bsb-2842",
-   "at": 0.7500000000000001,
-   "volume": 0.15,
-   "offset": 0.0
-  },
-  {
-   "src": "lib:bsb-2842",
-   "at": 0.9500000000000001,
-   "volume": 0.15,
-   "offset": 0.0
-  },
-  {
-   "src": "lib:bsb-2842",
-   "at": 1.15,
-   "volume": 0.15,
-   "offset": 0.0
-  },
-  {
-   "src": "lib:bsb-2842",
-   "at": 1.35,
-   "volume": 0.15,
-   "offset": 0.0
-  },
-  {
-   "src": "lib:bsb-2842",
-   "at": 1.55,
-   "volume": 0.15,
-   "offset": 0.0
-  },
-  {
-   "src": "lib:bsb-2842",
-   "at": 1.75,
-   "volume": 0.15,
-   "offset": 0.0
-  },
-  {
-   "src": "lib:bsb-2842",
-   "at": 1.95,
-   "volume": 0.15,
-   "offset": 0.0
-  },
-  {
-   "src": "lib:bsb-2842",
-   "at": 2.15,
-   "volume": 0.15,
-   "offset": 0.0
-  },
-  {
-   "src": "lib:bsb-2842",
-   "at": 2.35,
-   "volume": 0.15,
-   "offset": 0.0
-  },
-  {
-   "src": "lib:bsb-2842",
-   "at": 2.5500000000000003,
-   "volume": 0.15,
-   "offset": 0.0
-  },
-  {
-   "src": "lib:bsb-2842",
-   "at": 2.75,
-   "volume": 0.15,
-   "offset": 0.0
-  },
-  {
-   "src": "lib:bsb-2842",
-   "at": 2.95,
-   "volume": 0.15,
-   "offset": 0.0
-  },
-  {
-   "src": "lib:bsb-2842",
-   "at": 3.15,
-   "volume": 0.15,
-   "offset": 0.0
-  },
-  {
-   "src": "lib:pluck_002",
+   "src": "synth:riser_short",
    "at": {
-    "word": "publicidad,",
-    "offset": -0.3
+    "word": "pago"
    },
-   "volume": 0.32,
-   "offset": 0.05
-  },
-  {
-   "src": "synth:whoosh_fast",
-   "at": {
-    "word": "publicidad,"
-   },
-   "volume": 0.4,
+   "volume": 0.3,
    "offset": -0.3
   },
   {
-   "src": "synth:impact_punch",
+   "src": "lib:bsb-1417",
    "at": {
-    "word": "mejorar”."
+    "word": "publicidad,"
    },
-   "volume": 0.45,
+   "volume": 0.3,
    "offset": 0.0
   },
   {
-   "src": "synth:whoosh_medium",
+   "src": "synth:tick_01",
    "at": {
-    "word": "esa",
-    "offset": -0.06
+    "word": "publicidad,",
+    "offset": 0.1
    },
-   "volume": 0.55,
-   "offset": -0.15
+   "volume": 0.16,
+   "offset": 0.0
   },
   {
-   "src": "synth:impact_cinematic",
+   "src": "synth:tick_01",
    "at": {
-    "word": "esa"
+    "word": "publicidad,",
+    "offset": 0.25
    },
-   "volume": 0.5,
-   "offset": -0.05
+   "volume": 0.16,
+   "offset": 0.0
   },
   {
-   "src": "synth:subdrop_short",
+   "src": "synth:tick_01",
    "at": {
-    "word": "esa"
+    "word": "publicidad,",
+    "offset": 0.4
    },
-   "volume": 0.4,
-   "offset": -0.05
+   "volume": 0.16,
+   "offset": 0.0
   },
   {
-   "src": "synth:whoosh_medium",
+   "src": "synth:tick_01",
+   "at": {
+    "word": "publicidad,",
+    "offset": 0.5499999999999999
+   },
+   "volume": 0.16,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:tick_01",
+   "at": {
+    "word": "publicidad,",
+    "offset": 0.7
+   },
+   "volume": 0.16,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:tick_01",
+   "at": {
+    "word": "publicidad,",
+    "offset": 0.85
+   },
+   "volume": 0.16,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:tick_01",
+   "at": {
+    "word": "publicidad,",
+    "offset": 0.9999999999999999
+   },
+   "volume": 0.16,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:tick_01",
+   "at": {
+    "word": "publicidad,",
+    "offset": 1.1500000000000001
+   },
+   "volume": 0.16,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:card-slide-3",
    "at": {
     "word": "cuentas",
-    "offset": -0.1
-   },
-   "volume": 0.55,
-   "offset": -0.15
-  },
-  {
-   "src": "lib:switch7",
-   "at": {
-    "word": "cuentas"
+    "offset": -0.2
    },
    "volume": 0.3,
-   "offset": 0.1
+   "offset": 0.0
   },
   {
-   "src": "lib:switch7",
+   "src": "lib:card-slide-4",
    "at": {
-    "word": "cuentas"
+    "word": "cuentas",
+    "offset": 0.09999999999999998
    },
    "volume": 0.3,
-   "offset": 0.43000000000000005
+   "offset": 0.0
   },
   {
-   "src": "lib:switch7",
+   "src": "lib:card-slide-5",
    "at": {
-    "word": "cuentas"
+    "word": "cuentas",
+    "offset": 0.39999999999999997
    },
    "volume": 0.3,
-   "offset": 0.76
+   "offset": 0.0
   },
   {
-   "src": "lib:pluck_002",
+   "src": "synth:ding_01",
    "at": {
     "word": "solución"
    },
-   "volume": 0.32,
-   "offset": 0.05
-  },
-  {
-   "src": "synth:whoosh_fast",
-   "at": {
-    "word": "rápida."
-   },
-   "volume": 0.35,
-   "offset": -0.1
-  },
-  {
-   "src": "lib:pluck_002",
-   "at": {
-    "word": "invertir"
-   },
-   "volume": 0.32,
-   "offset": 0.05
-  },
-  {
-   "src": "lib:pluck_001",
-   "at": {
-    "word": "personas"
-   },
-   "volume": 0.32,
-   "offset": 0.05
-  },
-  {
-   "src": "lib:maximize_006",
-   "at": {
-    "word": "mira"
-   },
-   "volume": 0.35,
+   "volume": 0.3,
    "offset": 0.0
   },
   {
-   "src": "lib:question_001",
+   "src": "lib:card-slide-2",
    "at": {
-    "cut": 4
+    "cut": 3
    },
-   "volume": 0.32,
-   "offset": 0.05
+   "volume": 0.45,
+   "offset": -0.05
   },
   {
-   "src": "lib:question_001",
+   "src": "synth:pop_low",
    "at": {
-    "cut": 5
+    "cut": 3,
+    "offset": 0.15
    },
-   "volume": 0.32,
-   "offset": 0.05
+   "volume": 0.2,
+   "offset": 0.0
   },
   {
-   "src": "lib:question_001",
+   "src": "synth:pop_low",
    "at": {
-    "cut": 6
+    "cut": 3,
+    "offset": 0.32
    },
-   "volume": 0.32,
-   "offset": 0.05
+   "volume": 0.2,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:pop_low",
+   "at": {
+    "cut": 3,
+    "offset": 0.49
+   },
+   "volume": 0.2,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:pop_low",
+   "at": {
+    "cut": 3,
+    "offset": 0.66
+   },
+   "volume": 0.2,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:pop_low",
+   "at": {
+    "cut": 3,
+    "offset": 0.8300000000000001
+   },
+   "volume": 0.2,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:click_ui",
+   "at": {
+    "cut": 4,
+    "offset": 0.15
+   },
+   "volume": 0.4,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:click_ui",
+   "at": {
+    "cut": 5,
+    "offset": 0.15
+   },
+   "volume": 0.4,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:click_ui",
+   "at": {
+    "cut": 6,
+    "offset": 0.15
+   },
+   "volume": 0.4,
+   "offset": 0.0
   },
   {
    "src": "synth:whoosh_medium",
    "at": {
     "word": "últimas",
-    "offset": -0.1
+    "offset": -0.2
    },
-   "volume": 0.55,
-   "offset": -0.15
-  },
-  {
-   "src": "lib:pluck_001",
-   "at": {
-    "word": "últimas"
-   },
-   "volume": 0.35,
-   "offset": 0.1
-  },
-  {
-   "src": "lib:pluck_002",
-   "at": {
-    "word": "conversaciones"
-   },
-   "volume": 0.35,
-   "offset": 0.3
+   "volume": 0.4,
+   "offset": -0.1
   },
   {
    "src": "synth:impact_soft",
    "at": {
     "word": "detuvieron."
    },
-   "volume": 0.5,
+   "volume": 0.45,
    "offset": 0.0
   },
   {
-   "src": "lib:pluck_002",
+   "src": "synth:pop_01",
    "at": {
     "word": "consultas"
    },
-   "volume": 0.32,
-   "offset": 0.05
+   "volume": 0.35,
+   "offset": 0.0
   },
   {
-   "src": "lib:pluck_001",
+   "src": "synth:pop_01",
    "at": {
     "word": "propuestas"
    },
-   "volume": 0.32,
-   "offset": 0.05
+   "volume": 0.35,
+   "offset": 0.0
   },
   {
    "src": "synth:impact_punch",
    "at": {
     "word": "empieza"
    },
-   "volume": 0.45,
+   "volume": 0.4,
    "offset": 0.0
   },
   {
-   "src": "synth:whoosh_medium",
+   "src": "lib:bsb-0339",
    "at": {
     "cut": 9,
-    "offset": 0.0
+    "offset": 0.2
    },
-   "volume": 0.55,
-   "offset": -0.15
+   "volume": 0.18,
+   "offset": 0.0
   },
   {
-   "src": "lib:bsb-1111",
+   "src": "lib:bsb-0339",
    "at": {
-    "cut": 9
+    "cut": 9,
+    "offset": 0.48000000000000004
    },
-   "volume": 0.22,
-   "offset": 0.2
+   "volume": 0.18,
+   "offset": 0.0
   },
   {
-   "src": "synth:whoosh_medium",
+   "src": "lib:bsb-0339",
    "at": {
-    "word": "aumentar"
+    "cut": 9,
+    "offset": 0.76
    },
-   "volume": 0.4,
-   "offset": -0.1
+   "volume": 0.18,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-0339",
+   "at": {
+    "cut": 9,
+    "offset": 1.04
+   },
+   "volume": 0.18,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-0339",
+   "at": {
+    "cut": 9,
+    "offset": 1.32
+   },
+   "volume": 0.18,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-0339",
+   "at": {
+    "cut": 9,
+    "offset": 1.6
+   },
+   "volume": 0.18,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-0339",
+   "at": {
+    "cut": 9,
+    "offset": 1.8800000000000001
+   },
+   "volume": 0.18,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-0339",
+   "at": {
+    "cut": 9,
+    "offset": 2.16
+   },
+   "volume": 0.18,
+   "offset": 0.0
   },
   {
    "src": "synth:glitch_02",
    "at": {
     "word": "frenando"
    },
-   "volume": 0.28,
+   "volume": 0.3,
    "offset": 0.0
   },
   {
@@ -1345,30 +1076,39 @@
    "offset": 1.3599999999999999
   },
   {
-   "src": "synth:whoosh_heavy",
+   "src": "synth:whoosh_reverse",
    "at": {
     "end": true,
     "offset": -1.85
    },
-   "volume": 0.55,
-   "offset": -0.1
+   "volume": 0.45,
+   "offset": -0.2
   },
   {
-   "src": "synth:impact_cinematic",
+   "src": "synth:impact_soft",
    "at": {
     "end": true,
-    "offset": -1.75
+    "offset": -1.7
    },
-   "volume": 0.55,
+   "volume": 0.5,
    "offset": 0.0
   },
   {
    "src": "lib:glass_002",
    "at": {
     "end": true,
-    "offset": -1.0
+    "offset": -1.15
    },
-   "volume": 0.4,
+   "volume": 0.35,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:pop_02",
+   "at": {
+    "end": true,
+    "offset": -1.3
+   },
+   "volume": 0.3,
    "offset": 0.0
   },
   {
@@ -1390,55 +1130,7 @@
   {
    "src": "synth:swipe_02",
    "at": {
-    "cut": 3
-   },
-   "volume": 0.16,
-   "offset": -0.06
-  },
-  {
-   "src": "synth:swipe_02",
-   "at": {
-    "cut": 4
-   },
-   "volume": 0.16,
-   "offset": -0.06
-  },
-  {
-   "src": "synth:swipe_02",
-   "at": {
-    "cut": 5
-   },
-   "volume": 0.16,
-   "offset": -0.06
-  },
-  {
-   "src": "synth:swipe_02",
-   "at": {
-    "cut": 6
-   },
-   "volume": 0.16,
-   "offset": -0.06
-  },
-  {
-   "src": "synth:swipe_02",
-   "at": {
     "cut": 7
-   },
-   "volume": 0.16,
-   "offset": -0.06
-  },
-  {
-   "src": "synth:swipe_02",
-   "at": {
-    "cut": 8
-   },
-   "volume": 0.16,
-   "offset": -0.06
-  },
-  {
-   "src": "synth:swipe_02",
-   "at": {
-    "cut": 9
    },
    "volume": 0.16,
    "offset": -0.06
@@ -1464,6 +1156,58 @@
     "cut": 10
    },
    "drop": 0
+  }
+ ],
+ "broll": [
+  {
+   "src": "clientes/carlos-buelvas/proyectos/ad10/_work/blender/ad10_inbox/inbox.mp4",
+   "at": {
+    "word": "últimas",
+    "offset": -0.2
+   },
+   "until": {
+    "cut": 8
+   },
+   "mode": "full",
+   "transition": "zoom-in",
+   "speed": 0.5,
+   "in": 0.0,
+   "kenburns": "none"
+  },
+  {
+   "src": "clientes/carlos-buelvas/proyectos/ad10/_work/blender/ad10_leak/leak.mp4",
+   "at": {
+    "cut": 9
+   },
+   "until": {
+    "word": "aumentar",
+    "offset": -0.1
+   },
+   "mode": "full",
+   "transition": "whip-up",
+   "speed": 0.74,
+   "in": 0.0,
+   "kenburns": "none"
+  }
+ ],
+ "layouts": [
+  {
+   "at": 0,
+   "until": {
+    "cut": 1
+   },
+   "mode": "split",
+   "bottom": 0.5
+  },
+  {
+   "at": {
+    "cut": 3
+   },
+   "until": {
+    "cut": 7
+   },
+   "mode": "split",
+   "bottom": 0.5
   }
  ],
  "mix": {

@@ -1,79 +1,58 @@
-# AD10 — La esperanza de que más publicidad lo resuelva
+# AD10 v2 — “La esperanza de que más publicidad lo resuelva”. Antes de pagar más, mira tu proceso.
 import sys; sys.path.insert(0, "/home/user/aiclaudevideoediter/tools")
 from adkit import Ad, M
 ad = Ad(__file__)
-ad.auto_zooms(punch_words=["preocupado", "ventas", "publicidad,", "cuentas", "rápida.", "acercaron.", "respondiste?", "propuesta?",
-                           "resolver?", "diez", "detuvieron.", "ahí.", "gasto", "sígueme"])
+BL = "clientes/carlos-buelvas/proyectos/ad10/_work/blender/"
+ad.set_cams({0: "cam1", 3: "cam1", 4: "cam1", 5: "cam1", 6: "cam1", 8: "cam2"})
+ad.auto_zooms(punch_words=["preocupado", "ventas", "publicidad,", "cuentas", "rápida.", "acercaron.", "respondiste?", "propuesta?", "resolver?", "diez", "detuvieron.", "ahí.", "gasto", "sígueme"])
 
-# HOOK: el gasto en publicidad se dispara… las ventas siguen en $0
-ad.hook_hit()
-ad.g("CounterRace", 0.05, until={"cut": 1, "offset": -0.03}, y=0.82,
-     a={"label": "GASTO EN PUBLICIDAD", "from": 200, "to": 4800, "prefix": "$"}, b={"label": "VENTAS", "from": 0, "to": 0, "prefix": "$"})
-for k in range(16):
-    ad.sfx("lib:bsb-2842", 0.15 + k * 0.2, 0.15)
-ad.badge("megaphone-bold", {"word": "publicidad,", "offset": -0.3}, until={"cut": 1, "offset": -0.03}, label="MÁS PUBLICIDAD", side="right", y=0.44)
-ad.sfx("synth:whoosh_fast", {"word": "publicidad,"}, 0.4, -0.3)
-ad.sfx("synth:impact_punch", {"word": "mejorar”."}, 0.45)
+# ── HOOK: split; el panel de anuncios: subís el presupuesto, el gasto se dispara, ventas = 0 ───
+ad.g("Flash", 0, 0.25, layer="top", peak=0.8, color="#dbe7ff")
+ad.sfx("synth:impact_cinematic", 0, 0.5); ad.sfx("synth:subdrop_01", 0, 0.4)
+ad.split(0, {"cut": 1}, bottom=0.5, caption=0.535)
+ad.g("AdsDashboard", 0.05, until={"cut": 1, "offset": -0.05}, y=0.57, boostAt=100)
+ad.sfx("synth:riser_short", {"word": "pago"}, 0.3, -0.3); ad.sfx("lib:bsb-1417", {"word": "publicidad,"}, 0.3)
+for k in range(8):
+    ad.sfx("synth:tick_01", {"word": "publicidad,", "offset": 0.1 + k * 0.15}, 0.16)
 
-# ENTIENDO ESA URGENCIA (3D)
-ad.scene("tunnel", {"word": "esa", "offset": -0.06}, {"cut": 2, "offset": -0.02})
-ad.g("Text3DTitle", {"word": "esa", "offset": -0.04}, until={"cut": 2, "offset": -0.02}, text="URGENCIA", font="Montserrat-Black",
-     color="#FFBB00", metal=0.85, size=0.9, y=1.5, depth=0.35)
-ad.sfx("synth:impact_cinematic", {"word": "esa"}, 0.5, -0.05)
-ad.sfx("synth:subdrop_short", {"word": "esa"}, 0.4, -0.05)
-
-# CUENTAS POR PAGAR → facturas que caen (MG b-roll) → SOLUCIÓN RÁPIDA
-ad.scene("glow", {"word": "cuentas", "offset": -0.1}, {"word": "queremos", "offset": -0.05}, word="CUENTAS")
-ad.g("CostTags", {"word": "cuentas", "offset": -0.05}, until={"word": "queremos", "offset": -0.05}, y=0.32, tag="-$",
-     items=["ALQUILER", "PROVEEDORES", "SUELDOS"], delays=[3, 13, 23])
+# ── CUENTAS POR PAGAR → facturas vencidas + el botón de la solución rápida ───────────────────
+ad.g("BillsStack", {"word": "cuentas", "offset": -0.2}, until={"cut": 3, "offset": -0.05}, y=0.7, quickAt=int((11.02 - 8.5) * 30))
 for k in range(3):
-    ad.sfx("lib:switch7", {"word": "cuentas"}, 0.3, 0.1 + k * 0.33)
-ad.badge("lightning-bold", {"word": "solución"}, until={"cut": 3, "offset": -0.03}, label="SOLUCIÓN RÁPIDA", side="right", y=0.44)
-ad.sfx("synth:whoosh_fast", {"word": "rápida."}, 0.35, -0.1)
+    ad.sfx("lib:card-slide-" + str(3 + k), {"word": "cuentas", "offset": -0.2 + k * 0.3}, 0.3)
+ad.sfx("synth:ding_01", {"word": "solución"}, 0.3)
 
-# ANTES DE INVERTIR MÁS, MIRA A QUIENES YA SE ACERCARON
-ad.badge("hand-palm-bold", {"word": "invertir"}, until={"cut": 4, "offset": -0.03}, label="ANTES DE INVERTIR", side="left", y=0.44)
-ad.badge("users-three-bold", {"word": "personas"}, until={"cut": 4, "offset": -0.03}, label="YA SE ACERCARON", side="right", y=0.44)
-ad.sfx("lib:maximize_006", {"word": "mira"}, 0.35)
-
-# LAS 3 PREGUNTAS
-ad.g("Checklist", {"cut": 4, "offset": -0.2}, until={"cut": 7, "offset": -0.03}, title="PREGÚNTATE",
-     items=["¿LES RESPONDISTE?", "¿ENTENDIERON TU PROPUESTA?", "¿QUÉ DUDA QUEDÓ SIN RESOLVER?"], every=43, position=0.84, icon="?")
+# ── MIRA A LOS QUE YA SE ACERCARON + LAS 3 PREGUNTAS → split con la lista y su auditoría ──────
+ad.split({"cut": 3}, {"cut": 7}, bottom=0.5, caption=0.535)
+ad.g("LeadsList", {"cut": 3}, until={"cut": 7, "offset": -0.05}, y=0.575,
+     audit=[int((16.40 - 12.28) * 30) + 4, int((17.84 - 12.28) * 30) + 4, int((19.34 - 12.28) * 30) + 4])
+for k in range(5):
+    ad.sfx("synth:pop_low", {"cut": 3, "offset": 0.15 + k * 0.17}, 0.2)
 for c in (4, 5, 6):
-    ad.sfx("lib:question_001", {"cut": c}, 0.32, 0.05)
+    ad.sfx("synth:click_ui", {"cut": c, "offset": 0.15}, 0.4)
 
-# REVISA TUS ÚLTIMAS 10 CONVERSACIONES → ¿dónde se detuvo? (MG b-roll)
-ad.scene("glow", {"word": "últimas", "offset": -0.1}, {"cut": 8, "offset": -0.02}, word="10 CHATS")
-ad.g("ChatThread", {"word": "últimas", "offset": -0.05}, until={"cut": 8, "offset": -0.02}, y=0.27, title="Conversación 7 de 10",
-     messages=[{"text": "Hola, ¿cuánto cuesta? 👀", "at": 4}, {"text": "Te paso la info 👇", "me": True, "at": 26}, {"text": "¿Y cuándo podríamos empezar?", "at": 52}])
-ad.g("IconBadge", {"word": "detuvieron.", "offset": -0.1}, until={"cut": 8, "offset": -0.02}, icon=ad.icon("hand-palm-bold"), x=0.5, y=0.47,
-     leader="none", size=0.85, label="AQUÍ SE DETUVO")
-ad.sfx("lib:pluck_001", {"word": "últimas"}, 0.35, 0.1)
-ad.sfx("lib:pluck_002", {"word": "conversaciones"}, 0.35, 0.3)
-ad.sfx("synth:impact_soft", {"word": "detuvieron."}, 0.5)
+# ── REVISA TUS ÚLTIMAS 10 CONVERSACIONES → Blender: la luz se detiene en la que quedó colgada ──
+ad.broll(BL + "ad10_inbox/inbox.mp4", {"word": "últimas", "offset": -0.2}, {"cut": 8}, speed=0.5, transition="zoom-in")
+ad.cap_pos.append({"at": {"word": "últimas", "offset": -0.2}, "until": {"cut": 8}, "pos": 0.88})
+ad.g("KickerTitle", {"word": "últimas", "offset": -0.15}, until={"cut": 8, "offset": -0.03}, kicker="REVISA TUS ÚLTIMAS", align="center", y=0.09, lines=[{"text": "10 CONVERSACIONES", "color": "#FFBB00", "size": 88}])
+ad.sfx("synth:whoosh_medium", {"word": "últimas", "offset": -0.2}, 0.4, -0.1); ad.sfx("synth:impact_soft", {"word": "detuvieron."}, 0.45)
 
-# SIN RESPONDER / SIN SEGUIMIENTO → EMPIEZA POR AHÍ
-ad.badge("chat-circle-dots-bold", {"word": "consultas"}, until={"cut": 9, "offset": -0.03}, label="SIN RESPONDER", side="left", y=0.44)
-ad.badge("file-text-bold", {"word": "propuestas"}, until={"cut": 9, "offset": -0.03}, label="SIN SEGUIMIENTO", side="right", y=0.44)
-ad.g("BlockTitle", {"word": "empieza", "offset": -0.1}, until={"cut": 9, "offset": -0.03}, y=0.81, width=0.6, stagger=6, enter="slam",
-     lines=[{"text": "EMPIEZA", "weight": 900}, {"text": "POR AHÍ", "color": "gold"}])
-ad.sfx("synth:impact_punch", {"word": "empieza"}, 0.45)
+# ── CONSULTAS SIN RESPONDER / PROPUESTAS SIN SEGUIMIENTO → pendientes; EMPIEZA POR AHÍ ───────
+ad.g("BacklogBadges", {"word": "consultas", "offset": -0.2}, until={"cut": 9, "offset": -0.05}, y=0.72, hereAt=int((29.36 - 26.44) * 30),
+     items=[{"text": "Consultas sin responder", "n": 7, "at": 4}, {"text": "Propuestas sin seguimiento", "n": 4, "at": int((28.09 - 26.44) * 30)}])
+ad.sfx("synth:pop_01", {"word": "consultas"}, 0.35); ad.sfx("synth:pop_01", {"word": "propuestas"}, 0.35); ad.sfx("synth:impact_punch", {"word": "empieza"}, 0.4)
 
-# MÁS GENTE AL MISMO PROCESO → embudo con fugas, y el gasto vuelve a subir
-ad.scene("glow", {"cut": 9, "offset": 0.0}, {"word": "aumentar", "offset": -0.05}, word="PROCESO")
-ad.g("LeakyFunnel", {"cut": 9, "offset": 0.03}, until={"word": "aumentar", "offset": -0.05}, y=0.3,
-     top="MÁS PERSONAS", bottom="VENTAS", leaks=["SIN RESPUESTA", "SIN SEGUIMIENTO"])
-ad.sfx("lib:bsb-1111", {"cut": 9}, 0.22, 0.2)
-ad.g("CounterRace", {"word": "aumentar", "offset": -0.03}, until={"cut": 10, "offset": -0.03}, y=0.82,
-     a={"label": "TU GASTO", "from": 4800, "to": 9600, "prefix": "$"}, b={"label": "TUS VENTAS", "from": 0, "to": 0, "prefix": "$"})
-ad.sfx("synth:whoosh_medium", {"word": "aumentar"}, 0.4, -0.1)
-ad.sfx("synth:glitch_02", {"word": "frenando"}, 0.28)
+# ── MÁS GENTE AL MISMO PROCESO → Blender: monedas que se escapan del embudo; gasto vs ventas ─
+ad.broll(BL + "ad10_leak/leak.mp4", {"cut": 9}, {"word": "aumentar", "offset": -0.1}, speed=0.74, transition="whip-up")
+ad.cap_pos.append({"at": {"cut": 9}, "until": {"word": "aumentar", "offset": -0.1}, "pos": 0.88})
+ad.g("KickerTitle", {"cut": 9, "offset": 0.05}, until={"word": "aumentar", "offset": -0.12}, kicker="MÁS GENTE AL", align="center", y=0.09, lines=[{"text": "MISMO PROCESO", "color": "#FFBB00", "size": 104}])
+for k in range(8):
+    ad.sfx("lib:bsb-0339", {"cut": 9, "offset": 0.2 + k * 0.28}, 0.18)
+ad.g("TwinLines", {"word": "aumentar", "offset": -0.05}, until={"cut": 10, "offset": -0.05}, y=0.72)
+ad.sfx("synth:glitch_02", {"word": "frenando"}, 0.3)
 
 ad.cta()
-ad.end_card()
+ad.end_flat()
 ad.cam_swipes()
 ad.music("ov-35df4743-377.mp3", drop=0)
 ad.save(emphasis=["preocupado", "ventas", "publicidad,", "mejorar”.", "urgencia.", "cuentas", "rápida.", "invertir", "acercaron.",
-                  "respondiste?", "propuesta?", "duda", "diez", "conversaciones", "detuvieron.", "consultas", "seguimiento,", "ahí.",
-                  "gasto", "frenando", "sígueme", "escalar"],
-        hide=[[6.9, 8.15]])
+                  "respondiste?", "propuesta?", "duda", "diez", "conversaciones", "detuvieron.", "consultas", "seguimiento,", "ahí.", "gasto", "frenando", "sígueme", "escalar"])

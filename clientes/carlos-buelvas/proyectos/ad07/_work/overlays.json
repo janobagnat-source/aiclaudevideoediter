@@ -55,7 +55,7 @@
   "1": {
    "focus": {
     "x": 0.5,
-    "y": 0.359
+    "y": 0.197
    },
    "zoom": [
     {
@@ -90,7 +90,7 @@
   "2": {
    "focus": {
     "x": 0.5,
-    "y": 0.197
+    "y": 0.359
    },
    "zoom": [
     {
@@ -116,7 +116,7 @@
   "3": {
    "focus": {
     "x": 0.5,
-    "y": 0.359
+    "y": 0.197
    },
    "zoom": [
     {
@@ -172,12 +172,34 @@
      "s": 1.27,
      "ease": "linear"
     }
+   ],
+   "cutout": "_work/cutouts/cut4.webm",
+   "behind": [
+    {
+     "component": "BehindTitle",
+     "start": 1.0,
+     "duration": 2.95,
+     "props": {
+      "kicker": "UNA CONVERSACIÓN",
+      "kickerY": 0.035,
+      "lines": [
+       {
+        "text": "PENDIENTE",
+        "gradient": true,
+        "color": "#FFFFFF",
+        "size": 300
+       }
+      ],
+      "y": 0.29,
+      "drift": 0.05
+     }
+    }
    ]
   },
   "5": {
    "focus": {
     "x": 0.5,
-    "y": 0.359
+    "y": 0.197
    },
    "zoom": [
     {
@@ -221,7 +243,7 @@
   "6": {
    "focus": {
     "x": 0.5,
-    "y": 0.197
+    "y": 0.359
    },
    "zoom": [
     {
@@ -247,7 +269,7 @@
   "7": {
    "focus": {
     "x": 0.5,
-    "y": 0.359
+    "y": 0.197
    },
    "zoom": [
     {
@@ -409,13 +431,56 @@
   ],
   "hideDuring": [
    [
-    33.03,
-    35.5
-   ],
-   [
     999,
     9999
    ]
+  ],
+  "positionDuring": [
+   {
+    "at": 0,
+    "until": {
+     "cut": 2
+    },
+    "pos": 0.535
+   },
+   {
+    "at": {
+     "word": "empieza",
+     "offset": -0.15
+    },
+    "until": {
+     "cut": 6
+    },
+    "pos": 0.535
+   },
+   {
+    "at": {
+     "cut": 7
+    },
+    "until": {
+     "cut": 9
+    },
+    "pos": 0.535
+   },
+   {
+    "at": {
+     "cut": 9
+    },
+    "until": {
+     "cut": 10
+    },
+    "pos": 0.88
+   },
+   {
+    "at": {
+     "word": "derecho",
+     "offset": -0.1
+    },
+    "until": {
+     "cut": 11
+    },
+    "pos": 0.88
+   }
   ]
  },
  "graphics": [
@@ -424,404 +489,162 @@
    "at": 0,
    "layer": "top",
    "props": {
-    "peak": 0.9,
+    "peak": 0.8,
     "color": "#dbe7ff"
    },
-   "duration": 0.28
+   "duration": 0.25
   },
   {
-   "component": "ChatThread",
+   "component": "DraftUnsent",
    "at": 0.05,
    "layer": "over",
    "props": {
-    "y": 0.82,
-    "title": "Cliente",
-    "messages": [
-     {
-      "text": "Hola 👋 ¿pudiste revisar la propuesta?",
-      "me": true,
-      "at": 22
-     }
-    ]
+    "y": 0.6,
+    "text": "Hola Laura 👋 ¿Pudiste ver la propuesta?",
+    "days": "escrito hace 3 días"
    },
    "until": {
-    "word": "pero",
+    "cut": 2,
     "offset": -0.05
    }
   },
   {
-   "component": "IconBadge",
+   "component": "ThoughtBubbles",
    "at": {
-    "word": "molestarlo?",
-    "offset": -0.1
-   },
-   "layer": "over",
-   "props": {
-    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/smiley-nervous-bold.svg",
-    "x": 0.83,
-    "y": 0.44,
-    "leader": "left",
-    "size": 0.9,
-    "label": "¿MOLESTAR?"
-   },
-   "until": {
-    "cut": 1,
-    "offset": -0.03
-   }
-  },
-  {
-   "component": "BlockTitle",
-   "at": {
-    "word": "pero"
-   },
-   "layer": "over",
-   "props": {
-    "y": 0.81,
-    "width": 0.68,
-    "stagger": 6,
-    "enter": "slam",
-    "lines": [
-     {
-      "text": "ESCRITO…",
-      "weight": 900
-     },
-     {
-      "text": "SIN ENVIAR",
-      "color": "gold"
-     }
-    ]
-   },
-   "until": {
     "cut": 2,
-    "offset": -0.03
-   }
-  },
-  {
-   "component": "IconBadge",
-   "at": {
-    "word": "envías."
+    "offset": 0.05
    },
    "layer": "over",
    "props": {
-    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/paper-plane-tilt-bold.svg",
-    "x": 0.17,
-    "y": 0.44,
-    "leader": "right",
-    "size": 0.9,
-    "label": "NO LO ENVÍAS"
-   },
-   "until": {
-    "cut": 2,
-    "offset": -0.03
-   }
-  },
-  {
-   "component": "BrandScene",
-   "at": {
-    "word": "“¿Y",
-    "offset": -0.1
-   },
-   "layer": "under",
-   "props": {
-    "variant": "pattern",
-    "word": "¿Y SI…?"
-   },
-   "until": {
-    "cut": 4,
-    "offset": -0.02
-   }
-  },
-  {
-   "component": "IconBadge",
-   "at": {
-    "word": "desesperado?",
-    "offset": -0.2
-   },
-   "layer": "over",
-   "props": {
-    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/smiley-sad-bold.svg",
-    "x": 0.3,
-    "y": 0.3,
-    "leader": "none",
-    "size": 1.05,
-    "label": "¿DESESPERADO?"
-   },
-   "until": {
-    "cut": 4,
-    "offset": -0.02
-   }
-  },
-  {
-   "component": "IconBadge",
-   "at": {
-    "word": "dice"
-   },
-   "layer": "over",
-   "props": {
-    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/x-circle-bold.svg",
-    "x": 0.7,
-    "y": 0.3,
-    "leader": "none",
-    "size": 1.05,
-    "label": "¿UN NO?"
-   },
-   "until": {
-    "cut": 4,
-    "offset": -0.02
-   }
-  },
-  {
-   "component": "IconBadge",
-   "at": {
-    "word": "incómoda,"
-   },
-   "layer": "over",
-   "props": {
-    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/hourglass-medium-bold.svg",
-    "x": 0.83,
-    "y": 0.44,
-    "leader": "left",
-    "size": 0.9,
-    "label": "RESPUESTA INCÓMODA"
-   },
-   "until": {
-    "cut": 5,
-    "offset": -0.03
-   }
-  },
-  {
-   "component": "BlockTitle",
-   "at": {
-    "word": "conversación",
-    "offset": -0.15
-   },
-   "layer": "over",
-   "props": {
-    "y": 0.81,
-    "width": 0.8,
-    "stagger": 8,
-    "enter": "rise",
-    "sparkle": 1,
-    "lines": [
-     {
-      "text": "CONVERSACIÓN",
-      "weight": 900
-     },
-     {
-      "text": "PENDIENTE",
-      "color": "gold"
-     }
-    ]
-   },
-   "until": {
-    "cut": 5,
-    "offset": -0.03
-   }
-  },
-  {
-   "component": "IconBadge",
-   "at": {
-    "word": "llamada:",
-    "offset": -0.25
-   },
-   "layer": "over",
-   "props": {
-    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/phone-call-bold.svg",
-    "x": 0.83,
-    "y": 0.44,
-    "leader": "left",
-    "size": 0.9,
-    "label": "PRIMERA LLAMADA"
-   },
-   "until": {
-    "word": "acuerden",
-    "offset": -0.1
-   }
-  },
-  {
-   "component": "BrandScene",
-   "at": {
-    "word": "acuerden",
-    "offset": -0.1
-   },
-   "layer": "under",
-   "props": {
-    "variant": "glow",
-    "word": "ACUERDO"
-   },
-   "until": {
-    "cut": 6,
-    "offset": -0.02
-   }
-  },
-  {
-   "component": "ContractDoc",
-   "at": {
-    "word": "acuerden",
-    "offset": -0.05
-   },
-   "layer": "over",
-   "props": {
-    "y": 0.3,
-    "title": "ACUERDO DE LA LLAMADA",
+    "y": 0.72,
     "items": [
-     "📅 Cuándo volvemos a hablar",
-     "📋 Qué vamos a revisar"
-    ],
-    "delays": [
-     20,
-     58
-    ],
-    "sign": false
+     {
+      "text": "¿Y si parezco desesperado?",
+      "at": 14
+     },
+     {
+      "text": "¿Y si me dice que no?",
+      "at": 70
+     }
+    ]
+   },
+   "until": {
+    "cut": 4,
+    "offset": -0.05
+   }
+  },
+  {
+   "component": "CalendarInvite",
+   "at": {
+    "word": "empieza",
+    "offset": -0.1
+   },
+   "layer": "over",
+   "props": {
+    "y": 0.575,
+    "title": "Seguimiento · Laura",
+    "when": "Jueves 10:00 · 20 min",
+    "agenda": "La propuesta y el presupuesto",
+    "whenAt": 70,
+    "agendaAt": 108,
+    "okAt": 128
    },
    "until": {
     "cut": 6,
-    "offset": -0.02
+    "offset": -0.05
    }
   },
   {
-   "component": "IconBadge",
+   "component": "NoteRecall",
    "at": {
-    "word": "retoma"
+    "cut": 6,
+    "offset": 0.1
    },
    "layer": "over",
    "props": {
-    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/arrow-u-up-left-bold.svg",
-    "x": 0.17,
-    "y": 0.44,
-    "leader": "right",
-    "size": 0.9,
-    "label": "RETOMA"
+    "y": 0.76,
+    "markAt": 22,
+    "note": "Le preocupa no tener tiempo para implementar todo.",
+    "mark": "no tener tiempo para implementar"
    },
    "until": {
     "cut": 7,
-    "offset": -0.03
+    "offset": -0.05
    }
   },
   {
-   "component": "IconBadge",
+   "component": "SendFlow",
    "at": {
-    "word": "importaba:",
-    "offset": -0.15
+    "cut": 7
    },
    "layer": "over",
    "props": {
-    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/heart-bold.svg",
-    "x": 0.83,
-    "y": 0.44,
-    "leader": "left",
-    "size": 0.9,
-    "label": "LO QUE LE IMPORTA"
-   },
-   "until": {
-    "cut": 7,
-    "offset": -0.03
-   }
-  },
-  {
-   "component": "BrandScene",
-   "at": {
-    "cut": 7,
-    "offset": 0.0
-   },
-   "layer": "under",
-   "props": {
-    "variant": "glow"
-   },
-   "until": {
-    "cut": 9,
-    "offset": -0.02
-   }
-  },
-  {
-   "component": "ChatThread",
-   "at": {
-    "cut": 7,
-    "offset": 0.02
-   },
-   "layer": "over",
-   "props": {
-    "y": 0.29,
-    "title": "Cliente",
-    "messages": [
+    "y": 0.6,
+    "sendAt": 140,
+    "replyAt": 150,
+    "reply": "¡Sí! Me vendría genial 🙌",
+    "lines": [
      {
-      "text": "Me comentaste que tenías esta duda 🤔",
-      "me": true,
-      "at": 6
+      "text": "Me comentaste que tenías esta duda.",
+      "at": 4
      },
      {
       "text": "¿Te ayudaría que la revisemos juntos?",
-      "me": true,
-      "at": 80
-     },
-     {
-      "text": "¡Sí, me encantaría! 🙌",
-      "at": 146
+      "at": 73
      }
     ]
    },
    "until": {
     "cut": 9,
-    "offset": -0.02
+    "offset": -0.05
    }
   },
   {
-   "component": "Checklist",
+   "component": "KickerTitle",
    "at": {
-    "word": "sabes",
-    "offset": -0.2
+    "cut": 9,
+    "offset": 0.05
    },
    "layer": "over",
    "props": {
-    "title": "ASÍ…",
-    "items": [
-     "SABES POR QUÉ ESCRIBES",
-     "LE DAS UNA RAZÓN",
-     "RESPETAS SU DECISIÓN"
-    ],
-    "every": 57,
-    "position": 0.84,
-    "icon": "✓"
+    "kicker": "LE DAS UNA RAZÓN",
+    "align": "center",
+    "y": 0.09,
+    "lines": [
+     {
+      "text": "PARA RESPONDER",
+      "color": "#FFBB00",
+      "size": 96
+     }
+    ]
    },
    "until": {
-    "word": "derecho",
-    "offset": -0.1
+    "cut": 10,
+    "offset": -0.03
    }
   },
   {
-   "component": "BrandScene",
-   "at": {
-    "word": "derecho",
-    "offset": -0.08
-   },
-   "layer": "under",
-   "props": {
-    "variant": "tunnel"
-   },
-   "until": {
-    "cut": 11,
-    "offset": -0.02
-   }
-  },
-  {
-   "component": "Text3DTitle",
+   "component": "KickerTitle",
    "at": {
     "word": "derecho",
     "offset": -0.05
    },
    "layer": "over",
    "props": {
-    "text": "SU DERECHO\nA DECIR NO",
-    "font": "Montserrat-Black",
-    "color": "#FFBB00",
-    "metal": 0.85,
-    "size": 0.9,
-    "y": 1.1,
-    "depth": 0.35
+    "kicker": "SU DERECHO",
+    "align": "center",
+    "y": 0.09,
+    "lines": [
+     {
+      "text": "A DECIR QUE NO",
+      "color": "#FFBB00",
+      "size": 96
+     }
+    ]
    },
    "until": {
     "cut": 11,
-    "offset": -0.02
+    "offset": -0.03
    }
   },
   {
@@ -848,49 +671,15 @@
    }
   },
   {
-   "component": "BrandScene",
+   "component": "LogoReveal",
    "at": {
     "end": true,
     "offset": -1.85
    },
    "layer": "top",
    "props": {
-    "variant": "tunnel"
-   },
-   "until": {
-    "end": true
-   }
-  },
-  {
-   "component": "Logo3D",
-   "at": {
-    "end": true,
-    "offset": -1.8
-   },
-   "layer": "top",
-   "props": {
-    "svg": "clientes/carlos-buelvas/marca/logo.svg",
-    "depth": 60,
-    "metal": 0.9,
-    "color": "#FFBB00",
-    "scale": 0.42
-   },
-   "until": {
-    "end": true
-   }
-  },
-  {
-   "component": "CTAPill",
-   "at": {
-    "end": true,
-    "offset": -1.3
-   },
-   "layer": "top",
-   "props": {
-    "text": "SÍGUEME",
-    "x": 0.5,
-    "y": 0.78,
-    "size": 1.1
+    "logo": "clientes/carlos-buelvas/marca/logo_dorado.png",
+    "tagline": "COACH · MENTOR DE VENTAS"
    },
    "until": {
     "end": true
@@ -901,99 +690,88 @@
   {
    "src": "synth:impact_cinematic",
    "at": 0,
-   "volume": 0.6,
+   "volume": 0.5,
    "offset": 0.0
   },
   {
    "src": "synth:subdrop_01",
    "at": 0,
-   "volume": 0.5,
-   "offset": 0.0
-  },
-  {
-   "src": "lib:bsb-1796",
-   "at": 0,
    "volume": 0.4,
    "offset": 0.0
   },
   {
+   "src": "lib:card-slide-2",
+   "at": 0,
+   "volume": 0.45,
+   "offset": -0.05
+  },
+  {
    "src": "lib:bsb-2842",
-   "at": 0.25,
-   "volume": 0.16,
+   "at": 0.2,
+   "volume": 0.14,
    "offset": 0.0
   },
   {
    "src": "lib:bsb-2842",
-   "at": 0.35,
-   "volume": 0.16,
+   "at": 0.31,
+   "volume": 0.14,
    "offset": 0.0
   },
   {
    "src": "lib:bsb-2842",
-   "at": 0.45,
-   "volume": 0.16,
+   "at": 0.42000000000000004,
+   "volume": 0.14,
    "offset": 0.0
   },
   {
    "src": "lib:bsb-2842",
-   "at": 0.55,
-   "volume": 0.16,
+   "at": 0.53,
+   "volume": 0.14,
    "offset": 0.0
   },
   {
    "src": "lib:bsb-2842",
-   "at": 0.65,
-   "volume": 0.16,
+   "at": 0.64,
+   "volume": 0.14,
    "offset": 0.0
   },
   {
    "src": "lib:bsb-2842",
    "at": 0.75,
-   "volume": 0.16,
+   "volume": 0.14,
    "offset": 0.0
   },
   {
    "src": "lib:bsb-2842",
-   "at": 0.8500000000000001,
-   "volume": 0.16,
+   "at": 0.8600000000000001,
+   "volume": 0.14,
    "offset": 0.0
   },
   {
    "src": "lib:bsb-2842",
-   "at": 0.9500000000000001,
-   "volume": 0.16,
+   "at": 0.97,
+   "volume": 0.14,
    "offset": 0.0
   },
   {
    "src": "lib:bsb-2842",
-   "at": 1.05,
-   "volume": 0.16,
+   "at": 1.08,
+   "volume": 0.14,
    "offset": 0.0
   },
   {
-   "src": "lib:pluck_001",
-   "at": {
-    "word": "molestarlo?",
-    "offset": -0.1
-   },
-   "volume": 0.32,
-   "offset": 0.05
+   "src": "lib:bsb-2842",
+   "at": 1.19,
+   "volume": 0.14,
+   "offset": 0.0
   },
   {
-   "src": "lib:question_001",
+   "src": "synth:heartbeat_01",
    "at": {
     "word": "molestarlo?"
    },
    "volume": 0.35,
    "offset": 0.0
-  },
-  {
-   "src": "lib:pluck_001",
-   "at": {
-    "word": "envías."
-   },
-   "volume": 0.32,
-   "offset": 0.05
   },
   {
    "src": "synth:glitch_02",
@@ -1004,203 +782,222 @@
    "offset": 0.0
   },
   {
-   "src": "synth:impact_punch",
+   "src": "synth:reverse_swell",
    "at": {
-    "word": "envías."
+    "cut": 2
    },
-   "volume": 0.4,
+   "volume": 0.25,
    "offset": 0.0
   },
   {
-   "src": "synth:whoosh_medium",
+   "src": "synth:reverse_swell",
    "at": {
-    "word": "“¿Y",
-    "offset": -0.1
+    "cut": 3
    },
-   "volume": 0.55,
-   "offset": -0.15
-  },
-  {
-   "src": "synth:pop_01",
-   "at": {
-    "word": "desesperado?",
-    "offset": -0.2
-   },
-   "volume": 0.45,
+   "volume": 0.25,
    "offset": 0.0
   },
   {
-   "src": "synth:pop_01",
-   "at": {
-    "word": "dice"
-   },
-   "volume": 0.45,
-   "offset": 0.0
-  },
-  {
-   "src": "lib:bsb-1111",
-   "at": {
-    "word": "“¿Y"
-   },
-   "volume": 0.2,
-   "offset": 0.1
-  },
-  {
-   "src": "lib:pluck_002",
-   "at": {
-    "word": "incómoda,"
-   },
-   "volume": 0.32,
-   "offset": 0.05
-  },
-  {
-   "src": "synth:subdrop_short",
+   "src": "synth:impact_soft",
    "at": {
     "word": "pendiente."
    },
-   "volume": 0.4,
+   "volume": 0.45,
    "offset": 0.0
   },
   {
-   "src": "lib:pluck_002",
+   "src": "lib:card-slide-2",
    "at": {
-    "word": "llamada:",
-    "offset": -0.25
+    "word": "empieza",
+    "offset": -0.15
    },
-   "volume": 0.32,
-   "offset": 0.05
+   "volume": 0.45,
+   "offset": -0.05
   },
   {
-   "src": "lib:pluck_001",
-   "at": {
-    "word": "llamada:"
-   },
-   "volume": 0.35,
-   "offset": -0.2
-  },
-  {
-   "src": "synth:whoosh_medium",
-   "at": {
-    "word": "acuerden",
-    "offset": -0.1
-   },
-   "volume": 0.55,
-   "offset": -0.15
-  },
-  {
-   "src": "synth:pop_01",
+   "src": "lib:card-slide-2",
    "at": {
     "word": "cuándo"
    },
-   "volume": 0.4,
+   "volume": 0.35,
    "offset": 0.0
   },
   {
-   "src": "synth:pop_01",
+   "src": "lib:bsb-2842",
    "at": {
     "word": "revisarán."
    },
-   "volume": 0.4,
-   "offset": -0.2
+   "volume": 0.2,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:ding_success",
+   "at": {
+    "word": "revisarán.",
+    "offset": 0.6
+   },
+   "volume": 0.3,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:swipe_01",
+   "at": {
+    "cut": 6,
+    "offset": 0.85
+   },
+   "volume": 0.3,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:card-slide-2",
+   "at": {
+    "cut": 7
+   },
+   "volume": 0.45,
+   "offset": -0.05
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "cut": 7,
+    "offset": 0.15
+   },
+   "volume": 0.12,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "cut": 7,
+    "offset": 0.25
+   },
+   "volume": 0.12,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "cut": 7,
+    "offset": 0.35
+   },
+   "volume": 0.12,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "cut": 7,
+    "offset": 0.45000000000000007
+   },
+   "volume": 0.12,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "cut": 7,
+    "offset": 0.55
+   },
+   "volume": 0.12,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "cut": 7,
+    "offset": 0.65
+   },
+   "volume": 0.12,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "cut": 7,
+    "offset": 0.7500000000000001
+   },
+   "volume": 0.12,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "cut": 7,
+    "offset": 0.8500000000000001
+   },
+   "volume": 0.12,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "cut": 7,
+    "offset": 0.9500000000000001
+   },
+   "volume": 0.12,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "cut": 7,
+    "offset": 1.05
+   },
+   "volume": 0.12,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "cut": 7,
+    "offset": 1.15
+   },
+   "volume": 0.12,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "cut": 7,
+    "offset": 1.25
+   },
+   "volume": 0.12,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:whoosh_fast",
+   "at": {
+    "cut": 7,
+    "offset": 4.666666666666667
+   },
+   "volume": 0.35,
+   "offset": 0.0
   },
   {
    "src": "lib:pluck_001",
    "at": {
-    "word": "retoma"
-   },
-   "volume": 0.32,
-   "offset": 0.05
-  },
-  {
-   "src": "lib:pluck_002",
-   "at": {
-    "word": "importaba:",
-    "offset": -0.15
-   },
-   "volume": 0.32,
-   "offset": 0.05
-  },
-  {
-   "src": "synth:whoosh_medium",
-   "at": {
     "cut": 7,
-    "offset": 0.0
-   },
-   "volume": 0.55,
-   "offset": -0.15
-  },
-  {
-   "src": "lib:pluck_002",
-   "at": {
-    "cut": 7
-   },
-   "volume": 0.35,
-   "offset": 0.2
-  },
-  {
-   "src": "lib:pluck_002",
-   "at": {
-    "word": "ayudaría"
+    "offset": 5.0
    },
    "volume": 0.35,
    "offset": 0.0
   },
   {
-   "src": "lib:confirmation_002",
+   "src": "synth:whoosh_heavy",
    "at": {
-    "word": "juntos?”."
-   },
-   "volume": 0.4,
-   "offset": 0.4
-  },
-  {
-   "src": "synth:pop_01",
-   "at": {
-    "word": "escribes"
+    "cut": 9,
+    "offset": 1.0256410256410255
    },
    "volume": 0.4,
    "offset": 0.0
   },
   {
-   "src": "synth:pop_01",
-   "at": {
-    "word": "razón"
-   },
-   "volume": 0.4,
-   "offset": 0.0
-  },
-  {
-   "src": "synth:pop_01",
-   "at": {
-    "word": "respetando"
-   },
-   "volume": 0.4,
-   "offset": 0.0
-  },
-  {
-   "src": "synth:whoosh_medium",
-   "at": {
-    "word": "derecho",
-    "offset": -0.08
-   },
-   "volume": 0.55,
-   "offset": -0.15
-  },
-  {
-   "src": "synth:riser_short",
+   "src": "synth:reverse_swell_long",
    "at": {
     "word": "derecho"
    },
-   "volume": 0.28,
-   "offset": -1.0
-  },
-  {
-   "src": "synth:impact_cinematic",
-   "at": {
-    "word": "derecho"
-   },
-   "volume": 0.5,
-   "offset": -0.05
+   "volume": 0.3,
+   "offset": -0.3
   },
   {
    "src": "synth:braam_01",
@@ -1282,39 +1079,40 @@
    "offset": 1.3599999999999999
   },
   {
-   "src": "synth:whoosh_heavy",
+   "src": "synth:whoosh_reverse",
    "at": {
     "end": true,
     "offset": -1.85
    },
-   "volume": 0.55,
-   "offset": -0.1
+   "volume": 0.45,
+   "offset": -0.2
   },
   {
-   "src": "synth:impact_cinematic",
+   "src": "synth:impact_soft",
    "at": {
     "end": true,
-    "offset": -1.75
+    "offset": -1.7
    },
-   "volume": 0.55,
+   "volume": 0.5,
    "offset": 0.0
   },
   {
    "src": "lib:glass_002",
    "at": {
     "end": true,
-    "offset": -1.0
+    "offset": -1.15
    },
-   "volume": 0.4,
+   "volume": 0.35,
    "offset": 0.0
   },
   {
-   "src": "synth:swipe_02",
+   "src": "synth:pop_02",
    "at": {
-    "cut": 1
+    "end": true,
+    "offset": -1.3
    },
-   "volume": 0.16,
-   "offset": -0.06
+   "volume": 0.3,
+   "offset": 0.0
   },
   {
    "src": "synth:swipe_02",
@@ -1335,22 +1133,6 @@
   {
    "src": "synth:swipe_02",
    "at": {
-    "cut": 4
-   },
-   "volume": 0.16,
-   "offset": -0.06
-  },
-  {
-   "src": "synth:swipe_02",
-   "at": {
-    "cut": 5
-   },
-   "volume": 0.16,
-   "offset": -0.06
-  },
-  {
-   "src": "synth:swipe_02",
-   "at": {
     "cut": 6
    },
    "volume": 0.16,
@@ -1360,14 +1142,6 @@
    "src": "synth:swipe_02",
    "at": {
     "cut": 7
-   },
-   "volume": 0.16,
-   "offset": -0.06
-  },
-  {
-   "src": "synth:swipe_02",
-   "at": {
-    "cut": 8
    },
    "volume": 0.16,
    "offset": -0.06
@@ -1401,6 +1175,68 @@
     "cut": 11
    },
    "drop": 2
+  }
+ ],
+ "broll": [
+  {
+   "src": "clientes/carlos-buelvas/proyectos/ad07/_work/blender/ad07_plane/plane.mp4",
+   "at": {
+    "cut": 9
+   },
+   "until": {
+    "cut": 10
+   },
+   "mode": "full",
+   "transition": "whip-up",
+   "speed": 0.52,
+   "in": 0.0,
+   "kenburns": "none"
+  },
+  {
+   "src": "clientes/carlos-buelvas/proyectos/ad07/_work/blender/ad07_door/door.mp4",
+   "at": {
+    "word": "derecho",
+    "offset": -0.1
+   },
+   "until": {
+    "cut": 11
+   },
+   "mode": "full",
+   "transition": "zoom-in",
+   "speed": 0.69,
+   "in": 0.0,
+   "kenburns": "none"
+  }
+ ],
+ "layouts": [
+  {
+   "at": 0,
+   "until": {
+    "cut": 2
+   },
+   "mode": "split",
+   "bottom": 0.5
+  },
+  {
+   "at": {
+    "word": "empieza",
+    "offset": -0.15
+   },
+   "until": {
+    "cut": 6
+   },
+   "mode": "split",
+   "bottom": 0.5
+  },
+  {
+   "at": {
+    "cut": 7
+   },
+   "until": {
+    "cut": 9
+   },
+   "mode": "split",
+   "bottom": 0.5
   }
  ],
  "mix": {

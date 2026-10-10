@@ -11,6 +11,11 @@ import {CaseCard, MeterBar, NumberedList, PromptBox, QuestionStack, TagRow, Voic
 import {AuditGrid, FAQBubble, FeedScroll, RecFrame, ValueCompare, VersusBar} from '../graphics/exec3';
 import {AskBubble, BreathLine, CompareTable, Diagnosis, ObjectionCard, PriceSlash, ValueDrain, ValueStack} from '../graphics/exec4';
 import {BoardingPass, FolderTabs, HandNote, MessageTuner, MonthTrack, NetworkMap, OdometerReset, SealStamp} from '../graphics/exec5';
+import {KanbanFlood, OOOToggle, OrgChartGrow, QuoteStrike, SelfCheck, SOPCard} from '../graphics/exec6';
+import {CalendarInvite, DraftUnsent, NoteRecall, SendFlow, ThoughtBubbles} from '../graphics/exec7';
+import {ClarityGauge, ClientReality, JargonCloud, SlideMarathon} from '../graphics/exec8';
+import {ClauseTicks, EnergyEKG, RequestToasts, ShoppingCart, SpotlightQuestion, TimesheetUnpaid, YesStamps} from '../graphics/exec9';
+import {AdsDashboard, BacklogBadges, BillsStack, LeadsList, TwinLines} from '../graphics/exec10';
 import type {Graphic} from '../types';
 
 /** Video con alfa (p.ej. overlay renderizado con HyperFrames en WebM/ProRes 4444) o elemento de stock. props: src, blend, opacity, fit */
@@ -119,6 +124,33 @@ export const REGISTRY: Record<string, React.FC<any>> = {
 	FolderTabs,
 	MessageTuner,
 	SealStamp,
+	KanbanFlood,
+	OOOToggle,
+	OrgChartGrow,
+	QuoteStrike,
+	SelfCheck,
+	SOPCard,
+	DraftUnsent,
+	ThoughtBubbles,
+	CalendarInvite,
+	NoteRecall,
+	SendFlow,
+	SlideMarathon,
+	JargonCloud,
+	ClientReality,
+	ClarityGauge,
+	ShoppingCart,
+	RequestToasts,
+	YesStamps,
+	EnergyEKG,
+	SpotlightQuestion,
+	ClauseTicks,
+	TimesheetUnpaid,
+	AdsDashboard,
+	BillsStack,
+	LeadsList,
+	BacklogBadges,
+	TwinLines,
 };
 
 export const GraphicsLayer: React.FC<{items: Graphic[]; layer: 'under' | 'over' | 'top'}> = ({items, layer}) => {

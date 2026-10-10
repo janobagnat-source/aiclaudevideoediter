@@ -1,684 +1,684 @@
 {
-  "cuts": [
+ "cuts": [
+  {
+   "sentence": 0,
+   "source": "cam1",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad10/_work/src/cam1_9x16.mp4",
+   "in": 4.385,
+   "out": 10.58,
+   "text": "Estás preocupado porque las ventas no llegan y piensas: “Si pago más publicidad, esto tiene que mejorar”.",
+   "section": "HOOK",
+   "words": [
     {
-      "sentence": 0,
-      "source": "cam1",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad10/_work/src/cam1_9x16.mp4",
-      "in": 4.385,
-      "out": 10.58,
-      "text": "Estás preocupado porque las ventas no llegan y piensas: “Si pago más publicidad, esto tiene que mejorar”.",
-      "section": "HOOK",
-      "words": [
-        {
-          "text": "Estás",
-          "start": 4.385,
-          "end": 4.64
-        },
-        {
-          "text": "preocupado",
-          "start": 4.64,
-          "end": 5.12
-        },
-        {
-          "text": "porque",
-          "start": 5.2,
-          "end": 5.36
-        },
-        {
-          "text": "las",
-          "start": 5.52,
-          "end": 5.68
-        },
-        {
-          "text": "ventas",
-          "start": 5.68,
-          "end": 6.0
-        },
-        {
-          "text": "no",
-          "start": 6.0,
-          "end": 6.16
-        },
-        {
-          "text": "llegan",
-          "start": 6.16,
-          "end": 6.56
-        },
-        {
-          "text": "y",
-          "start": 6.56,
-          "end": 6.8
-        },
-        {
-          "text": "piensas:",
-          "start": 6.8,
-          "end": 7.36
-        },
-        {
-          "text": "“Si",
-          "start": 7.6,
-          "end": 7.84
-        },
-        {
-          "text": "pago",
-          "start": 7.84,
-          "end": 8.32
-        },
-        {
-          "text": "más",
-          "start": 8.32,
-          "end": 8.48
-        },
-        {
-          "text": "publicidad,",
-          "start": 8.48,
-          "end": 9.2
-        },
-        {
-          "text": "esto",
-          "start": 9.2,
-          "end": 9.44
-        },
-        {
-          "text": "tiene",
-          "start": 9.44,
-          "end": 9.68
-        },
-        {
-          "text": "que",
-          "start": 9.68,
-          "end": 9.84
-        },
-        {
-          "text": "mejorar”.",
-          "start": 9.84,
-          "end": 10.48
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "Estás",
+     "start": 4.385,
+     "end": 4.64
     },
     {
-      "sentence": 1,
-      "source": "cam2",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad10/_work/src/cam2_9x16.mp4",
-      "in": 10.58,
-      "out": 12.555,
-      "text": "Entiendo esa urgencia.",
-      "section": "DESARROLLO",
-      "words": [
-        {
-          "text": "Entiendo",
-          "start": 10.72,
-          "end": 11.36
-        },
-        {
-          "text": "esa",
-          "start": 11.36,
-          "end": 11.76
-        },
-        {
-          "text": "urgencia.",
-          "start": 11.76,
-          "end": 12.555
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "preocupado",
+     "start": 4.64,
+     "end": 5.12
     },
     {
-      "sentence": 2,
-      "source": "cam1",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad10/_work/src/cam1_9x16.mp4",
-      "in": 12.59,
-      "out": 16.7,
-      "text": "Cuando hay cuentas por pagar, queremos encontrar una solución rápida.",
-      "section": "DESARROLLO",
-      "words": [
-        {
-          "text": "Cuando",
-          "start": 12.59,
-          "end": 12.88
-        },
-        {
-          "text": "hay",
-          "start": 12.88,
-          "end": 13.12
-        },
-        {
-          "text": "cuentas",
-          "start": 13.12,
-          "end": 13.52
-        },
-        {
-          "text": "por",
-          "start": 13.52,
-          "end": 13.68
-        },
-        {
-          "text": "pagar,",
-          "start": 13.68,
-          "end": 14.24
-        },
-        {
-          "text": "queremos",
-          "start": 14.24,
-          "end": 14.72
-        },
-        {
-          "text": "encontrar",
-          "start": 14.72,
-          "end": 15.28
-        },
-        {
-          "text": "una",
-          "start": 15.28,
-          "end": 15.44
-        },
-        {
-          "text": "solución",
-          "start": 15.44,
-          "end": 16.0
-        },
-        {
-          "text": "rápida.",
-          "start": 16.0,
-          "end": 16.7
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "porque",
+     "start": 5.2,
+     "end": 5.36
     },
     {
-      "sentence": 3,
-      "source": "cam2",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad10/_work/src/cam2_9x16.mp4",
-      "in": 16.72,
-      "out": 20.84,
-      "text": "Pero antes de invertir más, mira a las personas que ya se acercaron.",
-      "section": "DESARROLLO",
-      "words": [
-        {
-          "text": "Pero",
-          "start": 16.72,
-          "end": 17.04
-        },
-        {
-          "text": "antes",
-          "start": 17.04,
-          "end": 17.36
-        },
-        {
-          "text": "de",
-          "start": 17.36,
-          "end": 17.52
-        },
-        {
-          "text": "invertir",
-          "start": 17.52,
-          "end": 18.0
-        },
-        {
-          "text": "más,",
-          "start": 18.0,
-          "end": 18.48
-        },
-        {
-          "text": "mira",
-          "start": 18.48,
-          "end": 18.96
-        },
-        {
-          "text": "a",
-          "start": 18.96,
-          "end": 19.12
-        },
-        {
-          "text": "las",
-          "start": 19.12,
-          "end": 19.28
-        },
-        {
-          "text": "personas",
-          "start": 19.28,
-          "end": 19.52
-        },
-        {
-          "text": "que",
-          "start": 19.52,
-          "end": 19.76
-        },
-        {
-          "text": "ya",
-          "start": 19.76,
-          "end": 19.92
-        },
-        {
-          "text": "se",
-          "start": 19.92,
-          "end": 20.08
-        },
-        {
-          "text": "acercaron.",
-          "start": 20.08,
-          "end": 20.8
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "las",
+     "start": 5.52,
+     "end": 5.68
     },
     {
-      "sentence": 4,
-      "source": "cam1",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad10/_work/src/cam1_9x16.mp4",
-      "in": 26.005,
-      "out": 27.43,
-      "text": "¿Les respondiste?",
-      "section": "DESARROLLO",
-      "words": [
-        {
-          "text": "¿Les",
-          "start": 26.005,
-          "end": 26.08
-        },
-        {
-          "text": "respondiste?",
-          "start": 26.4,
-          "end": 27.36
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "ventas",
+     "start": 5.68,
+     "end": 6.0
     },
     {
-      "sentence": 5,
-      "source": "cam2",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad10/_work/src/cam2_9x16.mp4",
-      "in": 27.43,
-      "out": 28.945,
-      "text": "¿Entendieron tu propuesta?",
-      "section": "DESARROLLO",
-      "words": [
-        {
-          "text": "¿Entendieron",
-          "start": 27.44,
-          "end": 28.16
-        },
-        {
-          "text": "tu",
-          "start": 28.16,
-          "end": 28.32
-        },
-        {
-          "text": "propuesta?",
-          "start": 28.32,
-          "end": 28.945
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "no",
+     "start": 6.0,
+     "end": 6.16
     },
     {
-      "sentence": 6,
-      "source": "cam1",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad10/_work/src/cam1_9x16.mp4",
-      "in": 28.965,
-      "out": 31.27,
-      "text": "¿Qué duda quedó sin resolver?",
-      "section": "DESARROLLO",
-      "words": [
-        {
-          "text": "¿Qué",
-          "start": 28.965,
-          "end": 29.28
-        },
-        {
-          "text": "duda",
-          "start": 29.28,
-          "end": 29.68
-        },
-        {
-          "text": "quedó",
-          "start": 29.68,
-          "end": 30.24
-        },
-        {
-          "text": "sin",
-          "start": 30.24,
-          "end": 30.48
-        },
-        {
-          "text": "resolver?",
-          "start": 30.48,
-          "end": 31.27
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "llegan",
+     "start": 6.16,
+     "end": 6.56
     },
     {
-      "sentence": 7,
-      "source": "cam2",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad10/_work/src/cam2_9x16.mp4",
-      "in": 31.275,
-      "out": 35.495,
-      "text": "Revisa tus últimas diez conversaciones y busca dónde se detuvieron.",
-      "section": "DESARROLLO",
-      "words": [
-        {
-          "text": "Revisa",
-          "start": 31.28,
-          "end": 31.84
-        },
-        {
-          "text": "tus",
-          "start": 31.84,
-          "end": 32.08
-        },
-        {
-          "text": "últimas",
-          "start": 32.08,
-          "end": 32.4
-        },
-        {
-          "text": "diez",
-          "start": 32.4,
-          "end": 32.64
-        },
-        {
-          "text": "conversaciones",
-          "start": 32.64,
-          "end": 33.28
-        },
-        {
-          "text": "y",
-          "start": 33.36,
-          "end": 33.6
-        },
-        {
-          "text": "busca",
-          "start": 33.6,
-          "end": 34.08
-        },
-        {
-          "text": "dónde",
-          "start": 34.08,
-          "end": 34.48
-        },
-        {
-          "text": "se",
-          "start": 34.48,
-          "end": 34.64
-        },
-        {
-          "text": "detuvieron.",
-          "start": 34.64,
-          "end": 35.495
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "y",
+     "start": 6.56,
+     "end": 6.8
     },
     {
-      "sentence": 8,
-      "source": "cam1",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad10/_work/src/cam1_9x16.mp4",
-      "in": 35.54,
-      "out": 41.35,
-      "text": "Si estás dejando consultas sin responder o propuestas sin seguimiento, empieza por ahí.",
-      "section": "DESARROLLO",
-      "words": [
-        {
-          "text": "Si",
-          "start": 35.54,
-          "end": 35.76
-        },
-        {
-          "text": "estás",
-          "start": 35.76,
-          "end": 36.0
-        },
-        {
-          "text": "dejando",
-          "start": 36.0,
-          "end": 36.32
-        },
-        {
-          "text": "consultas",
-          "start": 36.32,
-          "end": 36.8
-        },
-        {
-          "text": "sin",
-          "start": 36.8,
-          "end": 36.96
-        },
-        {
-          "text": "responder",
-          "start": 36.96,
-          "end": 37.36
-        },
-        {
-          "text": "o",
-          "start": 37.6,
-          "end": 37.76
-        },
-        {
-          "text": "propuestas",
-          "start": 37.76,
-          "end": 38.16
-        },
-        {
-          "text": "sin",
-          "start": 38.16,
-          "end": 38.32
-        },
-        {
-          "text": "seguimiento,",
-          "start": 38.32,
-          "end": 39.04
-        },
-        {
-          "text": "empieza",
-          "start": 39.04,
-          "end": 39.68
-        },
-        {
-          "text": "por",
-          "start": 39.68,
-          "end": 39.92
-        },
-        {
-          "text": "ahí.",
-          "start": 39.92,
-          "end": 40.88
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "piensas:",
+     "start": 6.8,
+     "end": 7.36
     },
     {
-      "sentence": 9,
-      "source": "cam2",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad10/_work/src/cam2_9x16.mp4",
-      "in": 55.95,
-      "out": 62.24,
-      "text": "Pagar para que lleguen más personas al mismo proceso puede aumentar tu gasto sin resolver lo que está frenando tus ventas.",
-      "section": "DESARROLLO",
-      "words": [
-        {
-          "text": "Pagar",
-          "start": 55.95,
-          "end": 56.41
-        },
-        {
-          "text": "para",
-          "start": 56.41,
-          "end": 56.57
-        },
-        {
-          "text": "que",
-          "start": 56.57,
-          "end": 56.73
-        },
-        {
-          "text": "lleguen",
-          "start": 56.73,
-          "end": 57.05
-        },
-        {
-          "text": "más",
-          "start": 57.05,
-          "end": 57.21
-        },
-        {
-          "text": "personas",
-          "start": 57.21,
-          "end": 57.53
-        },
-        {
-          "text": "al",
-          "start": 57.53,
-          "end": 57.69
-        },
-        {
-          "text": "mismo",
-          "start": 57.69,
-          "end": 57.93
-        },
-        {
-          "text": "proceso",
-          "start": 57.93,
-          "end": 58.33
-        },
-        {
-          "text": "puede",
-          "start": 58.41,
-          "end": 58.57
-        },
-        {
-          "text": "aumentar",
-          "start": 58.73,
-          "end": 59.21
-        },
-        {
-          "text": "tu",
-          "start": 59.21,
-          "end": 59.37
-        },
-        {
-          "text": "gasto",
-          "start": 59.37,
-          "end": 59.69
-        },
-        {
-          "text": "sin",
-          "start": 59.69,
-          "end": 59.85
-        },
-        {
-          "text": "resolver",
-          "start": 59.85,
-          "end": 60.25
-        },
-        {
-          "text": "lo",
-          "start": 60.25,
-          "end": 60.41
-        },
-        {
-          "text": "que",
-          "start": 60.41,
-          "end": 60.49
-        },
-        {
-          "text": "está",
-          "start": 60.49,
-          "end": 60.73
-        },
-        {
-          "text": "frenando",
-          "start": 60.73,
-          "end": 61.21
-        },
-        {
-          "text": "tus",
-          "start": 61.21,
-          "end": 61.45
-        },
-        {
-          "text": "ventas.",
-          "start": 61.45,
-          "end": 62.24
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "“Si",
+     "start": 7.6,
+     "end": 7.84
     },
     {
-      "sentence": 10,
-      "source": "cam1",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad10/_work/src/cam1_9x16.mp4",
-      "in": 62.26,
-      "out": 67.11,
-      "text": "Sígueme para ayudarte a escalar tu negocio acelerando tus ventas.",
-      "section": "CTA",
-      "words": [
-        {
-          "text": "Sígueme",
-          "start": 62.26,
-          "end": 62.97
-        },
-        {
-          "text": "para",
-          "start": 62.97,
-          "end": 63.13
-        },
-        {
-          "text": "ayudarte",
-          "start": 63.13,
-          "end": 63.61
-        },
-        {
-          "text": "a",
-          "start": 63.61,
-          "end": 63.69
-        },
-        {
-          "text": "escalar",
-          "start": 63.77,
-          "end": 64.17
-        },
-        {
-          "text": "tu",
-          "start": 64.17,
-          "end": 64.33
-        },
-        {
-          "text": "negocio",
-          "start": 64.33,
-          "end": 64.65
-        },
-        {
-          "text": "acelerando",
-          "start": 64.65,
-          "end": 65.29
-        },
-        {
-          "text": "tus",
-          "start": 65.29,
-          "end": 65.53
-        },
-        {
-          "text": "ventas.",
-          "start": 65.53,
-          "end": 66.73
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "pago",
+     "start": 7.84,
+     "end": 8.32
+    },
+    {
+     "text": "más",
+     "start": 8.32,
+     "end": 8.48
+    },
+    {
+     "text": "publicidad,",
+     "start": 8.48,
+     "end": 9.2
+    },
+    {
+     "text": "esto",
+     "start": 9.2,
+     "end": 9.44
+    },
+    {
+     "text": "tiene",
+     "start": 9.44,
+     "end": 9.68
+    },
+    {
+     "text": "que",
+     "start": 9.68,
+     "end": 9.84
+    },
+    {
+     "text": "mejorar”.",
+     "start": 9.84,
+     "end": 10.48
     }
-  ],
-  "duration": 42.815,
-  "raw_offset": 738.4
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 1,
+   "source": "cam2",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad10/_work/src/cam2_9x16.mp4",
+   "in": 10.58,
+   "out": 12.555,
+   "text": "Entiendo esa urgencia.",
+   "section": "DESARROLLO",
+   "words": [
+    {
+     "text": "Entiendo",
+     "start": 10.72,
+     "end": 11.36
+    },
+    {
+     "text": "esa",
+     "start": 11.36,
+     "end": 11.76
+    },
+    {
+     "text": "urgencia.",
+     "start": 11.76,
+     "end": 12.555
+    }
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 2,
+   "source": "cam1",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad10/_work/src/cam1_9x16.mp4",
+   "in": 12.59,
+   "out": 16.7,
+   "text": "Cuando hay cuentas por pagar, queremos encontrar una solución rápida.",
+   "section": "DESARROLLO",
+   "words": [
+    {
+     "text": "Cuando",
+     "start": 12.59,
+     "end": 12.88
+    },
+    {
+     "text": "hay",
+     "start": 12.88,
+     "end": 13.12
+    },
+    {
+     "text": "cuentas",
+     "start": 13.12,
+     "end": 13.52
+    },
+    {
+     "text": "por",
+     "start": 13.52,
+     "end": 13.68
+    },
+    {
+     "text": "pagar,",
+     "start": 13.68,
+     "end": 14.24
+    },
+    {
+     "text": "queremos",
+     "start": 14.24,
+     "end": 14.72
+    },
+    {
+     "text": "encontrar",
+     "start": 14.72,
+     "end": 15.28
+    },
+    {
+     "text": "una",
+     "start": 15.28,
+     "end": 15.44
+    },
+    {
+     "text": "solución",
+     "start": 15.44,
+     "end": 16.0
+    },
+    {
+     "text": "rápida.",
+     "start": 16.0,
+     "end": 16.7
+    }
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 3,
+   "source": "cam1",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad10/_work/src/cam1_9x16.mp4",
+   "in": 16.72,
+   "out": 20.84,
+   "text": "Pero antes de invertir más, mira a las personas que ya se acercaron.",
+   "section": "DESARROLLO",
+   "words": [
+    {
+     "text": "Pero",
+     "start": 16.72,
+     "end": 17.04
+    },
+    {
+     "text": "antes",
+     "start": 17.04,
+     "end": 17.36
+    },
+    {
+     "text": "de",
+     "start": 17.36,
+     "end": 17.52
+    },
+    {
+     "text": "invertir",
+     "start": 17.52,
+     "end": 18.0
+    },
+    {
+     "text": "más,",
+     "start": 18.0,
+     "end": 18.48
+    },
+    {
+     "text": "mira",
+     "start": 18.48,
+     "end": 18.96
+    },
+    {
+     "text": "a",
+     "start": 18.96,
+     "end": 19.12
+    },
+    {
+     "text": "las",
+     "start": 19.12,
+     "end": 19.28
+    },
+    {
+     "text": "personas",
+     "start": 19.28,
+     "end": 19.52
+    },
+    {
+     "text": "que",
+     "start": 19.52,
+     "end": 19.76
+    },
+    {
+     "text": "ya",
+     "start": 19.76,
+     "end": 19.92
+    },
+    {
+     "text": "se",
+     "start": 19.92,
+     "end": 20.08
+    },
+    {
+     "text": "acercaron.",
+     "start": 20.08,
+     "end": 20.8
+    }
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 4,
+   "source": "cam1",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad10/_work/src/cam1_9x16.mp4",
+   "in": 26.005,
+   "out": 27.43,
+   "text": "¿Les respondiste?",
+   "section": "DESARROLLO",
+   "words": [
+    {
+     "text": "¿Les",
+     "start": 26.005,
+     "end": 26.08
+    },
+    {
+     "text": "respondiste?",
+     "start": 26.4,
+     "end": 27.36
+    }
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 5,
+   "source": "cam1",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad10/_work/src/cam1_9x16.mp4",
+   "in": 27.43,
+   "out": 28.945,
+   "text": "¿Entendieron tu propuesta?",
+   "section": "DESARROLLO",
+   "words": [
+    {
+     "text": "¿Entendieron",
+     "start": 27.44,
+     "end": 28.16
+    },
+    {
+     "text": "tu",
+     "start": 28.16,
+     "end": 28.32
+    },
+    {
+     "text": "propuesta?",
+     "start": 28.32,
+     "end": 28.945
+    }
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 6,
+   "source": "cam1",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad10/_work/src/cam1_9x16.mp4",
+   "in": 28.965,
+   "out": 31.27,
+   "text": "¿Qué duda quedó sin resolver?",
+   "section": "DESARROLLO",
+   "words": [
+    {
+     "text": "¿Qué",
+     "start": 28.965,
+     "end": 29.28
+    },
+    {
+     "text": "duda",
+     "start": 29.28,
+     "end": 29.68
+    },
+    {
+     "text": "quedó",
+     "start": 29.68,
+     "end": 30.24
+    },
+    {
+     "text": "sin",
+     "start": 30.24,
+     "end": 30.48
+    },
+    {
+     "text": "resolver?",
+     "start": 30.48,
+     "end": 31.27
+    }
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 7,
+   "source": "cam2",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad10/_work/src/cam2_9x16.mp4",
+   "in": 31.275,
+   "out": 35.495,
+   "text": "Revisa tus últimas diez conversaciones y busca dónde se detuvieron.",
+   "section": "DESARROLLO",
+   "words": [
+    {
+     "text": "Revisa",
+     "start": 31.28,
+     "end": 31.84
+    },
+    {
+     "text": "tus",
+     "start": 31.84,
+     "end": 32.08
+    },
+    {
+     "text": "últimas",
+     "start": 32.08,
+     "end": 32.4
+    },
+    {
+     "text": "diez",
+     "start": 32.4,
+     "end": 32.64
+    },
+    {
+     "text": "conversaciones",
+     "start": 32.64,
+     "end": 33.28
+    },
+    {
+     "text": "y",
+     "start": 33.36,
+     "end": 33.6
+    },
+    {
+     "text": "busca",
+     "start": 33.6,
+     "end": 34.08
+    },
+    {
+     "text": "dónde",
+     "start": 34.08,
+     "end": 34.48
+    },
+    {
+     "text": "se",
+     "start": 34.48,
+     "end": 34.64
+    },
+    {
+     "text": "detuvieron.",
+     "start": 34.64,
+     "end": 35.495
+    }
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 8,
+   "source": "cam2",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad10/_work/src/cam2_9x16.mp4",
+   "in": 35.54,
+   "out": 41.35,
+   "text": "Si estás dejando consultas sin responder o propuestas sin seguimiento, empieza por ahí.",
+   "section": "DESARROLLO",
+   "words": [
+    {
+     "text": "Si",
+     "start": 35.54,
+     "end": 35.76
+    },
+    {
+     "text": "estás",
+     "start": 35.76,
+     "end": 36.0
+    },
+    {
+     "text": "dejando",
+     "start": 36.0,
+     "end": 36.32
+    },
+    {
+     "text": "consultas",
+     "start": 36.32,
+     "end": 36.8
+    },
+    {
+     "text": "sin",
+     "start": 36.8,
+     "end": 36.96
+    },
+    {
+     "text": "responder",
+     "start": 36.96,
+     "end": 37.36
+    },
+    {
+     "text": "o",
+     "start": 37.6,
+     "end": 37.76
+    },
+    {
+     "text": "propuestas",
+     "start": 37.76,
+     "end": 38.16
+    },
+    {
+     "text": "sin",
+     "start": 38.16,
+     "end": 38.32
+    },
+    {
+     "text": "seguimiento,",
+     "start": 38.32,
+     "end": 39.04
+    },
+    {
+     "text": "empieza",
+     "start": 39.04,
+     "end": 39.68
+    },
+    {
+     "text": "por",
+     "start": 39.68,
+     "end": 39.92
+    },
+    {
+     "text": "ahí.",
+     "start": 39.92,
+     "end": 40.88
+    }
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 9,
+   "source": "cam2",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad10/_work/src/cam2_9x16.mp4",
+   "in": 55.95,
+   "out": 62.24,
+   "text": "Pagar para que lleguen más personas al mismo proceso puede aumentar tu gasto sin resolver lo que está frenando tus ventas.",
+   "section": "DESARROLLO",
+   "words": [
+    {
+     "text": "Pagar",
+     "start": 55.95,
+     "end": 56.41
+    },
+    {
+     "text": "para",
+     "start": 56.41,
+     "end": 56.57
+    },
+    {
+     "text": "que",
+     "start": 56.57,
+     "end": 56.73
+    },
+    {
+     "text": "lleguen",
+     "start": 56.73,
+     "end": 57.05
+    },
+    {
+     "text": "más",
+     "start": 57.05,
+     "end": 57.21
+    },
+    {
+     "text": "personas",
+     "start": 57.21,
+     "end": 57.53
+    },
+    {
+     "text": "al",
+     "start": 57.53,
+     "end": 57.69
+    },
+    {
+     "text": "mismo",
+     "start": 57.69,
+     "end": 57.93
+    },
+    {
+     "text": "proceso",
+     "start": 57.93,
+     "end": 58.33
+    },
+    {
+     "text": "puede",
+     "start": 58.41,
+     "end": 58.57
+    },
+    {
+     "text": "aumentar",
+     "start": 58.73,
+     "end": 59.21
+    },
+    {
+     "text": "tu",
+     "start": 59.21,
+     "end": 59.37
+    },
+    {
+     "text": "gasto",
+     "start": 59.37,
+     "end": 59.69
+    },
+    {
+     "text": "sin",
+     "start": 59.69,
+     "end": 59.85
+    },
+    {
+     "text": "resolver",
+     "start": 59.85,
+     "end": 60.25
+    },
+    {
+     "text": "lo",
+     "start": 60.25,
+     "end": 60.41
+    },
+    {
+     "text": "que",
+     "start": 60.41,
+     "end": 60.49
+    },
+    {
+     "text": "está",
+     "start": 60.49,
+     "end": 60.73
+    },
+    {
+     "text": "frenando",
+     "start": 60.73,
+     "end": 61.21
+    },
+    {
+     "text": "tus",
+     "start": 61.21,
+     "end": 61.45
+    },
+    {
+     "text": "ventas.",
+     "start": 61.45,
+     "end": 62.24
+    }
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 10,
+   "source": "cam1",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad10/_work/src/cam1_9x16.mp4",
+   "in": 62.26,
+   "out": 67.11,
+   "text": "Sígueme para ayudarte a escalar tu negocio acelerando tus ventas.",
+   "section": "CTA",
+   "words": [
+    {
+     "text": "Sígueme",
+     "start": 62.26,
+     "end": 62.97
+    },
+    {
+     "text": "para",
+     "start": 62.97,
+     "end": 63.13
+    },
+    {
+     "text": "ayudarte",
+     "start": 63.13,
+     "end": 63.61
+    },
+    {
+     "text": "a",
+     "start": 63.61,
+     "end": 63.69
+    },
+    {
+     "text": "escalar",
+     "start": 63.77,
+     "end": 64.17
+    },
+    {
+     "text": "tu",
+     "start": 64.17,
+     "end": 64.33
+    },
+    {
+     "text": "negocio",
+     "start": 64.33,
+     "end": 64.65
+    },
+    {
+     "text": "acelerando",
+     "start": 64.65,
+     "end": 65.29
+    },
+    {
+     "text": "tus",
+     "start": 65.29,
+     "end": 65.53
+    },
+    {
+     "text": "ventas.",
+     "start": 65.53,
+     "end": 66.73
+    }
+   ],
+   "cues": [],
+   "intra": false
+  }
+ ],
+ "duration": 42.815,
+ "raw_offset": 738.4
 }

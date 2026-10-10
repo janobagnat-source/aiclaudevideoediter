@@ -1,717 +1,717 @@
 {
-  "cuts": [
+ "cuts": [
+  {
+   "sentence": 0,
+   "source": "cam1",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad06/_work/src/cam1_9x16.mp4",
+   "in": 4.1,
+   "out": 10.77,
+   "text": "Contrataste a alguien para tener menos trabajo… y ahora tienes que hacer lo tuyo y revisar lo de esa persona.",
+   "section": "HOOK",
+   "words": [
     {
-      "sentence": 0,
-      "source": "cam1",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad06/_work/src/cam1_9x16.mp4",
-      "in": 4.1,
-      "out": 10.77,
-      "text": "Contrataste a alguien para tener menos trabajo… y ahora tienes que hacer lo tuyo y revisar lo de esa persona.",
-      "section": "HOOK",
-      "words": [
-        {
-          "text": "Contrataste",
-          "start": 4.3,
-          "end": 5.18
-        },
-        {
-          "text": "a",
-          "start": 5.18,
-          "end": 5.34
-        },
-        {
-          "text": "alguien",
-          "start": 5.34,
-          "end": 5.58
-        },
-        {
-          "text": "para",
-          "start": 5.58,
-          "end": 5.82
-        },
-        {
-          "text": "tener",
-          "start": 5.82,
-          "end": 6.3
-        },
-        {
-          "text": "menos",
-          "start": 6.3,
-          "end": 6.54
-        },
-        {
-          "text": "trabajo…",
-          "start": 6.54,
-          "end": 6.86
-        },
-        {
-          "text": "y",
-          "start": 6.94,
-          "end": 7.18
-        },
-        {
-          "text": "ahora",
-          "start": 7.18,
-          "end": 7.42
-        },
-        {
-          "text": "tienes",
-          "start": 7.42,
-          "end": 7.74
-        },
-        {
-          "text": "que",
-          "start": 7.74,
-          "end": 7.98
-        },
-        {
-          "text": "hacer",
-          "start": 7.98,
-          "end": 8.3
-        },
-        {
-          "text": "lo",
-          "start": 8.3,
-          "end": 8.54
-        },
-        {
-          "text": "tuyo",
-          "start": 8.54,
-          "end": 9.02
-        },
-        {
-          "text": "y",
-          "start": 9.02,
-          "end": 9.18
-        },
-        {
-          "text": "revisar",
-          "start": 9.18,
-          "end": 9.66
-        },
-        {
-          "text": "lo",
-          "start": 9.66,
-          "end": 9.82
-        },
-        {
-          "text": "de",
-          "start": 9.82,
-          "end": 9.98
-        },
-        {
-          "text": "esa",
-          "start": 9.98,
-          "end": 10.22
-        },
-        {
-          "text": "persona.",
-          "start": 10.22,
-          "end": 10.77
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "Contrataste",
+     "start": 4.3,
+     "end": 5.18
     },
     {
-      "sentence": 1,
-      "source": "cam2",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad06/_work/src/cam2_9x16.mp4",
-      "in": 10.99,
-      "out": 12.78,
-      "text": "Es frustrante, sobre",
-      "section": "DESARROLLO",
-      "words": [
-        {
-          "text": "Es",
-          "start": 11.04,
-          "end": 11.12
-        },
-        {
-          "text": "frustrante,",
-          "start": 11.28,
-          "end": 12.4
-        },
-        {
-          "text": "sobre",
-          "start": 12.4,
-          "end": 12.56
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "a",
+     "start": 5.18,
+     "end": 5.34
     },
     {
-      "sentence": 1,
-      "source": "cam1",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad06/_work/src/cam1_9x16.mp4",
-      "in": 12.78,
-      "out": 16.46,
-      "text": "todo cuando pensabas que por fin ibas a respirar.",
-      "section": "DESARROLLO",
-      "words": [
-        {
-          "text": "todo",
-          "start": 12.88,
-          "end": 13.2
-        },
-        {
-          "text": "cuando",
-          "start": 13.2,
-          "end": 13.44
-        },
-        {
-          "text": "pensabas",
-          "start": 13.68,
-          "end": 14.32
-        },
-        {
-          "text": "que",
-          "start": 14.32,
-          "end": 14.48
-        },
-        {
-          "text": "por",
-          "start": 14.48,
-          "end": 14.72
-        },
-        {
-          "text": "fin",
-          "start": 14.72,
-          "end": 14.88
-        },
-        {
-          "text": "ibas",
-          "start": 15.12,
-          "end": 15.44
-        },
-        {
-          "text": "a",
-          "start": 15.44,
-          "end": 15.6
-        },
-        {
-          "text": "respirar.",
-          "start": 15.6,
-          "end": 16.46
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "alguien",
+     "start": 5.34,
+     "end": 5.58
     },
     {
-      "sentence": 2,
-      "source": "cam2",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad06/_work/src/cam2_9x16.mp4",
-      "in": 16.5,
-      "out": 21.28,
-      "text": "Muchos queremos crecer y creemos que tener equipo resolverá todo.",
-      "section": "DESARROLLO",
-      "words": [
-        {
-          "text": "Muchos",
-          "start": 16.5,
-          "end": 16.88
-        },
-        {
-          "text": "queremos",
-          "start": 17.12,
-          "end": 17.52
-        },
-        {
-          "text": "crecer",
-          "start": 17.68,
-          "end": 18.16
-        },
-        {
-          "text": "y",
-          "start": 18.24,
-          "end": 18.48
-        },
-        {
-          "text": "creemos",
-          "start": 18.48,
-          "end": 18.88
-        },
-        {
-          "text": "que",
-          "start": 19.04,
-          "end": 19.28
-        },
-        {
-          "text": "tener",
-          "start": 19.28,
-          "end": 19.6
-        },
-        {
-          "text": "equipo",
-          "start": 19.6,
-          "end": 20.0
-        },
-        {
-          "text": "resolverá",
-          "start": 20.16,
-          "end": 20.72
-        },
-        {
-          "text": "todo.",
-          "start": 20.88,
-          "end": 21.2
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "para",
+     "start": 5.58,
+     "end": 5.82
     },
     {
-      "sentence": 3,
-      "source": "cam1",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad06/_work/src/cam1_9x16.mp4",
-      "in": 21.28,
-      "out": 24.445,
-      "text": "Pero crecer también nos exige aprender a liderar.",
-      "section": "DESARROLLO",
-      "words": [
-        {
-          "text": "Pero",
-          "start": 21.36,
-          "end": 21.6
-        },
-        {
-          "text": "crecer",
-          "start": 21.68,
-          "end": 22.16
-        },
-        {
-          "text": "también",
-          "start": 22.24,
-          "end": 22.4
-        },
-        {
-          "text": "nos",
-          "start": 22.64,
-          "end": 22.8
-        },
-        {
-          "text": "exige",
-          "start": 22.8,
-          "end": 23.2
-        },
-        {
-          "text": "aprender",
-          "start": 23.36,
-          "end": 23.68
-        },
-        {
-          "text": "a",
-          "start": 23.68,
-          "end": 23.76
-        },
-        {
-          "text": "liderar.",
-          "start": 23.92,
-          "end": 24.4
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "tener",
+     "start": 5.82,
+     "end": 6.3
     },
     {
-      "sentence": 4,
-      "source": "cam2",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad06/_work/src/cam2_9x16.mp4",
-      "in": 24.445,
-      "out": 29.94,
-      "text": "Antes de decir “nadie hace las cosas como yo”, pregúntate: “¿Expliqué lo que esperaba?",
-      "section": "DESARROLLO",
-      "words": [
-        {
-          "text": "Antes",
-          "start": 24.64,
-          "end": 24.88
-        },
-        {
-          "text": "de",
-          "start": 24.88,
-          "end": 24.96
-        },
-        {
-          "text": "decir",
-          "start": 25.12,
-          "end": 25.2
-        },
-        {
-          "text": "“nadie",
-          "start": 25.68,
-          "end": 26.0
-        },
-        {
-          "text": "hace",
-          "start": 26.08,
-          "end": 26.32
-        },
-        {
-          "text": "las",
-          "start": 26.4,
-          "end": 26.56
-        },
-        {
-          "text": "cosas",
-          "start": 26.56,
-          "end": 26.64
-        },
-        {
-          "text": "como",
-          "start": 26.8,
-          "end": 26.96
-        },
-        {
-          "text": "yo”,",
-          "start": 27.04,
-          "end": 27.28
-        },
-        {
-          "text": "pregúntate:",
-          "start": 27.44,
-          "end": 28.16
-        },
-        {
-          "text": "“¿Expliqué",
-          "start": 28.4,
-          "end": 29.04
-        },
-        {
-          "text": "lo",
-          "start": 29.04,
-          "end": 29.12
-        },
-        {
-          "text": "que",
-          "start": 29.12,
-          "end": 29.36
-        },
-        {
-          "text": "esperaba?",
-          "start": 29.36,
-          "end": 29.94
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "menos",
+     "start": 6.3,
+     "end": 6.54
     },
     {
-      "sentence": 5,
-      "source": "cam1",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad06/_work/src/cam1_9x16.mp4",
-      "in": 30.235,
-      "out": 31.995,
-      "text": "¿Le di un proceso?",
-      "section": "DESARROLLO",
-      "words": [
-        {
-          "text": "¿Le",
-          "start": 30.32,
-          "end": 30.56
-        },
-        {
-          "text": "di",
-          "start": 30.56,
-          "end": 30.8
-        },
-        {
-          "text": "un",
-          "start": 30.96,
-          "end": 31.2
-        },
-        {
-          "text": "proceso?",
-          "start": 31.2,
-          "end": 31.995
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "trabajo…",
+     "start": 6.54,
+     "end": 6.86
     },
     {
-      "sentence": 6,
-      "source": "cam2",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad06/_work/src/cam2_9x16.mp4",
-      "in": 32.0,
-      "out": 34.03,
-      "text": "¿Le enseñé cómo decidir?”.",
-      "section": "DESARROLLO",
-      "words": [
-        {
-          "text": "¿Le",
-          "start": 32.0,
-          "end": 32.24
-        },
-        {
-          "text": "enseñé",
-          "start": 32.24,
-          "end": 32.8
-        },
-        {
-          "text": "cómo",
-          "start": 32.96,
-          "end": 33.12
-        },
-        {
-          "text": "decidir?”.",
-          "start": 33.28,
-          "end": 33.92
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "y",
+     "start": 6.94,
+     "end": 7.18
     },
     {
-      "sentence": 7,
-      "source": "cam1",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad06/_work/src/cam1_9x16.mp4",
-      "in": 37.615,
-      "out": 40.795,
-      "text": "Elige una tarea y define cómo se entrega bien.",
-      "section": "DESARROLLO",
-      "words": [
-        {
-          "text": "Elige",
-          "start": 37.615,
-          "end": 37.92
-        },
-        {
-          "text": "una",
-          "start": 38.0,
-          "end": 38.16
-        },
-        {
-          "text": "tarea",
-          "start": 38.16,
-          "end": 38.48
-        },
-        {
-          "text": "y",
-          "start": 38.64,
-          "end": 38.88
-        },
-        {
-          "text": "define",
-          "start": 38.88,
-          "end": 39.28
-        },
-        {
-          "text": "cómo",
-          "start": 39.44,
-          "end": 39.6
-        },
-        {
-          "text": "se",
-          "start": 39.76,
-          "end": 39.84
-        },
-        {
-          "text": "entrega",
-          "start": 39.92,
-          "end": 40.16
-        },
-        {
-          "text": "bien.",
-          "start": 40.4,
-          "end": 40.64
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "ahora",
+     "start": 7.18,
+     "end": 7.42
     },
     {
-      "sentence": 8,
-      "source": "cam2",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad06/_work/src/cam2_9x16.mp4",
-      "in": 40.8,
-      "out": 47.01,
-      "text": "Si cada decisión sigue pasando por ti, tu equipo creció, pero tu negocio sigue teniendo el mismo límite:",
-      "section": "DESARROLLO",
-      "words": [
-        {
-          "text": "Si",
-          "start": 40.8,
-          "end": 40.88
-        },
-        {
-          "text": "cada",
-          "start": 41.04,
-          "end": 41.2
-        },
-        {
-          "text": "decisión",
-          "start": 41.28,
-          "end": 41.68
-        },
-        {
-          "text": "sigue",
-          "start": 41.68,
-          "end": 41.92
-        },
-        {
-          "text": "pasando",
-          "start": 42.0,
-          "end": 42.4
-        },
-        {
-          "text": "por",
-          "start": 42.4,
-          "end": 42.56
-        },
-        {
-          "text": "ti,",
-          "start": 42.56,
-          "end": 42.72
-        },
-        {
-          "text": "tu",
-          "start": 42.88,
-          "end": 43.04
-        },
-        {
-          "text": "equipo",
-          "start": 43.04,
-          "end": 43.36
-        },
-        {
-          "text": "creció,",
-          "start": 43.36,
-          "end": 43.84
-        },
-        {
-          "text": "pero",
-          "start": 44.0,
-          "end": 44.32
-        },
-        {
-          "text": "tu",
-          "start": 44.32,
-          "end": 44.56
-        },
-        {
-          "text": "negocio",
-          "start": 44.56,
-          "end": 44.96
-        },
-        {
-          "text": "sigue",
-          "start": 45.2,
-          "end": 45.52
-        },
-        {
-          "text": "teniendo",
-          "start": 45.6,
-          "end": 46.08
-        },
-        {
-          "text": "el",
-          "start": 46.08,
-          "end": 46.16
-        },
-        {
-          "text": "mismo",
-          "start": 46.16,
-          "end": 46.48
-        },
-        {
-          "text": "límite:",
-          "start": 46.48,
-          "end": 47.01
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "tienes",
+     "start": 7.42,
+     "end": 7.74
     },
     {
-      "sentence": 8,
-      "source": "cam2",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad06/_work/src/cam2_9x16.mp4",
-      "in": 47.27,
-      "out": 48.12,
-      "text": "tu tiempo.",
-      "section": "DESARROLLO",
-      "words": [
-        {
-          "text": "tu",
-          "start": 47.28,
-          "end": 47.44
-        },
-        {
-          "text": "tiempo.",
-          "start": 47.6,
-          "end": 48.08
-        }
-      ],
-      "cues": [],
-      "intra": true
+     "text": "que",
+     "start": 7.74,
+     "end": 7.98
     },
     {
-      "sentence": 9,
-      "source": "cam1",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad06/_work/src/cam1_9x16.mp4",
-      "in": 48.46,
-      "out": 53.205,
-      "text": "Sígueme para ayudarte a escalar tu negocio acelerando tus ventas.",
-      "section": "CTA",
-      "words": [
-        {
-          "text": "Sígueme",
-          "start": 48.46,
-          "end": 48.96
-        },
-        {
-          "text": "para",
-          "start": 49.04,
-          "end": 49.2
-        },
-        {
-          "text": "ayudarte",
-          "start": 49.2,
-          "end": 49.6
-        },
-        {
-          "text": "a",
-          "start": 49.76,
-          "end": 49.84
-        },
-        {
-          "text": "escalar",
-          "start": 49.84,
-          "end": 50.24
-        },
-        {
-          "text": "tu",
-          "start": 50.24,
-          "end": 50.4
-        },
-        {
-          "text": "negocio",
-          "start": 50.4,
-          "end": 50.8
-        },
-        {
-          "text": "acelerando",
-          "start": 50.8,
-          "end": 51.36
-        },
-        {
-          "text": "tus",
-          "start": 51.44,
-          "end": 51.68
-        },
-        {
-          "text": "ventas.",
-          "start": 51.68,
-          "end": 52.88
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "hacer",
+     "start": 7.98,
+     "end": 8.3
+    },
+    {
+     "text": "lo",
+     "start": 8.3,
+     "end": 8.54
+    },
+    {
+     "text": "tuyo",
+     "start": 8.54,
+     "end": 9.02
+    },
+    {
+     "text": "y",
+     "start": 9.02,
+     "end": 9.18
+    },
+    {
+     "text": "revisar",
+     "start": 9.18,
+     "end": 9.66
+    },
+    {
+     "text": "lo",
+     "start": 9.66,
+     "end": 9.82
+    },
+    {
+     "text": "de",
+     "start": 9.82,
+     "end": 9.98
+    },
+    {
+     "text": "esa",
+     "start": 9.98,
+     "end": 10.22
+    },
+    {
+     "text": "persona.",
+     "start": 10.22,
+     "end": 10.77
     }
-  ],
-  "duration": 44.355,
-  "raw_offset": 475.9
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 1,
+   "source": "cam2",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad06/_work/src/cam2_9x16.mp4",
+   "in": 10.99,
+   "out": 12.78,
+   "text": "Es frustrante, sobre",
+   "section": "DESARROLLO",
+   "words": [
+    {
+     "text": "Es",
+     "start": 11.04,
+     "end": 11.12
+    },
+    {
+     "text": "frustrante,",
+     "start": 11.28,
+     "end": 12.4
+    },
+    {
+     "text": "sobre",
+     "start": 12.4,
+     "end": 12.56
+    }
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 1,
+   "source": "cam1",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad06/_work/src/cam1_9x16.mp4",
+   "in": 12.78,
+   "out": 16.46,
+   "text": "todo cuando pensabas que por fin ibas a respirar.",
+   "section": "DESARROLLO",
+   "words": [
+    {
+     "text": "todo",
+     "start": 12.88,
+     "end": 13.2
+    },
+    {
+     "text": "cuando",
+     "start": 13.2,
+     "end": 13.44
+    },
+    {
+     "text": "pensabas",
+     "start": 13.68,
+     "end": 14.32
+    },
+    {
+     "text": "que",
+     "start": 14.32,
+     "end": 14.48
+    },
+    {
+     "text": "por",
+     "start": 14.48,
+     "end": 14.72
+    },
+    {
+     "text": "fin",
+     "start": 14.72,
+     "end": 14.88
+    },
+    {
+     "text": "ibas",
+     "start": 15.12,
+     "end": 15.44
+    },
+    {
+     "text": "a",
+     "start": 15.44,
+     "end": 15.6
+    },
+    {
+     "text": "respirar.",
+     "start": 15.6,
+     "end": 16.46
+    }
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 2,
+   "source": "cam1",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad06/_work/src/cam1_9x16.mp4",
+   "in": 16.5,
+   "out": 21.28,
+   "text": "Muchos queremos crecer y creemos que tener equipo resolverá todo.",
+   "section": "DESARROLLO",
+   "words": [
+    {
+     "text": "Muchos",
+     "start": 16.5,
+     "end": 16.88
+    },
+    {
+     "text": "queremos",
+     "start": 17.12,
+     "end": 17.52
+    },
+    {
+     "text": "crecer",
+     "start": 17.68,
+     "end": 18.16
+    },
+    {
+     "text": "y",
+     "start": 18.24,
+     "end": 18.48
+    },
+    {
+     "text": "creemos",
+     "start": 18.48,
+     "end": 18.88
+    },
+    {
+     "text": "que",
+     "start": 19.04,
+     "end": 19.28
+    },
+    {
+     "text": "tener",
+     "start": 19.28,
+     "end": 19.6
+    },
+    {
+     "text": "equipo",
+     "start": 19.6,
+     "end": 20.0
+    },
+    {
+     "text": "resolverá",
+     "start": 20.16,
+     "end": 20.72
+    },
+    {
+     "text": "todo.",
+     "start": 20.88,
+     "end": 21.2
+    }
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 3,
+   "source": "cam1",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad06/_work/src/cam1_9x16.mp4",
+   "in": 21.28,
+   "out": 24.445,
+   "text": "Pero crecer también nos exige aprender a liderar.",
+   "section": "DESARROLLO",
+   "words": [
+    {
+     "text": "Pero",
+     "start": 21.36,
+     "end": 21.6
+    },
+    {
+     "text": "crecer",
+     "start": 21.68,
+     "end": 22.16
+    },
+    {
+     "text": "también",
+     "start": 22.24,
+     "end": 22.4
+    },
+    {
+     "text": "nos",
+     "start": 22.64,
+     "end": 22.8
+    },
+    {
+     "text": "exige",
+     "start": 22.8,
+     "end": 23.2
+    },
+    {
+     "text": "aprender",
+     "start": 23.36,
+     "end": 23.68
+    },
+    {
+     "text": "a",
+     "start": 23.68,
+     "end": 23.76
+    },
+    {
+     "text": "liderar.",
+     "start": 23.92,
+     "end": 24.4
+    }
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 4,
+   "source": "cam1",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad06/_work/src/cam1_9x16.mp4",
+   "in": 24.445,
+   "out": 29.94,
+   "text": "Antes de decir “nadie hace las cosas como yo”, pregúntate: “¿Expliqué lo que esperaba?",
+   "section": "DESARROLLO",
+   "words": [
+    {
+     "text": "Antes",
+     "start": 24.64,
+     "end": 24.88
+    },
+    {
+     "text": "de",
+     "start": 24.88,
+     "end": 24.96
+    },
+    {
+     "text": "decir",
+     "start": 25.12,
+     "end": 25.2
+    },
+    {
+     "text": "“nadie",
+     "start": 25.68,
+     "end": 26.0
+    },
+    {
+     "text": "hace",
+     "start": 26.08,
+     "end": 26.32
+    },
+    {
+     "text": "las",
+     "start": 26.4,
+     "end": 26.56
+    },
+    {
+     "text": "cosas",
+     "start": 26.56,
+     "end": 26.64
+    },
+    {
+     "text": "como",
+     "start": 26.8,
+     "end": 26.96
+    },
+    {
+     "text": "yo”,",
+     "start": 27.04,
+     "end": 27.28
+    },
+    {
+     "text": "pregúntate:",
+     "start": 27.44,
+     "end": 28.16
+    },
+    {
+     "text": "“¿Expliqué",
+     "start": 28.4,
+     "end": 29.04
+    },
+    {
+     "text": "lo",
+     "start": 29.04,
+     "end": 29.12
+    },
+    {
+     "text": "que",
+     "start": 29.12,
+     "end": 29.36
+    },
+    {
+     "text": "esperaba?",
+     "start": 29.36,
+     "end": 29.94
+    }
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 5,
+   "source": "cam1",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad06/_work/src/cam1_9x16.mp4",
+   "in": 30.235,
+   "out": 31.995,
+   "text": "¿Le di un proceso?",
+   "section": "DESARROLLO",
+   "words": [
+    {
+     "text": "¿Le",
+     "start": 30.32,
+     "end": 30.56
+    },
+    {
+     "text": "di",
+     "start": 30.56,
+     "end": 30.8
+    },
+    {
+     "text": "un",
+     "start": 30.96,
+     "end": 31.2
+    },
+    {
+     "text": "proceso?",
+     "start": 31.2,
+     "end": 31.995
+    }
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 6,
+   "source": "cam1",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad06/_work/src/cam1_9x16.mp4",
+   "in": 32.0,
+   "out": 34.03,
+   "text": "¿Le enseñé cómo decidir?”.",
+   "section": "DESARROLLO",
+   "words": [
+    {
+     "text": "¿Le",
+     "start": 32.0,
+     "end": 32.24
+    },
+    {
+     "text": "enseñé",
+     "start": 32.24,
+     "end": 32.8
+    },
+    {
+     "text": "cómo",
+     "start": 32.96,
+     "end": 33.12
+    },
+    {
+     "text": "decidir?”.",
+     "start": 33.28,
+     "end": 33.92
+    }
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 7,
+   "source": "cam2",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad06/_work/src/cam2_9x16.mp4",
+   "in": 37.615,
+   "out": 40.795,
+   "text": "Elige una tarea y define cómo se entrega bien.",
+   "section": "DESARROLLO",
+   "words": [
+    {
+     "text": "Elige",
+     "start": 37.615,
+     "end": 37.92
+    },
+    {
+     "text": "una",
+     "start": 38.0,
+     "end": 38.16
+    },
+    {
+     "text": "tarea",
+     "start": 38.16,
+     "end": 38.48
+    },
+    {
+     "text": "y",
+     "start": 38.64,
+     "end": 38.88
+    },
+    {
+     "text": "define",
+     "start": 38.88,
+     "end": 39.28
+    },
+    {
+     "text": "cómo",
+     "start": 39.44,
+     "end": 39.6
+    },
+    {
+     "text": "se",
+     "start": 39.76,
+     "end": 39.84
+    },
+    {
+     "text": "entrega",
+     "start": 39.92,
+     "end": 40.16
+    },
+    {
+     "text": "bien.",
+     "start": 40.4,
+     "end": 40.64
+    }
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 8,
+   "source": "cam2",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad06/_work/src/cam2_9x16.mp4",
+   "in": 40.8,
+   "out": 47.01,
+   "text": "Si cada decisión sigue pasando por ti, tu equipo creció, pero tu negocio sigue teniendo el mismo límite:",
+   "section": "DESARROLLO",
+   "words": [
+    {
+     "text": "Si",
+     "start": 40.8,
+     "end": 40.88
+    },
+    {
+     "text": "cada",
+     "start": 41.04,
+     "end": 41.2
+    },
+    {
+     "text": "decisión",
+     "start": 41.28,
+     "end": 41.68
+    },
+    {
+     "text": "sigue",
+     "start": 41.68,
+     "end": 41.92
+    },
+    {
+     "text": "pasando",
+     "start": 42.0,
+     "end": 42.4
+    },
+    {
+     "text": "por",
+     "start": 42.4,
+     "end": 42.56
+    },
+    {
+     "text": "ti,",
+     "start": 42.56,
+     "end": 42.72
+    },
+    {
+     "text": "tu",
+     "start": 42.88,
+     "end": 43.04
+    },
+    {
+     "text": "equipo",
+     "start": 43.04,
+     "end": 43.36
+    },
+    {
+     "text": "creció,",
+     "start": 43.36,
+     "end": 43.84
+    },
+    {
+     "text": "pero",
+     "start": 44.0,
+     "end": 44.32
+    },
+    {
+     "text": "tu",
+     "start": 44.32,
+     "end": 44.56
+    },
+    {
+     "text": "negocio",
+     "start": 44.56,
+     "end": 44.96
+    },
+    {
+     "text": "sigue",
+     "start": 45.2,
+     "end": 45.52
+    },
+    {
+     "text": "teniendo",
+     "start": 45.6,
+     "end": 46.08
+    },
+    {
+     "text": "el",
+     "start": 46.08,
+     "end": 46.16
+    },
+    {
+     "text": "mismo",
+     "start": 46.16,
+     "end": 46.48
+    },
+    {
+     "text": "límite:",
+     "start": 46.48,
+     "end": 47.01
+    }
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 8,
+   "source": "cam2",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad06/_work/src/cam2_9x16.mp4",
+   "in": 47.27,
+   "out": 48.12,
+   "text": "tu tiempo.",
+   "section": "DESARROLLO",
+   "words": [
+    {
+     "text": "tu",
+     "start": 47.28,
+     "end": 47.44
+    },
+    {
+     "text": "tiempo.",
+     "start": 47.6,
+     "end": 48.08
+    }
+   ],
+   "cues": [],
+   "intra": true
+  },
+  {
+   "sentence": 9,
+   "source": "cam1",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad06/_work/src/cam1_9x16.mp4",
+   "in": 48.46,
+   "out": 53.205,
+   "text": "Sígueme para ayudarte a escalar tu negocio acelerando tus ventas.",
+   "section": "CTA",
+   "words": [
+    {
+     "text": "Sígueme",
+     "start": 48.46,
+     "end": 48.96
+    },
+    {
+     "text": "para",
+     "start": 49.04,
+     "end": 49.2
+    },
+    {
+     "text": "ayudarte",
+     "start": 49.2,
+     "end": 49.6
+    },
+    {
+     "text": "a",
+     "start": 49.76,
+     "end": 49.84
+    },
+    {
+     "text": "escalar",
+     "start": 49.84,
+     "end": 50.24
+    },
+    {
+     "text": "tu",
+     "start": 50.24,
+     "end": 50.4
+    },
+    {
+     "text": "negocio",
+     "start": 50.4,
+     "end": 50.8
+    },
+    {
+     "text": "acelerando",
+     "start": 50.8,
+     "end": 51.36
+    },
+    {
+     "text": "tus",
+     "start": 51.44,
+     "end": 51.68
+    },
+    {
+     "text": "ventas.",
+     "start": 51.68,
+     "end": 52.88
+    }
+   ],
+   "cues": [],
+   "intra": false
+  }
+ ],
+ "duration": 44.355,
+ "raw_offset": 475.9
 }

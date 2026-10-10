@@ -125,7 +125,7 @@
   "3": {
    "focus": {
     "x": 0.5,
-    "y": 0.359
+    "y": 0.196
    },
    "zoom": [
     {
@@ -181,12 +181,34 @@
      "s": 1.22,
      "ease": "linear"
     }
+   ],
+   "cutout": "_work/cutouts/cut4.webm",
+   "behind": [
+    {
+     "component": "BehindTitle",
+     "start": 1.6,
+     "duration": 1.55,
+     "props": {
+      "kicker": "CRECER EXIGE",
+      "kickerY": 0.035,
+      "lines": [
+       {
+        "text": "LIDERAR",
+        "gradient": true,
+        "color": "#FFBB00",
+        "size": 330
+       }
+      ],
+      "y": 0.28,
+      "drift": 0.05
+     }
+    }
    ]
   },
   "5": {
    "focus": {
     "x": 0.5,
-    "y": 0.359
+    "y": 0.196
    },
    "zoom": [
     {
@@ -238,7 +260,7 @@
   "7": {
    "focus": {
     "x": 0.5,
-    "y": 0.359
+    "y": 0.196
    },
    "zoom": [
     {
@@ -264,7 +286,7 @@
   "8": {
    "focus": {
     "x": 0.5,
-    "y": 0.196
+    "y": 0.359
    },
    "zoom": [
     {
@@ -420,13 +442,51 @@
   ],
   "hideDuring": [
    [
-    38.18,
-    39.59
+    38.76,
+    39.6
    ],
    [
     999,
     9999
    ]
+  ],
+  "positionDuring": [
+   {
+    "at": 0,
+    "until": {
+     "cut": 1
+    },
+    "pos": 0.535
+   },
+   {
+    "at": {
+     "cut": 3
+    },
+    "until": {
+     "cut": 4
+    },
+    "pos": 0.535
+   },
+   {
+    "at": {
+     "word": "“¿Expliqué",
+     "offset": -0.2
+    },
+    "until": {
+     "cut": 8
+    },
+    "pos": 0.535
+   },
+   {
+    "at": {
+     "word": "pasando",
+     "offset": -0.15
+    },
+    "until": {
+     "cut": 10
+    },
+    "pos": 0.88
+   }
   ]
  },
  "graphics": [
@@ -435,397 +495,198 @@
    "at": 0,
    "layer": "top",
    "props": {
-    "peak": 0.9,
+    "peak": 0.8,
     "color": "#dbe7ff"
    },
-   "duration": 0.28
+   "duration": 0.25
   },
   {
-   "component": "BrandScene",
-   "at": 0,
-   "layer": "under",
-   "props": {
-    "variant": "glow",
-    "word": "CONTRATO"
-   },
-   "until": {
-    "word": "ahora",
-    "offset": -0.1
-   }
-  },
-  {
-   "component": "ContractDoc",
+   "component": "KanbanFlood",
    "at": 0.05,
    "layer": "over",
    "props": {
-    "y": 0.3,
-    "title": "NUEVA CONTRATACIÓN",
-    "items": [
-     "Puesto: ASISTENTE",
-     "Objetivo: MENOS TRABAJO 😌"
-    ],
-    "every": 14,
-    "sign": true
+    "y": 0.565,
+    "hireAt": 8,
+    "floodAt": 92
    },
    "until": {
-    "word": "ahora",
-    "offset": -0.1
+    "cut": 1,
+    "offset": -0.05
    }
   },
   {
-   "component": "TaskPile",
+   "component": "OOOToggle",
    "at": {
-    "word": "ahora"
+    "word": "pensabas",
+    "offset": -0.2
    },
    "layer": "over",
    "props": {
-    "y": 0.82,
-    "every": 9,
-    "title": "TU DÍA AHORA",
-    "items": [
-     "LO TUYO",
-     "REVISAR LO SUYO",
-     "CORREGIR",
-     "REHACER",
-     "VOLVER A REVISAR"
+    "y": 0.78,
+    "onAt": 8,
+    "offAt": 58
+   },
+   "until": {
+    "cut": 3,
+    "offset": -0.05
+   }
+  },
+  {
+   "component": "OrgChartGrow",
+   "at": {
+    "cut": 3
+   },
+   "layer": "over",
+   "props": {
+    "y": 0.565,
+    "levels": [
+     3,
+     6
     ]
    },
    "until": {
-    "cut": 1,
-    "offset": -0.03
-   }
-  },
-  {
-   "component": "IconBadge",
-   "at": {
-    "cut": 1,
-    "offset": 0.05
-   },
-   "layer": "over",
-   "props": {
-    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/smiley-angry-bold.svg",
-    "x": 0.17,
-    "y": 0.44,
-    "leader": "right",
-    "size": 0.9,
-    "label": "FRUSTRANTE"
-   },
-   "until": {
-    "cut": 3,
-    "offset": -0.03
-   }
-  },
-  {
-   "component": "BatteryDrain",
-   "at": {
-    "cut": 1,
-    "offset": 0.1
-   },
-   "layer": "over",
-   "props": {
-    "x": 0.83,
-    "y": 0.42,
-    "size": 0.6,
-    "label": "TU ENERGÍA",
-    "from": 70,
-    "to": 6
-   },
-   "until": {
-    "cut": 3,
-    "offset": -0.03
-   }
-  },
-  {
-   "component": "BrandScene",
-   "at": {
-    "word": "crecer",
-    "n": 1,
-    "offset": -0.1
-   },
-   "layer": "under",
-   "props": {
-    "variant": "glow",
-    "word": "CRECER"
-   },
-   "until": {
     "cut": 4,
-    "offset": -0.02
-   }
-  },
-  {
-   "component": "GrowthLine",
-   "at": {
-    "word": "crecer",
-    "n": 1,
     "offset": -0.05
-   },
-   "layer": "over",
-   "props": {
-    "y": 0.33,
-    "h": 0.3
-   },
-   "until": {
-    "cut": 4,
-    "offset": -0.02
    }
   },
   {
-   "component": "IconBadge",
+   "component": "QuoteStrike",
    "at": {
-    "word": "equipo"
+    "word": "“nadie",
+    "offset": -0.2
    },
    "layer": "over",
    "props": {
-    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/users-three-bold.svg",
-    "x": 0.5,
-    "y": 0.12,
-    "leader": "none",
-    "size": 0.9,
-    "label": "EQUIPO"
+    "quote": "Nadie hace las cosas como yo",
+    "strikeAt": 40,
+    "y": 0.78
    },
    "until": {
-    "cut": 4,
-    "offset": -0.02
+    "word": "“¿Expliqué",
+    "offset": -0.25
    }
   },
   {
-   "component": "IconBadge",
+   "component": "SelfCheck",
    "at": {
-    "word": "liderar.",
-    "offset": -0.3
+    "word": "“¿Expliqué",
+    "offset": -0.15
    },
    "layer": "over",
    "props": {
-    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/crown-simple-bold.svg",
-    "x": 0.83,
-    "y": 0.44,
-    "leader": "left",
-    "size": 0.9,
-    "label": "LIDERAR"
-   },
-   "until": {
-    "cut": 5,
-    "offset": -0.03
-   }
-  },
-  {
-   "component": "BlockTitle",
-   "at": {
-    "word": "aprender",
-    "offset": -0.1
-   },
-   "layer": "over",
-   "props": {
-    "y": 0.81,
-    "width": 0.66,
-    "stagger": 6,
-    "enter": "slam",
-    "lines": [
+    "y": 0.585,
+    "items": [
      {
-      "text": "APRENDER",
-      "weight": 900
+      "text": "¿Expliqué lo que esperaba?",
+      "at": 2
      },
      {
-      "text": "A LIDERAR",
-      "color": "gold"
+      "text": "¿Le di un proceso?",
+      "at": 50
+     },
+     {
+      "text": "¿Le enseñé cómo decidir?",
+      "at": 98
      }
     ]
    },
    "until": {
-    "cut": 5,
-    "offset": -0.03
+    "cut": 8,
+    "offset": -0.05
    }
   },
   {
-   "component": "QuestionCard",
+   "component": "SOPCard",
    "at": {
-    "word": "“nadie",
+    "word": "tarea",
+    "offset": -0.2
+   },
+   "layer": "over",
+   "props": {
+    "y": 0.66,
+    "every": 12,
+    "task": "Responder consultas de clientes",
+    "steps": [
+     "Responder en menos de 2 h",
+     "Usar la guía de precios",
+     "Agendar llamada si hay interés"
+    ],
+    "done": "la consulta queda agendada"
+   },
+   "until": {
+    "cut": 9,
+    "offset": -0.05
+   }
+  },
+  {
+   "component": "KickerTitle",
+   "at": {
+    "word": "pasando",
     "offset": -0.1
    },
    "layer": "over",
    "props": {
-    "y": 0.82,
-    "kicker": "ANTES DE DECIR",
-    "question": "“Nadie hace las cosas como yo”"
-   },
-   "until": {
-    "word": "“¿Expliqué",
-    "offset": -0.3
-   }
-  },
-  {
-   "component": "Checklist",
-   "at": {
-    "word": "“¿Expliqué",
-    "offset": -0.25
-   },
-   "layer": "over",
-   "props": {
-    "title": "PREGÚNTATE",
-    "items": [
-     "¿EXPLIQUÉ LO QUE ESPERABA?",
-     "¿LE DI UN PROCESO?",
-     "¿LE ENSEÑÉ CÓMO DECIDIR?"
-    ],
-    "every": 57,
-    "position": 0.84,
-    "icon": "?"
-   },
-   "until": {
-    "cut": 8,
-    "offset": -0.03
-   }
-  },
-  {
-   "component": "IconBadge",
-   "at": {
-    "word": "enseñé"
-   },
-   "layer": "over",
-   "props": {
-    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/chalkboard-teacher-bold.svg",
-    "x": 0.83,
-    "y": 0.42,
-    "leader": "left",
-    "size": 0.9
-   },
-   "until": {
-    "cut": 8,
-    "offset": -0.03
-   }
-  },
-  {
-   "component": "BrandScene",
-   "at": {
-    "cut": 8,
-    "offset": 0.0
-   },
-   "layer": "under",
-   "props": {
-    "variant": "glow",
-    "word": "PROCESO"
-   },
-   "until": {
-    "cut": 9,
-    "offset": -0.02
-   }
-  },
-  {
-   "component": "NotepadList",
-   "at": {
-    "cut": 8,
-    "offset": 0.05
-   },
-   "layer": "over",
-   "props": {
-    "y": 0.3,
-    "title": "1 TAREA = 1 PROCESO",
-    "items": [
-     "Qué se entrega",
-     "Cómo se entrega bien",
-     "Cuándo está lista"
-    ],
-    "delays": [
-     10,
-     40,
-     70
+    "kicker": "SI TODO",
+    "align": "center",
+    "y": 0.09,
+    "lines": [
+     {
+      "text": "PASA POR TI",
+      "color": "#FFBB00",
+      "size": 110
+     }
     ]
    },
    "until": {
-    "cut": 9,
-    "offset": -0.02
-   }
-  },
-  {
-   "component": "FocusBrackets",
-   "at": {
-    "word": "pasando"
-   },
-   "layer": "over",
-   "props": {
-    "x": 0.5,
-    "y": 0.2,
-    "w": 0.5,
-    "h": 0.24,
-    "label": "TODO PASA POR TI"
-   },
-   "until": {
-    "word": "creció,",
-    "offset": 0.3
-   }
-  },
-  {
-   "component": "IconBadge",
-   "at": {
-    "word": "equipo",
-    "n": 2
-   },
-   "layer": "over",
-   "props": {
-    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/users-three-bold.svg",
-    "x": 0.17,
-    "y": 0.44,
-    "leader": "right",
-    "size": 0.9,
-    "label": "EQUIPO MÁS GRANDE"
-   },
-   "until": {
     "word": "límite:",
     "offset": -0.1
    }
   },
   {
-   "component": "IconBadge",
+   "component": "KickerTitle",
    "at": {
-    "word": "mismo"
+    "word": "límite:",
+    "offset": -0.08
    },
    "layer": "over",
    "props": {
-    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/lock-simple-bold.svg",
-    "x": 0.83,
-    "y": 0.44,
-    "leader": "left",
-    "size": 0.9,
-    "label": "MISMO LÍMITE"
+    "kicker": "EL MISMO",
+    "align": "center",
+    "y": 0.09,
+    "lines": [
+     {
+      "text": "LÍMITE",
+      "color": "#FF4D5E",
+      "size": 140
+     }
+    ]
    },
    "until": {
-    "word": "límite:",
-    "offset": -0.1
+    "cut": 10,
+    "offset": -0.03
    }
   },
   {
-   "component": "BrandScene",
+   "component": "KickerTitle",
    "at": {
-    "word": "límite:",
-    "offset": -0.05
-   },
-   "layer": "under",
-   "props": {
-    "variant": "tunnel"
-   },
-   "until": {
-    "cut": 11,
-    "offset": -0.02
-   }
-  },
-  {
-   "component": "Text3DTitle",
-   "at": {
-    "word": "límite:"
+    "cut": 10,
+    "offset": 0.02
    },
    "layer": "over",
    "props": {
-    "text": "TU TIEMPO",
-    "font": "Montserrat-Black",
-    "color": "#FFBB00",
-    "metal": 0.85,
-    "size": 0.9,
-    "y": 1.5,
-    "depth": 0.35
+    "align": "center",
+    "y": 0.8,
+    "lines": [
+     {
+      "text": "TU TIEMPO",
+      "color": "#FFBB00",
+      "size": 120
+     }
+    ]
    },
    "until": {
     "cut": 11,
-    "offset": -0.02
+    "offset": -0.03
    }
   },
   {
@@ -852,49 +713,15 @@
    }
   },
   {
-   "component": "BrandScene",
+   "component": "LogoReveal",
    "at": {
     "end": true,
     "offset": -1.85
    },
    "layer": "top",
    "props": {
-    "variant": "tunnel"
-   },
-   "until": {
-    "end": true
-   }
-  },
-  {
-   "component": "Logo3D",
-   "at": {
-    "end": true,
-    "offset": -1.8
-   },
-   "layer": "top",
-   "props": {
-    "svg": "clientes/carlos-buelvas/marca/logo.svg",
-    "depth": 60,
-    "metal": 0.9,
-    "color": "#FFBB00",
-    "scale": 0.42
-   },
-   "until": {
-    "end": true
-   }
-  },
-  {
-   "component": "CTAPill",
-   "at": {
-    "end": true,
-    "offset": -1.3
-   },
-   "layer": "top",
-   "props": {
-    "text": "SÍGUEME",
-    "x": 0.5,
-    "y": 0.78,
-    "size": 1.1
+    "logo": "clientes/carlos-buelvas/marca/logo_dorado.png",
+    "tagline": "COACH · MENTOR DE VENTAS"
    },
    "until": {
     "end": true
@@ -905,167 +732,196 @@
   {
    "src": "synth:impact_cinematic",
    "at": 0,
-   "volume": 0.6,
+   "volume": 0.5,
    "offset": 0.0
   },
   {
    "src": "synth:subdrop_01",
    "at": 0,
-   "volume": 0.5,
-   "offset": 0.0
-  },
-  {
-   "src": "lib:bsb-1796",
-   "at": 0,
    "volume": 0.4,
    "offset": 0.0
   },
   {
-   "src": "lib:pluck_001",
-   "at": 0.3,
+   "src": "lib:card-slide-2",
+   "at": 0,
+   "volume": 0.45,
+   "offset": -0.05
+  },
+  {
+   "src": "synth:ding_success",
+   "at": 0.35,
    "volume": 0.35,
    "offset": 0.0
   },
   {
-   "src": "lib:pluck_002",
-   "at": 0.75,
-   "volume": 0.35,
+   "src": "lib:card-slide-1",
+   "at": 3.1,
+   "volume": 0.25,
    "offset": 0.0
   },
   {
-   "src": "lib:bsb-2842",
-   "at": 1.4,
-   "volume": 0.3,
+   "src": "lib:card-slide-2",
+   "at": 3.3200000000000003,
+   "volume": 0.25,
    "offset": 0.0
   },
   {
-   "src": "synth:whoosh_medium",
-   "at": {
-    "word": "ahora",
-    "offset": -0.1
-   },
-   "volume": 0.45,
-   "offset": -0.1
-  },
-  {
-   "src": "synth:pop_02",
-   "at": {
-    "word": "ahora"
-   },
-   "volume": 0.3,
-   "offset": 0.1
-  },
-  {
-   "src": "synth:pop_02",
-   "at": {
-    "word": "ahora"
-   },
-   "volume": 0.3,
-   "offset": 0.4
-  },
-  {
-   "src": "synth:pop_02",
-   "at": {
-    "word": "ahora"
-   },
-   "volume": 0.3,
-   "offset": 0.7
-  },
-  {
-   "src": "synth:pop_02",
-   "at": {
-    "word": "ahora"
-   },
-   "volume": 0.3,
-   "offset": 0.9999999999999999
-  },
-  {
-   "src": "synth:pop_02",
-   "at": {
-    "word": "ahora"
-   },
-   "volume": 0.3,
-   "offset": 1.3
-  },
-  {
-   "src": "synth:impact_punch",
-   "at": {
-    "word": "persona."
-   },
-   "volume": 0.45,
+   "src": "lib:card-slide-3",
+   "at": 3.54,
+   "volume": 0.25,
    "offset": 0.0
   },
   {
-   "src": "lib:pluck_002",
+   "src": "lib:card-slide-4",
+   "at": 3.7600000000000002,
+   "volume": 0.25,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:card-slide-5",
+   "at": 3.98,
+   "volume": 0.25,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:card-slide-6",
+   "at": 4.2,
+   "volume": 0.25,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:card-slide-7",
+   "at": 4.42,
+   "volume": 0.25,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:card-slide-8",
+   "at": 4.640000000000001,
+   "volume": 0.25,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:card-slide-1",
+   "at": 4.86,
+   "volume": 0.25,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:card-slide-2",
+   "at": 5.08,
+   "volume": 0.25,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:click_ui",
    "at": {
-    "cut": 1,
-    "offset": 0.05
+    "word": "pensabas",
+    "offset": 0.1
    },
-   "volume": 0.32,
-   "offset": 0.05
+   "volume": 0.4,
+   "offset": 0.0
   },
   {
    "src": "synth:glitch_02",
    "at": {
-    "word": "frustrante,"
+    "word": "pensabas",
+    "offset": 1.7333333333333334
    },
-   "volume": 0.25,
+   "volume": 0.35,
    "offset": 0.0
   },
   {
-   "src": "lib:bsb-0307",
+   "src": "lib:card-slide-2",
    "at": {
-    "word": "respirar."
-   },
-   "volume": 0.3,
-   "offset": 0.0
-  },
-  {
-   "src": "synth:whoosh_medium",
-   "at": {
-    "word": "crecer",
-    "n": 1,
-    "offset": -0.1
-   },
-   "volume": 0.55,
-   "offset": -0.15
-  },
-  {
-   "src": "synth:riser_short",
-   "at": {
-    "word": "crecer",
-    "n": 1
-   },
-   "volume": 0.25,
-   "offset": 0.1
-  },
-  {
-   "src": "synth:pop_01",
-   "at": {
-    "word": "equipo"
+    "cut": 3
    },
    "volume": 0.45,
+   "offset": -0.05
+  },
+  {
+   "src": "synth:pop_02",
+   "at": {
+    "cut": 3,
+    "offset": 0.4
+   },
+   "volume": 0.22,
    "offset": 0.0
   },
   {
-   "src": "lib:glass_002",
+   "src": "synth:pop_02",
    "at": {
-    "word": "todo."
+    "cut": 3,
+    "offset": 0.6
    },
-   "volume": 0.3,
+   "volume": 0.22,
    "offset": 0.0
   },
   {
-   "src": "lib:pluck_001",
+   "src": "synth:pop_02",
    "at": {
-    "word": "liderar.",
-    "offset": -0.3
+    "cut": 3,
+    "offset": 0.8
    },
-   "volume": 0.32,
-   "offset": 0.05
+   "volume": 0.22,
+   "offset": 0.0
   },
   {
-   "src": "synth:impact_punch",
+   "src": "synth:pop_02",
+   "at": {
+    "cut": 3,
+    "offset": 1.0
+   },
+   "volume": 0.22,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:pop_02",
+   "at": {
+    "cut": 3,
+    "offset": 1.2
+   },
+   "volume": 0.22,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:pop_02",
+   "at": {
+    "cut": 3,
+    "offset": 1.4
+   },
+   "volume": 0.22,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:pop_02",
+   "at": {
+    "cut": 3,
+    "offset": 1.6
+   },
+   "volume": 0.22,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:pop_02",
+   "at": {
+    "cut": 3,
+    "offset": 1.8
+   },
+   "volume": 0.22,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:pop_02",
+   "at": {
+    "cut": 3,
+    "offset": 2.0
+   },
+   "volume": 0.22,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:impact_soft",
    "at": {
     "word": "liderar."
    },
@@ -1073,134 +929,89 @@
    "offset": 0.0
   },
   {
-   "src": "lib:switch7",
+   "src": "synth:swipe_02",
    "at": {
-    "word": "“nadie"
-   },
-   "volume": 0.3,
-   "offset": -0.1
-  },
-  {
-   "src": "lib:question_001",
-   "at": {
-    "word": "“¿Expliqué"
-   },
-   "volume": 0.32,
-   "offset": 0.0
-  },
-  {
-   "src": "lib:question_001",
-   "at": {
-    "word": "di"
-   },
-   "volume": 0.32,
-   "offset": 0.0
-  },
-  {
-   "src": "lib:question_001",
-   "at": {
-    "word": "enseñé"
-   },
-   "volume": 0.32,
-   "offset": 0.0
-  },
-  {
-   "src": "lib:pluck_001",
-   "at": {
-    "word": "enseñé"
-   },
-   "volume": 0.32,
-   "offset": 0.05
-  },
-  {
-   "src": "synth:whoosh_medium",
-   "at": {
-    "cut": 8,
-    "offset": 0.0
-   },
-   "volume": 0.55,
-   "offset": -0.15
-  },
-  {
-   "src": "lib:pluck_001",
-   "at": {
-    "cut": 8
-   },
-   "volume": 0.3,
-   "offset": 0.3333333333333333
-  },
-  {
-   "src": "lib:pluck_002",
-   "at": {
-    "cut": 8
-   },
-   "volume": 0.3,
-   "offset": 1.3333333333333333
-  },
-  {
-   "src": "lib:pluck_001",
-   "at": {
-    "cut": 8
-   },
-   "volume": 0.3,
-   "offset": 2.3333333333333335
-  },
-  {
-   "src": "lib:maximize_006",
-   "at": {
-    "word": "pasando"
+    "word": "“nadie",
+    "offset": 1.1333333333333333
    },
    "volume": 0.35,
    "offset": 0.0
   },
   {
-   "src": "lib:pluck_001",
+   "src": "lib:card-slide-2",
    "at": {
-    "word": "equipo",
-    "n": 2
+    "word": "“¿Expliqué",
+    "offset": -0.2
    },
-   "volume": 0.32,
-   "offset": 0.05
+   "volume": 0.45,
+   "offset": -0.05
   },
   {
-   "src": "lib:pluck_002",
+   "src": "lib:question_001",
    "at": {
-    "word": "mismo"
+    "word": "“¿Expliqué",
+    "offset": -0.08333333333333333
    },
-   "volume": 0.32,
-   "offset": 0.05
+   "volume": 0.3,
+   "offset": 0.0
   },
   {
-   "src": "synth:whoosh_medium",
+   "src": "lib:question_001",
    "at": {
-    "word": "límite:",
-    "offset": -0.05
+    "word": "“¿Expliqué",
+    "offset": 1.5166666666666668
    },
-   "volume": 0.55,
-   "offset": -0.15
+   "volume": 0.3,
+   "offset": 0.0
   },
   {
-   "src": "synth:riser_short",
+   "src": "lib:question_001",
+   "at": {
+    "word": "“¿Expliqué",
+    "offset": 3.1166666666666667
+   },
+   "volume": 0.3,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "word": "define"
+   },
+   "volume": 0.2,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:whoosh_heavy",
+   "at": {
+    "word": "pasando",
+    "offset": -0.15
+   },
+   "volume": 0.45,
+   "offset": -0.1
+  },
+  {
+   "src": "synth:tape_stop",
    "at": {
     "word": "límite:"
    },
-   "volume": 0.28,
-   "offset": -1.0
+   "volume": 0.45,
+   "offset": -0.1
   },
   {
    "src": "synth:impact_cinematic",
    "at": {
     "word": "límite:"
    },
-   "volume": 0.5,
-   "offset": -0.05
+   "volume": 0.45,
+   "offset": 0.0
   },
   {
-   "src": "lib:bsb-1111",
+   "src": "synth:tick_01",
    "at": {
     "word": "tiempo."
    },
-   "volume": 0.25,
+   "volume": 0.4,
    "offset": 0.0
   },
   {
@@ -1283,30 +1094,39 @@
    "offset": 1.3599999999999999
   },
   {
-   "src": "synth:whoosh_heavy",
+   "src": "synth:whoosh_reverse",
    "at": {
     "end": true,
     "offset": -1.85
    },
-   "volume": 0.55,
-   "offset": -0.1
+   "volume": 0.45,
+   "offset": -0.2
   },
   {
-   "src": "synth:impact_cinematic",
+   "src": "synth:impact_soft",
    "at": {
     "end": true,
-    "offset": -1.75
+    "offset": -1.7
    },
-   "volume": 0.55,
+   "volume": 0.5,
    "offset": 0.0
   },
   {
    "src": "lib:glass_002",
    "at": {
     "end": true,
-    "offset": -1.0
+    "offset": -1.15
    },
-   "volume": 0.4,
+   "volume": 0.35,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:pop_02",
+   "at": {
+    "end": true,
+    "offset": -1.3
+   },
+   "volume": 0.3,
    "offset": 0.0
   },
   {
@@ -1328,55 +1148,7 @@
   {
    "src": "synth:swipe_02",
    "at": {
-    "cut": 3
-   },
-   "volume": 0.16,
-   "offset": -0.06
-  },
-  {
-   "src": "synth:swipe_02",
-   "at": {
-    "cut": 4
-   },
-   "volume": 0.16,
-   "offset": -0.06
-  },
-  {
-   "src": "synth:swipe_02",
-   "at": {
-    "cut": 5
-   },
-   "volume": 0.16,
-   "offset": -0.06
-  },
-  {
-   "src": "synth:swipe_02",
-   "at": {
-    "cut": 6
-   },
-   "volume": 0.16,
-   "offset": -0.06
-  },
-  {
-   "src": "synth:swipe_02",
-   "at": {
-    "cut": 7
-   },
-   "volume": 0.16,
-   "offset": -0.06
-  },
-  {
-   "src": "synth:swipe_02",
-   "at": {
     "cut": 8
-   },
-   "volume": 0.16,
-   "offset": -0.06
-  },
-  {
-   "src": "synth:swipe_02",
-   "at": {
-    "cut": 9
    },
    "volume": 0.16,
    "offset": -0.06
@@ -1402,6 +1174,54 @@
     "cut": 11
    },
    "drop": 1
+  }
+ ],
+ "broll": [
+  {
+   "src": "clientes/carlos-buelvas/proyectos/ad06/_work/blender/ad06_gears/gears.mp4",
+   "at": {
+    "word": "pasando",
+    "offset": -0.15
+   },
+   "until": {
+    "cut": 10
+   },
+   "mode": "full",
+   "transition": "zoom-in",
+   "speed": 0.4,
+   "in": 0.0,
+   "kenburns": "none"
+  }
+ ],
+ "layouts": [
+  {
+   "at": 0,
+   "until": {
+    "cut": 1
+   },
+   "mode": "split",
+   "bottom": 0.5
+  },
+  {
+   "at": {
+    "cut": 3
+   },
+   "until": {
+    "cut": 4
+   },
+   "mode": "split",
+   "bottom": 0.5
+  },
+  {
+   "at": {
+    "word": "“¿Expliqué",
+    "offset": -0.2
+   },
+   "until": {
+    "cut": 8
+   },
+   "mode": "split",
+   "bottom": 0.5
   }
  ],
  "mix": {

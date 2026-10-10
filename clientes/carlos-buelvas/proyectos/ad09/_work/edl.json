@@ -1,676 +1,676 @@
 {
-  "cuts": [
+ "cuts": [
+  {
+   "sentence": 0,
+   "source": "cam1",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad09/_work/src/cam1_9x16.mp4",
+   "in": 4.2,
+   "out": 9.49,
+   "text": "Si para vender tienes que prometer algo que no puedes sostener, estás comprando un problema.",
+   "section": "HOOK",
+   "words": [
     {
-      "sentence": 0,
-      "source": "cam1",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad09/_work/src/cam1_9x16.mp4",
-      "in": 4.2,
-      "out": 9.49,
-      "text": "Si para vender tienes que prometer algo que no puedes sostener, estás comprando un problema.",
-      "section": "HOOK",
-      "words": [
-        {
-          "text": "Si",
-          "start": 4.32,
-          "end": 4.64
-        },
-        {
-          "text": "para",
-          "start": 4.64,
-          "end": 4.88
-        },
-        {
-          "text": "vender",
-          "start": 4.88,
-          "end": 5.2
-        },
-        {
-          "text": "tienes",
-          "start": 5.2,
-          "end": 5.52
-        },
-        {
-          "text": "que",
-          "start": 5.52,
-          "end": 5.6
-        },
-        {
-          "text": "prometer",
-          "start": 5.6,
-          "end": 5.92
-        },
-        {
-          "text": "algo",
-          "start": 6.08,
-          "end": 6.32
-        },
-        {
-          "text": "que",
-          "start": 6.32,
-          "end": 6.48
-        },
-        {
-          "text": "no",
-          "start": 6.48,
-          "end": 6.64
-        },
-        {
-          "text": "puedes",
-          "start": 6.64,
-          "end": 6.96
-        },
-        {
-          "text": "sostener,",
-          "start": 6.96,
-          "end": 7.52
-        },
-        {
-          "text": "estás",
-          "start": 7.76,
-          "end": 8.16
-        },
-        {
-          "text": "comprando",
-          "start": 8.16,
-          "end": 8.72
-        },
-        {
-          "text": "un",
-          "start": 8.72,
-          "end": 8.88
-        },
-        {
-          "text": "problema.",
-          "start": 8.88,
-          "end": 9.2
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "Si",
+     "start": 4.32,
+     "end": 4.64
     },
     {
-      "sentence": 1,
-      "source": "cam2",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad09/_work/src/cam2_9x16.mp4",
-      "in": 9.49,
-      "out": 18.615,
-      "text": "A veces necesitamos tanto ese cliente que decimos que sí a todo: entregar antes, incluir más cosas o estar disponibles a cualquier hora.",
-      "section": "DESARROLLO",
-      "words": [
-        {
-          "text": "A",
-          "start": 9.52,
-          "end": 9.68
-        },
-        {
-          "text": "veces",
-          "start": 9.68,
-          "end": 10.16
-        },
-        {
-          "text": "necesitamos",
-          "start": 10.32,
-          "end": 11.12
-        },
-        {
-          "text": "tanto",
-          "start": 11.12,
-          "end": 11.36
-        },
-        {
-          "text": "ese",
-          "start": 11.52,
-          "end": 11.76
-        },
-        {
-          "text": "cliente",
-          "start": 11.76,
-          "end": 12.32
-        },
-        {
-          "text": "que",
-          "start": 12.4,
-          "end": 12.64
-        },
-        {
-          "text": "decimos que",
-          "start": 12.64,
-          "end": 13.28
-        },
-        {
-          "text": "sí",
-          "start": 13.28,
-          "end": 13.6
-        },
-        {
-          "text": "a",
-          "start": 13.76,
-          "end": 14.0
-        },
-        {
-          "text": "todo:",
-          "start": 14.0,
-          "end": 14.24
-        },
-        {
-          "text": "entregar",
-          "start": 14.48,
-          "end": 15.12
-        },
-        {
-          "text": "antes,",
-          "start": 15.12,
-          "end": 15.36
-        },
-        {
-          "text": "incluir",
-          "start": 15.52,
-          "end": 16.0
-        },
-        {
-          "text": "más",
-          "start": 16.0,
-          "end": 16.24
-        },
-        {
-          "text": "cosas",
-          "start": 16.24,
-          "end": 16.48
-        },
-        {
-          "text": "o",
-          "start": 16.56,
-          "end": 16.8
-        },
-        {
-          "text": "estar",
-          "start": 16.8,
-          "end": 17.04
-        },
-        {
-          "text": "disponibles",
-          "start": 17.04,
-          "end": 17.6
-        },
-        {
-          "text": "a",
-          "start": 17.6,
-          "end": 17.76
-        },
-        {
-          "text": "cualquier",
-          "start": 17.76,
-          "end": 18.16
-        },
-        {
-          "text": "hora.",
-          "start": 18.16,
-          "end": 18.48
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "para",
+     "start": 4.64,
+     "end": 4.88
     },
     {
-      "sentence": 2,
-      "source": "cam1",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad09/_work/src/cam1_9x16.mp4",
-      "in": 18.615,
-      "out": 25.37,
-      "text": "Y después llega el cansancio, la incomodidad y esa sensación de estar fallándole a alguien.",
-      "section": "DESARROLLO",
-      "words": [
-        {
-          "text": "Y",
-          "start": 18.64,
-          "end": 18.8
-        },
-        {
-          "text": "después",
-          "start": 18.8,
-          "end": 19.28
-        },
-        {
-          "text": "llega",
-          "start": 19.44,
-          "end": 19.84
-        },
-        {
-          "text": "el",
-          "start": 19.84,
-          "end": 20.0
-        },
-        {
-          "text": "cansancio,",
-          "start": 20.0,
-          "end": 20.64
-        },
-        {
-          "text": "la",
-          "start": 20.8,
-          "end": 20.96
-        },
-        {
-          "text": "incomodidad",
-          "start": 20.96,
-          "end": 21.76
-        },
-        {
-          "text": "y",
-          "start": 21.92,
-          "end": 22.16
-        },
-        {
-          "text": "esa",
-          "start": 22.16,
-          "end": 22.56
-        },
-        {
-          "text": "sensación",
-          "start": 22.56,
-          "end": 23.12
-        },
-        {
-          "text": "de",
-          "start": 23.12,
-          "end": 23.36
-        },
-        {
-          "text": "estar",
-          "start": 23.36,
-          "end": 23.68
-        },
-        {
-          "text": "fallándole",
-          "start": 23.68,
-          "end": 24.48
-        },
-        {
-          "text": "a",
-          "start": 24.48,
-          "end": 24.64
-        },
-        {
-          "text": "alguien.",
-          "start": 24.64,
-          "end": 25.12
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "vender",
+     "start": 4.88,
+     "end": 5.2
     },
     {
-      "sentence": 3,
-      "source": "cam2",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad09/_work/src/cam2_9x16.mp4",
-      "in": 25.37,
-      "out": 26.905,
-      "text": "Antes de comprometerte,",
-      "section": "DESARROLLO",
-      "words": [
-        {
-          "text": "Antes",
-          "start": 25.44,
-          "end": 25.6
-        },
-        {
-          "text": "de",
-          "start": 25.84,
-          "end": 25.92
-        },
-        {
-          "text": "comprometerte,",
-          "start": 25.92,
-          "end": 26.88
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "tienes",
+     "start": 5.2,
+     "end": 5.52
     },
     {
-      "sentence": 3,
-      "source": "cam2",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad09/_work/src/cam2_9x16.mp4",
-      "in": 27.105,
-      "out": 28.19,
-      "text": "pregúntate:",
-      "section": "DESARROLLO",
-      "words": [
-        {
-          "text": "pregúntate:",
-          "start": 27.12,
-          "end": 28.0
-        }
-      ],
-      "cues": [],
-      "intra": true
+     "text": "que",
+     "start": 5.52,
+     "end": 5.6
     },
     {
-      "sentence": 3,
-      "source": "cam1",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad09/_work/src/cam1_9x16.mp4",
-      "in": 37.145,
-      "out": 39.65,
-      "text": "“¿Puedo cumplir esto con la calidad que quiero dar?”.",
-      "section": "DESARROLLO",
-      "words": [
-        {
-          "text": "“¿Puedo",
-          "start": 37.145,
-          "end": 37.44
-        },
-        {
-          "text": "cumplir",
-          "start": 37.44,
-          "end": 37.92
-        },
-        {
-          "text": "esto",
-          "start": 37.92,
-          "end": 38.08
-        },
-        {
-          "text": "con",
-          "start": 38.08,
-          "end": 38.16
-        },
-        {
-          "text": "la",
-          "start": 38.16,
-          "end": 38.24
-        },
-        {
-          "text": "calidad",
-          "start": 38.24,
-          "end": 38.56
-        },
-        {
-          "text": "que",
-          "start": 38.56,
-          "end": 38.8
-        },
-        {
-          "text": "quiero",
-          "start": 38.8,
-          "end": 39.2
-        },
-        {
-          "text": "dar?”.",
-          "start": 39.2,
-          "end": 39.52
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "prometer",
+     "start": 5.6,
+     "end": 5.92
     },
     {
-      "sentence": 4,
-      "source": "cam2",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad09/_work/src/cam2_9x16.mp4",
-      "in": 61.725,
-      "out": 67.215,
-      "text": "Deja por escrito qué incluye tu servicio, cuándo lo entregarás y cómo atenderás los cambios.",
-      "section": "DESARROLLO",
-      "words": [
-        {
-          "text": "Deja",
-          "start": 61.725,
-          "end": 61.83
-        },
-        {
-          "text": "por",
-          "start": 61.99,
-          "end": 62.15
-        },
-        {
-          "text": "escrito",
-          "start": 62.15,
-          "end": 62.47
-        },
-        {
-          "text": "qué",
-          "start": 62.55,
-          "end": 62.63
-        },
-        {
-          "text": "incluye",
-          "start": 62.79,
-          "end": 63.27
-        },
-        {
-          "text": "tu",
-          "start": 63.27,
-          "end": 63.43
-        },
-        {
-          "text": "servicio,",
-          "start": 63.43,
-          "end": 63.83
-        },
-        {
-          "text": "cuándo",
-          "start": 63.91,
-          "end": 64.15
-        },
-        {
-          "text": "lo",
-          "start": 64.23,
-          "end": 64.39
-        },
-        {
-          "text": "entregarás",
-          "start": 64.39,
-          "end": 65.11
-        },
-        {
-          "text": "y",
-          "start": 65.19,
-          "end": 65.43
-        },
-        {
-          "text": "cómo",
-          "start": 65.43,
-          "end": 65.83
-        },
-        {
-          "text": "atenderás",
-          "start": 65.83,
-          "end": 66.55
-        },
-        {
-          "text": "los",
-          "start": 66.55,
-          "end": 66.71
-        },
-        {
-          "text": "cambios.",
-          "start": 66.71,
-          "end": 67.215
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "algo",
+     "start": 6.08,
+     "end": 6.32
     },
     {
-      "sentence": 5,
-      "source": "cam1",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad09/_work/src/cam1_9x16.mp4",
-      "in": 68.36,
-      "out": 73.18,
-      "text": "Cada límite que callas para cerrar una venta puede convertirse después en",
-      "section": "DESARROLLO",
-      "words": [
-        {
-          "text": "Cada",
-          "start": 68.36,
-          "end": 68.55
-        },
-        {
-          "text": "límite",
-          "start": 68.55,
-          "end": 68.95
-        },
-        {
-          "text": "que",
-          "start": 68.95,
-          "end": 69.11
-        },
-        {
-          "text": "callas",
-          "start": 69.11,
-          "end": 69.59
-        },
-        {
-          "text": "para",
-          "start": 69.67,
-          "end": 69.91
-        },
-        {
-          "text": "cerrar",
-          "start": 69.91,
-          "end": 70.39
-        },
-        {
-          "text": "una",
-          "start": 70.39,
-          "end": 70.55
-        },
-        {
-          "text": "venta",
-          "start": 70.55,
-          "end": 70.87
-        },
-        {
-          "text": "puede",
-          "start": 71.03,
-          "end": 71.27
-        },
-        {
-          "text": "convertirse",
-          "start": 71.43,
-          "end": 72.31
-        },
-        {
-          "text": "después",
-          "start": 72.31,
-          "end": 72.87
-        },
-        {
-          "text": "en",
-          "start": 72.87,
-          "end": 73.18
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "que",
+     "start": 6.32,
+     "end": 6.48
     },
     {
-      "sentence": 5,
-      "source": "cam2",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad09/_work/src/cam2_9x16.mp4",
-      "in": 73.435,
-      "out": 76.245,
-      "text": "trabajo que nadie te está pagando.",
-      "section": "DESARROLLO",
-      "words": [
-        {
-          "text": "trabajo",
-          "start": 73.435,
-          "end": 73.91
-        },
-        {
-          "text": "que",
-          "start": 73.91,
-          "end": 74.15
-        },
-        {
-          "text": "nadie",
-          "start": 74.15,
-          "end": 74.55
-        },
-        {
-          "text": "te",
-          "start": 74.55,
-          "end": 74.79
-        },
-        {
-          "text": "está",
-          "start": 74.79,
-          "end": 74.95
-        },
-        {
-          "text": "pagando.",
-          "start": 74.95,
-          "end": 75.91
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "no",
+     "start": 6.48,
+     "end": 6.64
     },
     {
-      "sentence": 6,
-      "source": "cam1",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad09/_work/src/cam1_9x16.mp4",
-      "in": 76.46,
-      "out": 81.81,
-      "text": "Sígueme para ayudarte a escalar tu negocio acelerando tus ventas.",
-      "section": "CTA",
-      "words": [
-        {
-          "text": "Sígueme",
-          "start": 76.55,
-          "end": 77.19
-        },
-        {
-          "text": "para",
-          "start": 77.43,
-          "end": 77.59
-        },
-        {
-          "text": "ayudarte",
-          "start": 77.59,
-          "end": 78.07
-        },
-        {
-          "text": "a",
-          "start": 78.07,
-          "end": 78.15
-        },
-        {
-          "text": "escalar",
-          "start": 78.23,
-          "end": 78.63
-        },
-        {
-          "text": "tu",
-          "start": 78.63,
-          "end": 78.79
-        },
-        {
-          "text": "negocio",
-          "start": 78.79,
-          "end": 79.27
-        },
-        {
-          "text": "acelerando",
-          "start": 79.27,
-          "end": 79.99
-        },
-        {
-          "text": "tus",
-          "start": 79.99,
-          "end": 80.23
-        },
-        {
-          "text": "ventas.",
-          "start": 80.23,
-          "end": 81.43
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "puedes",
+     "start": 6.64,
+     "end": 6.96
+    },
+    {
+     "text": "sostener,",
+     "start": 6.96,
+     "end": 7.52
+    },
+    {
+     "text": "estás",
+     "start": 7.76,
+     "end": 8.16
+    },
+    {
+     "text": "comprando",
+     "start": 8.16,
+     "end": 8.72
+    },
+    {
+     "text": "un",
+     "start": 8.72,
+     "end": 8.88
+    },
+    {
+     "text": "problema.",
+     "start": 8.88,
+     "end": 9.2
     }
-  ],
-  "duration": 44.765,
-  "raw_offset": 658.7
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 1,
+   "source": "cam2",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad09/_work/src/cam2_9x16.mp4",
+   "in": 9.49,
+   "out": 18.615,
+   "text": "A veces necesitamos tanto ese cliente que decimos que sí a todo: entregar antes, incluir más cosas o estar disponibles a cualquier hora.",
+   "section": "DESARROLLO",
+   "words": [
+    {
+     "text": "A",
+     "start": 9.52,
+     "end": 9.68
+    },
+    {
+     "text": "veces",
+     "start": 9.68,
+     "end": 10.16
+    },
+    {
+     "text": "necesitamos",
+     "start": 10.32,
+     "end": 11.12
+    },
+    {
+     "text": "tanto",
+     "start": 11.12,
+     "end": 11.36
+    },
+    {
+     "text": "ese",
+     "start": 11.52,
+     "end": 11.76
+    },
+    {
+     "text": "cliente",
+     "start": 11.76,
+     "end": 12.32
+    },
+    {
+     "text": "que",
+     "start": 12.4,
+     "end": 12.64
+    },
+    {
+     "text": "decimos que",
+     "start": 12.64,
+     "end": 13.28
+    },
+    {
+     "text": "sí",
+     "start": 13.28,
+     "end": 13.6
+    },
+    {
+     "text": "a",
+     "start": 13.76,
+     "end": 14.0
+    },
+    {
+     "text": "todo:",
+     "start": 14.0,
+     "end": 14.24
+    },
+    {
+     "text": "entregar",
+     "start": 14.48,
+     "end": 15.12
+    },
+    {
+     "text": "antes,",
+     "start": 15.12,
+     "end": 15.36
+    },
+    {
+     "text": "incluir",
+     "start": 15.52,
+     "end": 16.0
+    },
+    {
+     "text": "más",
+     "start": 16.0,
+     "end": 16.24
+    },
+    {
+     "text": "cosas",
+     "start": 16.24,
+     "end": 16.48
+    },
+    {
+     "text": "o",
+     "start": 16.56,
+     "end": 16.8
+    },
+    {
+     "text": "estar",
+     "start": 16.8,
+     "end": 17.04
+    },
+    {
+     "text": "disponibles",
+     "start": 17.04,
+     "end": 17.6
+    },
+    {
+     "text": "a",
+     "start": 17.6,
+     "end": 17.76
+    },
+    {
+     "text": "cualquier",
+     "start": 17.76,
+     "end": 18.16
+    },
+    {
+     "text": "hora.",
+     "start": 18.16,
+     "end": 18.48
+    }
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 2,
+   "source": "cam2",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad09/_work/src/cam2_9x16.mp4",
+   "in": 18.615,
+   "out": 25.37,
+   "text": "Y después llega el cansancio, la incomodidad y esa sensación de estar fallándole a alguien.",
+   "section": "DESARROLLO",
+   "words": [
+    {
+     "text": "Y",
+     "start": 18.64,
+     "end": 18.8
+    },
+    {
+     "text": "después",
+     "start": 18.8,
+     "end": 19.28
+    },
+    {
+     "text": "llega",
+     "start": 19.44,
+     "end": 19.84
+    },
+    {
+     "text": "el",
+     "start": 19.84,
+     "end": 20.0
+    },
+    {
+     "text": "cansancio,",
+     "start": 20.0,
+     "end": 20.64
+    },
+    {
+     "text": "la",
+     "start": 20.8,
+     "end": 20.96
+    },
+    {
+     "text": "incomodidad",
+     "start": 20.96,
+     "end": 21.76
+    },
+    {
+     "text": "y",
+     "start": 21.92,
+     "end": 22.16
+    },
+    {
+     "text": "esa",
+     "start": 22.16,
+     "end": 22.56
+    },
+    {
+     "text": "sensación",
+     "start": 22.56,
+     "end": 23.12
+    },
+    {
+     "text": "de",
+     "start": 23.12,
+     "end": 23.36
+    },
+    {
+     "text": "estar",
+     "start": 23.36,
+     "end": 23.68
+    },
+    {
+     "text": "fallándole",
+     "start": 23.68,
+     "end": 24.48
+    },
+    {
+     "text": "a",
+     "start": 24.48,
+     "end": 24.64
+    },
+    {
+     "text": "alguien.",
+     "start": 24.64,
+     "end": 25.12
+    }
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 3,
+   "source": "cam1",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad09/_work/src/cam1_9x16.mp4",
+   "in": 25.37,
+   "out": 26.905,
+   "text": "Antes de comprometerte,",
+   "section": "DESARROLLO",
+   "words": [
+    {
+     "text": "Antes",
+     "start": 25.44,
+     "end": 25.6
+    },
+    {
+     "text": "de",
+     "start": 25.84,
+     "end": 25.92
+    },
+    {
+     "text": "comprometerte,",
+     "start": 25.92,
+     "end": 26.88
+    }
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 3,
+   "source": "cam1",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad09/_work/src/cam1_9x16.mp4",
+   "in": 27.105,
+   "out": 28.19,
+   "text": "pregúntate:",
+   "section": "DESARROLLO",
+   "words": [
+    {
+     "text": "pregúntate:",
+     "start": 27.12,
+     "end": 28.0
+    }
+   ],
+   "cues": [],
+   "intra": true
+  },
+  {
+   "sentence": 3,
+   "source": "cam1",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad09/_work/src/cam1_9x16.mp4",
+   "in": 37.145,
+   "out": 39.65,
+   "text": "“¿Puedo cumplir esto con la calidad que quiero dar?”.",
+   "section": "DESARROLLO",
+   "words": [
+    {
+     "text": "“¿Puedo",
+     "start": 37.145,
+     "end": 37.44
+    },
+    {
+     "text": "cumplir",
+     "start": 37.44,
+     "end": 37.92
+    },
+    {
+     "text": "esto",
+     "start": 37.92,
+     "end": 38.08
+    },
+    {
+     "text": "con",
+     "start": 38.08,
+     "end": 38.16
+    },
+    {
+     "text": "la",
+     "start": 38.16,
+     "end": 38.24
+    },
+    {
+     "text": "calidad",
+     "start": 38.24,
+     "end": 38.56
+    },
+    {
+     "text": "que",
+     "start": 38.56,
+     "end": 38.8
+    },
+    {
+     "text": "quiero",
+     "start": 38.8,
+     "end": 39.2
+    },
+    {
+     "text": "dar?”.",
+     "start": 39.2,
+     "end": 39.52
+    }
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 4,
+   "source": "cam2",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad09/_work/src/cam2_9x16.mp4",
+   "in": 61.725,
+   "out": 67.215,
+   "text": "Deja por escrito qué incluye tu servicio, cuándo lo entregarás y cómo atenderás los cambios.",
+   "section": "DESARROLLO",
+   "words": [
+    {
+     "text": "Deja",
+     "start": 61.725,
+     "end": 61.83
+    },
+    {
+     "text": "por",
+     "start": 61.99,
+     "end": 62.15
+    },
+    {
+     "text": "escrito",
+     "start": 62.15,
+     "end": 62.47
+    },
+    {
+     "text": "qué",
+     "start": 62.55,
+     "end": 62.63
+    },
+    {
+     "text": "incluye",
+     "start": 62.79,
+     "end": 63.27
+    },
+    {
+     "text": "tu",
+     "start": 63.27,
+     "end": 63.43
+    },
+    {
+     "text": "servicio,",
+     "start": 63.43,
+     "end": 63.83
+    },
+    {
+     "text": "cuándo",
+     "start": 63.91,
+     "end": 64.15
+    },
+    {
+     "text": "lo",
+     "start": 64.23,
+     "end": 64.39
+    },
+    {
+     "text": "entregarás",
+     "start": 64.39,
+     "end": 65.11
+    },
+    {
+     "text": "y",
+     "start": 65.19,
+     "end": 65.43
+    },
+    {
+     "text": "cómo",
+     "start": 65.43,
+     "end": 65.83
+    },
+    {
+     "text": "atenderás",
+     "start": 65.83,
+     "end": 66.55
+    },
+    {
+     "text": "los",
+     "start": 66.55,
+     "end": 66.71
+    },
+    {
+     "text": "cambios.",
+     "start": 66.71,
+     "end": 67.215
+    }
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 5,
+   "source": "cam1",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad09/_work/src/cam1_9x16.mp4",
+   "in": 68.36,
+   "out": 73.18,
+   "text": "Cada límite que callas para cerrar una venta puede convertirse después en",
+   "section": "DESARROLLO",
+   "words": [
+    {
+     "text": "Cada",
+     "start": 68.36,
+     "end": 68.55
+    },
+    {
+     "text": "límite",
+     "start": 68.55,
+     "end": 68.95
+    },
+    {
+     "text": "que",
+     "start": 68.95,
+     "end": 69.11
+    },
+    {
+     "text": "callas",
+     "start": 69.11,
+     "end": 69.59
+    },
+    {
+     "text": "para",
+     "start": 69.67,
+     "end": 69.91
+    },
+    {
+     "text": "cerrar",
+     "start": 69.91,
+     "end": 70.39
+    },
+    {
+     "text": "una",
+     "start": 70.39,
+     "end": 70.55
+    },
+    {
+     "text": "venta",
+     "start": 70.55,
+     "end": 70.87
+    },
+    {
+     "text": "puede",
+     "start": 71.03,
+     "end": 71.27
+    },
+    {
+     "text": "convertirse",
+     "start": 71.43,
+     "end": 72.31
+    },
+    {
+     "text": "después",
+     "start": 72.31,
+     "end": 72.87
+    },
+    {
+     "text": "en",
+     "start": 72.87,
+     "end": 73.18
+    }
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 5,
+   "source": "cam2",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad09/_work/src/cam2_9x16.mp4",
+   "in": 73.435,
+   "out": 76.245,
+   "text": "trabajo que nadie te está pagando.",
+   "section": "DESARROLLO",
+   "words": [
+    {
+     "text": "trabajo",
+     "start": 73.435,
+     "end": 73.91
+    },
+    {
+     "text": "que",
+     "start": 73.91,
+     "end": 74.15
+    },
+    {
+     "text": "nadie",
+     "start": 74.15,
+     "end": 74.55
+    },
+    {
+     "text": "te",
+     "start": 74.55,
+     "end": 74.79
+    },
+    {
+     "text": "está",
+     "start": 74.79,
+     "end": 74.95
+    },
+    {
+     "text": "pagando.",
+     "start": 74.95,
+     "end": 75.91
+    }
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 6,
+   "source": "cam1",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad09/_work/src/cam1_9x16.mp4",
+   "in": 76.46,
+   "out": 81.81,
+   "text": "Sígueme para ayudarte a escalar tu negocio acelerando tus ventas.",
+   "section": "CTA",
+   "words": [
+    {
+     "text": "Sígueme",
+     "start": 76.55,
+     "end": 77.19
+    },
+    {
+     "text": "para",
+     "start": 77.43,
+     "end": 77.59
+    },
+    {
+     "text": "ayudarte",
+     "start": 77.59,
+     "end": 78.07
+    },
+    {
+     "text": "a",
+     "start": 78.07,
+     "end": 78.15
+    },
+    {
+     "text": "escalar",
+     "start": 78.23,
+     "end": 78.63
+    },
+    {
+     "text": "tu",
+     "start": 78.63,
+     "end": 78.79
+    },
+    {
+     "text": "negocio",
+     "start": 78.79,
+     "end": 79.27
+    },
+    {
+     "text": "acelerando",
+     "start": 79.27,
+     "end": 79.99
+    },
+    {
+     "text": "tus",
+     "start": 79.99,
+     "end": 80.23
+    },
+    {
+     "text": "ventas.",
+     "start": 80.23,
+     "end": 81.43
+    }
+   ],
+   "cues": [],
+   "intra": false
+  }
+ ],
+ "duration": 44.765,
+ "raw_offset": 658.7
 }
