@@ -11,6 +11,6 @@
 | AD07 | `proyectos/ad07/entregables/carlos-buelvas_ad07_9x16_v2.mp4` | 42.3 s | "Dawning of Darkness" by Hyperreal is licensed under CC BY 3.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/3.0/. |
 | AD08 | `proyectos/ad08/entregables/carlos-buelvas_ad08_9x16_v2.mp4` | 45.5 s | "The crusader's return" by zero-project is licensed under CC BY 3.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/3.0/. |
 | AD09 | `proyectos/ad09/entregables/carlos-buelvas_ad09_9x16_v2.mp4` | 46.7 s | "Pactum serva" by zero-project is licensed under CC BY 3.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/3.0/. |
-| AD10 | `proyectos/ad10/entregables/carlos-buelvas_ad10_9x16_v1.mp4` | 44.8 s | "The crossroads of change" by zero-project is licensed under CC BY 3.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/3.0/. |
+| AD10 | `proyectos/ad10/entregables/carlos-buelvas_ad10_9x16_v2.mp4` | 44.8 s | "The crossroads of change" by zero-project is licensed under CC BY 3.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/3.0/. |
 
 Audio: voz procesada a −16 LUFS, música y SFX con ducking bajo la voz; master −14 LUFS / −1 dBTP. Subtítulos solo con texto del guion (también en .srt).
