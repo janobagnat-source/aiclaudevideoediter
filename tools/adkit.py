@@ -71,6 +71,19 @@ class Ad:
         self.cap_pos.append({"at": at, "until": until, "pos": caption})
         self.sfx("lib:card-slide-2", at, 0.45, -0.05)
 
+    def force_cam(self, cut, cam):
+        """Cambia la cámara de un corte en edl.json (p.ej. frontal en los split). Llamar ANTES de auto_zooms."""
+        c = self.edl["cuts"][cut]
+        if c["source"] != cam:
+            if c.get("src"):
+                c["src"] = c["src"].replace(f'{c["source"]}_9x16', f"{cam}_9x16")
+            c["source"] = cam
+            (self.w / "edl.json").write_text(json.dumps(self.edl, ensure_ascii=False, indent=1))
+
+    def cams(self, mapping):
+        for k, v in mapping.items():
+            self.force_cam(int(k), v)
+
     def cut_set(self, cut, **kw):
         self.cut_over.setdefault(str(cut), {}).update(kw)
 

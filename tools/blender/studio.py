@@ -211,6 +211,63 @@ class Studio:
         nt.links.new(rl.outputs["Image"], gl.inputs["Image"])
         nt.links.new(gl.outputs["Image"], comp.inputs["Image"])
 
+    # ---------------- utilidades de escena
+    def backdrop(self, y=6.0, color="#123cc8", scale=(4.3, 3.3), strength=1.0, loc=(0, -0.1)):
+        """Pared con glow radial azul de marca (degradado negro→azul) detrás de la escena."""
+        bpy.ops.mesh.primitive_plane_add(size=1, location=(0, y, 4), rotation=(math.radians(90), 0, 0))
+        wall = bpy.context.object; wall.scale = (40, 30, 1)
+        mw = bpy.data.materials.new("pared"); mw.use_nodes = True; nt = mw.node_tree
+        for n in list(nt.nodes): nt.nodes.remove(n)
+        out = nt.nodes.new("ShaderNodeOutputMaterial"); em = nt.nodes.new("ShaderNodeEmission")
+        grad = nt.nodes.new("ShaderNodeTexGradient"); grad.gradient_type = "SPHERICAL"
+        mapn = nt.nodes.new("ShaderNodeMapping"); tc = nt.nodes.new("ShaderNodeTexCoord"); ramp = nt.nodes.new("ShaderNodeValToRGB")
+        ramp.color_ramp.elements[0].color = (*hexlin("#020617"), 1); ramp.color_ramp.elements[1].color = (*hexlin(color), 1)
+        ramp.color_ramp.elements[0].position = 0.05; ramp.color_ramp.elements[1].position = 0.9
+        mapn.inputs["Location"].default_value = (loc[0], loc[1], 0); mapn.inputs["Scale"].default_value = (scale[0], scale[1], 1)
+        nt.links.new(tc.outputs["Object"], mapn.inputs["Vector"]); nt.links.new(mapn.outputs["Vector"], grad.inputs["Vector"])
+        nt.links.new(grad.outputs["Fac"], ramp.inputs["Fac"]); nt.links.new(ramp.outputs["Color"], em.inputs["Color"])
+        em.inputs["Strength"].default_value = strength; nt.links.new(em.outputs["Emission"], out.inputs["Surface"])
+        wall.data.materials.append(mw)
+        return wall
+
+    def lathe(self, name, prof, mat, seg=96, solid=0.0):
+        """Sólido de revolución a partir de un perfil [(radio, z), ...]."""
+        import bmesh
+        me = bpy.data.meshes.new(name); ob = bpy.data.objects.new(name, me); bpy.context.collection.objects.link(ob)
+        bm = bmesh.new()
+        verts = [bm.verts.new((r, 0, z)) for r, z in prof]
+        for a, b in zip(verts[:-1], verts[1:]):
+            bm.edges.new((a, b))
+        bmesh.ops.spin(bm, geom=bm.verts[:] + bm.edges[:], cent=(0, 0, 0), axis=(0, 0, 1), angle=math.radians(360), steps=seg)
+        bmesh.ops.remove_doubles(bm, verts=bm.verts[:], dist=1e-5)
+        bm.to_mesh(me); bm.free()
+        ob.data.materials.append(mat)
+        for p in ob.data.polygons:
+            p.use_smooth = True
+        if solid:
+            m = ob.modifiers.new("solid", "SOLIDIFY"); m.thickness = solid
+        return ob
+
+    @staticmethod
+    def smooth(o):
+        for p in o.data.polygons:
+            p.use_smooth = True
+        return o
+
+    @staticmethod
+    def kf(obj, frame, **vals):
+        """Keyframe rápido: kf(obj, 10, location=(..), rotation_euler=(..), scale=(..))"""
+        for k, v in vals.items():
+            setattr(obj, k, v)
+            obj.keyframe_insert(k, frame=frame)
+
+    def orbit(self, frames, start, end, tgt_start=None, tgt_end=None):
+        self.cam.location = start; self.cam.keyframe_insert("location", frame=1)
+        self.cam.location = end; self.cam.keyframe_insert("location", frame=frames)
+        if tgt_start is not None:
+            self.tgt.location = tgt_start; self.tgt.keyframe_insert("location", frame=1)
+            self.tgt.location = tgt_end; self.tgt.keyframe_insert("location", frame=frames)
+
     # ---------------- render
     def render(self, name="clip"):
         sc = self.sc

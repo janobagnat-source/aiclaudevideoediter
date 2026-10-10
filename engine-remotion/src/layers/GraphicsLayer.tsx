@@ -7,6 +7,7 @@ import {Coins3D, Logo3D, Model3D, Particles3D, Phone3D, Shapes3D, Text3DTitle} f
 import {AgendaFill, BlockTitle, BrandScene, CostTags, CTAPill, GrowthLine, IconBadge, InstagramFollow, ProfitGap, QuestionCard, TimeIsMoney} from '../graphics/premium';
 import {CloneGrid, BatteryDrain, BreatheRing, ChatThread, ContractDoc, CounterRace, EmojiBurst, FlightPath, FocusBrackets, LeakyFunnel, NotepadList, PostCard, PriceDrop, Stopwatch, TaskPile} from '../graphics/premium2';
 import {BehindTitle, CalendarWeek, DecisionPrompt, KickerTitle, Ledger, LightSweep, LogoReveal, Receipt, ResultChip, TickerTape} from '../graphics/exec';
+import {CaseCard, MeterBar, NumberedList, PromptBox, QuestionStack, TagRow, VoiceNote} from '../graphics/exec2';
 import type {Graphic} from '../types';
 
 /** Video con alfa (p.ej. overlay renderizado con HyperFrames en WebM/ProRes 4444) o elemento de stock. props: src, blend, opacity, fit */
@@ -86,6 +87,13 @@ export const REGISTRY: Record<string, React.FC<any>> = {
 	ResultChip,
 	LogoReveal,
 	LightSweep,
+	PromptBox,
+	TagRow,
+	NumberedList,
+	VoiceNote,
+	QuestionStack,
+	CaseCard,
+	MeterBar,
 };
 
 export const GraphicsLayer: React.FC<{items: Graphic[]; layer: 'under' | 'over' | 'top'}> = ({items, layer}) => {
