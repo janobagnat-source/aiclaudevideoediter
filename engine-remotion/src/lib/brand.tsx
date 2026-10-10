@@ -67,7 +67,7 @@ export const BrandProvider: React.FC<{brand?: Partial<Brand>; children: React.Re
 	const [handle] = useState(() => delayRender('Cargando fuentes de marca'));
 	const [ready, setReady] = useState(false);
 	useEffect(() => {
-		Promise.all([loadFiles(b.fontFiles ?? []), loadLibraryFont(b.fonts.heading), loadLibraryFont(b.fonts.body), loadLibraryFont('Inter'), loadLibraryFont('Anton'), loadLibraryFont('Playfair Display')])
+		Promise.all([loadFiles(b.fontFiles ?? []), loadLibraryFont(b.fonts.heading), loadLibraryFont(b.fonts.body), loadLibraryFont('Inter'), loadLibraryFont('Anton'), loadLibraryFont('Playfair Display'), loadLibraryFont('Caveat')])
 			.catch((e) => console.warn('fuentes', e))
 			.finally(() => {
 				setReady(true);

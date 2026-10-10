@@ -1,89 +1,74 @@
-# AD04 — Cuando “está caro” se siente personal
+# AD04 v2 — “Cuando ‘está caro’ se siente personal”. De la emoción a la decisión de negocio.
 import sys; sys.path.insert(0, "/home/user/aiclaudevideoediter/tools")
 from adkit import Ad, M
 ad = Ad(__file__)
-ad.auto_zooms(punch_words=["caro”…", "vale", "precio", "respira", "propuesta.", "confianza.", "preocupa.", "entregar.",
-                           "descuento,", "decisión", "miedo", "sígueme"])
+BL = "clientes/carlos-buelvas/proyectos/ad04/_work/blender/"
+ad.set_cams({0: "cam1", 5: "cam1", 7: "cam1", 6: "cam2", 8: "cam2"})
+ad.auto_zooms(punch_words=["caro”…", "vale", "precio", "respira", "propuesta.", "confianza.", "preocupa.", "entregar.", "descuento,", "decisión", "miedo", "sígueme"])
 
-# HOOK: llega el mensaje del cliente “está caro” → ¿NO VALES SUFICIENTE?
-ad.hook_hit()
-ad.g("ChatThread", 0.05, until={"word": "vale", "offset": -0.08}, y=0.8, title="Cliente",
-     messages=[{"text": "Vi tu propuesta 👀", "at": 2}, {"text": "Me interesa… pero está caro 😬", "at": 38}])
-ad.sfx("lib:pluck_001", 0.12, 0.4)
-ad.sfx("lib:pluck_002", {"word": "“está"}, 0.45, -0.15)
-ad.sfx("synth:impact_punch", {"word": "caro”…"}, 0.5)
-ad.sfx("synth:riser_short", {"word": "vale"}, 0.25, -1.2)
-ad.g("BlockTitle", {"word": "vale", "offset": -0.05}, until={"cut": 2, "offset": -0.03}, y=0.82, width=0.82, stagger=6, enter="slam",
-     lines=[{"text": "¿NO VALES", "weight": 900}, {"text": "SUFICIENTE?", "color": "gold"}])
-ad.sfx("synth:subdrop_short", {"word": "vale"}, 0.45)
-ad.sfx("synth:glitch_02", {"word": "suficiente"}, 0.3)
+# ── HOOK: split; llega la respuesta del cliente y aparece tu voz interna ────────────────────────
+ad.g("Flash", 0, 0.25, layer="top", peak=0.8, color="#dbe7ff")
+ad.sfx("synth:impact_cinematic", 0, 0.5); ad.sfx("synth:subdrop_01", 0, 0.4)
+ad.split(0, {"cut": 1}, bottom=0.5, caption=0.535)
+ad.g("ObjectionCard", 0.05, until={"cut": 1, "offset": -0.05}, y=0.585, hotAt=56, innerAt=110,
+     msg="Gracias por la propuesta. La verdad… está caro.", hot="está caro", inner="¿Y si el problema soy yo?")
+ad.sfx("lib:bsb-1111", 0.7, 0.3); ad.sfx("synth:glitch_02", {"word": "caro”…"}, 0.3); ad.sfx("synth:heartbeat_01", {"word": "sentir"}, 0.4)
 
-# INCOMODIDAD / DUDA → BAJAR EL PRECIO
-ad.badge("smiley-nervous-bold", {"word": "incomodas,"}, until={"word": "bajar", "offset": -0.12}, label="INCOMODIDAD", side="left", y=0.44)
-ad.badge("question-bold", {"word": "dudas"}, until={"word": "bajar", "offset": -0.12}, label="DUDA", side="right", y=0.44)
-ad.scene("glow", {"word": "bajar", "offset": -0.1}, {"cut": 3, "offset": -0.02}, word="DESCUENTO")
-ad.g("PriceDrop", {"word": "bajar", "offset": -0.05}, until={"cut": 3, "offset": -0.02}, y=0.3, **{"from": 1500}, to=990, label="TU PRECIO", dropAt=20)
-ad.sfx("synth:whoosh_fast", {"word": "precio"}, 0.4, -0.05)
-ad.sfx("lib:bsb-0307", {"word": "precio"}, 0.3, 0.1)
+# ── “…EL QUE NO VALE SUFICIENTE ERES TÚ” → la seguridad se drena ─────────────────────────────
+ad.g("ValueDrain", {"cut": 1}, until={"word": "bajar", "offset": -0.12}, label="TU SEGURIDAD", **{"from": 100}, to=24, y=0.82)
+ad.sfx("synth:riser_short", {"cut": 1}, 0.2)
 
-# RESPIRA ANTES DE RESPONDER → anillo de respiración (MG b-roll)
-ad.scene("glow", {"word": "respira", "offset": -0.12}, {"cut": 4, "offset": -0.02})
-ad.g("BreatheRing", {"word": "respira", "offset": -0.08}, until={"cut": 4, "offset": -0.02}, y=0.3, size=1.0, label1="RESPIRA", label2="Y RESPONDE")
-ad.sfx("synth:riser_short", {"word": "respira"}, 0.18, 0.1)
+# ── QUIERES BAJAR EL PRECIO → Blender: la etiqueta que se balancea + precio tachado ────────────
+ad.broll(BL + "ad04_tag/tag.mp4", {"word": "bajar", "offset": -0.1}, {"cut": 3}, speed=0.67, transition="zoom-in")
+ad.cap_pos.append({"at": {"word": "bajar", "offset": -0.1}, "until": {"cut": 3}, "pos": 0.9})
+ad.g("PriceSlash", {"word": "precio", "offset": -0.1}, until={"cut": 3, "offset": -0.03}, **{"from": "$1.500"}, to="$990?", y=0.79, slashAt=10)
+ad.sfx("synth:whoosh_medium", {"word": "bajar", "offset": -0.1}, 0.45, -0.1); ad.sfx("synth:impact_punch", {"word": "precio", "offset": 0.25}, 0.4)
 
-# ESA PERSONA REACCIONA A UNA PROPUESTA (no a ti)
-ad.badge("user-bold", {"word": "persona"}, until={"cut": 5, "offset": -0.03}, label="ESA PERSONA", side="left", y=0.44)
-ad.badge("file-text-bold", {"word": "propuesta."}, until={"cut": 5, "offset": -0.03}, label="TU PROPUESTA", side="right", y=0.44)
-ad.g("BlockTitle", {"word": "reaccionando", "offset": -0.05}, until={"cut": 5, "offset": -0.03}, y=0.82, width=0.8, stagger=8, enter="rise", sparkle=1,
-     lines=[{"text": "NO ES", "weight": 900}, {"text": "PERSONAL", "color": "gold"}])
-ad.sfx("lib:glass_002", {"word": "propuesta."}, 0.35)
+# ── RESPIRA ANTES DE RESPONDER → guía de respiración ───────────────────────────────────────────
+ad.g("BreathLine", {"word": "respira", "offset": -0.2}, until={"cut": 4, "offset": -0.03}, y=0.8, period=2.4)
+ad.sfx("synth:reverse_swell_long", {"word": "respira"}, 0.25, -0.3)
 
-# PRESUPUESTO · CLARIDAD · CONFIANZA → 3 íconos en escena
-ad.scene("pattern", {"word": "falta", "offset": -0.1}, {"cut": 6, "offset": -0.02}, word="ENTIENDE")
-for x, ic, lab, w in [(0.22, "wallet-bold", "PRESUPUESTO", "presupuesto,"), (0.5, "lightbulb-bold", "CLARIDAD", "claridad"),
-                      (0.78, "handshake-bold", "CONFIANZA", "confianza.")]:
-    ad.g("IconBadge", {"word": w, "offset": -0.05}, until={"cut": 6, "offset": -0.02}, icon=ad.icon(ic), x=x, y=0.3, leader="none", size=1.0, label=lab)
-    ad.sfx("synth:pop_01", {"word": w, "offset": -0.05}, 0.45)
-ad.sfx("lib:confirmation_001", {"word": "confianza."}, 0.35, 0.1)
+# ── ESA PERSONA REACCIONA A UNA PROPUESTA → “PROPUESTA” detrás de Carlos ───────────────────────
+ad.cut_set(4, cutout="_work/cutouts/cut4.webm",
+           behind=[{"component": "BehindTitle", "start": 0.85, "duration": 1.75,
+                    "props": {"kicker": "REACCIONA A UNA", "kickerY": 0.035, "lines": [{"text": "PROPUESTA", "gradient": True, "color": "#FFFFFF", "size": 300}], "y": 0.29, "drift": 0.05}}])
+ad.sfx("synth:impact_soft", {"word": "propuesta."}, 0.45)
 
-# PREGÚNTALE CON CALMA
-ad.g("QuestionCard", {"cut": 6, "offset": 0.05}, until={"cut": 7, "offset": -0.03}, y=0.82, kicker="PREGÚNTALE CON CALMA",
-     question="¿Qué es lo que más te preocupa?")
-ad.sfx("lib:question_001", {"cut": 6, "offset": 0.05}, 0.4)
+# ── PRESUPUESTO · CLARIDAD · CONFIANZA → split con diagnóstico ────────────────────────────────
+ad.split({"cut": 5}, {"cut": 6}, bottom=0.5, caption=0.535)
+ad.g("Diagnosis", {"cut": 5, "offset": 0.05}, until={"cut": 6, "offset": -0.05}, y=0.62, title="¿QUÉ LE FALTA?",
+     items=[{"text": "PRESUPUESTO", "at": 54}, {"text": "CLARIDAD", "at": 73}, {"text": "CONFIANZA", "at": 94}])
+for at in (54, 73, 94):
+    ad.sfx("synth:click_ui", {"cut": 5, "offset": 0.05 + at / 30}, 0.35)
 
-# RECUERDA LO QUE VAS A ENTREGAR
-ad.g("Checklist", {"word": "tiempo,", "offset": -0.25}, until={"cut": 8, "offset": -0.03}, title="LO QUE ENTREGAS",
-     items=["TU TIEMPO", "TU PREPARACIÓN", "TU TRABAJO"], every=30, position=0.84, icon="✓")
-for w in ["tiempo,", "preparación", "trabajo"]:
-    ad.sfx("synth:pop_01", {"word": w}, 0.4)
-ad.badge("clock-bold", {"word": "tiempo,"}, until={"cut": 8, "offset": -0.03}, side="right", y=0.44)
+# ── PREGÚNTALE CON CALMA → tu mensaje ─────────────────────────────────────────────────────────
+ad.g("AskBubble", {"cut": 6, "offset": 0.1}, until={"cut": 7, "offset": -0.05}, text="¿Qué es lo que más te preocupa?", y=0.77)
+ad.sfx("lib:pluck_002", {"cut": 6, "offset": 0.2}, 0.35)
 
-# ANTES DEL DESCUENTO → ¿QUÉ ESTÁ COMPARANDO?
-ad.badge("percent-bold", {"word": "descuento,"}, until={"word": "aclara", "offset": -0.1}, label="DESCUENTO", side="right", y=0.44)
-ad.sfx("lib:switch7", {"word": "descuento,"}, 0.3)
-ad.scene("glow", {"word": "aclara", "offset": -0.1}, {"cut": 9, "offset": -0.02}, word="COMPARA")
-ad.g("CounterRace", {"word": "aclara", "offset": -0.05}, until={"cut": 9, "offset": -0.02}, y=0.3,
-     a={"label": "TU PROPUESTA", "from": 1500, "to": 1500, "prefix": "$"}, b={"label": "LO QUE COMPARA", "from": 0, "to": 900, "prefix": "$"})
-ad.sfx("lib:maximize_006", {"word": "aclara"}, 0.35)
-for k in range(10):
-    ad.sfx("lib:bsb-2842", {"word": "aclara"}, 0.14, 0.1 + k * 0.1)
+# ── TIEMPO, PREPARACIÓN, TRABAJO → split con la pila de valor que sostiene el precio ──────────
+ad.split({"cut": 7}, {"cut": 8}, bottom=0.5, caption=0.535)
+ad.g("ValueStack", {"cut": 7}, until={"cut": 8, "offset": -0.05}, y=0.56, priceAt=118,
+     items=[{"text": "TIEMPO", "at": 32}, {"text": "PREPARACIÓN", "at": 56}, {"text": "TRABAJO", "at": 92}])
+for at in (32, 56, 92):
+    ad.sfx("synth:impact_soft", {"cut": 7, "offset": at / 30 + 0.2}, 0.3)
+ad.sfx("synth:ding_success", {"cut": 7, "offset": 118 / 30}, 0.3)
 
-# DECISIÓN DE NEGOCIO (3D) — NO POR MIEDO
-ad.scene("tunnel", {"word": "decisión", "offset": -0.1}, {"word": "negocio,", "offset": 0.62})
-ad.g("Text3DTitle", {"word": "decisión", "offset": -0.05}, until={"word": "negocio,", "offset": 0.62}, text="DECISIÓN\nDE NEGOCIO",
-     font="Montserrat-Black", color="#FFBB00", metal=0.85, size=0.9, y=1.1, depth=0.35)
-ad.sfx("synth:riser_short", {"word": "decisión"}, 0.28, -1.1)
-ad.sfx("synth:impact_cinematic", {"word": "decisión"}, 0.5, -0.05)
-ad.sfx("synth:subdrop_short", {"word": "decisión"}, 0.4, -0.05)
-ad.g("BlockTitle", {"word": "miedo", "offset": -0.3}, until={"cut": 10, "offset": -0.03}, y=0.82, width=0.8, stagger=6, enter="slam",
-     lines=[{"text": "NO POR", "weight": 900}, {"text": "MIEDO", "color": "gold"}])
-ad.sfx("synth:impact_punch", {"word": "miedo"}, 0.45)
+# ── ANTES DEL DESCUENTO, ACLARA QUÉ ESTÁ COMPARANDO → tabla ───────────────────────────────────
+ad.g("CompareTable", {"word": "aclara", "offset": -0.2}, until={"cut": 9, "offset": -0.05}, y=0.71,
+     rows=[{"label": "Alcance completo", "a": True, "b": False}, {"label": "Acompañamiento", "a": True, "b": False}, {"label": "Garantía", "a": True, "b": False}])
+ad.sfx("lib:card-slide-6", {"word": "aclara", "offset": -0.2}, 0.35)
+
+# ── DECISIÓN DE NEGOCIO → Blender: el rey dorado mueve; luego “miedo” tachado ──────────────────
+ad.broll(BL + "ad04_chess/chess.mp4", {"word": "decisión", "offset": -0.12}, {"word": "miedo", "offset": -0.15}, speed=0.95, transition="whip-up")
+ad.g("KickerTitle", {"word": "decisión", "offset": -0.08}, until={"word": "miedo", "offset": -0.17}, kicker="UNA DECISIÓN", align="center", y=0.1,
+     lines=[{"text": "DE NEGOCIO", "color": "#FFBB00", "size": 120}])
+ad.sfx("synth:whoosh_heavy", {"word": "decisión", "offset": -0.12}, 0.45, -0.1); ad.sfx("synth:impact_cinematic", {"word": "negocio,"}, 0.45)
+ad.g("TagRow", {"word": "miedo", "offset": -0.1}, until={"cut": 10, "offset": -0.05}, y=0.8, tags=[{"text": "MIEDO A PERDERLO", "at": 2}], strikeAt=30)
+ad.sfx("synth:swipe_02", {"word": "miedo", "offset": 0.9}, 0.35)
 
 ad.cta()
-ad.end_card()
+ad.end_flat()
 ad.cam_swipes()
 ad.music("ov-2d385c92-05f.mp3", drop=0)
-ad.save(emphasis=["caro”…", "vale", "suficiente", "precio", "respira", "propuesta.", "presupuesto,", "claridad", "confianza.",
-                  "preocupa.", "tiempo,", "preparación", "trabajo", "descuento,", "comparando.", "decisión", "negocio,", "miedo",
-                  "sígueme", "escalar"],
-        hide=[[32.45, 33.75]])
+ad.save(emphasis=["caro”…", "vale", "suficiente", "precio", "respira", "propuesta.", "presupuesto,", "claridad", "confianza.", "preocupa.",
+                  "tiempo,", "preparación", "trabajo", "descuento,", "comparando.", "decisión", "negocio,", "miedo", "sígueme", "escalar"])

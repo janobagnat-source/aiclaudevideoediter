@@ -4,7 +4,7 @@ import sys; sys.path.insert(0, "/home/user/aiclaudevideoediter/tools")
 from adkit import Ad, M
 ad = Ad(__file__)
 BL = "clientes/carlos-buelvas/proyectos/ad02/_work/blender/"
-ad.cams({0: "cam1", 2: "cam1", 8: "cam1"})            # split → frontal
+ad.set_cams({0: "cam1", 2: "cam1", 8: "cam1"})            # split → frontal
 ad.auto_zooms(punch_words=["publicas", "yo”?", "diferentes.", "persona", "importa", "problemas.", "real", "palabras.", "confiar", "sígueme"])
 
 # ── HOOK: split desde el primer frame; la IA escribe un post perfecto… que no suena a vos ─────────

@@ -80,7 +80,7 @@ class Ad:
             c["source"] = cam
             (self.w / "edl.json").write_text(json.dumps(self.edl, ensure_ascii=False, indent=1))
 
-    def cams(self, mapping):
+    def set_cams(self, mapping):
         for k, v in mapping.items():
             self.force_cam(int(k), v)
 

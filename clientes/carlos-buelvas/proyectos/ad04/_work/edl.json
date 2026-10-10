@@ -1,694 +1,694 @@
 {
-  "cuts": [
+ "cuts": [
+  {
+   "sentence": 0,
+   "source": "cam1",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad04/_work/src/cam1_9x16.mp4",
+   "in": 63.585,
+   "out": 68.685,
+   "text": "Un cliente te dice “está caro”… y tú empiezas a sentir que el que no vale",
+   "section": "HOOK",
+   "words": [
     {
-      "sentence": 0,
-      "source": "cam1",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad04/_work/src/cam1_9x16.mp4",
-      "in": 63.585,
-      "out": 68.685,
-      "text": "Un cliente te dice “está caro”… y tú empiezas a sentir que el que no vale",
-      "section": "HOOK",
-      "words": [
-        {
-          "text": "Un",
-          "start": 63.585,
-          "end": 63.89
-        },
-        {
-          "text": "cliente",
-          "start": 63.89,
-          "end": 64.37
-        },
-        {
-          "text": "te",
-          "start": 64.37,
-          "end": 64.53
-        },
-        {
-          "text": "dice",
-          "start": 64.53,
-          "end": 64.85
-        },
-        {
-          "text": "“está",
-          "start": 65.09,
-          "end": 65.33
-        },
-        {
-          "text": "caro”…",
-          "start": 65.49,
-          "end": 66.13
-        },
-        {
-          "text": "y",
-          "start": 66.13,
-          "end": 66.37
-        },
-        {
-          "text": "tú",
-          "start": 66.37,
-          "end": 66.61
-        },
-        {
-          "text": "empiezas",
-          "start": 66.61,
-          "end": 67.17
-        },
-        {
-          "text": "a",
-          "start": 67.17,
-          "end": 67.33
-        },
-        {
-          "text": "sentir",
-          "start": 67.33,
-          "end": 67.73
-        },
-        {
-          "text": "que",
-          "start": 67.73,
-          "end": 67.89
-        },
-        {
-          "text": "el",
-          "start": 67.89,
-          "end": 68.05
-        },
-        {
-          "text": "que",
-          "start": 68.05,
-          "end": 68.13
-        },
-        {
-          "text": "no",
-          "start": 68.13,
-          "end": 68.29
-        },
-        {
-          "text": "vale",
-          "start": 68.29,
-          "end": 68.685
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "Un",
+     "start": 63.585,
+     "end": 63.89
     },
     {
-      "sentence": 0,
-      "source": "cam2",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad04/_work/src/cam2_9x16.mp4",
-      "in": 68.85,
-      "out": 70.2,
-      "text": "suficiente eres tú.",
-      "section": "HOOK",
-      "words": [
-        {
-          "text": "suficiente",
-          "start": 68.85,
-          "end": 69.33
-        },
-        {
-          "text": "eres",
-          "start": 69.41,
-          "end": 69.73
-        },
-        {
-          "text": "tú.",
-          "start": 69.73,
-          "end": 70.2
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "cliente",
+     "start": 63.89,
+     "end": 64.37
     },
     {
-      "sentence": 1,
-      "source": "cam1",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad04/_work/src/cam1_9x16.mp4",
-      "in": 70.245,
-      "out": 74.51,
-      "text": "Te incomodas, dudas y quieres bajar el precio para que no se vaya.",
-      "section": "DESARROLLO",
-      "words": [
-        {
-          "text": "Te",
-          "start": 70.245,
-          "end": 70.45
-        },
-        {
-          "text": "incomodas,",
-          "start": 70.45,
-          "end": 71.17
-        },
-        {
-          "text": "dudas",
-          "start": 71.17,
-          "end": 71.49
-        },
-        {
-          "text": "y",
-          "start": 71.57,
-          "end": 71.81
-        },
-        {
-          "text": "quieres",
-          "start": 71.81,
-          "end": 72.21
-        },
-        {
-          "text": "bajar",
-          "start": 72.21,
-          "end": 72.61
-        },
-        {
-          "text": "el",
-          "start": 72.61,
-          "end": 72.69
-        },
-        {
-          "text": "precio",
-          "start": 72.69,
-          "end": 73.09
-        },
-        {
-          "text": "para",
-          "start": 73.09,
-          "end": 73.33
-        },
-        {
-          "text": "que",
-          "start": 73.33,
-          "end": 73.49
-        },
-        {
-          "text": "no",
-          "start": 73.49,
-          "end": 73.65
-        },
-        {
-          "text": "se",
-          "start": 73.65,
-          "end": 73.81
-        },
-        {
-          "text": "vaya.",
-          "start": 73.81,
-          "end": 74.51
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "te",
+     "start": 64.37,
+     "end": 64.53
     },
     {
-      "sentence": 2,
-      "source": "cam2",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad04/_work/src/cam2_9x16.mp4",
-      "in": 74.54,
-      "out": 77.4,
-      "text": "Si te pasa, respira antes de responder.",
-      "section": "DESARROLLO",
-      "words": [
-        {
-          "text": "Si",
-          "start": 74.54,
-          "end": 74.77
-        },
-        {
-          "text": "te",
-          "start": 74.77,
-          "end": 74.93
-        },
-        {
-          "text": "pasa,",
-          "start": 74.93,
-          "end": 75.41
-        },
-        {
-          "text": "respira",
-          "start": 75.41,
-          "end": 75.97
-        },
-        {
-          "text": "antes",
-          "start": 76.05,
-          "end": 76.29
-        },
-        {
-          "text": "de",
-          "start": 76.29,
-          "end": 76.45
-        },
-        {
-          "text": "responder.",
-          "start": 76.45,
-          "end": 77.4
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "dice",
+     "start": 64.53,
+     "end": 64.85
     },
     {
-      "sentence": 3,
-      "source": "cam1",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad04/_work/src/cam1_9x16.mp4",
-      "in": 93.515,
-      "out": 96.11,
-      "text": "Esa persona está reaccionando a una propuesta.",
-      "section": "DESARROLLO",
-      "words": [
-        {
-          "text": "Esa",
-          "start": 93.515,
-          "end": 93.89
-        },
-        {
-          "text": "persona",
-          "start": 93.89,
-          "end": 94.21
-        },
-        {
-          "text": "está",
-          "start": 94.21,
-          "end": 94.45
-        },
-        {
-          "text": "reaccionando",
-          "start": 94.45,
-          "end": 95.09
-        },
-        {
-          "text": "a",
-          "start": 95.09,
-          "end": 95.25
-        },
-        {
-          "text": "una",
-          "start": 95.25,
-          "end": 95.49
-        },
-        {
-          "text": "propuesta.",
-          "start": 95.49,
-          "end": 96.11
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "“está",
+     "start": 65.09,
+     "end": 65.33
     },
     {
-      "sentence": 4,
-      "source": "cam2",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad04/_work/src/cam2_9x16.mp4",
-      "in": 96.15,
-      "out": 100.045,
-      "text": "Necesitas entender si le falta presupuesto, claridad o confianza.",
-      "section": "DESARROLLO",
-      "words": [
-        {
-          "text": "Necesitas",
-          "start": 96.15,
-          "end": 96.61
-        },
-        {
-          "text": "entender",
-          "start": 96.77,
-          "end": 97.25
-        },
-        {
-          "text": "si",
-          "start": 97.25,
-          "end": 97.49
-        },
-        {
-          "text": "le",
-          "start": 97.49,
-          "end": 97.65
-        },
-        {
-          "text": "falta",
-          "start": 97.65,
-          "end": 97.97
-        },
-        {
-          "text": "presupuesto,",
-          "start": 97.97,
-          "end": 98.61
-        },
-        {
-          "text": "claridad",
-          "start": 98.61,
-          "end": 99.09
-        },
-        {
-          "text": "o",
-          "start": 99.17,
-          "end": 99.33
-        },
-        {
-          "text": "confianza.",
-          "start": 99.33,
-          "end": 100.045
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "caro”…",
+     "start": 65.49,
+     "end": 66.13
     },
     {
-      "sentence": 5,
-      "source": "cam1",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad04/_work/src/cam1_9x16.mp4",
-      "in": 100.08,
-      "out": 102.48,
-      "text": "Pregúntale con calma qué le preocupa.",
-      "section": "DESARROLLO",
-      "words": [
-        {
-          "text": "Pregúntale",
-          "start": 100.08,
-          "end": 100.77
-        },
-        {
-          "text": "con",
-          "start": 100.77,
-          "end": 100.93
-        },
-        {
-          "text": "calma",
-          "start": 100.93,
-          "end": 101.17
-        },
-        {
-          "text": "qué",
-          "start": 101.33,
-          "end": 101.49
-        },
-        {
-          "text": "le",
-          "start": 101.57,
-          "end": 101.73
-        },
-        {
-          "text": "preocupa.",
-          "start": 101.73,
-          "end": 102.37
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "y",
+     "start": 66.13,
+     "end": 66.37
     },
     {
-      "sentence": 6,
-      "source": "cam2",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad04/_work/src/cam2_9x16.mp4",
-      "in": 104.545,
-      "out": 109.16,
-      "text": "Recuerda el tiempo, la preparación y el trabajo que vas a entregar.",
-      "section": "DESARROLLO",
-      "words": [
-        {
-          "text": "Recuerda",
-          "start": 104.545,
-          "end": 105.33
-        },
-        {
-          "text": "el",
-          "start": 105.33,
-          "end": 105.65
-        },
-        {
-          "text": "tiempo,",
-          "start": 105.65,
-          "end": 106.29
-        },
-        {
-          "text": "la",
-          "start": 106.29,
-          "end": 106.45
-        },
-        {
-          "text": "preparación",
-          "start": 106.45,
-          "end": 107.25
-        },
-        {
-          "text": "y",
-          "start": 107.25,
-          "end": 107.49
-        },
-        {
-          "text": "el",
-          "start": 107.49,
-          "end": 107.65
-        },
-        {
-          "text": "trabajo",
-          "start": 107.65,
-          "end": 108.05
-        },
-        {
-          "text": "que",
-          "start": 108.05,
-          "end": 108.21
-        },
-        {
-          "text": "vas",
-          "start": 108.21,
-          "end": 108.45
-        },
-        {
-          "text": "a",
-          "start": 108.45,
-          "end": 108.53
-        },
-        {
-          "text": "entregar.",
-          "start": 108.53,
-          "end": 109.16
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "tú",
+     "start": 66.37,
+     "end": 66.61
     },
     {
-      "sentence": 7,
-      "source": "cam1",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad04/_work/src/cam1_9x16.mp4",
-      "in": 109.2,
-      "out": 112.765,
-      "text": "Antes de ofrecer un descuento, aclara qué está comparando.",
-      "section": "DESARROLLO",
-      "words": [
-        {
-          "text": "Antes",
-          "start": 109.2,
-          "end": 109.49
-        },
-        {
-          "text": "de",
-          "start": 109.49,
-          "end": 109.57
-        },
-        {
-          "text": "ofrecer",
-          "start": 109.57,
-          "end": 109.97
-        },
-        {
-          "text": "un",
-          "start": 109.97,
-          "end": 110.05
-        },
-        {
-          "text": "descuento,",
-          "start": 110.05,
-          "end": 110.69
-        },
-        {
-          "text": "aclara",
-          "start": 110.69,
-          "end": 111.33
-        },
-        {
-          "text": "qué",
-          "start": 111.33,
-          "end": 111.49
-        },
-        {
-          "text": "está",
-          "start": 111.65,
-          "end": 111.89
-        },
-        {
-          "text": "comparando.",
-          "start": 111.89,
-          "end": 112.765
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "empiezas",
+     "start": 66.61,
+     "end": 67.17
     },
     {
-      "sentence": 8,
-      "source": "cam2",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad04/_work/src/cam2_9x16.mp4",
-      "in": 112.78,
-      "out": 118.92,
-      "text": "Que tu precio cambie por una decisión de negocio, no por el miedo a perder al cliente.",
-      "section": "DESARROLLO",
-      "words": [
-        {
-          "text": "Que",
-          "start": 112.78,
-          "end": 113.09
-        },
-        {
-          "text": "tu",
-          "start": 113.09,
-          "end": 113.25
-        },
-        {
-          "text": "precio",
-          "start": 113.25,
-          "end": 113.73
-        },
-        {
-          "text": "cambie",
-          "start": 113.73,
-          "end": 114.05
-        },
-        {
-          "text": "por",
-          "start": 114.29,
-          "end": 114.45
-        },
-        {
-          "text": "una",
-          "start": 114.45,
-          "end": 114.69
-        },
-        {
-          "text": "decisión",
-          "start": 114.69,
-          "end": 115.09
-        },
-        {
-          "text": "de",
-          "start": 115.09,
-          "end": 115.25
-        },
-        {
-          "text": "negocio,",
-          "start": 115.25,
-          "end": 115.97
-        },
-        {
-          "text": "no",
-          "start": 115.97,
-          "end": 116.21
-        },
-        {
-          "text": "por",
-          "start": 116.21,
-          "end": 116.37
-        },
-        {
-          "text": "el",
-          "start": 116.37,
-          "end": 116.61
-        },
-        {
-          "text": "miedo",
-          "start": 116.61,
-          "end": 116.93
-        },
-        {
-          "text": "a",
-          "start": 116.93,
-          "end": 117.17
-        },
-        {
-          "text": "perder",
-          "start": 117.17,
-          "end": 117.57
-        },
-        {
-          "text": "al",
-          "start": 117.57,
-          "end": 117.81
-        },
-        {
-          "text": "cliente.",
-          "start": 117.81,
-          "end": 118.77
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "a",
+     "start": 67.17,
+     "end": 67.33
     },
     {
-      "sentence": 9,
-      "source": "cam1",
-      "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad04/_work/src/cam1_9x16.mp4",
-      "in": 119.2,
-      "out": 123.94,
-      "text": "Sígueme para ayudarte a escalar tu negocio acelerando tus ventas.",
-      "section": "CTA",
-      "words": [
-        {
-          "text": "Sígueme",
-          "start": 119.2,
-          "end": 119.72
-        },
-        {
-          "text": "para",
-          "start": 119.88,
-          "end": 120.04
-        },
-        {
-          "text": "ayudarte",
-          "start": 120.04,
-          "end": 120.52
-        },
-        {
-          "text": "a",
-          "start": 120.52,
-          "end": 120.68
-        },
-        {
-          "text": "escalar",
-          "start": 120.68,
-          "end": 121.0
-        },
-        {
-          "text": "tu",
-          "start": 121.0,
-          "end": 121.16
-        },
-        {
-          "text": "negocio",
-          "start": 121.16,
-          "end": 121.4
-        },
-        {
-          "text": "acelerando",
-          "start": 121.56,
-          "end": 122.2
-        },
-        {
-          "text": "tus",
-          "start": 122.2,
-          "end": 122.44
-        },
-        {
-          "text": "ventas.",
-          "start": 122.44,
-          "end": 123.56
-        }
-      ],
-      "cues": [],
-      "intra": false
+     "text": "sentir",
+     "start": 67.33,
+     "end": 67.73
+    },
+    {
+     "text": "que",
+     "start": 67.73,
+     "end": 67.89
+    },
+    {
+     "text": "el",
+     "start": 67.89,
+     "end": 68.05
+    },
+    {
+     "text": "que",
+     "start": 68.05,
+     "end": 68.13
+    },
+    {
+     "text": "no",
+     "start": 68.13,
+     "end": 68.29
+    },
+    {
+     "text": "vale",
+     "start": 68.29,
+     "end": 68.685
     }
-  ],
-  "duration": 41.525,
-  "raw_offset": 255.39999999999998
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 0,
+   "source": "cam2",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad04/_work/src/cam2_9x16.mp4",
+   "in": 68.85,
+   "out": 70.2,
+   "text": "suficiente eres tú.",
+   "section": "HOOK",
+   "words": [
+    {
+     "text": "suficiente",
+     "start": 68.85,
+     "end": 69.33
+    },
+    {
+     "text": "eres",
+     "start": 69.41,
+     "end": 69.73
+    },
+    {
+     "text": "tú.",
+     "start": 69.73,
+     "end": 70.2
+    }
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 1,
+   "source": "cam1",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad04/_work/src/cam1_9x16.mp4",
+   "in": 70.245,
+   "out": 74.51,
+   "text": "Te incomodas, dudas y quieres bajar el precio para que no se vaya.",
+   "section": "DESARROLLO",
+   "words": [
+    {
+     "text": "Te",
+     "start": 70.245,
+     "end": 70.45
+    },
+    {
+     "text": "incomodas,",
+     "start": 70.45,
+     "end": 71.17
+    },
+    {
+     "text": "dudas",
+     "start": 71.17,
+     "end": 71.49
+    },
+    {
+     "text": "y",
+     "start": 71.57,
+     "end": 71.81
+    },
+    {
+     "text": "quieres",
+     "start": 71.81,
+     "end": 72.21
+    },
+    {
+     "text": "bajar",
+     "start": 72.21,
+     "end": 72.61
+    },
+    {
+     "text": "el",
+     "start": 72.61,
+     "end": 72.69
+    },
+    {
+     "text": "precio",
+     "start": 72.69,
+     "end": 73.09
+    },
+    {
+     "text": "para",
+     "start": 73.09,
+     "end": 73.33
+    },
+    {
+     "text": "que",
+     "start": 73.33,
+     "end": 73.49
+    },
+    {
+     "text": "no",
+     "start": 73.49,
+     "end": 73.65
+    },
+    {
+     "text": "se",
+     "start": 73.65,
+     "end": 73.81
+    },
+    {
+     "text": "vaya.",
+     "start": 73.81,
+     "end": 74.51
+    }
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 2,
+   "source": "cam2",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad04/_work/src/cam2_9x16.mp4",
+   "in": 74.54,
+   "out": 77.4,
+   "text": "Si te pasa, respira antes de responder.",
+   "section": "DESARROLLO",
+   "words": [
+    {
+     "text": "Si",
+     "start": 74.54,
+     "end": 74.77
+    },
+    {
+     "text": "te",
+     "start": 74.77,
+     "end": 74.93
+    },
+    {
+     "text": "pasa,",
+     "start": 74.93,
+     "end": 75.41
+    },
+    {
+     "text": "respira",
+     "start": 75.41,
+     "end": 75.97
+    },
+    {
+     "text": "antes",
+     "start": 76.05,
+     "end": 76.29
+    },
+    {
+     "text": "de",
+     "start": 76.29,
+     "end": 76.45
+    },
+    {
+     "text": "responder.",
+     "start": 76.45,
+     "end": 77.4
+    }
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 3,
+   "source": "cam1",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad04/_work/src/cam1_9x16.mp4",
+   "in": 93.515,
+   "out": 96.11,
+   "text": "Esa persona está reaccionando a una propuesta.",
+   "section": "DESARROLLO",
+   "words": [
+    {
+     "text": "Esa",
+     "start": 93.515,
+     "end": 93.89
+    },
+    {
+     "text": "persona",
+     "start": 93.89,
+     "end": 94.21
+    },
+    {
+     "text": "está",
+     "start": 94.21,
+     "end": 94.45
+    },
+    {
+     "text": "reaccionando",
+     "start": 94.45,
+     "end": 95.09
+    },
+    {
+     "text": "a",
+     "start": 95.09,
+     "end": 95.25
+    },
+    {
+     "text": "una",
+     "start": 95.25,
+     "end": 95.49
+    },
+    {
+     "text": "propuesta.",
+     "start": 95.49,
+     "end": 96.11
+    }
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 4,
+   "source": "cam1",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad04/_work/src/cam1_9x16.mp4",
+   "in": 96.15,
+   "out": 100.045,
+   "text": "Necesitas entender si le falta presupuesto, claridad o confianza.",
+   "section": "DESARROLLO",
+   "words": [
+    {
+     "text": "Necesitas",
+     "start": 96.15,
+     "end": 96.61
+    },
+    {
+     "text": "entender",
+     "start": 96.77,
+     "end": 97.25
+    },
+    {
+     "text": "si",
+     "start": 97.25,
+     "end": 97.49
+    },
+    {
+     "text": "le",
+     "start": 97.49,
+     "end": 97.65
+    },
+    {
+     "text": "falta",
+     "start": 97.65,
+     "end": 97.97
+    },
+    {
+     "text": "presupuesto,",
+     "start": 97.97,
+     "end": 98.61
+    },
+    {
+     "text": "claridad",
+     "start": 98.61,
+     "end": 99.09
+    },
+    {
+     "text": "o",
+     "start": 99.17,
+     "end": 99.33
+    },
+    {
+     "text": "confianza.",
+     "start": 99.33,
+     "end": 100.045
+    }
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 5,
+   "source": "cam2",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad04/_work/src/cam2_9x16.mp4",
+   "in": 100.08,
+   "out": 102.48,
+   "text": "Pregúntale con calma qué le preocupa.",
+   "section": "DESARROLLO",
+   "words": [
+    {
+     "text": "Pregúntale",
+     "start": 100.08,
+     "end": 100.77
+    },
+    {
+     "text": "con",
+     "start": 100.77,
+     "end": 100.93
+    },
+    {
+     "text": "calma",
+     "start": 100.93,
+     "end": 101.17
+    },
+    {
+     "text": "qué",
+     "start": 101.33,
+     "end": 101.49
+    },
+    {
+     "text": "le",
+     "start": 101.57,
+     "end": 101.73
+    },
+    {
+     "text": "preocupa.",
+     "start": 101.73,
+     "end": 102.37
+    }
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 6,
+   "source": "cam1",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad04/_work/src/cam1_9x16.mp4",
+   "in": 104.545,
+   "out": 109.16,
+   "text": "Recuerda el tiempo, la preparación y el trabajo que vas a entregar.",
+   "section": "DESARROLLO",
+   "words": [
+    {
+     "text": "Recuerda",
+     "start": 104.545,
+     "end": 105.33
+    },
+    {
+     "text": "el",
+     "start": 105.33,
+     "end": 105.65
+    },
+    {
+     "text": "tiempo,",
+     "start": 105.65,
+     "end": 106.29
+    },
+    {
+     "text": "la",
+     "start": 106.29,
+     "end": 106.45
+    },
+    {
+     "text": "preparación",
+     "start": 106.45,
+     "end": 107.25
+    },
+    {
+     "text": "y",
+     "start": 107.25,
+     "end": 107.49
+    },
+    {
+     "text": "el",
+     "start": 107.49,
+     "end": 107.65
+    },
+    {
+     "text": "trabajo",
+     "start": 107.65,
+     "end": 108.05
+    },
+    {
+     "text": "que",
+     "start": 108.05,
+     "end": 108.21
+    },
+    {
+     "text": "vas",
+     "start": 108.21,
+     "end": 108.45
+    },
+    {
+     "text": "a",
+     "start": 108.45,
+     "end": 108.53
+    },
+    {
+     "text": "entregar.",
+     "start": 108.53,
+     "end": 109.16
+    }
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 7,
+   "source": "cam2",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad04/_work/src/cam2_9x16.mp4",
+   "in": 109.2,
+   "out": 112.765,
+   "text": "Antes de ofrecer un descuento, aclara qué está comparando.",
+   "section": "DESARROLLO",
+   "words": [
+    {
+     "text": "Antes",
+     "start": 109.2,
+     "end": 109.49
+    },
+    {
+     "text": "de",
+     "start": 109.49,
+     "end": 109.57
+    },
+    {
+     "text": "ofrecer",
+     "start": 109.57,
+     "end": 109.97
+    },
+    {
+     "text": "un",
+     "start": 109.97,
+     "end": 110.05
+    },
+    {
+     "text": "descuento,",
+     "start": 110.05,
+     "end": 110.69
+    },
+    {
+     "text": "aclara",
+     "start": 110.69,
+     "end": 111.33
+    },
+    {
+     "text": "qué",
+     "start": 111.33,
+     "end": 111.49
+    },
+    {
+     "text": "está",
+     "start": 111.65,
+     "end": 111.89
+    },
+    {
+     "text": "comparando.",
+     "start": 111.89,
+     "end": 112.765
+    }
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 8,
+   "source": "cam2",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad04/_work/src/cam2_9x16.mp4",
+   "in": 112.78,
+   "out": 118.92,
+   "text": "Que tu precio cambie por una decisión de negocio, no por el miedo a perder al cliente.",
+   "section": "DESARROLLO",
+   "words": [
+    {
+     "text": "Que",
+     "start": 112.78,
+     "end": 113.09
+    },
+    {
+     "text": "tu",
+     "start": 113.09,
+     "end": 113.25
+    },
+    {
+     "text": "precio",
+     "start": 113.25,
+     "end": 113.73
+    },
+    {
+     "text": "cambie",
+     "start": 113.73,
+     "end": 114.05
+    },
+    {
+     "text": "por",
+     "start": 114.29,
+     "end": 114.45
+    },
+    {
+     "text": "una",
+     "start": 114.45,
+     "end": 114.69
+    },
+    {
+     "text": "decisión",
+     "start": 114.69,
+     "end": 115.09
+    },
+    {
+     "text": "de",
+     "start": 115.09,
+     "end": 115.25
+    },
+    {
+     "text": "negocio,",
+     "start": 115.25,
+     "end": 115.97
+    },
+    {
+     "text": "no",
+     "start": 115.97,
+     "end": 116.21
+    },
+    {
+     "text": "por",
+     "start": 116.21,
+     "end": 116.37
+    },
+    {
+     "text": "el",
+     "start": 116.37,
+     "end": 116.61
+    },
+    {
+     "text": "miedo",
+     "start": 116.61,
+     "end": 116.93
+    },
+    {
+     "text": "a",
+     "start": 116.93,
+     "end": 117.17
+    },
+    {
+     "text": "perder",
+     "start": 117.17,
+     "end": 117.57
+    },
+    {
+     "text": "al",
+     "start": 117.57,
+     "end": 117.81
+    },
+    {
+     "text": "cliente.",
+     "start": 117.81,
+     "end": 118.77
+    }
+   ],
+   "cues": [],
+   "intra": false
+  },
+  {
+   "sentence": 9,
+   "source": "cam1",
+   "src": "/home/user/aiclaudevideoediter/clientes/carlos-buelvas/proyectos/ad04/_work/src/cam1_9x16.mp4",
+   "in": 119.2,
+   "out": 123.94,
+   "text": "Sígueme para ayudarte a escalar tu negocio acelerando tus ventas.",
+   "section": "CTA",
+   "words": [
+    {
+     "text": "Sígueme",
+     "start": 119.2,
+     "end": 119.72
+    },
+    {
+     "text": "para",
+     "start": 119.88,
+     "end": 120.04
+    },
+    {
+     "text": "ayudarte",
+     "start": 120.04,
+     "end": 120.52
+    },
+    {
+     "text": "a",
+     "start": 120.52,
+     "end": 120.68
+    },
+    {
+     "text": "escalar",
+     "start": 120.68,
+     "end": 121.0
+    },
+    {
+     "text": "tu",
+     "start": 121.0,
+     "end": 121.16
+    },
+    {
+     "text": "negocio",
+     "start": 121.16,
+     "end": 121.4
+    },
+    {
+     "text": "acelerando",
+     "start": 121.56,
+     "end": 122.2
+    },
+    {
+     "text": "tus",
+     "start": 122.2,
+     "end": 122.44
+    },
+    {
+     "text": "ventas.",
+     "start": 122.44,
+     "end": 123.56
+    }
+   ],
+   "cues": [],
+   "intra": false
+  }
+ ],
+ "duration": 41.525,
+ "raw_offset": 255.39999999999998
 }

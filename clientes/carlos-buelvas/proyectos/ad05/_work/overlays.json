@@ -19,26 +19,26 @@
      "s": 1.02
     },
     {
-     "t": 0.785,
+     "t": 2.875,
      "s": 1.02
     },
     {
-     "t": 0.955,
-     "s": 1.1,
-     "ease": "punch"
+     "t": 3.395,
+     "s": 1.07,
+     "ease": "smooth"
     },
     {
      "t": 3.185,
-     "s": 1.1
+     "s": 1.07
     },
     {
      "t": 3.355,
-     "s": 1.18,
+     "s": 1.15,
      "ease": "punch"
     },
     {
      "t": 3.835,
-     "s": 1.2,
+     "s": 1.17,
      "ease": "linear"
     }
    ]
@@ -81,7 +81,7 @@
   "2": {
    "focus": {
     "x": 0.5,
-    "y": 0.35
+    "y": 0.193
    },
    "zoom": [
     {
@@ -116,7 +116,7 @@
   "3": {
    "focus": {
     "x": 0.5,
-    "y": 0.193
+    "y": 0.35
    },
    "zoom": [
     {
@@ -142,7 +142,7 @@
   "4": {
    "focus": {
     "x": 0.5,
-    "y": 0.35
+    "y": 0.193
    },
    "zoom": [
     {
@@ -186,7 +186,7 @@
   "5": {
    "focus": {
     "x": 0.5,
-    "y": 0.193
+    "y": 0.35
    },
    "zoom": [
     {
@@ -221,7 +221,7 @@
   "6": {
    "focus": {
     "x": 0.5,
-    "y": 0.35
+    "y": 0.193
    },
    "zoom": [
     {
@@ -268,6 +268,28 @@
      "s": 1.22,
      "ease": "linear"
     }
+   ],
+   "cutout": "_work/cutouts/cut7.webm",
+   "behind": [
+    {
+     "component": "BehindTitle",
+     "start": 1.2,
+     "duration": 1.65,
+     "props": {
+      "kicker": "NO SE BORRA",
+      "kickerY": 0.035,
+      "lines": [
+       {
+        "text": "LO QUE SABES",
+        "gradient": true,
+        "color": "#FFBB00",
+        "size": 240
+       }
+      ],
+      "y": 0.27,
+      "drift": 0.05
+     }
+    }
    ]
   },
   "8": {
@@ -281,42 +303,29 @@
      "s": 1.06
     },
     {
-     "t": 0.35,
+     "t": 2.68,
      "s": 1.06
     },
     {
-     "t": 0.52,
-     "s": 1.14,
-     "ease": "punch"
-    },
-    {
-     "t": 2.84,
-     "s": 1.14
-    },
-    {
-     "t": 3.36,
-     "s": 1.19,
+     "t": 3.2,
+     "s": 1.11,
      "ease": "smooth"
     },
     {
      "t": 2.99,
-     "s": 1.19
+     "s": 1.11
     },
     {
      "t": 3.16,
-     "s": 1.27,
+     "s": 1.19,
      "ease": "punch"
     },
     {
      "t": 5.085,
-     "s": 1.29,
+     "s": 1.21,
      "ease": "linear"
     }
-   ],
-   "transition": {
-    "type": "flash",
-    "duration": 0.25
-   }
+   ]
   },
   "9": {
    "focus": {
@@ -379,456 +388,263 @@
   ],
   "hideDuring": [
    [
-    32.94,
-    34.4
-   ],
-   [
     999,
     9999
    ]
+  ],
+  "positionDuring": [
+   {
+    "at": {
+     "cut": 2
+    },
+    "until": {
+     "cut": 3
+    },
+    "pos": 0.535
+   },
+   {
+    "at": {
+     "cut": 4
+    },
+    "until": {
+     "cut": 5
+    },
+    "pos": 0.535
+   },
+   {
+    "at": {
+     "cut": 6
+    },
+    "until": {
+     "cut": 7
+    },
+    "pos": 0.535
+   }
   ]
  },
  "graphics": [
   {
-   "component": "Flash",
+   "component": "KickerTitle",
    "at": 0,
-   "layer": "top",
-   "props": {
-    "peak": 0.9,
-    "color": "#dbe7ff"
-   },
-   "duration": 0.28
-  },
-  {
-   "component": "BrandScene",
-   "at": 0,
-   "layer": "under",
-   "props": {
-    "variant": "glow",
-    "word": "NUEVO PAÍS"
-   },
-   "until": {
-    "word": "sentir",
-    "offset": -0.05
-   }
-  },
-  {
-   "component": "FlightPath",
-   "at": 0.05,
    "layer": "over",
    "props": {
-    "y": 0.3,
-    "from": "TU PAÍS",
-    "to": "NUEVO PAÍS"
+    "kicker": "CAMBIAR DE PAÍS",
+    "align": "center",
+    "y": 0.1,
+    "lines": []
    },
    "until": {
     "word": "sentir",
-    "offset": -0.05
+    "offset": 0.03
    }
   },
   {
-   "component": "BlockTitle",
+   "component": "LightSweep",
    "at": {
-    "word": "empezaste",
-    "offset": -0.05
+    "word": "sentir",
+    "offset": -0.02
+   },
+   "layer": "top",
+   "props": {},
+   "duration": 0.45
+  },
+  {
+   "component": "OdometerReset",
+   "at": {
+    "word": "sentir",
+    "offset": 0.1
    },
    "layer": "over",
    "props": {
-    "y": 0.81,
-    "width": 0.62,
-    "stagger": 6,
-    "enter": "slam",
-    "lines": [
-     {
-      "text": "EMPEZAR",
-      "weight": 900
-     },
-     {
-      "text": "DE CERO",
-      "color": "gold"
-     }
-    ]
+    "from": 15,
+    "label": "AÑOS DE EXPERIENCIA",
+    "y": 0.79,
+    "delay": 6
    },
    "until": {
     "cut": 1,
-    "offset": -0.03
+    "offset": -0.05
    }
   },
   {
-   "component": "IconBadge",
+   "component": "BoardingPass",
    "at": {
-    "word": "experiencia"
-   },
-   "layer": "over",
-   "props": {
-    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/suitcase-rolling-bold.svg",
-    "x": 0.83,
-    "y": 0.44,
-    "leader": "left",
-    "size": 0.9,
-    "label": "TU EXPERIENCIA"
-   },
-   "until": {
-    "cut": 2,
-    "offset": -0.03
-   }
-  },
-  {
-   "component": "IconBadge",
-   "at": {
-    "word": "quedó"
-   },
-   "layer": "over",
-   "props": {
-    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/airplane-takeoff-bold.svg",
-    "x": 0.17,
-    "y": 0.44,
-    "leader": "right",
-    "size": 0.9,
-    "label": "AEROPUERTO"
-   },
-   "until": {
-    "cut": 2,
-    "offset": -0.03
-   }
-  },
-  {
-   "component": "BlockTitle",
-   "at": {
-    "word": "aeropuerto.",
-    "offset": -0.1
-   },
-   "layer": "over",
-   "props": {
-    "y": 0.81,
-    "width": 0.6,
-    "stagger": 8,
-    "enter": "rise",
-    "sparkle": 1,
-    "lines": [
-     {
-      "text": "VIAJA",
-      "weight": 900
-     },
-     {
-      "text": "CONTIGO",
-      "color": "gold"
-     }
-    ]
-   },
-   "until": {
-    "cut": 2,
-    "offset": -0.03
-   }
-  },
-  {
-   "component": "Checklist",
-   "at": {
-    "word": "otro",
+    "word": "experiencia",
     "offset": -0.2
    },
    "layer": "over",
    "props": {
-    "title": "TAL VEZ NECESITAS",
-    "items": [
-     "CONOCER OTRO MERCADO",
-     "CONSTRUIR CONTACTOS",
-     "NUEVAS FORMAS DE TRABAJAR"
-    ],
-    "every": 45,
-    "position": 0.84,
-    "icon": "✓"
+    "y": 0.72,
+    "stampAt": 56
    },
    "until": {
-    "cut": 3,
-    "offset": -0.03
+    "cut": 2,
+    "offset": -0.05
    }
   },
   {
-   "component": "IconBadge",
+   "component": "NetworkMap",
    "at": {
-    "word": "mercado,"
+    "cut": 2
    },
    "layer": "over",
    "props": {
-    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/globe-hemisphere-west-bold.svg",
-    "x": 0.83,
-    "y": 0.42,
-    "leader": "left",
-    "size": 0.9
+    "y": 0.57,
+    "h": 0.4,
+    "labels": [
+     {
+      "text": "OTRO MERCADO",
+      "at": 64
+     },
+     {
+      "text": "CONTACTOS",
+      "at": 100
+     },
+     {
+      "text": "NUEVAS FORMAS",
+      "at": 144
+     }
+    ]
    },
    "until": {
     "cut": 3,
-    "offset": -0.03
+    "offset": -0.05
    }
   },
   {
-   "component": "IconBadge",
+   "component": "MonthTrack",
    "at": {
     "cut": 3,
     "offset": 0.05
    },
    "layer": "over",
    "props": {
-    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/hourglass-medium-bold.svg",
-    "x": 0.83,
-    "y": 0.44,
-    "leader": "left",
-    "size": 0.9,
-    "label": "REQUIERE TIEMPO"
+    "y": 0.79
    },
    "until": {
     "cut": 4,
-    "offset": -0.03
-   }
-  },
-  {
-   "component": "BrandScene",
-   "at": {
-    "word": "escribe",
-    "offset": -0.1
-   },
-   "layer": "under",
-   "props": {
-    "variant": "glow",
-    "word": "ESCRIBE"
-   },
-   "until": {
-    "cut": 5,
-    "offset": -0.02
-   }
-  },
-  {
-   "component": "NotepadList",
-   "at": {
-    "word": "escribe",
     "offset": -0.05
-   },
-   "layer": "over",
-   "props": {
-    "y": 0.3,
-    "title": "3 PROBLEMAS QUE RESUELVO",
-    "items": [
-     "Problema #1",
-     "Problema #2",
-     "Problema #3"
-    ],
-    "every": 14
-   },
-   "until": {
-    "cut": 5,
-    "offset": -0.02
    }
   },
   {
-   "component": "Checklist",
+   "component": "HandNote",
    "at": {
-    "word": "trabajo",
-    "offset": -0.25
+    "cut": 4,
+    "offset": 0.05
    },
    "layer": "over",
    "props": {
-    "title": "CÓMO DEMOSTRARLO",
-    "items": [
-     "UN TRABAJO ANTERIOR",
-     "UNA MUESTRA",
-     "TU PROCESO"
-    ],
-    "every": 38,
-    "position": 0.84,
-    "icon": "✓"
-   },
-   "until": {
-    "cut": 6,
-    "offset": -0.03
-   }
-  },
-  {
-   "component": "IconBadge",
-   "at": {
-    "word": "trabajo"
-   },
-   "layer": "over",
-   "props": {
-    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/briefcase-bold.svg",
-    "x": 0.83,
-    "y": 0.42,
-    "leader": "left",
-    "size": 0.9
-   },
-   "until": {
-    "cut": 6,
-    "offset": -0.03
-   }
-  },
-  {
-   "component": "BrandScene",
-   "at": {
-    "word": "adapta",
-    "offset": -0.1
-   },
-   "layer": "under",
-   "props": {
-    "variant": "glow"
-   },
-   "until": {
-    "cut": 7,
-    "offset": -0.02
-   }
-  },
-  {
-   "component": "PostCard",
-   "at": {
-    "word": "adapta",
-    "offset": -0.05
-   },
-   "layer": "over",
-   "props": {
-    "y": 0.3,
-    "avatar": "clientes/carlos-buelvas/marca/ig_perfil.jpg",
-    "cps": 34,
-    "text": "🎯 ¿Tienes un negocio y no sabes cómo vender en este nuevo mercado? Esto es para ti 👇",
-    "stamp": "MENSAJE ADAPTADO",
-    "stampAt": 96
-   },
-   "until": {
-    "cut": 7,
-    "offset": -0.02
-   }
-  },
-  {
-   "component": "IconBadge",
-   "at": {
-    "word": "lugar"
-   },
-   "layer": "over",
-   "props": {
-    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/map-pin-bold.svg",
-    "x": 0.83,
-    "y": 0.44,
-    "leader": "left",
-    "size": 0.9,
-    "label": "LUGAR NUEVO"
-   },
-   "until": {
-    "cut": 8,
-    "offset": -0.03
-   }
-  },
-  {
-   "component": "BlockTitle",
-   "at": {
-    "word": "borra",
-    "offset": -0.1
-   },
-   "layer": "over",
-   "props": {
-    "y": 0.81,
-    "width": 0.72,
-    "stagger": 6,
-    "enter": "slam",
+    "y": 0.585,
+    "title": "Problemas que sé resolver",
     "lines": [
      {
-      "text": "NO BORRA",
-      "weight": 900
+      "text": "Clientes que no cierran",
+      "at": 46
      },
      {
-      "text": "LO QUE SABES",
-      "color": "gold"
+      "text": "Precios mal calculados",
+      "at": 70
+     },
+     {
+      "text": "Procesos desordenados",
+      "at": 94
      }
     ]
    },
    "until": {
-    "cut": 8,
-    "offset": -0.03
-   }
-  },
-  {
-   "component": "BrandScene",
-   "at": {
-    "cut": 8,
-    "offset": 0.0
-   },
-   "layer": "under",
-   "props": {
-    "variant": "tunnel"
-   },
-   "until": {
-    "word": "problema",
+    "cut": 5,
     "offset": -0.05
    }
   },
   {
-   "component": "Text3DTitle",
+   "component": "FolderTabs",
    "at": {
-    "cut": 8,
-    "offset": 0.02
+    "cut": 5,
+    "offset": 0.05
    },
    "layer": "over",
    "props": {
-    "text": "HAZLO\nVISIBLE",
-    "font": "Montserrat-Black",
-    "color": "#FFBB00",
-    "metal": 0.85,
-    "size": 0.9,
-    "y": 1.1,
-    "depth": 0.35
+    "y": 0.72,
+    "tabs": [
+     {
+      "text": "TRABAJO ANTERIOR",
+      "sub": "Caso real: +32% en 3 meses",
+      "at": 8
+     },
+     {
+      "text": "MUESTRA",
+      "sub": "Una guía gratuita para probar",
+      "at": 46
+     },
+     {
+      "text": "PROCESO",
+      "sub": "Mis 4 pasos, explicados",
+      "at": 73
+     }
+    ]
    },
    "until": {
-    "word": "problema",
+    "cut": 6,
     "offset": -0.05
    }
   },
   {
-   "component": "IconBadge",
+   "component": "MessageTuner",
    "at": {
-    "word": "problema"
+    "cut": 6,
+    "offset": 0.05
    },
    "layer": "over",
    "props": {
-    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/magnifying-glass-bold.svg",
-    "x": 0.17,
-    "y": 0.44,
-    "leader": "right",
-    "size": 0.9,
-    "label": "UN PROBLEMA"
+    "y": 0.585,
+    "morphAt": 72,
+    "generic": "Ayudo a negocios a crecer",
+    "specific": "Ayudo a clínicas dentales de Madrid a llenar su agenda"
    },
    "until": {
-    "cut": 9,
-    "offset": -0.03
+    "cut": 7,
+    "offset": -0.05
    }
   },
   {
-   "component": "IconBadge",
+   "component": "KickerTitle",
    "at": {
-    "word": "evidencia"
+    "cut": 8
    },
    "layer": "over",
    "props": {
-    "icon": "clientes/carlos-buelvas/proyectos/ad01/_work/assets/icons/seal-check-bold.svg",
-    "x": 0.83,
-    "y": 0.44,
-    "leader": "left",
-    "size": 0.9,
-    "label": "EVIDENCIA"
+    "kicker": "HAZLO",
+    "align": "center",
+    "y": 0.1,
+    "lines": [
+     {
+      "text": "VISIBLE",
+      "color": "#FFBB00",
+      "size": 140
+     }
+    ]
    },
    "until": {
-    "cut": 9,
-    "offset": -0.03
+    "word": "evidencia",
+    "offset": 0.52
    }
   },
   {
-   "component": "ShapeBurst",
+   "component": "SealStamp",
    "at": {
-    "word": "evidencia"
+    "word": "evidencia",
+    "offset": 0.55
    },
    "layer": "over",
    "props": {
-    "x": 0.83,
-    "y": 0.44,
-    "radius": 0.8
+    "y": 0.78,
+    "top": "EVIDENCIA",
+    "bottom": "RESPALDA TU TRABAJO"
    },
-   "duration": 0.6
+   "until": {
+    "cut": 9,
+    "offset": -0.05
+   }
   },
   {
    "component": "InstagramFollow",
@@ -854,49 +670,15 @@
    }
   },
   {
-   "component": "BrandScene",
+   "component": "LogoReveal",
    "at": {
     "end": true,
     "offset": -1.85
    },
    "layer": "top",
    "props": {
-    "variant": "tunnel"
-   },
-   "until": {
-    "end": true
-   }
-  },
-  {
-   "component": "Logo3D",
-   "at": {
-    "end": true,
-    "offset": -1.8
-   },
-   "layer": "top",
-   "props": {
-    "svg": "clientes/carlos-buelvas/marca/logo.svg",
-    "depth": 60,
-    "metal": 0.9,
-    "color": "#FFBB00",
-    "scale": 0.42
-   },
-   "until": {
-    "end": true
-   }
-  },
-  {
-   "component": "CTAPill",
-   "at": {
-    "end": true,
-    "offset": -1.3
-   },
-   "layer": "top",
-   "props": {
-    "text": "SÍGUEME",
-    "x": 0.5,
-    "y": 0.78,
-    "size": 1.1
+    "logo": "clientes/carlos-buelvas/marca/logo_dorado.png",
+    "tagline": "COACH · MENTOR DE VENTAS"
    },
    "until": {
     "end": true
@@ -905,50 +687,120 @@
  ],
  "sfx": [
   {
-   "src": "synth:impact_cinematic",
-   "at": 0,
-   "volume": 0.6,
-   "offset": 0.0
-  },
-  {
-   "src": "synth:subdrop_01",
-   "at": 0,
-   "volume": 0.5,
-   "offset": 0.0
-  },
-  {
-   "src": "lib:bsb-1796",
-   "at": 0,
-   "volume": 0.4,
-   "offset": 0.0
-  },
-  {
    "src": "synth:whoosh_heavy",
-   "at": 0.25,
-   "volume": 0.4,
+   "at": 0,
+   "volume": 0.45,
    "offset": 0.0
   },
   {
    "src": "lib:bsb-1111",
-   "at": 0.6,
+   "at": 0.4,
+   "volume": 0.15,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:riser_short",
+   "at": 0,
+   "volume": 0.25,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:impact_cinematic",
+   "at": {
+    "word": "sentir",
+    "offset": 0.05
+   },
+   "volume": 0.5,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:tick_01",
+   "at": {
+    "word": "sentir",
+    "offset": 0.3
+   },
    "volume": 0.2,
    "offset": 0.0
   },
   {
-   "src": "synth:whoosh_medium",
+   "src": "synth:tick_01",
    "at": {
     "word": "sentir",
-    "offset": -0.05
+    "offset": 0.38
    },
-   "volume": 0.45,
-   "offset": -0.1
+   "volume": 0.2,
+   "offset": 0.0
   },
   {
-   "src": "synth:impact_punch",
+   "src": "synth:tick_01",
    "at": {
-    "word": "cero."
+    "word": "sentir",
+    "offset": 0.45999999999999996
    },
-   "volume": 0.55,
+   "volume": 0.2,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:tick_01",
+   "at": {
+    "word": "sentir",
+    "offset": 0.54
+   },
+   "volume": 0.2,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:tick_01",
+   "at": {
+    "word": "sentir",
+    "offset": 0.62
+   },
+   "volume": 0.2,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:tick_01",
+   "at": {
+    "word": "sentir",
+    "offset": 0.7
+   },
+   "volume": 0.2,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:tick_01",
+   "at": {
+    "word": "sentir",
+    "offset": 0.78
+   },
+   "volume": 0.2,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:tick_01",
+   "at": {
+    "word": "sentir",
+    "offset": 0.8600000000000001
+   },
+   "volume": 0.2,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:tick_01",
+   "at": {
+    "word": "sentir",
+    "offset": 0.94
+   },
+   "volume": 0.2,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:tick_01",
+   "at": {
+    "word": "sentir",
+    "offset": 1.02
+   },
+   "volume": 0.2,
    "offset": 0.0
   },
   {
@@ -960,290 +812,236 @@
    "offset": 0.0
   },
   {
-   "src": "lib:pluck_001",
+   "src": "lib:card-slide-1",
    "at": {
-    "word": "experiencia"
+    "word": "experiencia",
+    "offset": -0.2
    },
-   "volume": 0.32,
-   "offset": 0.05
+   "volume": 0.4,
+   "offset": 0.0
   },
   {
-   "src": "lib:pluck_002",
-   "at": {
-    "word": "quedó"
-   },
-   "volume": 0.32,
-   "offset": 0.05
-  },
-  {
-   "src": "lib:glass_002",
+   "src": "synth:impact_punch",
    "at": {
     "word": "aeropuerto."
+   },
+   "volume": 0.45,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:card-slide-2",
+   "at": {
+    "cut": 2
+   },
+   "volume": 0.45,
+   "offset": -0.05
+  },
+  {
+   "src": "synth:pop_low",
+   "at": {
+    "cut": 2,
+    "offset": 0.2
+   },
+   "volume": 0.16,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:pop_low",
+   "at": {
+    "cut": 2,
+    "offset": 0.62
+   },
+   "volume": 0.16,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:pop_low",
+   "at": {
+    "cut": 2,
+    "offset": 1.04
+   },
+   "volume": 0.16,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:pop_low",
+   "at": {
+    "cut": 2,
+    "offset": 1.46
+   },
+   "volume": 0.16,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:pop_low",
+   "at": {
+    "cut": 2,
+    "offset": 1.88
+   },
+   "volume": 0.16,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:pop_low",
+   "at": {
+    "cut": 2,
+    "offset": 2.3000000000000003
+   },
+   "volume": 0.16,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:pop_low",
+   "at": {
+    "cut": 2,
+    "offset": 2.72
+   },
+   "volume": 0.16,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:pop_low",
+   "at": {
+    "cut": 2,
+    "offset": 3.14
+   },
+   "volume": 0.16,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:pop_low",
+   "at": {
+    "cut": 2,
+    "offset": 3.56
+   },
+   "volume": 0.16,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:pop_low",
+   "at": {
+    "cut": 2,
+    "offset": 3.98
+   },
+   "volume": 0.16,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:pop_low",
+   "at": {
+    "cut": 2,
+    "offset": 4.4
+   },
+   "volume": 0.16,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:pop_low",
+   "at": {
+    "cut": 2,
+    "offset": 4.82
+   },
+   "volume": 0.16,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:tick_01",
+   "at": {
+    "word": "tiempo."
    },
    "volume": 0.35,
    "offset": 0.0
   },
   {
-   "src": "synth:pop_01",
+   "src": "lib:card-slide-2",
    "at": {
-    "word": "mercado,"
+    "cut": 4
    },
-   "volume": 0.4,
+   "volume": 0.45,
+   "offset": -0.05
+  },
+  {
+   "src": "lib:bsb-2842",
+   "at": {
+    "cut": 4,
+    "offset": 1.5333333333333334
+   },
+   "volume": 0.18,
    "offset": 0.0
   },
   {
-   "src": "synth:pop_01",
+   "src": "lib:bsb-2842",
    "at": {
-    "word": "contactos"
+    "cut": 4,
+    "offset": 2.3333333333333335
    },
-   "volume": 0.4,
+   "volume": 0.18,
    "offset": 0.0
   },
   {
-   "src": "synth:pop_01",
+   "src": "lib:bsb-2842",
    "at": {
-    "word": "aprender"
+    "cut": 4,
+    "offset": 3.1333333333333333
    },
-   "volume": 0.4,
+   "volume": 0.18,
    "offset": 0.0
   },
   {
-   "src": "lib:pluck_001",
+   "src": "lib:card-slide-7",
    "at": {
-    "word": "mercado,"
+    "cut": 5,
+    "offset": 0.26666666666666666
    },
-   "volume": 0.32,
-   "offset": 0.05
+   "volume": 0.35,
+   "offset": 0.0
   },
   {
-   "src": "lib:pluck_002",
+   "src": "lib:card-slide-7",
    "at": {
-    "cut": 3,
-    "offset": 0.05
+    "cut": 5,
+    "offset": 1.5333333333333334
    },
-   "volume": 0.32,
-   "offset": 0.05
+   "volume": 0.35,
+   "offset": 0.0
   },
   {
-   "src": "lib:bsb-0307",
+   "src": "lib:card-slide-7",
    "at": {
-    "word": "tiempo."
+    "cut": 5,
+    "offset": 2.433333333333333
+   },
+   "volume": 0.35,
+   "offset": 0.0
+  },
+  {
+   "src": "lib:card-slide-2",
+   "at": {
+    "cut": 6
+   },
+   "volume": 0.45,
+   "offset": -0.05
+  },
+  {
+   "src": "synth:riser_short",
+   "at": {
+    "cut": 6,
+    "offset": 2.1
+   },
+   "volume": 0.25,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:ding_success",
+   "at": {
+    "cut": 6,
+    "offset": 3.4
    },
    "volume": 0.3,
    "offset": 0.0
-  },
-  {
-   "src": "synth:whoosh_medium",
-   "at": {
-    "word": "escribe",
-    "offset": -0.1
-   },
-   "volume": 0.55,
-   "offset": -0.15
-  },
-  {
-   "src": "lib:pluck_001",
-   "at": {
-    "word": "tres"
-   },
-   "volume": 0.3,
-   "offset": 0.1
-  },
-  {
-   "src": "lib:pluck_002",
-   "at": {
-    "word": "tres"
-   },
-   "volume": 0.3,
-   "offset": 0.57
-  },
-  {
-   "src": "lib:pluck_001",
-   "at": {
-    "word": "tres"
-   },
-   "volume": 0.3,
-   "offset": 1.04
-  },
-  {
-   "src": "lib:bsb-2842",
-   "at": {
-    "word": "demostrarlo:"
-   },
-   "volume": 0.2,
-   "offset": 0.0
-  },
-  {
-   "src": "synth:pop_01",
-   "at": {
-    "word": "trabajo"
-   },
-   "volume": 0.38,
-   "offset": 0.0
-  },
-  {
-   "src": "synth:pop_01",
-   "at": {
-    "word": "muestra"
-   },
-   "volume": 0.38,
-   "offset": 0.0
-  },
-  {
-   "src": "lib:confirmation_001",
-   "at": {
-    "word": "explicación"
-   },
-   "volume": 0.38,
-   "offset": 0.0
-  },
-  {
-   "src": "lib:pluck_002",
-   "at": {
-    "word": "trabajo"
-   },
-   "volume": 0.32,
-   "offset": 0.05
-  },
-  {
-   "src": "synth:whoosh_medium",
-   "at": {
-    "word": "adapta",
-    "offset": -0.1
-   },
-   "volume": 0.55,
-   "offset": -0.15
-  },
-  {
-   "src": "lib:bsb-2842",
-   "at": {
-    "word": "adapta"
-   },
-   "volume": 0.15,
-   "offset": 0.1
-  },
-  {
-   "src": "lib:bsb-2842",
-   "at": {
-    "word": "adapta"
-   },
-   "volume": 0.15,
-   "offset": 0.2
-  },
-  {
-   "src": "lib:bsb-2842",
-   "at": {
-    "word": "adapta"
-   },
-   "volume": 0.15,
-   "offset": 0.30000000000000004
-  },
-  {
-   "src": "lib:bsb-2842",
-   "at": {
-    "word": "adapta"
-   },
-   "volume": 0.15,
-   "offset": 0.4
-  },
-  {
-   "src": "lib:bsb-2842",
-   "at": {
-    "word": "adapta"
-   },
-   "volume": 0.15,
-   "offset": 0.5
-  },
-  {
-   "src": "lib:bsb-2842",
-   "at": {
-    "word": "adapta"
-   },
-   "volume": 0.15,
-   "offset": 0.6
-  },
-  {
-   "src": "lib:bsb-2842",
-   "at": {
-    "word": "adapta"
-   },
-   "volume": 0.15,
-   "offset": 0.7000000000000001
-  },
-  {
-   "src": "lib:bsb-2842",
-   "at": {
-    "word": "adapta"
-   },
-   "volume": 0.15,
-   "offset": 0.8
-  },
-  {
-   "src": "lib:bsb-2842",
-   "at": {
-    "word": "adapta"
-   },
-   "volume": 0.15,
-   "offset": 0.9
-  },
-  {
-   "src": "lib:bsb-2842",
-   "at": {
-    "word": "adapta"
-   },
-   "volume": 0.15,
-   "offset": 1.0
-  },
-  {
-   "src": "lib:bsb-2842",
-   "at": {
-    "word": "adapta"
-   },
-   "volume": 0.15,
-   "offset": 1.1
-  },
-  {
-   "src": "lib:bsb-2842",
-   "at": {
-    "word": "adapta"
-   },
-   "volume": 0.15,
-   "offset": 1.2000000000000002
-  },
-  {
-   "src": "lib:bsb-2842",
-   "at": {
-    "word": "adapta"
-   },
-   "volume": 0.15,
-   "offset": 1.3000000000000003
-  },
-  {
-   "src": "lib:bsb-2842",
-   "at": {
-    "word": "adapta"
-   },
-   "volume": 0.15,
-   "offset": 1.4000000000000001
   },
   {
    "src": "synth:impact_soft",
-   "at": {
-    "word": "hoy."
-   },
-   "volume": 0.5,
-   "offset": 0.0
-  },
-  {
-   "src": "lib:pluck_001",
-   "at": {
-    "word": "lugar"
-   },
-   "volume": 0.32,
-   "offset": 0.05
-  },
-  {
-   "src": "synth:impact_punch",
    "at": {
     "word": "borra"
    },
@@ -1251,53 +1049,40 @@
    "offset": 0.0
   },
   {
-   "src": "synth:whoosh_medium",
+   "src": "synth:impact_soft",
    "at": {
     "cut": 8,
-    "offset": 0.0
-   },
-   "volume": 0.55,
-   "offset": -0.15
-  },
-  {
-   "src": "synth:impact_cinematic",
-   "at": {
-    "cut": 8
-   },
-   "volume": 0.5,
-   "offset": 0.0
-  },
-  {
-   "src": "synth:subdrop_short",
-   "at": {
-    "cut": 8
-   },
-   "volume": 0.4,
-   "offset": 0.0
-  },
-  {
-   "src": "lib:pluck_002",
-   "at": {
-    "word": "problema"
-   },
-   "volume": 0.32,
-   "offset": 0.05
-  },
-  {
-   "src": "lib:pluck_001",
-   "at": {
-    "word": "evidencia"
-   },
-   "volume": 0.32,
-   "offset": 0.05
-  },
-  {
-   "src": "lib:glass_002",
-   "at": {
-    "word": "evidencia"
+    "offset": 0.5333333333333333
    },
    "volume": 0.35,
-   "offset": 0.1
+   "offset": 0.0
+  },
+  {
+   "src": "synth:impact_soft",
+   "at": {
+    "cut": 8,
+    "offset": 1.2
+   },
+   "volume": 0.35,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:impact_soft",
+   "at": {
+    "cut": 8,
+    "offset": 1.8666666666666667
+   },
+   "volume": 0.35,
+   "offset": 0.0
+  },
+  {
+   "src": "synth:impact_punch",
+   "at": {
+    "word": "evidencia",
+    "offset": 0.6
+   },
+   "volume": 0.45,
+   "offset": 0.0
   },
   {
    "src": "synth:braam_01",
@@ -1379,39 +1164,40 @@
    "offset": 1.3599999999999999
   },
   {
-   "src": "synth:whoosh_heavy",
+   "src": "synth:whoosh_reverse",
    "at": {
     "end": true,
     "offset": -1.85
    },
-   "volume": 0.55,
-   "offset": -0.1
+   "volume": 0.45,
+   "offset": -0.2
   },
   {
-   "src": "synth:impact_cinematic",
+   "src": "synth:impact_soft",
    "at": {
     "end": true,
-    "offset": -1.75
+    "offset": -1.7
    },
-   "volume": 0.55,
+   "volume": 0.5,
    "offset": 0.0
   },
   {
    "src": "lib:glass_002",
    "at": {
     "end": true,
-    "offset": -1.0
+    "offset": -1.15
    },
-   "volume": 0.4,
+   "volume": 0.35,
    "offset": 0.0
   },
   {
-   "src": "synth:swipe_02",
+   "src": "synth:pop_02",
    "at": {
-    "cut": 2
+    "end": true,
+    "offset": -1.3
    },
-   "volume": 0.16,
-   "offset": -0.06
+   "volume": 0.3,
+   "offset": 0.0
   },
   {
    "src": "synth:swipe_02",
@@ -1448,14 +1234,6 @@
   {
    "src": "synth:swipe_02",
    "at": {
-    "cut": 7
-   },
-   "volume": 0.16,
-   "offset": -0.06
-  },
-  {
-   "src": "synth:swipe_02",
-   "at": {
     "cut": 8
    },
    "volume": 0.16,
@@ -1482,6 +1260,69 @@
     "cut": 9
    },
    "drop": 4
+  }
+ ],
+ "broll": [
+  {
+   "src": "clientes/carlos-buelvas/proyectos/ad05/_work/blender/ad05_globe/globe.mp4",
+   "at": 0,
+   "until": {
+    "word": "sentir",
+    "offset": 0.05
+   },
+   "mode": "full",
+   "transition": "cut",
+   "speed": 1.0,
+   "in": 0.0,
+   "kenburns": "none"
+  },
+  {
+   "src": "clientes/carlos-buelvas/proyectos/ad05/_work/blender/ad05_spot/spot.mp4",
+   "at": {
+    "cut": 8,
+    "offset": -0.03
+   },
+   "until": {
+    "word": "evidencia",
+    "offset": 0.55
+   },
+   "mode": "full",
+   "transition": "zoom-in",
+   "speed": 0.5,
+   "in": 0.0,
+   "kenburns": "none"
+  }
+ ],
+ "layouts": [
+  {
+   "at": {
+    "cut": 2
+   },
+   "until": {
+    "cut": 3
+   },
+   "mode": "split",
+   "bottom": 0.5
+  },
+  {
+   "at": {
+    "cut": 4
+   },
+   "until": {
+    "cut": 5
+   },
+   "mode": "split",
+   "bottom": 0.5
+  },
+  {
+   "at": {
+    "cut": 6
+   },
+   "until": {
+    "cut": 7
+   },
+   "mode": "split",
+   "bottom": 0.5
   }
  ],
  "mix": {

@@ -8,6 +8,9 @@ import {AgendaFill, BlockTitle, BrandScene, CostTags, CTAPill, GrowthLine, IconB
 import {CloneGrid, BatteryDrain, BreatheRing, ChatThread, ContractDoc, CounterRace, EmojiBurst, FlightPath, FocusBrackets, LeakyFunnel, NotepadList, PostCard, PriceDrop, Stopwatch, TaskPile} from '../graphics/premium2';
 import {BehindTitle, CalendarWeek, DecisionPrompt, KickerTitle, Ledger, LightSweep, LogoReveal, Receipt, ResultChip, TickerTape} from '../graphics/exec';
 import {CaseCard, MeterBar, NumberedList, PromptBox, QuestionStack, TagRow, VoiceNote} from '../graphics/exec2';
+import {AuditGrid, FAQBubble, FeedScroll, RecFrame, ValueCompare, VersusBar} from '../graphics/exec3';
+import {AskBubble, BreathLine, CompareTable, Diagnosis, ObjectionCard, PriceSlash, ValueDrain, ValueStack} from '../graphics/exec4';
+import {BoardingPass, FolderTabs, HandNote, MessageTuner, MonthTrack, NetworkMap, OdometerReset, SealStamp} from '../graphics/exec5';
 import type {Graphic} from '../types';
 
 /** Video con alfa (p.ej. overlay renderizado con HyperFrames en WebM/ProRes 4444) o elemento de stock. props: src, blend, opacity, fit */
@@ -94,6 +97,28 @@ export const REGISTRY: Record<string, React.FC<any>> = {
 	QuestionStack,
 	CaseCard,
 	MeterBar,
+	FeedScroll,
+	VersusBar,
+	AuditGrid,
+	RecFrame,
+	FAQBubble,
+	ValueCompare,
+	ObjectionCard,
+	ValueDrain,
+	PriceSlash,
+	BreathLine,
+	Diagnosis,
+	AskBubble,
+	ValueStack,
+	CompareTable,
+	OdometerReset,
+	BoardingPass,
+	NetworkMap,
+	MonthTrack,
+	HandNote,
+	FolderTabs,
+	MessageTuner,
+	SealStamp,
 };
 
 export const GraphicsLayer: React.FC<{items: Graphic[]; layer: 'under' | 'over' | 'top'}> = ({items, layer}) => {

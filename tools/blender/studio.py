@@ -58,7 +58,7 @@ class Studio:
                         break
                 except Exception:
                     continue
-        sc.cycles.samples = samples or (10 if PREVIEW else (64 if os.environ.get("BLENDER_GPU") else 16))
+        sc.cycles.samples = samples or (10 if PREVIEW else (64 if os.environ.get("BLENDER_GPU") else 14))
         sc.cycles.adaptive_threshold = 0.04
         sc.cycles.use_denoising = True
         sc.cycles.denoiser = "OPENIMAGEDENOISE"
@@ -68,7 +68,7 @@ class Studio:
         sc.cycles.transmission_bounces = 6
         sc.cycles.use_adaptive_sampling = True
         sc.render.resolution_x, sc.render.resolution_y = res
-        sc.render.resolution_percentage = 40 if PREVIEW else (100 if os.environ.get("BLENDER_GPU") else min(62, int(os.environ.get("RES", 62))))   # se reescala a 1080x1920 con lanczos al codificar
+        sc.render.resolution_percentage = 40 if PREVIEW else (100 if os.environ.get("BLENDER_GPU") else min(62, int(os.environ.get("RES", 54))))   # se reescala a 1080x1920 con lanczos al codificar
         sc.render.use_persistent_data = True
         sc.render.fps = fps
         sc.frame_start, sc.frame_end = 1, frames

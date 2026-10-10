@@ -200,12 +200,12 @@ export const CaseCard: React.FC<G & {before: string; after: string; label?: stri
 };
 
 /** Medidor que se llena (confianza, claridad…) con porcentaje. */
-export const MeterBar: React.FC<G & {label: string; to?: number; y?: number; at?: number; fillDur?: number; color?: string}> = ({dur, label, to = 100, y = 0.82, at = 6, fillDur = 40, color = GOLD}) => {
+export const MeterBar: React.FC<G & {label: string; to?: number; y?: number; delay?: number; fillDur?: number; color?: string}> = ({dur, label, to = 100, y = 0.82, delay = 6, fillDur = 40, color = GOLD}) => {
 	const {f, v} = useIO(dur, 10, 10);
 	const {width, height} = useVideoConfig();
 	const {fonts} = useBrand();
 	const u = useU();
-	const p = interpolate(f, [at, at + fillDur], [0, to / 100], {...clamp, easing: EASE.inOut});
+	const p = interpolate(f, [delay, delay + fillDur], [0, to / 100], {...clamp, easing: EASE.inOut});
 	const W = width * 0.84;
 	return (
 		<AbsoluteFill style={{pointerEvents: 'none'}}>
