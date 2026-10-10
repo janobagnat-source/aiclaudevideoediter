@@ -1211,7 +1211,7 @@
  ],
  "broll": [
   {
-   "src": "clientes/carlos-buelvas/proyectos/ad02/_work/blender/ad02_busts/busts.mp4",
+   "src": "clientes/carlos-buelvas/proyectos/ad02/_work/blender/ad02_busts/busts_slow45.mp4",
    "at": {
     "word": "escondiendo",
     "offset": -0.45
@@ -1221,12 +1221,12 @@
    },
    "mode": "full",
    "transition": "zoom-in",
-   "speed": 0.45,
+   "speed": 1.0,
    "in": 0.0,
    "kenburns": "none"
   },
   {
-   "src": "clientes/carlos-buelvas/proyectos/ad02/_work/blender/ad02_mic/mic.mp4",
+   "src": "clientes/carlos-buelvas/proyectos/ad02/_work/blender/ad02_mic/mic_slow70.mp4",
    "at": {
     "cut": 7
    },
@@ -1235,7 +1235,7 @@
    },
    "mode": "full",
    "transition": "whip-up",
-   "speed": 0.7,
+   "speed": 1.0,
    "in": 0.0,
    "kenburns": "none"
   }

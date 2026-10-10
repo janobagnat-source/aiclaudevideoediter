@@ -62,8 +62,23 @@ class Ad:
         return d
 
     def broll(self, src, at, until, mode="full", transition="cut", speed=1.0, inn=0.0, kenburns="none", **kw):
+        # cámara lenta de clips 3D: en vez de repetir frames (saltos), generamos una versión interpolada (minterpolate)
+        if speed < 0.85:
+            src, inn = self._smooth(src, speed, inn), inn / speed
+            speed = 1.0
         self.B.append({"src": src, "at": at, "until": until, "mode": mode, "transition": transition, "speed": speed,
                        "in": inn, "kenburns": kenburns, **kw})
+
+    @staticmethod
+    def _smooth(src, speed, inn=0.0):
+        import subprocess
+        p = ROOT / src
+        out = p.with_name(f"{p.stem}_slow{int(round(speed * 100))}.mp4")
+        if p.exists() and (not out.exists() or out.stat().st_mtime < p.stat().st_mtime):
+            subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(p), "-vf",
+                            f"setpts=PTS/{speed},minterpolate=fps=30:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1",
+                            "-c:v", "libx264", "-crf", "15", "-preset", "medium", "-pix_fmt", "yuv420p", str(out)], check=True)
+        return str(out.relative_to(ROOT))
 
     def split(self, at, until, bottom=0.5, caption=0.535, **kw):
         """Carlos arriba en una ventana flotante, panel de marca abajo para gráficos; los subtítulos suben al borde."""
