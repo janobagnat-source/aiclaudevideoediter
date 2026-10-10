@@ -1171,7 +1171,7 @@
  ],
  "broll": [
   {
-   "src": "clientes/carlos-buelvas/proyectos/ad08/_work/blender/ad08_knot/knot.mp4",
+   "src": "clientes/carlos-buelvas/proyectos/ad08/_work/blender/ad08_knot/knot_slow14.mp4",
    "at": {
     "word": "hablando",
     "offset": -0.1
@@ -1182,12 +1182,12 @@
    },
    "mode": "full",
    "transition": "zoom-in",
-   "speed": 0.14,
+   "speed": 1.0,
    "in": 0.0,
    "kenburns": "none"
   },
   {
-   "src": "clientes/carlos-buelvas/proyectos/ad08/_work/blender/ad08_knot/knot.mp4",
+   "src": "clientes/carlos-buelvas/proyectos/ad08/_work/blender/ad08_knot/knot_slow74.mp4",
    "at": {
     "cut": 3
    },
@@ -1197,12 +1197,12 @@
    },
    "mode": "full",
    "transition": "whip-up",
-   "speed": 0.74,
-   "in": 0.45,
+   "speed": 1.0,
+   "in": 0.6081081081081081,
    "kenburns": "none"
   },
   {
-   "src": "clientes/carlos-buelvas/proyectos/ad08/_work/blender/ad08_bulb/bulb.mp4",
+   "src": "clientes/carlos-buelvas/proyectos/ad08/_work/blender/ad08_bulb/bulb_slow63.mp4",
    "at": {
     "word": "pídele",
     "offset": -0.1
@@ -1212,7 +1212,7 @@
    },
    "mode": "full",
    "transition": "zoom-in",
-   "speed": 0.63,
+   "speed": 1.0,
    "in": 0.0,
    "kenburns": "none"
   }
