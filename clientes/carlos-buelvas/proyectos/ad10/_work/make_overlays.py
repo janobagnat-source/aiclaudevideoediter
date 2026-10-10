@@ -31,7 +31,7 @@ for c in (4, 5, 6):
     ad.sfx("synth:click_ui", {"cut": c, "offset": 0.15}, 0.4)
 
 # ── REVISA TUS ÚLTIMAS 10 CONVERSACIONES → Blender: la luz se detiene en la que quedó colgada ──
-ad.broll(BL + "ad10_inbox/inbox.mp4", {"word": "últimas", "offset": -0.2}, {"cut": 8}, speed=0.5, transition="zoom-in")
+ad.broll(BL + "ad10_inbox2/inbox.mp4", {"word": "últimas", "offset": -0.2}, {"cut": 8}, speed=0.5, transition="zoom-in")
 ad.cap_pos.append({"at": {"word": "últimas", "offset": -0.2}, "until": {"cut": 8}, "pos": 0.88})
 ad.g("KickerTitle", {"word": "últimas", "offset": -0.15}, until={"cut": 8, "offset": -0.03}, kicker="REVISA TUS ÚLTIMAS", align="center", y=0.09, lines=[{"text": "10 CONVERSACIONES", "color": "#FFBB00", "size": 88}])
 ad.sfx("synth:whoosh_medium", {"word": "últimas", "offset": -0.2}, 0.4, -0.1); ad.sfx("synth:impact_soft", {"word": "detuvieron."}, 0.45)

@@ -1160,7 +1160,7 @@
  ],
  "broll": [
   {
-   "src": "clientes/carlos-buelvas/proyectos/ad10/_work/blender/ad10_inbox/inbox.mp4",
+   "src": "clientes/carlos-buelvas/proyectos/ad10/_work/blender/ad10_inbox/inbox_slow50.mp4",
    "at": {
     "word": "últimas",
     "offset": -0.2
@@ -1170,12 +1170,12 @@
    },
    "mode": "full",
    "transition": "zoom-in",
-   "speed": 0.5,
+   "speed": 1.0,
    "in": 0.0,
    "kenburns": "none"
   },
   {
-   "src": "clientes/carlos-buelvas/proyectos/ad10/_work/blender/ad10_leak/leak.mp4",
+   "src": "clientes/carlos-buelvas/proyectos/ad10/_work/blender/ad10_leak/leak_slow74.mp4",
    "at": {
     "cut": 9
    },
@@ -1185,7 +1185,7 @@
    },
    "mode": "full",
    "transition": "whip-up",
-   "speed": 0.74,
+   "speed": 1.0,
    "in": 0.0,
    "kenburns": "none"
   }
