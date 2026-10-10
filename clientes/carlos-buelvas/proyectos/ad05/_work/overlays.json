@@ -1277,7 +1277,7 @@
    "kenburns": "none"
   },
   {
-   "src": "clientes/carlos-buelvas/proyectos/ad05/_work/blender/ad05_spot/spot.mp4",
+   "src": "clientes/carlos-buelvas/proyectos/ad05/_work/blender/ad05_spot/spot_slow50.mp4",
    "at": {
     "cut": 8,
     "offset": -0.03
@@ -1288,7 +1288,7 @@
    },
    "mode": "full",
    "transition": "zoom-in",
-   "speed": 0.5,
+   "speed": 1.0,
    "in": 0.0,
    "kenburns": "none"
   }

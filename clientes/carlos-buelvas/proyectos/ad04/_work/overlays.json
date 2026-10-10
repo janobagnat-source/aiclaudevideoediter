@@ -1111,7 +1111,7 @@
  ],
  "broll": [
   {
-   "src": "clientes/carlos-buelvas/proyectos/ad04/_work/blender/ad04_tag/tag.mp4",
+   "src": "clientes/carlos-buelvas/proyectos/ad04/_work/blender/ad04_tag/tag_slow67.mp4",
    "at": {
     "word": "bajar",
     "offset": -0.1
@@ -1121,7 +1121,7 @@
    },
    "mode": "full",
    "transition": "zoom-in",
-   "speed": 0.67,
+   "speed": 1.0,
    "in": 0.0,
    "kenburns": "none"
   },
