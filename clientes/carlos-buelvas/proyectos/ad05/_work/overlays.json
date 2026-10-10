@@ -394,6 +394,14 @@
   ],
   "positionDuring": [
    {
+    "at": 0,
+    "until": {
+     "word": "sentir",
+     "offset": 0.05
+    },
+    "pos": 0.84
+   },
+   {
     "at": {
      "cut": 2
     },
@@ -423,21 +431,6 @@
   ]
  },
  "graphics": [
-  {
-   "component": "KickerTitle",
-   "at": 0,
-   "layer": "over",
-   "props": {
-    "kicker": "CAMBIAR DE PAÍS",
-    "align": "center",
-    "y": 0.1,
-    "lines": []
-   },
-   "until": {
-    "word": "sentir",
-    "offset": 0.03
-   }
-  },
   {
    "component": "LightSweep",
    "at": {
@@ -1264,7 +1257,7 @@
  ],
  "broll": [
   {
-   "src": "clientes/carlos-buelvas/proyectos/ad05/_work/blender/ad05_globe/globe.mp4",
+   "src": "clientes/carlos-buelvas/proyectos/ad05/_work/blender/ad05_globe2/globe.mp4",
    "at": 0,
    "until": {
     "word": "sentir",

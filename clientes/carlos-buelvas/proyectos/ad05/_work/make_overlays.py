@@ -8,7 +8,7 @@ ad.auto_zooms(punch_words=["cero.", "experiencia", "aeropuerto.", "tiempo.", "tr
 
 # ── HOOK: Blender, el globo y la ruta de vuelo; corte a Carlos con el contador que vuelve a 00 ──
 ad.broll(BL + "ad05_globe2/globe.mp4", 0, {"word": "sentir", "offset": 0.05}, speed=1.0, transition="cut")
-ad.g("KickerTitle", 0, until={"word": "sentir", "offset": 0.03}, kicker="CAMBIAR DE PAÍS", align="center", y=0.1, lines=[])
+ad.cap_pos.append({"at": 0, "until": {"word": "sentir", "offset": 0.05}, "pos": 0.84})
 ad.sfx("synth:whoosh_heavy", 0, 0.45); ad.sfx("lib:bsb-1111", 0.4, 0.15); ad.sfx("synth:riser_short", 0, 0.25)
 ad.g("LightSweep", {"word": "sentir", "offset": -0.02}, 0.45, layer="top")
 ad.sfx("synth:impact_cinematic", {"word": "sentir", "offset": 0.05}, 0.5)
