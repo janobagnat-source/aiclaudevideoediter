@@ -46,7 +46,7 @@ ad.g("SOPCard", {"word": "tarea", "offset": -0.2}, until={"cut": 9, "offset": -0
 ad.sfx("lib:bsb-2842", {"word": "define"}, 0.2)
 
 # ── TODO PASA POR TI → Blender: engranajes que se traban; el límite es tu tiempo ──────────────
-ad.broll(BL + "ad06_gears/gears.mp4", {"word": "pasando", "offset": -0.15}, {"cut": 10}, speed=0.4, transition="zoom-in")
+ad.broll(BL + "ad06_gears2/gears.mp4", {"word": "pasando", "offset": -0.15}, {"cut": 10}, speed=0.4, transition="zoom-in")
 ad.cap_pos.append({"at": {"word": "pasando", "offset": -0.15}, "until": {"cut": 10}, "pos": 0.88})
 ad.g("KickerTitle", {"word": "pasando", "offset": -0.1}, until={"word": "límite:", "offset": -0.1}, kicker="SI TODO", align="center", y=0.09, lines=[{"text": "PASA POR TI", "color": "#FFBB00", "size": 110}])
 ad.g("KickerTitle", {"word": "límite:", "offset": -0.08}, until={"cut": 10, "offset": -0.03}, kicker="EL MISMO", align="center", y=0.09, lines=[{"text": "LÍMITE", "color": "#FF4D5E", "size": 140}])

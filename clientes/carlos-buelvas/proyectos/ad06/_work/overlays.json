@@ -1178,7 +1178,7 @@
  ],
  "broll": [
   {
-   "src": "clientes/carlos-buelvas/proyectos/ad06/_work/blender/ad06_gears/gears.mp4",
+   "src": "clientes/carlos-buelvas/proyectos/ad06/_work/blender/ad06_gears/gears_slow40.mp4",
    "at": {
     "word": "pasando",
     "offset": -0.15
@@ -1188,7 +1188,7 @@
    },
    "mode": "full",
    "transition": "zoom-in",
-   "speed": 0.4,
+   "speed": 1.0,
    "in": 0.0,
    "kenburns": "none"
   }
