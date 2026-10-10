@@ -1179,7 +1179,7 @@
  ],
  "broll": [
   {
-   "src": "clientes/carlos-buelvas/proyectos/ad07/_work/blender/ad07_plane/plane.mp4",
+   "src": "clientes/carlos-buelvas/proyectos/ad07/_work/blender/ad07_plane/plane_slow52.mp4",
    "at": {
     "cut": 9
    },
@@ -1188,12 +1188,12 @@
    },
    "mode": "full",
    "transition": "whip-up",
-   "speed": 0.52,
+   "speed": 1.0,
    "in": 0.0,
    "kenburns": "none"
   },
   {
-   "src": "clientes/carlos-buelvas/proyectos/ad07/_work/blender/ad07_door/door.mp4",
+   "src": "clientes/carlos-buelvas/proyectos/ad07/_work/blender/ad07_door/door_slow69.mp4",
    "at": {
     "word": "derecho",
     "offset": -0.1
@@ -1203,7 +1203,7 @@
    },
    "mode": "full",
    "transition": "zoom-in",
-   "speed": 0.69,
+   "speed": 1.0,
    "in": 0.0,
    "kenburns": "none"
   }
