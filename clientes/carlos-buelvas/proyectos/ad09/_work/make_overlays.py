@@ -45,7 +45,7 @@ ad.sfx("synth:reverse_swell", {"cut": 4}, 0.3, -0.3); ad.sfx("lib:glass_002", {"
 # ── DÉJALO POR ESCRITO → Blender: la lapicera firma; cláusulas que se tildan ──────────────────
 ad.broll(BL + "ad09_pen/pen.mp4", {"word": "escrito", "offset": -0.25}, {"cut": 7}, speed=0.34, transition="whip-up")
 ad.cap_pos.append({"at": {"word": "escrito", "offset": -0.25}, "until": {"cut": 7}, "pos": 0.9})
-ad.g("ClauseTicks", {"word": "escrito", "offset": -0.2}, until={"cut": 7, "offset": -0.03}, y=0.06, title="DÉJALO POR ESCRITO",
+ad.g("ClauseTicks", {"word": "escrito", "offset": -0.2}, until={"cut": 7, "offset": -0.03}, y=0.05, panel=True, title="DÉJALO POR ESCRITO",
      items=[{"text": "QUÉ INCLUYE", "at": 26}, {"text": "CUÁNDO SE ENTREGA", "at": 59}, {"text": "CÓMO SE ATIENDEN LOS CAMBIOS", "at": 105}])
 for at in (26, 59, 105):
     ad.sfx("synth:click_ui", {"word": "escrito", "offset": -0.2 + at / 30}, 0.4)

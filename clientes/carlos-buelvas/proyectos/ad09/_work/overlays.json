@@ -598,7 +598,8 @@
    },
    "layer": "over",
    "props": {
-    "y": 0.06,
+    "y": 0.05,
+    "panel": true,
     "title": "DÉJALO POR ESCRITO",
     "items": [
      {
@@ -1079,7 +1080,7 @@
  ],
  "broll": [
   {
-   "src": "clientes/carlos-buelvas/proyectos/ad09/_work/blender/ad09_tower/tower.mp4",
+   "src": "clientes/carlos-buelvas/proyectos/ad09/_work/blender/ad09_tower/tower_slow38.mp4",
    "at": {
     "word": "sí",
     "n": 2,
@@ -1090,12 +1091,12 @@
    },
    "mode": "full",
    "transition": "zoom-in",
-   "speed": 0.38,
+   "speed": 1.0,
    "in": 0.0,
    "kenburns": "none"
   },
   {
-   "src": "clientes/carlos-buelvas/proyectos/ad09/_work/blender/ad09_pen/pen.mp4",
+   "src": "clientes/carlos-buelvas/proyectos/ad09/_work/blender/ad09_pen/pen_slow34.mp4",
    "at": {
     "word": "escrito",
     "offset": -0.25
@@ -1105,7 +1106,7 @@
    },
    "mode": "full",
    "transition": "whip-up",
-   "speed": 0.34,
+   "speed": 1.0,
    "in": 0.0,
    "kenburns": "none"
   }

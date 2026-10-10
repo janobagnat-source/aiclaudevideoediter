@@ -166,14 +166,14 @@ export const SpotlightQuestion: React.FC<G & {kicker?: string; question: string;
 };
 
 /** Cláusulas que se tildan una a una (arriba, sobre el b-roll de la firma). */
-export const ClauseTicks: React.FC<G & {items: {text: string; at: number}[]; y?: number; title?: string}> = ({dur, items, y = 0.06, title = 'POR ESCRITO'}) => {
+export const ClauseTicks: React.FC<G & {items: {text: string; at: number}[]; y?: number; title?: string; panel?: boolean}> = ({dur, items, y = 0.06, title = 'POR ESCRITO', panel = false}) => {
 	const {f, o} = useIO(dur, 1, 10);
 	const {width, height} = useVideoConfig();
 	const {fonts} = useBrand();
 	const u = useU();
 	return (
 		<AbsoluteFill style={{pointerEvents: 'none', opacity: o}}>
-			<div style={{position: 'absolute', left: width * 0.08, right: width * 0.08, top: y * height}}>
+			<div style={{position: 'absolute', left: width * 0.08, right: width * 0.08, top: y * height, ...(panel ? {background: 'rgba(6,16,58,.86)', border: '1px solid rgba(255,187,0,.35)', borderRadius: 22 * u, padding: `${22 * u}px ${28 * u}px ${12 * u}px`, boxShadow: `0 ${20 * u}px ${50 * u}px rgba(0,0,0,.45)`, backdropFilter: 'blur(8px)'} : {})}}>
 				<div style={{fontFamily: fonts.heading, fontWeight: 700, fontSize: 26 * u, letterSpacing: 10 * u, color: GOLD, marginBottom: 14 * u}}>{title}</div>
 				{items.map((it, i) => {
 					const p = interpolate(f, [it.at, it.at + 10], [0, 1], {...clamp, easing: EASE.out});
