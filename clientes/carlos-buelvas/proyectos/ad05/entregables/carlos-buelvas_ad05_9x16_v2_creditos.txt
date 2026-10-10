@@ -1,0 +1,14 @@
+Assets de terceros usados (licencias libres)
+
+- sfx: confirmation_002 — Kenney.nl [cc0] https://kenney.nl/assets/interface-sounds
+- sfx: glass_002 — Kenney.nl [cc0] https://kenney.nl/assets/interface-sounds
+- sfx: card-slide-1 — Kenney.nl [cc0] https://kenney.nl/assets/casino-audio
+- sfx: card-slide-2 — Kenney.nl [cc0] https://kenney.nl/assets/casino-audio
+- sfx: card-slide-7 — Kenney.nl [cc0] https://kenney.nl/assets/casino-audio
+- sfx: click1 — Kenney.nl [cc0] https://kenney.nl/assets/ui-audio
+- sfx: Typewriter, Key — Joseph Sardin (BigSoundBank) [cc0] https://bigsoundbank.com/typewriter-key-s2842.html
+- sfx: Message — Joseph Sardin (BigSoundBank) [cc0] https://bigsoundbank.com/message-1-s1111.html
+- music: The age of the Empire — zero-project [by] https://www.jamendo.com/track/682365
+
+REQUIEREN ATRIBUCIÓN (poner en descripción del anuncio/video):
+  "The age of the Empire" by zero-project is licensed under CC BY 3.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/3.0/.
