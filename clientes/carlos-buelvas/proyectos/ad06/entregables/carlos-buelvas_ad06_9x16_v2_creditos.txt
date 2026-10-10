@@ -1,0 +1,19 @@
+Assets de terceros usados (licencias libres)
+
+- sfx: confirmation_002 — Kenney.nl [cc0] https://kenney.nl/assets/interface-sounds
+- sfx: glass_002 — Kenney.nl [cc0] https://kenney.nl/assets/interface-sounds
+- sfx: question_001 — Kenney.nl [cc0] https://kenney.nl/assets/interface-sounds
+- sfx: card-slide-1 — Kenney.nl [cc0] https://kenney.nl/assets/casino-audio
+- sfx: card-slide-2 — Kenney.nl [cc0] https://kenney.nl/assets/casino-audio
+- sfx: card-slide-3 — Kenney.nl [cc0] https://kenney.nl/assets/casino-audio
+- sfx: card-slide-4 — Kenney.nl [cc0] https://kenney.nl/assets/casino-audio
+- sfx: card-slide-5 — Kenney.nl [cc0] https://kenney.nl/assets/casino-audio
+- sfx: card-slide-6 — Kenney.nl [cc0] https://kenney.nl/assets/casino-audio
+- sfx: card-slide-7 — Kenney.nl [cc0] https://kenney.nl/assets/casino-audio
+- sfx: card-slide-8 — Kenney.nl [cc0] https://kenney.nl/assets/casino-audio
+- sfx: click1 — Kenney.nl [cc0] https://kenney.nl/assets/ui-audio
+- sfx: Typewriter, Key — Joseph Sardin (BigSoundBank) [cc0] https://bigsoundbank.com/typewriter-key-s2842.html
+- music: Epic Hip-Hop — Soundrider/Dope [by] https://www.jamendo.com/track/1670662
+
+REQUIEREN ATRIBUCIÓN (poner en descripción del anuncio/video):
+  "Epic Hip-Hop" by Soundrider/Dope is licensed under CC BY 3.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/3.0/.
